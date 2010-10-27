@@ -152,6 +152,23 @@ $messages['avk'] = array(
 	'contributors-nosuchpage' => '$1 bu me tir.',
 );
 
+/** Bashkir (Башҡорт)
+ * @author Assele
+ */
+$messages['ba'] = array(
+	'contributors' => 'Өлөш индереүселәр',
+	'contributors-desc' => 'Биткә төп өлөш индереүселәрҙе билдәләй',
+	'contributors-toolbox' => 'Төп өлөш индереүселәр',
+	'contributors-legend' => 'Биткә төп өлөш индереүселәр исемлеге',
+	'contributors-target' => 'Исем:',
+	'contributors-submit' => 'Күрһәтергә',
+	'contributors-subtitle' => '$1 битенә төп өлөш индереүселәр',
+	'contributors-others-long' => 'Был биткә тағы $1 {{PLURAL:$1|өлөш индереүсе}} бар.',
+	'contributors-others' => 'һәм {{PLURAL:тағы}} $1',
+	'contributors-badtitle' => 'Исем дөрөҫ түгел.',
+	'contributors-nosuchpage' => '$1 бите юҡ.',
+);
+
 /** Bikol Central (Bikol Central)
  * @author Filipinayzd
  */
