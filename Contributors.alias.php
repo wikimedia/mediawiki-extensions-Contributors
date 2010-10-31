@@ -68,6 +68,11 @@ $specialPageAliases['fa'] = array(
 	'Contributors' => array( 'مشارکت‌کنندگان' ),
 );
 
+/** Finnish (Suomi) */
+$specialPageAliases['fi'] = array(
+	'Contributors' => array( 'Muokkaajat' ),
+);
+
 /** French (Français) */
 $specialPageAliases['fr'] = array(
 	'Contributors' => array( 'Contributeurs' ),

@@ -108,6 +108,7 @@ $messages['ar'] = array(
 
 /** Aramaic (ܐܪܡܝܐ)
  * @author Basharh
+ * @author Michaelovic
  */
 $messages['arc'] = array(
 	'contributors' => 'ܫܘܬܦܢ̈ܐ',
@@ -117,6 +118,7 @@ $messages['arc'] = array(
 	'contributors-subtitle' => 'ܫܘܬܦܢ̈ܐ ܪ̈ܫܝܐ ܒ $1',
 	'contributors-others' => 'ܘ {{PLURAL:$1|ܚܕ ܐܚܪܢܐ|$1 ܐܚܪ̈ܢܐ}}',
 	'contributors-badtitle' => 'ܟܘܢܝܐ ܠܐ ܬܪܝܨܐ.',
+	'contributors-nosuchpage' => 'ܦܐܬܐ ܗܕܐ ܕ$1 ܠܝܬ.',
 );
 
 /** Egyptian Spoken Arabic (مصرى)
