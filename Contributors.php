@@ -47,7 +47,6 @@ $wgContributorsThreshold = 2;
 function efContributors() {
 	global $wgHooks;
 
-	wfLoadExtensionMessages( 'Contributors' );
 	$wgHooks['ArticleDeleteComplete'][] = 'efContributorsInvalidateCache';
 	$wgHooks['ArticleSaveComplete'][] = 'efContributorsInvalidateCache';
 	# Good god, this is ludicrous!
