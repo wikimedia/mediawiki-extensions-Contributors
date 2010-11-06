@@ -207,7 +207,7 @@ class SpecialContributors extends IncludableSpecialPage {
 		$self = parent::getTitleFor( 'Contributors' );
 		$target = is_object( $this->target ) ? $this->target->getPrefixedText() : '';
 		$form  = '<form method="get" action="' . htmlspecialchars( $wgScript ) . '">';
-		$form .= Xml::hidden( 'title', $self->getPrefixedText() );
+		$form .= Html::hidden( 'title', $self->getPrefixedText() );
 		$form .= '<fieldset><legend>' . wfMsgHtml( 'contributors-legend' ) . '</legend>';
 		$form .= '<table><tr>';
 		$form .= '<td><label for="target">' . wfMsgHtml( 'contributors-target' ) . '</label></td>';
