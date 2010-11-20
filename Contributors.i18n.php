@@ -369,10 +369,11 @@ $messages['el'] = array(
 
 /** Esperanto (Esperanto)
  * @author Michawiki
+ * @author Petrus Adamus
  * @author Yekrats
  */
 $messages['eo'] = array(
-	'contributors' => 'Kontribuantoj',
+	'contributors' => 'Kontribuintoj',
 	'contributors-desc' => 'Listigas la ĉefajn aŭtorojn de paĝo',
 	'contributors-toolbox' => 'Ĉefaj kontribuantoj',
 	'contributors-legend' => 'Listigi ĉefajn kontribuantojn al paĝo',
