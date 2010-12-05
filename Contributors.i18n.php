@@ -448,6 +448,14 @@ $messages['ext'] = array(
 	'contributors-others' => 'i otrus $1',
 );
 
+/** Persian (فارسی)
+ * @author Mjbmr
+ */
+$messages['fa'] = array(
+	'contributors' => 'مشارکت‌ها',
+	'contributors-target' => 'عنوان:',
+);
+
 /** Finnish (Suomi)
  * @author Cimon Avaro
  * @author Jaakonam
