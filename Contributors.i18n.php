@@ -1417,6 +1417,21 @@ $messages['sk'] = array(
 	'contributors-nosuchpage' => 'Článok $1 neexistuje.',
 );
 
+/** Slovenian (Slovenščina)
+ * @author Dbc334
+ */
+$messages['sl'] = array(
+	'contributors' => 'Sodelavci',
+	'contributors-desc' => 'Povzame glavne sodelavce na strani',
+	'contributors-toolbox' => 'Glavni sodelavci',
+	'contributors-legend' => 'Navedi glavne sodelavce na strani',
+	'contributors-target' => 'Naslov:',
+	'contributors-submit' => 'Prikaži',
+	'contributors-subtitle' => 'Glavni sodelavci $1',
+	'contributors-badtitle' => 'Neveljaven naslov.',
+	'contributors-nosuchpage' => 'Stran $1 ne obstaja.',
+);
+
 /** Serbian (Српски / Srpski)
  * @author Sasa Stefanovic
  */
