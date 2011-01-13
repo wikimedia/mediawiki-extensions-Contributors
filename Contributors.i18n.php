@@ -1384,6 +1384,19 @@ $messages['rue'] = array(
 	'contributors-submit' => 'Вказати',
 );
 
+/** Yakut (Саха тыла)
+ * @author HalanTul
+ */
+$messages['sah'] = array(
+	'contributors-target' => 'Баһа:',
+	'contributors-submit' => 'Көрдөр',
+	'contributors-subtitle' => 'Сүрүн ааптардар $1',
+	'contributors-others-long' => 'Ыйыллыбыттартан ураты бу сирэй өссө $1 {{PLURAL:$1|ааптардаах|ааптардаах}}.',
+	'contributors-others' => 'эбии $1 {{PLURAL:$1|баар|киһи баар}}',
+	'contributors-badtitle' => 'Бас маннык ааттаммат.',
+	'contributors-nosuchpage' => 'Маннык $1 сорук-сирэй суох эбит.',
+);
+
 /** Serbo-Croatian (Srpskohrvatski / Српскохрватски)
  * @author OC Ripper
  */
