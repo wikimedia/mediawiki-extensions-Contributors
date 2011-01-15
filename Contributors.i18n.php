@@ -1780,6 +1780,7 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (‪中文(繁體)‬)
  * @author Liangent
+ * @author Mark85296341
  * @author Shinjiman
  */
 $messages['zh-hant'] = array(
@@ -1787,7 +1788,7 @@ $messages['zh-hant'] = array(
 	'contributors-desc' => '將主要參與者匯總到一頁',
 	'contributors-toolbox' => '主要貢獻者',
 	'contributors-legend' => '列示這篇條目的主要貢獻者',
-	'contributors-target' => '標題:',
+	'contributors-target' => '標題：',
 	'contributors-submit' => '顯示',
 	'contributors-subtitle' => '$1的主要貢獻者',
 	'contributors-others-long' => '在這一頁中還有$1位更多的貢獻者。',
