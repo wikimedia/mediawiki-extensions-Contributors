@@ -1441,6 +1441,8 @@ $messages['sl'] = array(
 	'contributors-target' => 'Naslov:',
 	'contributors-submit' => 'Prikaži',
 	'contributors-subtitle' => 'Glavni sodelavci $1',
+	'contributors-others-long' => '{{PLURAL:$1|Obstaja še $1 drug sodelavec|Obstajata še $1 druga sodelavca|Obstajajo še $1 drugi sodelavci|Obstaja še $1 drugih sodelavcev}} te strani.',
+	'contributors-others' => 'in $1 {{PLURAL:$1|drug|druga|drugi|drugih}}',
 	'contributors-badtitle' => 'Neveljaven naslov.',
 	'contributors-nosuchpage' => 'Stran $1 ne obstaja.',
 );
