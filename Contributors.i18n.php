@@ -154,7 +154,7 @@ $messages['avk'] = array(
 	'contributors-nosuchpage' => '$1 bu me tir.',
 );
 
-/** Bashkir (Башҡорт)
+/** Bashkir (Башҡортса)
  * @author Assele
  */
 $messages['ba'] = array(
@@ -187,7 +187,7 @@ $messages['bcl'] = array(
 	'contributors-nosuchpage' => 'An artikulong $1 mayò man.',
 );
 
-/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -938,7 +938,7 @@ $messages['ku-latn'] = array(
 	'contributors-nosuchpage' => 'Rûpela $1 tune.',
 );
 
-/** Cornish (Kernewek)
+/** Cornish (Kernowek)
  * @author Kw-Moon
  */
 $messages['kw'] = array(
@@ -1463,7 +1463,8 @@ $messages['sr'] = array(
 	'contributors-nosuchpage' => 'Чланак $1 не постоји.',
 );
 
-/** Serbian Cyrillic ekavian (Српски (ћирилица))
+/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+ * @author Rancher
  * @author Sasa Stefanovic
  * @author Михајло Анђелковић
  */
@@ -1477,11 +1478,11 @@ $messages['sr-ec'] = array(
 	'contributors-subtitle' => 'Главни доприносиоци на $1',
 	'contributors-others-long' => '{{PLURAL:$1|Постоји још један доприносиоц|постоје још $1 доприносиоца}} на овој страници.',
 	'contributors-others' => 'и {{PLURAL:$1|једна друга|$1 друге|$1 других}}',
-	'contributors-badtitle' => 'Грешка у наслову.',
+	'contributors-badtitle' => 'Наслов је неисправан.',
 	'contributors-nosuchpage' => 'Чланак $1 не постоји.',
 );
 
-/** Serbian Latin ekavian (Srpski (latinica))
+/** Serbian Latin ekavian (‪Srpski (latinica)‬)
  * @author Michaello
  * @author Sasa Stefanovic
  */
