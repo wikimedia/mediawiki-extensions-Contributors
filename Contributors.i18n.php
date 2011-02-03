@@ -1623,7 +1623,7 @@ $messages['tg-latn'] = array(
  * @author Passawuth
  */
 $messages['th'] = array(
-	'contributors' => 'ผู้เขียน',
+	'contributors' => 'ผู้ร่วมเขียน',
 	'contributors-toolbox' => 'ผู้เขียนหลัก',
 	'contributors-submit' => 'แสดง',
 );
