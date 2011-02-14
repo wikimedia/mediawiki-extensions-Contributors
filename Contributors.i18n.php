@@ -1744,6 +1744,7 @@ $messages['vo'] = array(
  * @author פוילישער
  */
 $messages['yi'] = array(
+	'contributors' => 'בײַשטײַערער:',
 	'contributors-target' => 'טיטל:',
 );
 
