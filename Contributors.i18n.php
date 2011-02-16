@@ -286,6 +286,13 @@ $messages['ca'] = array(
 	'contributors-nosuchpage' => 'La pàgina «$1» no existeix.',
 );
 
+/** Chechen (Нохчийн)
+ * @author Sasan700
+ */
+$messages['ce'] = array(
+	'contributors' => 'Къинхьегамхой',
+);
+
 /** Czech (Česky)
  * @author Danny B.
  * @author Matěj Grabovský
