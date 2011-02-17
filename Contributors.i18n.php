@@ -313,10 +313,20 @@ $messages['cs'] = array(
 
 /** Danish (Dansk)
  * @author Jon Harald Søby
+ * @author Peter Alberti
  */
 $messages['da'] = array(
+	'contributors' => 'Bidragydere',
+	'contributors-desc' => 'Giver en sammenfatning af hovedbidragyderne til en side',
+	'contributors-toolbox' => 'Hovedbidragydere',
+	'contributors-legend' => 'Vis hovedbidragyderne til en side',
 	'contributors-target' => 'Titel:',
 	'contributors-submit' => 'Vis',
+	'contributors-subtitle' => 'Hovedbidragydere til $1',
+	'contributors-others-long' => 'Der er {{PLURAL:$1|en anden bidragyder|$1 andre bidragydere}} til denne side.',
+	'contributors-others' => 'og {{PLURAL:$1|en anden|$1 andre}}',
+	'contributors-badtitle' => 'Ugyldig titel.',
+	'contributors-nosuchpage' => 'Siden $1 findes ikke.',
 );
 
 /** German (Deutsch)
