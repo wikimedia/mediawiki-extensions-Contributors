@@ -13,7 +13,6 @@ if( !defined( 'MEDIAWIKI' ) ) {
 	exit( 1 );
 }
 
-$wgExtensionFunctions[] = 'efContributors';
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'Contributors',
@@ -30,6 +29,12 @@ $wgAutoloadClasses['SpecialContributors'] = $dir . 'Contributors.page.php';
 $wgSpecialPages['Contributors'] = 'SpecialContributors';
 $wgSpecialPageGroups['Contributors'] = 'pages';
 
+$wgHooks['ArticleDeleteComplete'][] = 'efContributorsInvalidateCache';
+$wgHooks['ArticleSaveComplete'][] = 'efContributorsInvalidateCache';
+# Good god, this is ludicrous!
+$wgHooks['SkinTemplateBuildNavUrlsNav_urlsAfterPermalink'][] = 'efContributorsNavigation';
+$wgHooks['SkinTemplateToolboxEnd'][] = 'efContributorsToolbox';
+
 /**
  * Intelligent cut-off limit; see below
  */
@@ -40,19 +45,6 @@ $wgContributorsLimit = 10;
  * number of edits to a page won't be listed in normal or inclusion lists
  */
 $wgContributorsThreshold = 2;
-
-/**
- * Extension initialisation function
- */
-function efContributors() {
-	global $wgHooks;
-
-	$wgHooks['ArticleDeleteComplete'][] = 'efContributorsInvalidateCache';
-	$wgHooks['ArticleSaveComplete'][] = 'efContributorsInvalidateCache';
-	# Good god, this is ludicrous!
-	$wgHooks['SkinTemplateBuildNavUrlsNav_urlsAfterPermalink'][] = 'efContributorsNavigation';
-	$wgHooks['SkinTemplateToolboxEnd'][] = 'efContributorsToolbox';
-}
 
 /**
  * Invalidate the cache we saved for a given title
