@@ -1006,6 +1006,14 @@ $messages['lg'] = array(
 	'contributors-nosuchpage' => 'Tewali lupapula $1.',
 );
 
+/** Latgalian (Latgaļu)
+ * @author Dark Eagle
+ */
+$messages['ltg'] = array(
+	'contributors-submit' => 'Paruodeit',
+	'contributors-nosuchpage' => 'Puslopa «$1» naekzistē.',
+);
+
 /** Malagasy (Malagasy)
  * @author Jagwar
  */
