@@ -60,9 +60,11 @@ function efContributorsInvalidateCache( &$article ) {
 
 /**
  * Prepare the toolbox link
+ *
+ * @var $skintemplate SkinTemplate
  */
 function efContributorsNavigation( &$skintemplate, &$nav_urls, &$oldid, &$revid ) {
-	if ( $skintemplate->mTitle->getNamespace() === NS_MAIN && $revid !== 0 )
+	if ( $skintemplate->getTitle()->getNamespace() === NS_MAIN && $revid !== 0 )
 		$nav_urls['contributors'] = array(
 			'text' => wfMsg( 'contributors-toolbox' ),
 			'href' => $skintemplate->makeSpecialUrl( 'Contributors', "target=" . wfUrlEncode( "{$skintemplate->thispage}" ) )
