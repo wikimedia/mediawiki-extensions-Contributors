@@ -45,23 +45,6 @@ $messages['rtm'] = array(
 	'contributors-submit' => "Kel'äk",
 );
 
-/** Jamaican Creole English (Jamaican Creole English)
- * @author Yocahuna
- */
-$messages['jam'] = array(
-	'contributors' => 'Kanchribyuuta',
-	'contributors-desc' => 'Somaraiz di mien kanchribyuuta tu a piej',
-	'contributors-toolbox' => 'Mien kanchribyuuta',
-	'contributors-legend' => 'Lis mien kanchribyuuta tu a piej',
-	'contributors-target' => 'Taikl:',
-	'contributors-submit' => 'Shuo',
-	'contributors-subtitle' => 'Mien kanchribyuuta tu $1',
-	'contributors-others-long' => 'A {{PLURAL:$1|wan ada kanchribyuuta|$1 ada kanchribyuuta}} de fi dis piej.',
-	'contributors-others' => 'ahn {{PLURAL:$1|wan ada|$1 ada}}',
-	'contributors-badtitle' => 'Invalid taikl.',
-	'contributors-nosuchpage' => 'Di piej $1 no egzis.',
-);
-
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
  * @author Naudefj
@@ -794,6 +777,23 @@ $messages['ja'] = array(
 	'contributors-nosuchpage' => 'ページ $1 は存在しません。',
 );
 
+/** Jamaican Creole English (Jamaican Creole English)
+ * @author Yocahuna
+ */
+$messages['jam'] = array(
+	'contributors' => 'Kanchribyuuta',
+	'contributors-desc' => 'Somaraiz di mien kanchribyuuta tu a piej',
+	'contributors-toolbox' => 'Mien kanchribyuuta',
+	'contributors-legend' => 'Lis mien kanchribyuuta tu a piej',
+	'contributors-target' => 'Taikl:',
+	'contributors-submit' => 'Shuo',
+	'contributors-subtitle' => 'Mien kanchribyuuta tu $1',
+	'contributors-others-long' => 'A {{PLURAL:$1|wan ada kanchribyuuta|$1 ada kanchribyuuta}} de fi dis piej.',
+	'contributors-others' => 'ahn {{PLURAL:$1|wan ada|$1 ada}}',
+	'contributors-badtitle' => 'Invalid taikl.',
+	'contributors-nosuchpage' => 'Di piej $1 no egzis.',
+);
+
 /** Javanese (Basa Jawa)
  * @author Meursault2004
  */
@@ -1299,6 +1299,7 @@ $messages['ps'] = array(
 	'contributors' => 'ونډه وال',
 	'contributors-target' => 'سرليک:',
 	'contributors-submit' => 'ښکاره کول',
+	'contributors-badtitle' => 'ناسم سرليک.',
 );
 
 /** Portuguese (Português)
