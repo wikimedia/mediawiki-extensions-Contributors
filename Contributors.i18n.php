@@ -1087,6 +1087,13 @@ $messages['mr'] = array(
 	'contributors-nosuchpage' => 'पान $1 अस्तीत्वात नाही.',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'contributors-target' => 'Tajuk:',
+);
+
 /** Maltese (Malti)
  * @author Chrisportelli
  */
