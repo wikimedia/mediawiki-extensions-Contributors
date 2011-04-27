@@ -1161,6 +1161,23 @@ $messages['nds-nl'] = array(
 	'contributors-nosuchpage' => 'De pagina $1 besteet neet.',
 );
 
+/** Nepali (नेपाली)
+ * @author Bhawani Gautam Rhk
+ */
+$messages['ne'] = array(
+	'contributors' => 'योगदानकर्ताहरु:',
+	'contributors-desc' => 'पृष्ठका मुख्य योगदानकर्ताहरु संक्षेप दिन्छ',
+	'contributors-toolbox' => 'मुख्य योगदाताहरु',
+	'contributors-legend' => 'पृष्ठका मुख्य योगदाताहरुको सूची',
+	'contributors-target' => 'शीर्षक:',
+	'contributors-submit' => 'हेर्ने',
+	'contributors-subtitle' => '$1 मा मुख्य रुपमा योगदान दिनेहरु',
+	'contributors-others-long' => 'यस पृष्ठ {{PLURAL:$1|को अर्को एकजना योगदाता छन्|का अरु $1 योगदाताहरु छन्}}।',
+	'contributors-others' => 'र {{PLURAL:$1|एउटा अर्को|अरु $1}}',
+	'contributors-badtitle' => 'अमान्य शीर्षक।',
+	'contributors-nosuchpage' => '$1 पृष्ठ अस्तित्वमा छैन ।',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
