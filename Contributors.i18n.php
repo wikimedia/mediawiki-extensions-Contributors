@@ -137,6 +137,13 @@ $messages['avk'] = array(
 	'contributors-nosuchpage' => '$1 bu me tir.',
 );
 
+/** Azerbaijani (Azərbaycanca)
+ * @author Cekli829
+ */
+$messages['az'] = array(
+	'contributors-target' => 'Başlıq:',
+);
+
 /** Bashkir (Башҡортса)
  * @author Assele
  */
