@@ -142,6 +142,7 @@ $messages['avk'] = array(
  */
 $messages['az'] = array(
 	'contributors-target' => 'Başlıq:',
+	'contributors-submit' => 'Göstər',
 );
 
 /** Bashkir (Башҡортса)
