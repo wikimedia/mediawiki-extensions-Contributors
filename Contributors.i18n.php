@@ -506,6 +506,22 @@ $messages['fr'] = array(
 	'contributors-nosuchpage' => 'La page $1 n’existe pas.',
 );
 
+/** Franco-Provençal (Arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'contributors' => 'Contributors',
+	'contributors-toolbox' => 'Contributors principâls',
+	'contributors-legend' => 'Listar los contributors principâls d’una pâge',
+	'contributors-target' => 'Titro :',
+	'contributors-submit' => 'Listar',
+	'contributors-subtitle' => 'Contributors principâls de $1',
+	'contributors-others-long' => 'Y at {{PLURAL:$1|$1 ôtro contributor|$1 ôtros contributors}} por ceta pâge.',
+	'contributors-others' => 'et $1 ôtro{{PLURAL:$1||s}}',
+	'contributors-badtitle' => 'Titro envalido.',
+	'contributors-nosuchpage' => 'La pâge $1 ègziste pas.',
+);
+
 /** Western Frisian (Frysk)
  * @author Snakesteuben
  */
