@@ -1345,9 +1345,12 @@ $messages['pms'] = array(
  */
 $messages['ps'] = array(
 	'contributors' => 'ونډه وال',
+	'contributors-toolbox' => 'آرني ونډوالان',
 	'contributors-target' => 'سرليک:',
 	'contributors-submit' => 'ښکاره کول',
+	'contributors-subtitle' => 'د $1 آرني ونډوالان',
 	'contributors-badtitle' => 'ناسم سرليک.',
+	'contributors-nosuchpage' => 'د $1 په نوم کوم مخ نشته.',
 );
 
 /** Portuguese (Português)
