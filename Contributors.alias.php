@@ -80,7 +80,7 @@ $specialPageAliases['fr'] = array(
 
 /** Galician (Galego) */
 $specialPageAliases['gl'] = array(
-	'Contributors' => array( 'Contribuíntes' ),
+	'Contributors' => array( 'Colaboradores' ),
 );
 
 /** Swiss German (Alemannisch) */
@@ -101,6 +101,11 @@ $specialPageAliases['hr'] = array(
 /** Upper Sorbian (Hornjoserbsce) */
 $specialPageAliases['hsb'] = array(
 	'Contributors' => array( 'Awtorojo' ),
+);
+
+/** Haitian (Kreyòl ayisyen) */
+$specialPageAliases['ht'] = array(
+	'Contributors' => array( 'Kontribitè' ),
 );
 
 /** Interlingua (Interlingua) */
@@ -238,6 +243,11 @@ $specialPageAliases['sq'] = array(
 	'Contributors' => array( 'Kontribues' ),
 );
 
+/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬) */
+$specialPageAliases['sr-ec'] = array(
+	'Contributors' => array( 'Доприносиоци' ),
+);
+
 /** Swahili (Kiswahili) */
 $specialPageAliases['sw'] = array(
 	'Contributors' => array( 'Wachangiaji' ),
@@ -261,6 +271,11 @@ $specialPageAliases['tr'] = array(
 /** Vèneto (Vèneto) */
 $specialPageAliases['vec'] = array(
 	'Contributors' => array( 'Contribudori' ),
+);
+
+/** Simplified Chinese (‪中文(简体)‬) */
+$specialPageAliases['zh-hans'] = array(
+	'Contributors' => array( '捐赠者' ),
 );
 
 /**
