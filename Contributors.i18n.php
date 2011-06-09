@@ -1115,6 +1115,7 @@ $messages['mr'] = array(
  * @author Anakmalaysia
  */
 $messages['ms'] = array(
+	'contributors-toolbox' => 'Penyumbang utama',
 	'contributors-target' => 'Tajuk:',
 );
 
