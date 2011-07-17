@@ -1115,8 +1115,17 @@ $messages['mr'] = array(
  * @author Anakmalaysia
  */
 $messages['ms'] = array(
+	'contributors' => 'Penyumbang',
+	'contributors-desc' => 'Membuat intisari penyumbang utama sesuatu laman',
 	'contributors-toolbox' => 'Penyumbang utama',
+	'contributors-legend' => 'Senaraikan penyumbang utama kepada laman',
 	'contributors-target' => 'Tajuk:',
+	'contributors-submit' => 'Tunjukkan',
+	'contributors-subtitle' => 'Penyumbang utama kepada $1',
+	'contributors-others-long' => 'Terdapat {{PLURAL:$1|seorang lagi penyumbang|$1 orang lagi penyumbang}} kepada laman ini.',
+	'contributors-others' => 'dan {{PLURAL:$1|seorang lain|$1 orang lain}}',
+	'contributors-badtitle' => 'Tajuk tidak sah.',
+	'contributors-nosuchpage' => 'Laman $1 tidak wujud.',
 );
 
 /** Maltese (Malti)
