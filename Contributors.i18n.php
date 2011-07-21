@@ -1534,22 +1534,6 @@ $messages['sl'] = array(
 	'contributors-nosuchpage' => 'Stran $1 ne obstaja.',
 );
 
-/** Serbian (Српски / Srpski)
- * @author Sasa Stefanovic
- */
-$messages['sr'] = array(
-	'contributors' => 'Доприносиоци',
-	'contributors-toolbox' => 'Главни доприносиоци',
-	'contributors-legend' => 'Списак главних доприносиоца у чланку',
-	'contributors-target' => 'Наслов:',
-	'contributors-submit' => 'Прикажи',
-	'contributors-subtitle' => 'Главни доприносиоци на $1',
-	'contributors-others-long' => 'Такође постоји још $1 других доприносиоца на овој страници.',
-	'contributors-others' => 'и $1 других',
-	'contributors-badtitle' => 'Грешка у наслову.',
-	'contributors-nosuchpage' => 'Чланак $1 не постоји.',
-);
-
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
  * @author Rancher
  * @author Sasa Stefanovic
