@@ -1182,7 +1182,7 @@ $messages['nds'] = array(
  * @author Servien
  */
 $messages['nds-nl'] = array(
-	'contributors' => 'Luui dee bie-edreugen hemmen',
+	'contributors' => 'Luui die bie-edreugen hebben',
 	'contributors-desc' => 'Geef een overzichte van de belangriekste schrievers van een pagina',
 	'contributors-toolbox' => 'Belangriekste schrievers',
 	'contributors-legend' => 'Laot de belangriekste schriever van een pagina zien',
@@ -1192,7 +1192,7 @@ $messages['nds-nl'] = array(
 	'contributors-others-long' => 'Der {{PLURAL:$1|is één aandere schriever|bin $1 aandere schrievers}} van disse pagina.',
 	'contributors-others' => 'en $1 {{PLURAL:$1|aandere|aanderen}}',
 	'contributors-badtitle' => 'Ongeldige titel.',
-	'contributors-nosuchpage' => 'De pagina $1 besteet neet.',
+	'contributors-nosuchpage' => 'De pagina $1 besteet niet.',
 );
 
 /** Nepali (नेपाली)
