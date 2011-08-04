@@ -1183,9 +1183,9 @@ $messages['nds'] = array(
  */
 $messages['nds-nl'] = array(
 	'contributors' => 'Luui die bie-edreugen hebben',
-	'contributors-desc' => 'Geef een overzichte van de belangriekste schrievers van een pagina',
+	'contributors-desc' => 'Geef n overzichte van de belangriekste schrievers van n pagina',
 	'contributors-toolbox' => 'Belangriekste schrievers',
-	'contributors-legend' => 'Laot de belangriekste schriever van een pagina zien',
+	'contributors-legend' => 'Laot de belangriekste schriever van n pagina zien',
 	'contributors-target' => 'Titel:',
 	'contributors-submit' => 'Bekieken',
 	'contributors-subtitle' => 'Belangriekste schriever van $1',
