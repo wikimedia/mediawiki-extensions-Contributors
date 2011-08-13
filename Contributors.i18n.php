@@ -74,6 +74,7 @@ $messages['am'] = array(
  * @author Meno25
  * @author Mido
  * @author Mimouni
+ * @author OsamaK
  */
 $messages['ar'] = array(
 	'contributors' => 'المساهمون',
@@ -85,7 +86,7 @@ $messages['ar'] = array(
 	'contributors-subtitle' => 'المساهمون الأساسيون للمقالة $1',
 	'contributors-others-long' => 'هناك {{PLURAL:$1|مساهم واحد آخر| $1 مساهم آخر}} لهذه الصفحة.',
 	'contributors-others' => 'و {{PLURAL:$1|واحد آخر|$1 آخرون}}',
-	'contributors-badtitle' => 'عنوان غير صحيح.',
+	'contributors-badtitle' => 'عنوان غير صالح.',
 	'contributors-nosuchpage' => 'الصفحة $1 غير موجودة.',
 );
 
@@ -1295,6 +1296,13 @@ $messages['oc'] = array(
 	'contributors-others' => 'e {{PLURAL:$1|$1 autre|$1 autres}}',
 	'contributors-badtitle' => 'Títol incorrècte.',
 	'contributors-nosuchpage' => 'L’article $1 existís pas.',
+);
+
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Odisha1
+ */
+$messages['or'] = array(
+	'contributors-submit' => 'ପ୍ରଦର୍ଶନ',
 );
 
 /** Ossetic (Иронау)
