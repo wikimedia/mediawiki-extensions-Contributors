@@ -802,7 +802,7 @@ $messages['ja'] = array(
 	'contributors-nosuchpage' => 'ページ $1 は存在しません。',
 );
 
-/** Jamaican Creole English (Jamaican Creole English)
+/** Jamaican Creole English (Patios)
  * @author Yocahuna
  */
 $messages['jam'] = array(
@@ -1197,6 +1197,7 @@ $messages['nds-nl'] = array(
 );
 
 /** Nepali (नेपाली)
+ * @author Bhawani Gautam
  * @author Bhawani Gautam Rhk
  */
 $messages['ne'] = array(
@@ -1305,7 +1306,7 @@ $messages['or'] = array(
 	'contributors-submit' => 'ପ୍ରଦର୍ଶନ',
 );
 
-/** Ossetic (Иронау)
+/** Ossetic (Ирон)
  * @author Amikeco
  */
 $messages['os'] = array(
@@ -1479,7 +1480,7 @@ $messages['rue'] = array(
 	'contributors-submit' => 'Вказати',
 );
 
-/** Yakut (Саха тыла)
+/** Sakha (Саха тыла)
  * @author HalanTul
  */
 $messages['sah'] = array(
