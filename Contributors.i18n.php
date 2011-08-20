@@ -462,7 +462,10 @@ $messages['ext'] = array(
  */
 $messages['fa'] = array(
 	'contributors' => 'مشارکت‌ها',
+	'contributors-toolbox' => 'مشارکت کنندگان اصلی',
 	'contributors-target' => 'عنوان:',
+	'contributors-submit' => 'مشاهده',
+	'contributors-badtitle' => 'عنوان نامعتبر.',
 );
 
 /** Finnish (Suomi)
