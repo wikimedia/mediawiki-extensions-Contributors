@@ -638,6 +638,7 @@ $messages['he'] = array(
 
 /** Hindi (हिन्दी)
  * @author Kaustubh
+ * @author Siddhartha Ghai
  */
 $messages['hi'] = array(
 	'contributors' => 'योगदानकर्ता',
@@ -647,8 +648,8 @@ $messages['hi'] = array(
 	'contributors-target' => 'शीर्षक:',
 	'contributors-submit' => 'दर्शायें',
 	'contributors-subtitle' => '$1 के प्रमुख योगदानकर्ता',
-	'contributors-others-long' => 'इस पन्नेको अन्य $1 योगदानकर्ता हैं।',
-	'contributors-others' => 'और $1 अन्य',
+	'contributors-others-long' => 'इस पन्ने {{PLURAL:$1|का एक अन्य|के $1 अन्य}} योगदानकर्ता {{PLURAL:$1|है|हैं}}।',
+	'contributors-others' => 'और {{PLURAL:$1|एक अन्य|$1 अन्य}}',
 	'contributors-badtitle' => 'अवैध शीर्षक।',
 	'contributors-nosuchpage' => '$1 पन्ना अस्तित्वमें नहीं हैं',
 );
