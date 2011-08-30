@@ -458,11 +458,12 @@ $messages['ext'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Ebraminio
  * @author Mjbmr
  */
 $messages['fa'] = array(
 	'contributors' => 'مشارکت‌ها',
-	'contributors-toolbox' => 'مشارکت کنندگان اصلی',
+	'contributors-toolbox' => 'مشارکت‌کنندگان اصلی',
 	'contributors-target' => 'عنوان:',
 	'contributors-submit' => 'مشاهده',
 	'contributors-badtitle' => 'عنوان نامعتبر.',
