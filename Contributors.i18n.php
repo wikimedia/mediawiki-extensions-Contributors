@@ -1306,8 +1306,10 @@ $messages['oc'] = array(
 
 /** Oriya (ଓଡ଼ିଆ)
  * @author Odisha1
+ * @author Psubhashish
  */
 $messages['or'] = array(
+	'contributors-target' => 'ଶିରୋନାମା:',
 	'contributors-submit' => 'ପ୍ରଦର୍ଶନ',
 );
 
