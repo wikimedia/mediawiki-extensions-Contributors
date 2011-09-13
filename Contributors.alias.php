@@ -243,9 +243,14 @@ $specialPageAliases['sq'] = array(
 	'Contributors' => array( 'Kontribues' ),
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬) */
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬) */
 $specialPageAliases['sr-ec'] = array(
 	'Contributors' => array( 'Доприносиоци' ),
+);
+
+/** Swedish (Svenska) */
+$specialPageAliases['sv'] = array(
+	'Contributors' => array( 'Bidragsgivare' ),
 );
 
 /** Swahili (Kiswahili) */
@@ -275,7 +280,12 @@ $specialPageAliases['vec'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬) */
 $specialPageAliases['zh-hans'] = array(
-	'Contributors' => array( '捐赠者' ),
+	'Contributors' => array( '贡献者' ),
+);
+
+/** Traditional Chinese (‪中文(繁體)‬) */
+$specialPageAliases['zh-hant'] = array(
+	'Contributors' => array( '捐贈者' ),
 );
 
 /**
