@@ -1310,7 +1310,7 @@ $messages['oc'] = array(
  */
 $messages['or'] = array(
 	'contributors-target' => 'ଶିରୋନାମା:',
-	'contributors-submit' => 'ପ୍ରଦର୍ଶନ',
+	'contributors-submit' => 'ଦେଖାଇବେ',
 );
 
 /** Ossetic (Ирон)
