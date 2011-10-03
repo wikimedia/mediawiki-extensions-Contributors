@@ -1428,6 +1428,7 @@ $messages['rm'] = array(
 );
 
 /** Romanian (Română)
+ * @author Firilacroco
  * @author KlaudiuMihaila
  */
 $messages['ro'] = array(
@@ -1438,7 +1439,7 @@ $messages['ro'] = array(
 	'contributors-target' => 'Titlu:',
 	'contributors-submit' => 'Arată',
 	'contributors-subtitle' => 'Contribuitori principali la $1',
-	'contributors-others-long' => 'Mai {{PLURAL:$1|este încă un contributor|sunt $1 alți contribuitori}} la această pagină.',
+	'contributors-others-long' => 'Mai {{PLURAL:$1|este încă un contributor|sunt $1 alți contribuitori|sunt $1 de alți contribuitori}} la această pagină.',
 	'contributors-others' => 'și {{PLURAL:$1|încă o persoană|alții $1}}',
 	'contributors-badtitle' => 'Titlu nevalid.',
 	'contributors-nosuchpage' => 'Pagina $1 nu există.',
