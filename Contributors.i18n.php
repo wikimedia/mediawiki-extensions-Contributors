@@ -303,6 +303,20 @@ $messages['cs'] = array(
 	'contributors-nosuchpage' => 'Stránka $1 neexistuje.',
 );
 
+/** Welsh (Cymraeg)
+ * @author Pwyll
+ */
+$messages['cy'] = array(
+	'contributors' => 'Cyfranwyr',
+	'contributors-desc' => 'Yn crynhoi y prif gyfranwyr at dudalen',
+	'contributors-toolbox' => 'Prif gyfranwyr',
+	'contributors-legend' => "Rhestr o'r prif gyfranwyr at dudalen",
+	'contributors-target' => 'Teitl:',
+	'contributors-submit' => 'Dangos',
+	'contributors-subtitle' => 'Prif gyfranwyr at $1',
+	'contributors-others-long' => 'Mae yna {{PLURAL:$1|un cyfrannwr arall|$1 cyfranwyr eraill}} at y dudalen hon.',
+);
+
 /** Danish (Dansk)
  * @author Jon Harald Søby
  * @author Peter Alberti
