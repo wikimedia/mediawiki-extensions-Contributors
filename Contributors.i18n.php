@@ -315,6 +315,9 @@ $messages['cy'] = array(
 	'contributors-submit' => 'Dangos',
 	'contributors-subtitle' => 'Prif gyfranwyr at $1',
 	'contributors-others-long' => 'Mae yna {{PLURAL:$1|un cyfrannwr arall|$1 cyfranwyr eraill}} at y dudalen hon.',
+	'contributors-others' => 'ac {{PLURAL:$1|un arall|$1 eraill}}',
+	'contributors-badtitle' => 'Teitl annilys',
+	'contributors-nosuchpage' => "Nid yw'r dudalen $1 yn bod.",
 );
 
 /** Danish (Dansk)
