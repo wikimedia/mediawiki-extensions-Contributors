@@ -1568,7 +1568,7 @@ $messages['sl'] = array(
 	'contributors-nosuchpage' => 'Stran $1 ne obstaja.',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Rancher
  * @author Sasa Stefanovic
  * @author Михајло Анђелковић
@@ -1584,7 +1584,7 @@ $messages['sr-ec'] = array(
 	'contributors-others-long' => '{{PLURAL:$1|Постоји још један доприносиоц|постоје још $1 доприносиоца}} на овој страници.',
 	'contributors-others' => 'и {{PLURAL:$1|једна друга|$1 друге|$1 других}}',
 	'contributors-badtitle' => 'Наслов је неисправан.',
-	'contributors-nosuchpage' => 'Чланак $1 не постоји.',
+	'contributors-nosuchpage' => 'Страница $1 не постоји.',
 );
 
 /** Serbian Latin ekavian (‪Srpski (latinica)‬)
