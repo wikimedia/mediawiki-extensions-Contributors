@@ -824,7 +824,7 @@ $messages['ja'] = array(
 	'contributors-nosuchpage' => 'ページ $1 は存在しません。',
 );
 
-/** Jamaican Creole English (Patios)
+/** Jamaican Creole English (Patois)
  * @author Yocahuna
  */
 $messages['jam'] = array(
@@ -984,7 +984,7 @@ $messages['ksh'] = array(
 	'contributors-nosuchpage' => 'Di Sigg „$1“ jitt et nit.',
 );
 
-/** Kurdish (Latin) (Kurdî (Latin))
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
  * @author Bangin
  * @author Erdal Ronahi
  */
@@ -1518,7 +1518,7 @@ $messages['sah'] = array(
 	'contributors-nosuchpage' => 'Маннык $1 сорук-сирэй суох эбит.',
 );
 
-/** Serbo-Croatian (Srpskohrvatski / Српскохрватски)
+/** Serbo-Croatian (Srpskohrvatski)
  * @author OC Ripper
  */
 $messages['sh'] = array(
@@ -1587,7 +1587,7 @@ $messages['sr-ec'] = array(
 	'contributors-nosuchpage' => 'Страница $1 не постоји.',
 );
 
-/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Michaello
  * @author Sasa Stefanovic
  */
@@ -1695,7 +1695,7 @@ $messages['tet'] = array(
 	'contributors-target' => 'Títulu:',
 );
 
-/** Tajik (Cyrillic) (Тоҷикӣ (Cyrillic))
+/** Tajik (Cyrillic script) (Тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
@@ -1710,7 +1710,7 @@ $messages['tg-cyrl'] = array(
 	'contributors-nosuchpage' => 'Саҳифаи $1 вуҷуд надорад.',
 );
 
-/** Tajik (Latin) (Тоҷикӣ (Latin))
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -1777,7 +1777,7 @@ $messages['tr'] = array(
 	'contributors-nosuchpage' => '$1 adlı sayfa mevcut değil.',
 );
 
-/** Tatar (Cyrillic) (Татарча/Tatarça (Cyrillic))
+/** Tatar (Cyrillic script) (Татарча)
  * @author Ерней
  */
 $messages['tt-cyrl'] = array(
