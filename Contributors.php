@@ -19,7 +19,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'version' => '1.0.1beta',
 	'author' => 'Rob Church',
 	'descriptionmsg' => 'contributors-desc',
-	'url' => 'http://www.mediawiki.org/wiki/Extension:Contributors',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:Contributors',
 );
 
 $dir = dirname(__FILE__) . '/';
