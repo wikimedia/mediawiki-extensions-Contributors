@@ -1599,8 +1599,8 @@ $messages['sr-el'] = array(
 	'contributors-target' => 'Naslov:',
 	'contributors-submit' => 'Prikaži',
 	'contributors-subtitle' => 'Glavni doprinosioci na $1',
-	'contributors-others-long' => 'Takođe postoji još $1 drugih doprinosioca na ovoj stranici.',
-	'contributors-others' => 'i $1 drugih',
+	'contributors-others-long' => '{{PLURAL:$1|Postoji još jedan doprinosioc|postoje još $1 doprinosioca}} na ovoj stranici.',
+	'contributors-others' => 'i {{PLURAL:$1|jedna druga|$1 druge|$1 drugih}}',
 	'contributors-badtitle' => 'Greška u naslovu.',
 	'contributors-nosuchpage' => 'Članak $1 ne postoji.',
 );
