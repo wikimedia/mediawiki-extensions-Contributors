@@ -24,7 +24,7 @@ $wgExtensionCredits['specialpage'][] = array(
 
 $dir = dirname(__FILE__) . '/';
 $wgExtensionMessagesFiles['Contributors'] = $dir . 'Contributors.i18n.php';
-$wgExtensionAliasesFiles['Contributors'] = $dir . 'Contributors.alias.php';
+$wgExtensionMessagesFiles['ContributorsAlias'] = $dir . 'Contributors.alias.php';
 $wgAutoloadClasses['SpecialContributors'] = $dir . 'Contributors.page.php';
 $wgSpecialPages['Contributors'] = 'SpecialContributors';
 $wgSpecialPageGroups['Contributors'] = 'pages';
