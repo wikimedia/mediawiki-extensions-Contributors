@@ -1276,7 +1276,7 @@ $messages['nn'] = array(
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */
-$messages['no'] = array(
+$messages['nb'] = array(
 	'contributors' => 'Bidragsytere',
 	'contributors-desc' => 'Gir sammendrag av hovedbidragsyterne på en side',
 	'contributors-toolbox' => 'Hovedbidragsytere',
