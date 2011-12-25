@@ -1184,6 +1184,24 @@ $messages['nah'] = array(
 	'contributors-submit' => 'Tiquinttāz',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ * @author Nghtwlkr
+ */
+$messages['nb'] = array(
+	'contributors' => 'Bidragsytere',
+	'contributors-desc' => 'Gir sammendrag av hovedbidragsyterne på en side',
+	'contributors-toolbox' => 'Hovedbidragsytere',
+	'contributors-legend' => 'Liste over hovedbidragsytere til en side',
+	'contributors-target' => 'Tittel:',
+	'contributors-submit' => 'Vis',
+	'contributors-subtitle' => 'Hovedbidragsytere på $1',
+	'contributors-others-long' => 'Det er {{PLURAL:$1|én annen bidragsyter|$1 andre bidragsytere}} på denne siden.',
+	'contributors-others' => 'og {{PLURAL:$1|én annen|$1 andre}}',
+	'contributors-badtitle' => 'Ugyldig tittel.',
+	'contributors-nosuchpage' => 'Siden $1 eksisterer ikke.',
+);
+
 /** Low German (Plattdüütsch)
  * @author Slomox
  */
@@ -1270,24 +1288,6 @@ $messages['nn'] = array(
 	'contributors-others' => 'og {{PLURAL:$1|éin annan|$1 andre}}',
 	'contributors-badtitle' => 'Ugyldig tittel.',
 	'contributors-nosuchpage' => 'Sida $1 finst ikkje.',
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- * @author Nghtwlkr
- */
-$messages['nb'] = array(
-	'contributors' => 'Bidragsytere',
-	'contributors-desc' => 'Gir sammendrag av hovedbidragsyterne på en side',
-	'contributors-toolbox' => 'Hovedbidragsytere',
-	'contributors-legend' => 'Liste over hovedbidragsytere til en side',
-	'contributors-target' => 'Tittel:',
-	'contributors-submit' => 'Vis',
-	'contributors-subtitle' => 'Hovedbidragsytere på $1',
-	'contributors-others-long' => 'Det er {{PLURAL:$1|én annen bidragsyter|$1 andre bidragsytere}} på denne siden.',
-	'contributors-others' => 'og {{PLURAL:$1|én annen|$1 andre}}',
-	'contributors-badtitle' => 'Ugyldig tittel.',
-	'contributors-nosuchpage' => 'Siden $1 eksisterer ikke.',
 );
 
 /** Northern Sotho (Sesotho sa Leboa)
