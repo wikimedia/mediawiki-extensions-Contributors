@@ -178,6 +178,11 @@ $specialPageAliases['mt'] = array(
 	'Contributors' => array( 'Kontributuri' ),
 );
 
+/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+$specialPageAliases['nb'] = array(
+	'Contributors' => array( 'Bidragsytere' ),
+);
+
 /** Nedersaksisch (Nedersaksisch) */
 $specialPageAliases['nds-nl'] = array(
 	'Contributors' => array( 'Biedragers' ),
@@ -191,11 +196,6 @@ $specialPageAliases['nl'] = array(
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬) */
 $specialPageAliases['nn'] = array(
 	'Contributors' => array( 'Bidragsytarar' ),
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬) */
-$specialPageAliases['nb'] = array(
-	'Contributors' => array( 'Bidragsytere' ),
 );
 
 /** Polish (Polski) */
@@ -223,7 +223,7 @@ $specialPageAliases['ro'] = array(
 	'Contributors' => array( 'Contribuitori' ),
 );
 
-/** Sanskrit (संस्कृत) */
+/** Sanskrit (संस्कृतम्) */
 $specialPageAliases['sa'] = array(
 	'Contributors' => array( 'योगदाता' ),
 );
@@ -287,8 +287,3 @@ $specialPageAliases['zh-hans'] = array(
 $specialPageAliases['zh-hant'] = array(
 	'Contributors' => array( '捐贈者' ),
 );
-
-/**
- * For backwards compatibility with MediaWiki 1.15 and earlier.
- */
-$aliases =& $specialPageAliases;
