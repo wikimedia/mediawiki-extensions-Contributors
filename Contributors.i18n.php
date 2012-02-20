@@ -122,6 +122,23 @@ $messages['arz'] = array(
 	'contributors-nosuchpage' => 'الصفحة $1 غير موجودة.',
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'contributors' => 'Collaboradores',
+	'contributors-desc' => "Resume los principales collaboradores d'una páxina",
+	'contributors-toolbox' => 'Principales collaboradores',
+	'contributors-legend' => "Llista de los principales collaboradores d'una páxina",
+	'contributors-target' => 'Títulu:',
+	'contributors-submit' => 'Amosar',
+	'contributors-subtitle' => 'Principales collaboradores de $1',
+	'contributors-others-long' => "Hai {{PLURAL:$1|otru collaborador|otros $1 collaboradores}} d'esta páxina.",
+	'contributors-others' => 'y {{PLURAL:$1|otru|otros $1}}',
+	'contributors-badtitle' => 'Títulu inválidu.',
+	'contributors-nosuchpage' => 'La páxina $1 nun esiste.',
+);
+
 /** Kotava (Kotava)
  * @author Wikimistusik
  */
