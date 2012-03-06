@@ -494,13 +494,20 @@ $messages['ext'] = array(
 /** Persian (فارسی)
  * @author Ebraminio
  * @author Mjbmr
+ * @author ZxxZxxZ
  */
 $messages['fa'] = array(
 	'contributors' => 'مشارکت‌ها',
+	'contributors-desc' => 'مشارکت‌کنندگان اصلی یک صفحه را خلاصه می‌کند',
 	'contributors-toolbox' => 'مشارکت‌کنندگان اصلی',
+	'contributors-legend' => 'فهرست‌کردن مشارکت‌کنندگان اصلی صفحه',
 	'contributors-target' => 'عنوان:',
 	'contributors-submit' => 'مشاهده',
+	'contributors-subtitle' => 'مشارکت‌کنندگان اصلی $1',
+	'contributors-others-long' => '{{PLURAL:$1|یک مشارکت‌کنندهٔ دیگر|$1 مشارکت‌کنندهٔ دیگر}} برای این صفحه وجود دارد.',
+	'contributors-others' => 'و {{PLURAL:$1|یکی|$1تای}} دیگر',
 	'contributors-badtitle' => 'عنوان نامعتبر.',
+	'contributors-nosuchpage' => 'صفحهٔ $1 وجود ندارد.',
 );
 
 /** Finnish (Suomi)
