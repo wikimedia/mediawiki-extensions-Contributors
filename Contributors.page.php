@@ -143,7 +143,7 @@ class SpecialContributors extends IncludableSpecialPage {
 	public static function getContributors($title) {
 		wfProfileIn( __METHOD__ );
 		global $wgMemc;
-		$k = wfMemcKey( 'contributors', $title->getArticleId() );
+		$k = wfMemcKey( 'contributors', $title->getArticleID() );
 		$contributors = $wgMemc->get( $k );
 		if( !$contributors ) {
 			$contributors = array();
@@ -178,7 +178,7 @@ class SpecialContributors extends IncludableSpecialPage {
 	 * @return array
 	 */
 	protected static function getConditions($title) {
-		$conds['rev_page'] = $title->getArticleId();
+		$conds['rev_page'] = $title->getArticleID();
 		$conds[] = 'rev_deleted & ' . Revision::DELETED_USER . ' = 0';
 		return $conds;
 	}
