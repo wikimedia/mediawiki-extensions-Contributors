@@ -1356,10 +1356,11 @@ $messages['or'] = array(
 
 /** Ossetic (Ирон)
  * @author Amikeco
+ * @author Bouron
  */
 $messages['os'] = array(
 	'contributors-target' => 'Сæргонд:',
-	'contributors-submit' => 'Равдис',
+	'contributors-submit' => 'Равдисын',
 );
 
 /** Deitsch (Deitsch)
