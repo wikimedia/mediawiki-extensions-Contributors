@@ -1028,9 +1028,10 @@ $messages['ku-latn'] = array(
 
 /** Cornish (Kernowek)
  * @author Kw-Moon
+ * @author Nrowe
  */
 $messages['kw'] = array(
-	'contributors-submit' => 'Disqwedhes',
+	'contributors-submit' => 'Diskwedhes',
 );
 
 /** Latin (Latina)
