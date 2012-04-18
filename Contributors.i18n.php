@@ -1086,6 +1086,21 @@ $messages['ltg'] = array(
 	'contributors-nosuchpage' => 'Puslopa «$1» naekzistē.',
 );
 
+/** Lushai (Mizo ţawng)
+ * @author RMizo
+ */
+$messages['lus'] = array(
+	'contributors' => 'Kutthawhtute',
+	'contributors-desc' => 'Phêka kutthawhtute chanchin kaihtawina',
+	'contributors-toolbox' => 'Kutthawhtu pui deuh deuhte',
+	'contributors-legend' => 'Phêka kutthawhtu pui deuh deuhte tlar chhuahna',
+	'contributors-target' => 'Thupui:',
+	'contributors-submit' => 'Tihlanna',
+	'contributors-subtitle' => '$1-a kutthawhtu pui deuh deuhte',
+	'contributors-badtitle' => 'Thupui dik lo.',
+	'contributors-nosuchpage' => '$1 tih phêk a awm lo.',
+);
+
 /** Malagasy (Malagasy)
  * @author Jagwar
  */
