@@ -833,16 +833,17 @@ $messages['it'] = array(
 /** Japanese (日本語)
  * @author Aotake
  * @author JtFuruhata
+ * @author Shirayuki
  */
 $messages['ja'] = array(
 	'contributors' => '投稿者',
 	'contributors-desc' => 'ページの主な投稿者を抽出する',
 	'contributors-toolbox' => '主な投稿者',
-	'contributors-legend' => '投稿者一覧の作成',
+	'contributors-legend' => '投稿者一覧を作成',
 	'contributors-target' => 'タイトル:',
 	'contributors-submit' => '表示',
 	'contributors-subtitle' => '$1 への主な投稿者',
-	'contributors-others-long' => 'このページにはほかに $1 名の{{PLURAL:$1|投稿者}}がいます。',
+	'contributors-others-long' => 'このページには他に $1 名の{{PLURAL:$1|投稿者}}がいます。',
 	'contributors-others' => '及びその他$1{{PLURAL:$1|名}}',
 	'contributors-badtitle' => '不正なページ名です。',
 	'contributors-nosuchpage' => 'ページ $1 は存在しません。',
