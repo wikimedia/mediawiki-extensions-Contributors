@@ -373,6 +373,13 @@ $messages['de'] = array(
 	'contributors-nosuchpage' => 'Die Seite $1 ist nicht vorhanden.',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'contributors' => 'İştırakdari',
+);
+
 /** Lower Sorbian (Dolnoserbski)
  * @author Michawiki
  */
