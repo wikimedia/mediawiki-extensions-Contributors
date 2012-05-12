@@ -1323,6 +1323,7 @@ $messages['nl'] = array(
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Harald Khan
  * @author Jon Harald Søby
+ * @author Njardarlogar
  */
 $messages['nn'] = array(
 	'contributors' => 'Bidragsytarar',
@@ -1759,7 +1760,7 @@ $messages['tg-cyrl'] = array(
 	'contributors-nosuchpage' => 'Саҳифаи $1 вуҷуд надорад.',
 );
 
-/** Tajik (Latin script) (tojikī)
+/** Tajik (Latin script) (Tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
