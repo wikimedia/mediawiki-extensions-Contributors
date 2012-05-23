@@ -33,6 +33,11 @@ $specialPageAliases['arz'] = array(
 	'Contributors' => array( 'مساهمين' ),
 );
 
+/** Banjar (Bahasa Banjar) */
+$specialPageAliases['bjn'] = array(
+	'Contributors' => array( 'Panyumbang' ),
+);
+
 /** Breton (Brezhoneg) */
 $specialPageAliases['br'] = array(
 	'Contributors' => array( 'Kenlabourerien' ),
@@ -276,6 +281,11 @@ $specialPageAliases['tr'] = array(
 /** Vèneto (Vèneto) */
 $specialPageAliases['vec'] = array(
 	'Contributors' => array( 'Contribudori' ),
+);
+
+/** Vietnamese (Tiếng Việt) */
+$specialPageAliases['vi'] = array(
+	'Contributors' => array( 'Người_đóng_góp' ),
 );
 
 /** Simplified Chinese (‪中文(简体)‬) */
