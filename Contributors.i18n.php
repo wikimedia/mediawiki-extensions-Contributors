@@ -977,6 +977,7 @@ $messages['kn'] = array(
  * @author Kwj2772
  * @author ToePeu
  * @author Yknok29
+ * @author 아라
  */
 $messages['ko'] = array(
 	'contributors' => '편집자',
@@ -986,8 +987,8 @@ $messages['ko'] = array(
 	'contributors-target' => '제목:',
 	'contributors-submit' => '보이기',
 	'contributors-subtitle' => '$1 문서에 대한 주 기여자 목록',
-	'contributors-others-long' => '그 외에 $1명이 기여했습니다.',
-	'contributors-others' => '그 외 $1명',
+	'contributors-others-long' => '그 외에도 $1명이 기여했습니다.',
+	'contributors-others' => '그리고 다른 $1명',
 	'contributors-badtitle' => '제목이 잘못되었습니다.',
 	'contributors-nosuchpage' => '$1 문서가 존재하지 않습니다.',
 );
