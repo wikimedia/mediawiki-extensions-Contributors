@@ -1709,6 +1709,23 @@ $messages['sv'] = array(
 	'contributors-nosuchpage' => 'Sidan $1 existerar inte.',
 );
 
+/** Swahili (Kiswahili)
+ * @author Stephenwanjau
+ */
+$messages['sw'] = array(
+	'contributors' => 'Wachangiaji',
+	'contributors-desc' => 'Inatoa muhtasari wa wachangiaji wakuu kwa ukurasa',
+	'contributors-toolbox' => 'Wachangiaji wakuu',
+	'contributors-legend' => 'Orodhesha wachangiaji wakuu kwa ukurasa',
+	'contributors-target' => 'Kichwa:',
+	'contributors-submit' => 'Onyesha',
+	'contributors-subtitle' => 'Wachangiaji wakuu kwa $1',
+	'contributors-others-long' => 'Kuna {{PLURAL:$1|mcgangiaji mwingine mmoja|are $1 other contributors}} to this page.',
+	'contributors-others' => 'na {{PLURAL:$1|mwingine mmoja|$1 wengine}}',
+	'contributors-badtitle' => 'Kichwa batili',
+	'contributors-nosuchpage' => 'Ukuarasa $1 haupo.',
+);
+
 /** Tamil (தமிழ்)
  * @author TRYPPN
  */
