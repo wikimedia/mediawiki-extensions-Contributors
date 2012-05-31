@@ -1106,6 +1106,8 @@ $messages['lus'] = array(
 	'contributors-target' => 'Thupui:',
 	'contributors-submit' => 'Tihlanna',
 	'contributors-subtitle' => '$1-a kutthawhtu pui deuh deuhte',
+	'contributors-others-long' => 'Hë phêkah hian kutthawhtu dang {{PLURAL:$1|pakhat a awm|$1 an awm}}.',
+	'contributors-others' => 'leh midang {{PLURAL:$1|pakhat|$1}}',
 	'contributors-badtitle' => 'Thupui dik lo.',
 	'contributors-nosuchpage' => '$1 tih phêk a awm lo.',
 );
