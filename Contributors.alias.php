@@ -38,12 +38,12 @@ $specialPageAliases['bjn'] = array(
 	'Contributors' => array( 'Panyumbang' ),
 );
 
-/** Breton (Brezhoneg) */
+/** Breton (brezhoneg) */
 $specialPageAliases['br'] = array(
 	'Contributors' => array( 'Kenlabourerien' ),
 );
 
-/** Bosnian (Bosanski) */
+/** Bosnian (bosanski) */
 $specialPageAliases['bs'] = array(
 	'Contributors' => array( 'Urednici' ),
 );
@@ -51,6 +51,11 @@ $specialPageAliases['bs'] = array(
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'Contributors' => array( 'Autoren' ),
+);
+
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'Contributors' => array( 'İştıraxkari' ),
 );
 
 /** Lower Sorbian (Dolnoserbski) */
@@ -73,12 +78,12 @@ $specialPageAliases['fa'] = array(
 	'Contributors' => array( 'مشارکت‌کنندگان' ),
 );
 
-/** Finnish (Suomi) */
+/** Finnish (suomi) */
 $specialPageAliases['fi'] = array(
 	'Contributors' => array( 'Muokkaajat' ),
 );
 
-/** French (Français) */
+/** French (français) */
 $specialPageAliases['fr'] = array(
 	'Contributors' => array( 'Contributeurs' ),
 );
@@ -98,7 +103,7 @@ $specialPageAliases['he'] = array(
 	'Contributors' => array( 'תורמים' ),
 );
 
-/** Croatian (Hrvatski) */
+/** Croatian (hrvatski) */
 $specialPageAliases['hr'] = array(
 	'Contributors' => array( 'Doprinositelji' ),
 );
@@ -113,7 +118,7 @@ $specialPageAliases['ht'] = array(
 	'Contributors' => array( 'Kontribitè' ),
 );
 
-/** Interlingua (Interlingua) */
+/** Interlingua (interlingua) */
 $specialPageAliases['ia'] = array(
 	'Contributors' => array( 'Contributores' ),
 );
@@ -128,7 +133,7 @@ $specialPageAliases['io'] = array(
 	'Contributors' => array( 'Kontributanti' ),
 );
 
-/** Italian (Italiano) */
+/** Italian (italiano) */
 $specialPageAliases['it'] = array(
 	'Contributors' => array( 'Contributori' ),
 );
@@ -163,7 +168,7 @@ $specialPageAliases['lb'] = array(
 	'Contributors' => array( 'Auteuren' ),
 );
 
-/** Macedonian (Македонски) */
+/** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'Contributors' => array( 'Придонесувачи' ),
 );
@@ -183,7 +188,7 @@ $specialPageAliases['mt'] = array(
 	'Contributors' => array( 'Kontributuri' ),
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $specialPageAliases['nb'] = array(
 	'Contributors' => array( 'Bidragsytere' ),
 );
@@ -198,12 +203,12 @@ $specialPageAliases['nl'] = array(
 	'Contributors' => array( 'Auteurs', 'Bijdragers' ),
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬) */
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬) */
 $specialPageAliases['nn'] = array(
 	'Contributors' => array( 'Bidragsytarar' ),
 );
 
-/** Polish (Polski) */
+/** Polish (polski) */
 $specialPageAliases['pl'] = array(
 	'Contributors' => array( 'Autorzy' ),
 );
@@ -213,19 +218,24 @@ $specialPageAliases['ps'] = array(
 	'Contributors' => array( 'ونډه_وال' ),
 );
 
-/** Portuguese (Português) */
+/** Portuguese (português) */
 $specialPageAliases['pt'] = array(
 	'Contributors' => array( 'Contribuidores' ),
 );
 
-/** Brazilian Portuguese (Português do Brasil) */
+/** Brazilian Portuguese (português do Brasil) */
 $specialPageAliases['pt-br'] = array(
 	'Contributors' => array( 'Colaboradores', 'Contribuidores' ),
 );
 
-/** Romanian (Română) */
+/** Romanian (română) */
 $specialPageAliases['ro'] = array(
 	'Contributors' => array( 'Contribuitori' ),
+);
+
+/** Russian (русский) */
+$specialPageAliases['ru'] = array(
+	'Contributors' => array( 'Вкладчики' ),
 );
 
 /** Sanskrit (संस्कृतम्) */
@@ -238,22 +248,22 @@ $specialPageAliases['si'] = array(
 	'Contributors' => array( 'දායකයන්' ),
 );
 
-/** Slovak (Slovenčina) */
+/** Slovak (slovenčina) */
 $specialPageAliases['sk'] = array(
 	'Contributors' => array( 'Prispievatelia' ),
 );
 
-/** Albanian (Shqip) */
+/** Albanian (shqip) */
 $specialPageAliases['sq'] = array(
 	'Contributors' => array( 'Kontribues' ),
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬) */
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬) */
 $specialPageAliases['sr-ec'] = array(
 	'Contributors' => array( 'Доприносиоци' ),
 );
 
-/** Swedish (Svenska) */
+/** Swedish (svenska) */
 $specialPageAliases['sv'] = array(
 	'Contributors' => array( 'Bidragsgivare' ),
 );
@@ -278,7 +288,12 @@ $specialPageAliases['tr'] = array(
 	'Contributors' => array( 'KatkıdaBulunanlar' ),
 );
 
-/** Vèneto (Vèneto) */
+/** Ukrainian (українська) */
+$specialPageAliases['uk'] = array(
+	'Contributors' => array( 'Дописувачі' ),
+);
+
+/** vèneto (vèneto) */
 $specialPageAliases['vec'] = array(
 	'Contributors' => array( 'Contribudori' ),
 );
@@ -288,12 +303,12 @@ $specialPageAliases['vi'] = array(
 	'Contributors' => array( 'Người_đóng_góp' ),
 );
 
-/** Simplified Chinese (‪中文(简体)‬) */
+/** Simplified Chinese (‪中文（简体）‬) */
 $specialPageAliases['zh-hans'] = array(
 	'Contributors' => array( '贡献者' ),
 );
 
-/** Traditional Chinese (‪中文(繁體)‬) */
+/** Traditional Chinese (‪中文（繁體）‬) */
 $specialPageAliases['zh-hant'] = array(
 	'Contributors' => array( '捐贈者' ),
 );
