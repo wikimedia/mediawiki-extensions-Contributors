@@ -122,7 +122,7 @@ $messages['arz'] = array(
 	'contributors-nosuchpage' => 'الصفحة $1 غير موجودة.',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -155,7 +155,7 @@ $messages['avk'] = array(
 	'contributors-nosuchpage' => '$1 bu me tir.',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  */
 $messages['az'] = array(
@@ -214,7 +214,7 @@ $messages['be-tarask'] = array(
 	'contributors-nosuchpage' => 'Старонка $1 не існуе.',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -241,7 +241,7 @@ $messages['bn'] = array(
 	'contributors-nosuchpage' => '$1 শিরোনামের কোন নিবন্ধ নাই।',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -258,7 +258,7 @@ $messages['br'] = array(
 	'contributors-nosuchpage' => "N'eus ket eus ar pennad $1.",
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -275,7 +275,7 @@ $messages['bs'] = array(
 	'contributors-nosuchpage' => 'Stranica $1 ne postoji.',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Aleator
  * @author Paucabot
  * @author SMP
@@ -302,7 +302,7 @@ $messages['ce'] = array(
 	'contributors' => 'Къинхьегамхой',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Danny B.
  * @author Matěj Grabovský
  */
@@ -337,7 +337,7 @@ $messages['cy'] = array(
 	'contributors-nosuchpage' => "Nid yw'r dudalen $1 yn bod.",
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Jon Harald Søby
  * @author Peter Alberti
  */
@@ -436,7 +436,7 @@ $messages['eo'] = array(
 	'contributors-nosuchpage' => 'La paĝo $1 ne ekzistas.',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Baiji
  * @author Crazymadlover
  * @author Imre
@@ -457,7 +457,7 @@ $messages['es'] = array(
 	'contributors-nosuchpage' => 'La página $1 no existe.',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Avjoska
  */
 $messages['et'] = array(
@@ -468,7 +468,7 @@ $messages['et'] = array(
 	'contributors-nosuchpage' => 'Lehekülge $1 ei ole.',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  * @author Kobazulo
  * @author Theklan
@@ -487,7 +487,7 @@ $messages['eu'] = array(
 	'contributors-nosuchpage' => '$1 orrialdea ez da existitzen.',
 );
 
-/** Extremaduran (Estremeñu)
+/** Extremaduran (estremeñu)
  * @author Better
  */
 $messages['ext'] = array(
@@ -517,7 +517,7 @@ $messages['fa'] = array(
 	'contributors-nosuchpage' => 'صفحهٔ $1 وجود ندارد.',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Cimon Avaro
  * @author Jaakonam
  * @author Nike
@@ -538,7 +538,7 @@ $messages['fi'] = array(
 	'contributors-nosuchpage' => 'Sivua $1 ei ole olemassa.',
 );
 
-/** French (Français)
+/** French (français)
  * @author Crochet.david
  * @author IAlex
  * @author PieRRoMaN
@@ -559,7 +559,7 @@ $messages['fr'] = array(
 	'contributors-nosuchpage' => 'La page $1 n’existe pas.',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -703,7 +703,7 @@ $messages['hi'] = array(
 	'contributors-nosuchpage' => '$1 पन्ना अस्तित्वमें नहीं हैं',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Dalibor Bosits
  */
 $messages['hr'] = array(
@@ -737,7 +737,7 @@ $messages['hsb'] = array(
 	'contributors-nosuchpage' => 'Strona $1 njeeksistuje.',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  */
 $messages['hu'] = array(
@@ -754,7 +754,7 @@ $messages['hu'] = array(
 	'contributors-nosuchpage' => 'A(z) $1 lap nem létezik.',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -802,7 +802,7 @@ $messages['io'] = array(
 	'contributors-target' => 'Titulo:',
 );
 
-/** Icelandic (Íslenska)
+/** Icelandic (íslenska)
  * @author S.Örvarr.S
  */
 $messages['is'] = array(
@@ -819,7 +819,7 @@ $messages['is'] = array(
 	'contributors-nosuchpage' => 'Síðan $1 er ekki til.',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author BrokenArrow
  * @author Darth Kule
  */
@@ -1035,7 +1035,7 @@ $messages['ku-latn'] = array(
 	'contributors-nosuchpage' => 'Rûpela $1 tune.',
 );
 
-/** Cornish (Kernowek)
+/** Cornish (kernowek)
  * @author Kw-Moon
  * @author Nrowe
  */
@@ -1087,7 +1087,7 @@ $messages['lg'] = array(
 	'contributors-nosuchpage' => 'Tewali lupapula $1.',
 );
 
-/** Latgalian (Latgaļu)
+/** Latgalian (latgaļu)
  * @author Dark Eagle
  */
 $messages['ltg'] = array(
@@ -1126,7 +1126,7 @@ $messages['mhr'] = array(
 	'contributors-submit' => 'ончыкташ',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -1161,7 +1161,7 @@ $messages['ml'] = array(
 	'contributors-nosuchpage' => '$1 എന്ന താൾ നിലവിലില്ല.',
 );
 
-/** Mongolian (Монгол)
+/** Mongolian (монгол)
  * @author Chinneeb
  */
 $messages['mn'] = array(
@@ -1323,7 +1323,7 @@ $messages['nl'] = array(
 	'contributors-nosuchpage' => 'De pagina $1 bestaat niet.',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Harald Khan
  * @author Jon Harald Søby
  * @author Njardarlogar
@@ -1356,7 +1356,7 @@ $messages['nso'] = array(
 	'contributors-nosuchpage' => 'Letlakala $1 ga le gona.',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -1399,7 +1399,7 @@ $messages['pdc'] = array(
 	'contributors-submit' => 'Zeig',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Derbeth
  * @author Masti
  * @author Sp5uhe
@@ -1449,7 +1449,7 @@ $messages['ps'] = array(
 	'contributors-nosuchpage' => 'د $1 په نوم کوم مخ نشته.',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author 555
  * @author Hamilton Abreu
  * @author Malafaya
@@ -1468,7 +1468,7 @@ $messages['pt'] = array(
 	'contributors-nosuchpage' => 'O artigo $1 não existe.',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  */
 $messages['pt-br'] = array(
@@ -1492,12 +1492,12 @@ $messages['rif'] = array(
 	'contributors-submit' => 'Smmrad',
 );
 
-/** Romansh (Rumantsch) */
+/** Romansh (rumantsch) */
 $messages['rm'] = array(
 	'contributors-target' => 'Titel:',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Firilacroco
  * @author KlaudiuMihaila
  */
@@ -1515,7 +1515,7 @@ $messages['ro'] = array(
 	'contributors-nosuchpage' => 'Pagina $1 nu există.',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -1532,7 +1532,7 @@ $messages['roa-tara'] = array(
 	'contributors-nosuchpage' => "'A pàgene $1 non g'esiste.",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Ahonc
  * @author Александр Сигачёв
  */
@@ -1558,7 +1558,7 @@ $messages['rue'] = array(
 	'contributors-submit' => 'Вказати',
 );
 
-/** Sakha (Саха тыла)
+/** Sakha (саха тыла)
  * @author HalanTul
  */
 $messages['sah'] = array(
@@ -1571,7 +1571,7 @@ $messages['sah'] = array(
 	'contributors-nosuchpage' => 'Маннык $1 сорук-сирэй суох эбит.',
 );
 
-/** Serbo-Croatian (Srpskohrvatski)
+/** Serbo-Croatian (srpskohrvatski / српскохрватски)
  * @author OC Ripper
  */
 $messages['sh'] = array(
@@ -1587,7 +1587,7 @@ $messages['si'] = array(
 	'contributors-submit' => 'පෙන්වන්න',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -1604,7 +1604,7 @@ $messages['sk'] = array(
 	'contributors-nosuchpage' => 'Článok $1 neexistuje.',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -1621,7 +1621,7 @@ $messages['sl'] = array(
 	'contributors-nosuchpage' => 'Stran $1 ne obstaja.',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  * @author Sasa Stefanovic
  * @author Михајло Анђелковић
@@ -1640,7 +1640,7 @@ $messages['sr-ec'] = array(
 	'contributors-nosuchpage' => 'Страница $1 не постоји.',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  * @author Sasa Stefanovic
  */
@@ -1691,7 +1691,7 @@ $messages['su'] = array(
 	'contributors-nosuchpage' => 'Kaca $1 euweuh.',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Jon Harald Søby
  * @author Lejonel
  * @author M.M.S.
@@ -1758,14 +1758,14 @@ $messages['te'] = array(
 	'contributors-nosuchpage' => '$1 అనే పేజీ లేనే లేదు.',
 );
 
-/** Tetum (Tetun)
+/** Tetum (tetun)
  * @author MF-Warburg
  */
 $messages['tet'] = array(
 	'contributors-target' => 'Títulu:',
 );
 
-/** Tajik (Cyrillic script) (Тоҷикӣ)
+/** Tajik (Cyrillic script) (тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
@@ -1780,7 +1780,7 @@ $messages['tg-cyrl'] = array(
 	'contributors-nosuchpage' => 'Саҳифаи $1 вуҷуд надорад.',
 );
 
-/** Tajik (Latin script) (Tojikī)
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -1847,14 +1847,14 @@ $messages['tr'] = array(
 	'contributors-nosuchpage' => '$1 adlı sayfa mevcut değil.',
 );
 
-/** Tatar (Cyrillic script) (Татарча)
+/** Tatar (Cyrillic script) (татарча)
  * @author Ерней
  */
 $messages['tt-cyrl'] = array(
 	'contributors-submit' => 'Күрсәтергә',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author AS
  * @author Ahonc
  */
@@ -1872,7 +1872,7 @@ $messages['uk'] = array(
 	'contributors-nosuchpage' => 'Сторінка «$1» не існує.',
 );
 
-/** Vèneto (Vèneto)
+/** vèneto (vèneto)
  * @author Candalua
  */
 $messages['vec'] = array(
@@ -1939,7 +1939,7 @@ $messages['yue'] = array(
 	'contributors-nosuchpage' => '文章$1唔存在。',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Gaoxuewei
  * @author Shinjiman
  */
@@ -1957,7 +1957,7 @@ $messages['zh-hans'] = array(
 	'contributors-nosuchpage' => '条目$1不存在。',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Liangent
  * @author Mark85296341
  * @author Shinjiman
