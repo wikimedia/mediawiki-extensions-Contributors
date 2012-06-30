@@ -33,6 +33,11 @@ $specialPageAliases['arz'] = array(
 	'Contributors' => array( 'مساهمين' ),
 );
 
+/** Assamese (অসমীয়া) */
+$specialPageAliases['as'] = array(
+	'Contributors' => array( 'বৰঙনিদাতা' ),
+);
+
 /** Banjar (Bahasa Banjar) */
 $specialPageAliases['bjn'] = array(
 	'Contributors' => array( 'Panyumbang' ),
@@ -58,7 +63,7 @@ $specialPageAliases['diq'] = array(
 	'Contributors' => array( 'İştıraxkari' ),
 );
 
-/** Lower Sorbian (Dolnoserbski) */
+/** Lower Sorbian (dolnoserbski) */
 $specialPageAliases['dsb'] = array(
 	'Contributors' => array( 'Awtory' ),
 );
@@ -88,7 +93,7 @@ $specialPageAliases['fr'] = array(
 	'Contributors' => array( 'Contributeurs' ),
 );
 
-/** Galician (Galego) */
+/** Galician (galego) */
 $specialPageAliases['gl'] = array(
 	'Contributors' => array( 'Colaboradores' ),
 );
@@ -108,7 +113,7 @@ $specialPageAliases['hr'] = array(
 	'Contributors' => array( 'Doprinositelji' ),
 );
 
-/** Upper Sorbian (Hornjoserbsce) */
+/** Upper Sorbian (hornjoserbsce) */
 $specialPageAliases['hsb'] = array(
 	'Contributors' => array( 'Awtorojo' ),
 );
