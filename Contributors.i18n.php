@@ -196,7 +196,7 @@ $messages['bcl'] = array(
 	'contributors-nosuchpage' => 'An artikulong $1 mayò man.',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -380,7 +380,7 @@ $messages['diq'] = array(
 	'contributors' => 'İştırakdari',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -582,7 +582,7 @@ $messages['fy'] = array(
 	'contributors-submit' => 'Sjen litte',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  * @author Xosé
  */
@@ -720,7 +720,7 @@ $messages['hr'] = array(
 	'contributors-nosuchpage' => 'Stranica $1 ne postoji.',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -1550,7 +1550,7 @@ $messages['ru'] = array(
 	'contributors-nosuchpage' => 'Страница «$1» не существует.',
 );
 
-/** Rusyn (Русиньскый)
+/** Rusyn (русиньскый)
  * @author Gazeb
  */
 $messages['rue'] = array(
