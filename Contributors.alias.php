@@ -285,7 +285,7 @@ $specialPageAliases['th'] = array(
 
 /** Tagalog (Tagalog) */
 $specialPageAliases['tl'] = array(
-	'Contributors' => array( 'Mga tagapag-ambag' ),
+	'Contributors' => array( 'Mga_tagapag-ambag' ),
 );
 
 /** Turkish (Türkçe) */
