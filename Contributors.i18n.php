@@ -163,7 +163,7 @@ $messages['az'] = array(
 	'contributors-submit' => 'Göstər',
 );
 
-/** Bashkir (Башҡортса)
+/** Bashkir (башҡортса)
  * @author Assele
  */
 $messages['ba'] = array(
@@ -295,7 +295,7 @@ $messages['ca'] = array(
 	'contributors-nosuchpage' => 'La pàgina «$1» no existeix.',
 );
 
-/** Chechen (Нохчийн)
+/** Chechen (нохчийн)
  * @author Sasan700
  */
 $messages['ce'] = array(
@@ -1119,7 +1119,7 @@ $messages['mg'] = array(
 	'contributors-toolbox' => 'Mpandray anjara matetika',
 );
 
-/** Eastern Mari (Олык Марий)
+/** Eastern Mari (олык марий)
  * @author Jose77
  */
 $messages['mhr'] = array(
@@ -1219,7 +1219,7 @@ $messages['mt'] = array(
 	'contributors-nosuchpage' => 'Il-paġna $1 ma teżistix.',
 );
 
-/** Erzya (Эрзянь)
+/** Erzya (эрзянь)
  * @author Botuzhaleny-sodamo
  */
 $messages['myv'] = array(
@@ -1235,8 +1235,7 @@ $messages['nah'] = array(
 	'contributors-submit' => 'Tiquinttāz',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
