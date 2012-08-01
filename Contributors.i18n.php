@@ -377,7 +377,17 @@ $messages['de'] = array(
  * @author Erdemaslancan
  */
 $messages['diq'] = array(
-	'contributors' => 'İştırakdari',
+	'contributors' => 'İştıraqkari',
+	'contributors-desc' => 'Pela re zaf iştıraq kerdan xulasa keno',
+	'contributors-toolbox' => 'Ser iştıraqkari',
+	'contributors-legend' => 'Ju pela re ser iştıraqkara  liste ke',
+	'contributors-target' => 'Sername:',
+	'contributors-submit' => 'Bımocne',
+	'contributors-subtitle' => 'Ser iştıraqkare pela da $1',
+	'contributors-others-long' => 'Na pela dı {{PLURAL:$1|jew karbero bin|$ zewbi karberi}} dehana este.',
+	'contributors-others' => 'u {{PLURAL:$1|zeweri|$1 tayna}}',
+	'contributors-badtitle' => 'Sernameyo xırab.',
+	'contributors-nosuchpage' => '$1 name dı pela çına.',
 );
 
 /** Lower Sorbian (dolnoserbski)
@@ -1274,16 +1284,16 @@ $messages['nds'] = array(
  */
 $messages['nds-nl'] = array(
 	'contributors' => 'Luui die bie-edreugen hebben',
-	'contributors-desc' => 'Geef n overzichte van de belangriekste schrievers van n pagina',
+	'contributors-desc' => 'Geef n overzichte van de belangriekste schrievers van n zied',
 	'contributors-toolbox' => 'Belangriekste schrievers',
-	'contributors-legend' => 'Laot de belangriekste schriever van n pagina zien',
+	'contributors-legend' => 'Laot de belangriekste schriever van n zied zien',
 	'contributors-target' => 'Titel:',
 	'contributors-submit' => 'Bekieken',
 	'contributors-subtitle' => 'Belangriekste schriever van $1',
-	'contributors-others-long' => 'Der {{PLURAL:$1|is één aandere schriever|bin $1 aandere schrievers}} van disse pagina.',
+	'contributors-others-long' => 'Der {{PLURAL:$1|is één aandere schriever|bin $1 aandere schrievers}} van disse zied.',
 	'contributors-others' => 'en $1 {{PLURAL:$1|aandere|aanderen}}',
 	'contributors-badtitle' => 'Ongeldige titel.',
-	'contributors-nosuchpage' => 'De pagina $1 besteet niet.',
+	'contributors-nosuchpage' => 'De zied $1 besteet niet.',
 );
 
 /** Nepali (नेपाली)
