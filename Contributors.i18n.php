@@ -897,6 +897,14 @@ $messages['jv'] = array(
 	'contributors-nosuchpage' => 'Artikel $1 ora ditemokaké.',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'contributors-target' => 'სათაური:',
+	'contributors-submit' => 'ჩვენება',
+);
+
 /** Kabyle (Taqbaylit)
  * @author Agurzil
  */
