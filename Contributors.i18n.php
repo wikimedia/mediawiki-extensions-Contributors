@@ -901,6 +901,8 @@ $messages['jv'] = array(
  * @author David1010
  */
 $messages['ka'] = array(
+	'contributors' => 'ავტორები',
+	'contributors-toolbox' => 'ძირითადი ავტორები',
 	'contributors-target' => 'სათაური:',
 	'contributors-submit' => 'ჩვენება',
 );
