@@ -1598,12 +1598,17 @@ $messages['sh'] = array(
 );
 
 /** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
  * @author බිඟුවා
  */
 $messages['si'] = array(
 	'contributors' => 'දායකයින්',
+	'contributors-toolbox' => 'ප්‍රධාන දායකවරු',
 	'contributors-target' => 'ශීර්ෂය:',
 	'contributors-submit' => 'පෙන්වන්න',
+	'contributors-subtitle' => '$1 වෙත ප්‍රධාන දායකවරු',
+	'contributors-badtitle' => 'වලංගු මාතෘකාවක් නොවේ.',
+	'contributors-nosuchpage' => '$1 පිටුව නොපවතියි.',
 );
 
 /** Slovak (slovenčina)
