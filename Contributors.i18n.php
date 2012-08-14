@@ -1754,6 +1754,7 @@ $messages['sw'] = array(
 
 /** Tamil (தமிழ்)
  * @author TRYPPN
+ * @author மதனாஹரன்
  */
 $messages['ta'] = array(
 	'contributors' => 'பங்களிப்பாளர்கள்',
@@ -1761,6 +1762,7 @@ $messages['ta'] = array(
 	'contributors-target' => 'தலைப்பு:',
 	'contributors-submit' => 'காட்டு',
 	'contributors-badtitle' => 'தவறான தலைப்பு.',
+	'contributors-nosuchpage' => 'பக்கம் $1 காணப்படவில்லை.',
 );
 
 /** Telugu (తెలుగు)
