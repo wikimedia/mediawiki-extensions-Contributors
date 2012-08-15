@@ -592,6 +592,14 @@ $messages['fy'] = array(
 	'contributors-submit' => 'Sjen litte',
 );
 
+/** Irish (Gaeilge)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ga'] = array(
+	'contributors-target' => 'Teideal:',
+	'contributors-submit' => 'Taispeáin',
+);
+
 /** Galician (galego)
  * @author Toliño
  * @author Xosé
