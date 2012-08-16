@@ -1951,10 +1951,12 @@ $messages['vo'] = array(
 
 /** Yiddish (ייִדיש)
  * @author פוילישער
+ * @author පසිඳු කාවින්ද
  */
 $messages['yi'] = array(
 	'contributors' => 'בײַשטײַערער:',
 	'contributors-target' => 'טיטל:',
+	'contributors-submit' => 'ווײַז',
 );
 
 /** Cantonese (粵語)
