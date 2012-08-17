@@ -1906,6 +1906,13 @@ $messages['uk'] = array(
 	'contributors-nosuchpage' => 'Сторінка «$1» не існує.',
 );
 
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'contributors-badtitle' => 'باطل عنوان.',
+);
+
 /** vèneto (vèneto)
  * @author Candalua
  */
