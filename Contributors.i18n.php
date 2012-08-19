@@ -469,10 +469,11 @@ $messages['es'] = array(
 
 /** Estonian (eesti)
  * @author Avjoska
+ * @author Pikne
  */
 $messages['et'] = array(
-	'contributors' => 'Kaastöötajad',
-	'contributors-toolbox' => 'Peamised kaastöötajad',
+	'contributors' => 'Kaastöölised',
+	'contributors-toolbox' => 'Peamised kaastöölised',
 	'contributors-target' => 'Pealkiri:',
 	'contributors-submit' => 'Näita',
 	'contributors-nosuchpage' => 'Lehekülge $1 ei ole.',
