@@ -377,7 +377,7 @@ $messages['de'] = array(
  * @author Erdemaslancan
  */
 $messages['diq'] = array(
-	'contributors' => 'İştıraqkari',
+	'contributors' => 'Pêşteni',
 	'contributors-desc' => 'Pela re zaf iştıraq kerdan xulasa keno',
 	'contributors-toolbox' => 'Ser iştıraqkari',
 	'contributors-legend' => 'Ju pela re ser iştıraqkara  liste ke',
