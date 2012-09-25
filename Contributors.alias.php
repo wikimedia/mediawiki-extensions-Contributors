@@ -193,7 +193,7 @@ $specialPageAliases['mt'] = array(
 	'Contributors' => array( 'Kontributuri' ),
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $specialPageAliases['nb'] = array(
 	'Contributors' => array( 'Bidragsytere' ),
 );
@@ -208,7 +208,7 @@ $specialPageAliases['nl'] = array(
 	'Contributors' => array( 'Auteurs', 'Bijdragers' ),
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬) */
+/** Norwegian Nynorsk (norsk (nynorsk)‎) */
 $specialPageAliases['nn'] = array(
 	'Contributors' => array( 'Bidragsytarar' ),
 );
@@ -263,7 +263,7 @@ $specialPageAliases['sq'] = array(
 	'Contributors' => array( 'Kontribues' ),
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬) */
+/** Serbian (Cyrillic script) (српски (ћирилица)‎) */
 $specialPageAliases['sr-ec'] = array(
 	'Contributors' => array( 'Доприносиоци' ),
 );
@@ -308,12 +308,12 @@ $specialPageAliases['vi'] = array(
 	'Contributors' => array( 'Người_đóng_góp' ),
 );
 
-/** Simplified Chinese (‪中文（简体）‬) */
+/** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'Contributors' => array( '贡献者' ),
 );
 
-/** Traditional Chinese (‪中文（繁體）‬) */
+/** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
 	'Contributors' => array( '捐贈者' ),
 );
