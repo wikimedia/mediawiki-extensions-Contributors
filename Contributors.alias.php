@@ -38,6 +38,11 @@ $specialPageAliases['as'] = array(
 	'Contributors' => array( 'বৰঙনিদাতা' ),
 );
 
+/** Bashkir (башҡортса) */
+$specialPageAliases['ba'] = array(
+	'Contributors' => array( 'Contributors' ),
+);
+
 /** Banjar (Bahasa Banjar) */
 $specialPageAliases['bjn'] = array(
 	'Contributors' => array( 'Panyumbang' ),
