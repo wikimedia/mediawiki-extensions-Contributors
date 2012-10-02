@@ -196,7 +196,7 @@ $messages['bcl'] = array(
 	'contributors-nosuchpage' => 'An artikulong $1 mayò man.',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -674,7 +674,7 @@ $messages['gv'] = array(
 	'contributors-submit' => 'Taishbyney',
 );
 
-/** Hausa (هَوُسَ) */
+/** Hausa (Hausa) */
 $messages['ha'] = array(
 	'contributors-submit' => 'Nuna',
 );
@@ -1046,7 +1046,7 @@ $messages['ksh'] = array(
 	'contributors-nosuchpage' => 'Di Sigg „$1“ jitt et nit.',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author Bangin
  * @author Erdal Ronahi
  */
@@ -1264,7 +1264,7 @@ $messages['nah'] = array(
 	'contributors-submit' => 'Tiquinttāz',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1351,7 +1351,7 @@ $messages['nl'] = array(
 	'contributors-nosuchpage' => 'De pagina $1 bestaat niet.',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Harald Khan
  * @author Jon Harald Søby
  * @author Njardarlogar
@@ -1654,7 +1654,7 @@ $messages['sl'] = array(
 	'contributors-nosuchpage' => 'Stran $1 ne obstaja.',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  * @author Sasa Stefanovic
  * @author Михајло Анђелковић
@@ -1673,7 +1673,7 @@ $messages['sr-ec'] = array(
 	'contributors-nosuchpage' => 'Страница $1 не постоји.',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  * @author Sasa Stefanovic
  */
@@ -1983,7 +1983,7 @@ $messages['yue'] = array(
 	'contributors-nosuchpage' => '文章$1唔存在。',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Gaoxuewei
  * @author Shinjiman
  */
@@ -2001,7 +2001,7 @@ $messages['zh-hans'] = array(
 	'contributors-nosuchpage' => '条目$1不存在。',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Liangent
  * @author Mark85296341
  * @author Shinjiman
