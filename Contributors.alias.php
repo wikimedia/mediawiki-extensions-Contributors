@@ -218,6 +218,11 @@ $specialPageAliases['nn'] = array(
 	'Contributors' => array( 'Bidragsytarar' ),
 );
 
+/** Punjabi (ਪੰਜਾਬੀ) */
+$specialPageAliases['pa'] = array(
+	'Contributors' => array( 'ਯੋਗਦਾਨੀ' ),
+);
+
 /** Polish (polski) */
 $specialPageAliases['pl'] = array(
 	'Contributors' => array( 'Autorzy' ),
