@@ -203,7 +203,7 @@ $specialPageAliases['nb'] = array(
 	'Contributors' => array( 'Bidragsytere' ),
 );
 
-/** Nedersaksisch (Nedersaksisch) */
+/** Nedersaksies (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
 	'Contributors' => array( 'Biedragers' ),
 );
