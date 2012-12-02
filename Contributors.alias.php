@@ -168,6 +168,11 @@ $specialPageAliases['ksh'] = array(
 	'Contributors' => array( 'Schriiver' ),
 );
 
+/** Cornish (kernowek) */
+$specialPageAliases['kw'] = array(
+	'Contributors' => array( 'Kevroryon' ),
+);
+
 /** Ladino (Ladino) */
 $specialPageAliases['lad'] = array(
 	'Contributors' => array( 'Ajustadores' ),
