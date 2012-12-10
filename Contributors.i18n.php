@@ -38,13 +38,6 @@ $messages['qqq'] = array(
 	'contributors-badtitle' => '{{Identical|Invalid title}}',
 );
 
-/** Faeag Rotuma (Faeag Rotuma)
- * @author Jose77
- */
-$messages['rtm'] = array(
-	'contributors-submit' => "Kel'äk",
-);
-
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
  * @author Naudefj
@@ -1560,6 +1553,13 @@ $messages['roa-tara'] = array(
 	'contributors-nosuchpage' => "'A pàgene $1 non g'esiste.",
 );
 
+/** Faeag Rotuma (Faeag Rotuma)
+ * @author Jose77
+ */
+$messages['rtm'] = array(
+	'contributors-submit' => "Kel'äk",
+);
+
 /** Russian (русский)
  * @author Ahonc
  * @author Александр Сигачёв
@@ -2019,4 +2019,3 @@ $messages['zh-hant'] = array(
 	'contributors-badtitle' => '不正確的標題。',
 	'contributors-nosuchpage' => '條目$1不存在。',
 );
-
