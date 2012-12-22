@@ -469,6 +469,7 @@ $messages['et'] = array(
 	'contributors-toolbox' => 'Peamised kaastöölised',
 	'contributors-target' => 'Pealkiri:',
 	'contributors-submit' => 'Näita',
+	'contributors-badtitle' => 'Vigane pealkiri.',
 	'contributors-nosuchpage' => 'Lehekülge $1 ei ole.',
 );
 
