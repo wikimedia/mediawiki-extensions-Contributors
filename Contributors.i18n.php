@@ -1110,6 +1110,15 @@ $messages['lg'] = array(
 	'contributors-nosuchpage' => 'Tewali lupapula $1.',
 );
 
+/** Lithuanian (lietuvių)
+ * @author Eitvys200
+ */
+$messages['lt'] = array(
+	'contributors-target' => 'Pavadinimas:',
+	'contributors-submit' => 'Rodyti',
+	'contributors-badtitle' => 'Neleistinas pavadinimas.',
+);
+
 /** Latgalian (latgaļu)
  * @author Dark Eagle
  */
