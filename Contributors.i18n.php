@@ -469,6 +469,7 @@ $messages['et'] = array(
 	'contributors-toolbox' => 'Peamised kaastöölised',
 	'contributors-target' => 'Pealkiri:',
 	'contributors-submit' => 'Näita',
+	'contributors-subtitle' => 'Lehekülje $1 peamised toimetajad',
 	'contributors-badtitle' => 'Vigane pealkiri.',
 	'contributors-nosuchpage' => 'Lehekülge $1 ei ole.',
 );
@@ -1623,6 +1624,7 @@ $messages['sh'] = array(
 $messages['si'] = array(
 	'contributors' => 'දායකයින්',
 	'contributors-toolbox' => 'ප්‍රධාන දායකවරු',
+	'contributors-legend' => 'ප්‍රධාන දායකයින් පිටුවක් සඳහා ලැයිස්තුගත කරන්න',
 	'contributors-target' => 'ශීර්ෂය:',
 	'contributors-submit' => 'පෙන්වන්න',
 	'contributors-subtitle' => '$1 වෙත ප්‍රධාන දායකවරු',
