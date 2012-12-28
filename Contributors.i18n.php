@@ -156,6 +156,13 @@ $messages['az'] = array(
 	'contributors-submit' => 'Göstər',
 );
 
+/** South Azerbaijani (تورکجه)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['azb'] = array(
+	'contributors-submit' => 'گؤستر',
+);
+
 /** Bashkir (башҡортса)
  * @author Assele
  */
