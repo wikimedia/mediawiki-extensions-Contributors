@@ -1413,10 +1413,12 @@ $messages['oc'] = array(
 );
 
 /** Oriya (ଓଡ଼ିଆ)
+ * @author Ansumang
  * @author Odisha1
  * @author Psubhashish
  */
 $messages['or'] = array(
+	'contributors' => 'ଅବଦାନକାରୀଗଣ',
 	'contributors-target' => 'ଶିରୋନାମା:',
 	'contributors-submit' => 'ଦେଖାଇବେ',
 );
@@ -1630,11 +1632,13 @@ $messages['sh'] = array(
  */
 $messages['si'] = array(
 	'contributors' => 'දායකයින්',
+	'contributors-desc' => 'පිටුවකට ප්‍රධාන දායකයන් සාරාංශගත කරන්න',
 	'contributors-toolbox' => 'ප්‍රධාන දායකවරු',
 	'contributors-legend' => 'ප්‍රධාන දායකයින් පිටුවක් සඳහා ලැයිස්තුගත කරන්න',
 	'contributors-target' => 'ශීර්ෂය:',
 	'contributors-submit' => 'පෙන්වන්න',
 	'contributors-subtitle' => '$1 වෙත ප්‍රධාන දායකවරු',
+	'contributors-others' => 'සහ {{PLURAL:$1|වෙනත්}} $1',
 	'contributors-badtitle' => 'වලංගු මාතෘකාවක් නොවේ.',
 	'contributors-nosuchpage' => '$1 පිටුව නොපවතියි.',
 );
