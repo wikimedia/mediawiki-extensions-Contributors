@@ -313,6 +313,11 @@ $specialPageAliases['uk'] = array(
 	'Contributors' => array( 'Дописувачі' ),
 );
 
+/** Urdu (اردو) */
+$specialPageAliases['ur'] = array(
+	'Contributors' => array( 'مشارکین' ),
+);
+
 /** vèneto (vèneto) */
 $specialPageAliases['vec'] = array(
 	'Contributors' => array( 'Contribudori' ),
