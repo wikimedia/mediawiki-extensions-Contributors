@@ -25,7 +25,7 @@ $specialPageAliases['ar'] = array(
 
 /** Aramaic (ܐܪܡܝܐ) */
 $specialPageAliases['arc'] = array(
-	'Contributors' => array( 'ܫܘܬܦܢ̈ܐ' ),
+	'Contributors' => array( 'ܫܘ̈ܬܦܐ' ),
 );
 
 /** Egyptian Spoken Arabic (مصرى) */
