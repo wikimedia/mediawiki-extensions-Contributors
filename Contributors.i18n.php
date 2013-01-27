@@ -142,8 +142,8 @@ $messages['avk'] = array(
 	'contributors-target' => 'Vergumvelt :',
 	'contributors-submit' => 'Nedira',
 	'contributors-subtitle' => 'Webepesikeem va $1',
-	'contributors-others-long' => 'Tid $1 ar webesik va batu bu.',
-	'contributors-others' => 'is $1 ar',
+	'contributors-others-long' => 'Tid $1 ar webesik va batu bu.', # Fuzzy
+	'contributors-others' => 'is $1 ar', # Fuzzy
 	'contributors-badtitle' => 'Vergumveltaj.',
 	'contributors-nosuchpage' => '$1 bu me tir.',
 );
@@ -186,14 +186,14 @@ $messages['ba'] = array(
 $messages['bcl'] = array(
 	'contributors' => 'Mga kontributor',
 	'contributors-toolbox' => 'Pangenot na mga kontributor',
-	'contributors-legend' => 'Ilista an mga pangenot na kontributor sa artikulo',
+	'contributors-legend' => 'Ilista an mga pangenot na kontributor sa artikulo', # Fuzzy
 	'contributors-target' => 'Titulo:',
 	'contributors-submit' => 'Hilingón',
 	'contributors-subtitle' => 'Mga pangenot na kontributor sa $1',
-	'contributors-others-long' => 'Igwang $1 pang mga kontributor sa páhinang ini.',
-	'contributors-others' => 'asin $1 iba pa',
+	'contributors-others-long' => 'Igwang $1 pang mga kontributor sa páhinang ini.', # Fuzzy
+	'contributors-others' => 'asin $1 iba pa', # Fuzzy
 	'contributors-badtitle' => 'Salang titulo.',
-	'contributors-nosuchpage' => 'An artikulong $1 mayò man.',
+	'contributors-nosuchpage' => 'An artikulong $1 mayò man.', # Fuzzy
 );
 
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
@@ -231,14 +231,14 @@ $messages['bg'] = array(
 $messages['bn'] = array(
 	'contributors' => 'অবদানকারী',
 	'contributors-toolbox' => 'মূল অবদানকারী',
-	'contributors-legend' => 'একটি নিবন্ধে মূল অবদানকারীগণের তালিকা',
+	'contributors-legend' => 'একটি নিবন্ধে মূল অবদানকারীগণের তালিকা', # Fuzzy
 	'contributors-target' => 'শিরোনাম:',
 	'contributors-submit' => 'দেখাও',
 	'contributors-subtitle' => 'মূল অবদানকারী $1',
-	'contributors-others-long' => 'এ পাতায় আরও $1 অবদানকারী রয়েছে।',
-	'contributors-others' => 'এবং আরও $1',
+	'contributors-others-long' => 'এ পাতায় আরও $1 অবদানকারী রয়েছে।', # Fuzzy
+	'contributors-others' => 'এবং আরও $1', # Fuzzy
 	'contributors-badtitle' => 'অসিদ্ধ শিরোনাম।',
-	'contributors-nosuchpage' => '$1 শিরোনামের কোন নিবন্ধ নাই।',
+	'contributors-nosuchpage' => '$1 শিরোনামের কোন নিবন্ধ নাই।', # Fuzzy
 );
 
 /** Breton (brezhoneg)
@@ -375,9 +375,10 @@ $messages['de'] = array(
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Mirzali
  */
 $messages['diq'] = array(
-	'contributors' => 'Dekerdeni',
+	'contributors' => 'İştıraqkeri',
 	'contributors-desc' => 'Pela re zaf iştıraq kerdan xulasa keno',
 	'contributors-toolbox' => 'Ser iştıraqkari',
 	'contributors-legend' => 'Ju pela re ser iştıraqkara  liste ke',
@@ -507,8 +508,8 @@ $messages['ext'] = array(
 	'contributors-toolbox' => 'Prencipalis colabutaoris',
 	'contributors-target' => 'Entítulu:',
 	'contributors-submit' => 'Muestral',
-	'contributors-others-long' => 'Ai otrus $1 colabutaoris nesti artículu.',
-	'contributors-others' => 'i otrus $1',
+	'contributors-others-long' => 'Ai otrus $1 colabutaoris nesti artículu.', # Fuzzy
+	'contributors-others' => 'i otrus $1', # Fuzzy
 );
 
 /** Persian (فارسی)
@@ -676,7 +677,8 @@ $messages['gv'] = array(
 	'contributors-submit' => 'Taishbyney',
 );
 
-/** Hausa (Hausa) */
+/** Hausa (Hausa)
+ */
 $messages['ha'] = array(
 	'contributors-submit' => 'Nuna',
 );
@@ -811,7 +813,8 @@ $messages['id'] = array(
 	'contributors-nosuchpage' => 'Halaman $1 tidak ditemukan.',
 );
 
-/** Igbo (Igbo) */
+/** Igbo (Igbo)
+ */
 $messages['ig'] = array(
 	'contributors-submit' => 'Zi',
 );
@@ -834,8 +837,8 @@ $messages['is'] = array(
 	'contributors-target' => 'Titill:',
 	'contributors-submit' => 'Sýna',
 	'contributors-subtitle' => 'Aðalframleggjendur $1',
-	'contributors-others-long' => 'Þessi síða hefur $1 aðra framleggjendur.',
-	'contributors-others' => 'og $1 aðrir',
+	'contributors-others-long' => 'Þessi síða hefur $1 aðra framleggjendur.', # Fuzzy
+	'contributors-others' => 'og $1 aðrir', # Fuzzy
 	'contributors-badtitle' => 'Ógildur titill.',
 	'contributors-nosuchpage' => 'Síðan $1 er ekki til.',
 );
@@ -924,7 +927,7 @@ $messages['ka'] = array(
 $messages['kab'] = array(
 	'contributors-target' => 'Azwel:',
 	'contributors-submit' => 'Ssken',
-	'contributors-nosuchpage' => 'Amagrad $1 ulac-it.',
+	'contributors-nosuchpage' => 'Amagrad $1 ulac-it.', # Fuzzy
 );
 
 /** Kazakh (China) (‫قازاقشا (جۇنگو)‬)
@@ -1080,7 +1083,7 @@ $messages['kw'] = array(
 $messages['la'] = array(
 	'contributors-target' => 'Titulus:',
 	'contributors-submit' => 'Monstrare',
-	'contributors-others' => 'et $1 alia',
+	'contributors-others' => 'et $1 alia', # Fuzzy
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -1135,7 +1138,7 @@ $messages['ltg'] = array(
 	'contributors-nosuchpage' => 'Puslopa «$1» naekzistē.',
 );
 
-/** Lushai (Mizo ţawng)
+/** Mizo (Mizo ţawng)
  * @author RMizo
  */
 $messages['lus'] = array(
@@ -1219,8 +1222,8 @@ $messages['mr'] = array(
 	'contributors-target' => 'शीर्षक',
 	'contributors-submit' => 'दाखवा',
 	'contributors-subtitle' => '$1चे योगदानकर्ते',
-	'contributors-others-long' => 'या पानास इतर योगदानकर्ते $1 आहेत.',
-	'contributors-others' => 'आणि $1  इतर',
+	'contributors-others-long' => 'या पानास इतर योगदानकर्ते $1 आहेत.', # Fuzzy
+	'contributors-others' => 'आणि $1  इतर', # Fuzzy
 	'contributors-badtitle' => 'अयोग्य शीर्षक',
 	'contributors-nosuchpage' => 'पान $1 अस्तीत्वात नाही.',
 );
@@ -1309,7 +1312,7 @@ $messages['nds'] = array(
 	'contributors-nosuchpage' => 'Siet $1 gifft dat nich.',
 );
 
-/** Nedersaksisch (Nedersaksisch)
+/** Nedersaksies (Nedersaksies)
  * @author Servien
  */
 $messages['nds-nl'] = array(
@@ -1491,9 +1494,9 @@ $messages['ps'] = array(
 );
 
 /** Portuguese (português)
- * @author 555
  * @author Hamilton Abreu
  * @author Malafaya
+ * @author 555
  */
 $messages['pt'] = array(
 	'contributors' => 'Contribuidores',
@@ -1533,7 +1536,8 @@ $messages['rif'] = array(
 	'contributors-submit' => 'Smmrad',
 );
 
-/** Romansh (rumantsch) */
+/** Romansh (rumantsch)
+ */
 $messages['rm'] = array(
 	'contributors-target' => 'Titel:',
 );
@@ -1724,8 +1728,8 @@ $messages['stq'] = array(
 	'contributors-target' => 'Siede:',
 	'contributors-submit' => 'Wies',
 	'contributors-subtitle' => 'Haudautore fon $1',
-	'contributors-others-long' => 'Deer ieuwenske rakt et noch $1 moor Autore fon disse Siede.',
-	'contributors-others' => 'un $1 moor',
+	'contributors-others-long' => 'Deer ieuwenske rakt et noch $1 moor Autore fon disse Siede.', # Fuzzy
+	'contributors-others' => 'un $1 moor', # Fuzzy
 	'contributors-badtitle' => 'Uungultige Siede',
 	'contributors-nosuchpage' => 'Disse Siede $1 bestoant nit.',
 );
@@ -1777,7 +1781,7 @@ $messages['sw'] = array(
 	'contributors-legend' => 'Orodhesha wachangiaji wakuu kwa ukurasa',
 	'contributors-target' => 'Kichwa:',
 	'contributors-submit' => 'Onyesha',
-	'contributors-subtitle' => 'Wachangiaji wakuu kwa $1',
+	'contributors-subtitle' => 'Wachangiaji wakuu kwa $1', # Fuzzy
 	'contributors-others-long' => 'Kuna {{PLURAL:$1|mcgangiaji mwingine mmoja|are $1 other contributors}} to this page.',
 	'contributors-others' => 'na {{PLURAL:$1|mwingine mmoja|$1 wengine}}',
 	'contributors-badtitle' => 'Kichwa batili',
@@ -1832,8 +1836,8 @@ $messages['tg-cyrl'] = array(
 	'contributors-legend' => 'Ҳиссагузорони асосиро ба як саҳифа феҳрист кун',
 	'contributors-target' => 'Унвон:',
 	'contributors-subtitle' => 'Ҳиссагузоронӣ асосӣ ба $1',
-	'contributors-others-long' => '$1 нафар дигар ҳиссагузорон ба ин саҳифа ҳастанд.',
-	'contributors-others' => 'ва $1 дигарон',
+	'contributors-others-long' => '$1 нафар дигар ҳиссагузорон ба ин саҳифа ҳастанд.', # Fuzzy
+	'contributors-others' => 'ва $1 дигарон', # Fuzzy
 	'contributors-badtitle' => 'Унвони номӯътабар',
 	'contributors-nosuchpage' => 'Саҳифаи $1 вуҷуд надорад.',
 );
