@@ -208,7 +208,7 @@ $specialPageAliases['nb'] = array(
 	'Contributors' => array( 'Bidragsytere' ),
 );
 
-/** Nedersaksies (Nedersaksies) */
+/** Low Saxon (Netherlands) (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
 	'Contributors' => array( 'Biedragers' ),
 );
