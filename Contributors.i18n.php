@@ -919,6 +919,11 @@ $messages['ka'] = array(
 	'contributors-toolbox' => 'ძირითადი ავტორები',
 	'contributors-target' => 'სათაური:',
 	'contributors-submit' => 'ჩვენება',
+	'contributors-subtitle' => 'ძირითადი ავტორები $1',
+	'contributors-others-long' => 'გარდა მითითებულისა, ამ გვერდს ჰყავს კიდევ {{PLURAL:$1|ერთი სხვა ავტორი|$1 სხვა ავტორი}}.',
+	'contributors-others' => 'და {{PLURAL:$1|ერთი სხვა|$1 სხვა}}',
+	'contributors-badtitle' => 'არასწორი სათაური.',
+	'contributors-nosuchpage' => 'გვერდი „$1“ არ არსებობს.',
 );
 
 /** Kabyle (Taqbaylit)
