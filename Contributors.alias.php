@@ -203,7 +203,7 @@ $specialPageAliases['mt'] = array(
 	'Contributors' => array( 'Kontributuri' ),
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk bokmål) */
 $specialPageAliases['nb'] = array(
 	'Contributors' => array( 'Bidragsytere' ),
 );
@@ -218,7 +218,7 @@ $specialPageAliases['nl'] = array(
 	'Contributors' => array( 'Auteurs', 'Bijdragers' ),
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎) */
+/** Norwegian Nynorsk (norsk nynorsk) */
 $specialPageAliases['nn'] = array(
 	'Contributors' => array( 'Bidragsytarar' ),
 );
