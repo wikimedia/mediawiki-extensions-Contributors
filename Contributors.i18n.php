@@ -29,9 +29,10 @@ $messages['en'] = array(
 /** Message documentation (Message documentation)
  * @author Jon Harald Søby
  * @author Purodha
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'contributors' => '{{Identical|Contributors}}',
+	'contributors' => '{{Identical|Contributor}}',
 	'contributors-desc' => 'Shown on [[Special:Version]]',
 	'contributors-target' => '{{Identical|Title}}',
 	'contributors-submit' => '{{Identical|Show}}',
