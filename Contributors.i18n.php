@@ -14,7 +14,7 @@ $messages = array();
  */
 $messages['en'] = array(
 	'contributors'             => 'Contributors',
-	'contributors-desc'        => 'Summarises the main contributors to a page',
+	'contributors-desc'        => 'Summarizes the main contributors to a page',
 	'contributors-toolbox'     => 'Main contributors',
 	'contributors-legend'      => 'List main contributors to a page',
 	'contributors-target'      => 'Title:',
