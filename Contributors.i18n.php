@@ -429,6 +429,13 @@ $messages['el'] = array(
 	'contributors-nosuchpage' => 'Η σελίδα $1 δεν υπάρχει.',
 );
 
+/** British English (British English)
+ * @author Shirayuki
+ */
+$messages['en-gb'] = array(
+	'contributors-desc' => 'Summarises the main contributors to a page',
+);
+
 /** Esperanto (Esperanto)
  * @author Michawiki
  * @author Petrus Adamus
