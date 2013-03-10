@@ -303,6 +303,13 @@ $messages['ce'] = array(
 	'contributors' => 'Къинхьегамхой',
 );
 
+/** Sorani Kurdish (کوردی)
+ * @author Calak
+ */
+$messages['ckb'] = array(
+	'contributors-target' => 'سەردێڕ:',
+);
+
 /** Czech (česky)
  * @author Danny B.
  * @author Matěj Grabovský
