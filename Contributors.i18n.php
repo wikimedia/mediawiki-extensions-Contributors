@@ -36,7 +36,21 @@ $messages['qqq'] = array(
 	'contributors-desc' => 'Shown on [[Special:Version]]',
 	'contributors-target' => '{{Identical|Title}}',
 	'contributors-submit' => '{{Identical|Show}}',
+	'contributors-subtitle' => 'Used as <code><nowiki><h2></nowiki></code> heading. Parameters:
+* $1 - a link to the page',
+	'contributors-others-long' => 'Parameters:
+* $1 - number of other contributors (> 0)
+See also:
+* {{msg-mw|Contributors-others}}',
+	'contributors-others' => 'This message follows the list of contributors and the word separator {{msg-mw|word-separator}}.
+
+Parameters:
+* $1 - number of other contributors (> 0)
+See also:
+* {{msg-mw|Contributors-others-long}}',
 	'contributors-badtitle' => '{{Identical|Invalid title}}',
+	'contributors-nosuchpage' => 'Parameters:
+* $1 - page name',
 );
 
 /** Afrikaans (Afrikaans)
