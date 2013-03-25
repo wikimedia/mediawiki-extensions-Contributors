@@ -34,7 +34,14 @@ $messages['en'] = array(
 $messages['qqq'] = array(
 	'contributors' => '{{Identical|Contributor}}',
 	'contributors-desc' => 'Shown on [[Special:Version]]',
-	'contributors-target' => '{{Identical|Title}}',
+	'contributors-toolbox' => 'Used as link text in the toolbox.
+
+The link points to [[Special:Contributors]].',
+	'contributors-legend' => 'Used as fieldset label of the form.
+
+This message is followed by the input box {{msg-mw|contributors-target}}.',
+	'contributors-target' => 'Used as label for Target input box.
+{{Identical|Title}}',
 	'contributors-submit' => '{{Identical|Show}}',
 	'contributors-subtitle' => 'Used as <code><nowiki><h2></nowiki></code> heading. Parameters:
 * $1 - a link to the page',
