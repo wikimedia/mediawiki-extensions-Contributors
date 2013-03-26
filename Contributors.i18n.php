@@ -32,8 +32,9 @@ $messages['en'] = array(
  * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'contributors' => '{{Identical|Contributor}}',
-	'contributors-desc' => 'Shown on [[Special:Version]]',
+	'contributors' => '{{doc-special|Contributors}}
+{{Identical|Contributor}}',
+	'contributors-desc' => '{{desc|name=Contributors|url=http://www.mediawiki.org/wiki/Extension:Contributors}}',
 	'contributors-toolbox' => 'Used as link text in the toolbox.
 
 The link points to [[Special:Contributors]].',
