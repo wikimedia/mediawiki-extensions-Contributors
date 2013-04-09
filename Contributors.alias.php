@@ -33,7 +33,7 @@ $specialPageAliases['arz'] = array(
 	'Contributors' => array( 'مساهمين' ),
 );
 
-/** Assamese (অসমীয়া) */
+/** Assamese (অসমীয়া) */
 $specialPageAliases['as'] = array(
 	'Contributors' => array( 'বৰঙনিদাতা' ),
 );
