@@ -1320,7 +1320,7 @@ $messages['nah'] = array(
 	'contributors-submit' => 'Tiquinttāz',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1354,7 +1354,7 @@ $messages['nds'] = array(
 	'contributors-nosuchpage' => 'Siet $1 gifft dat nich.',
 );
 
-/** Nedersaksies (Nedersaksies)
+/** Low Saxon (Netherlands) (Nedersaksies)
  * @author Servien
  */
 $messages['nds-nl'] = array(
@@ -1407,7 +1407,7 @@ $messages['nl'] = array(
 	'contributors-nosuchpage' => 'De pagina $1 bestaat niet.',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Harald Khan
  * @author Jon Harald Søby
  * @author Njardarlogar
@@ -1457,7 +1457,7 @@ $messages['oc'] = array(
 	'contributors-nosuchpage' => 'L’article $1 existís pas.',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Ansumang
  * @author Odisha1
  * @author Psubhashish
