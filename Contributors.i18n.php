@@ -1167,6 +1167,9 @@ $messages['lg'] = array(
  * @author Eitvys200
  */
 $messages['lt'] = array(
+	'contributors' => 'Autoriai',
+	'contributors-toolbox' => 'Pagrindiniai autoriai',
+	'contributors-legend' => 'Sąrašas pagrindinius puslapio autorių',
 	'contributors-target' => 'Pavadinimas:',
 	'contributors-submit' => 'Rodyti',
 	'contributors-badtitle' => 'Neleistinas pavadinimas.',
