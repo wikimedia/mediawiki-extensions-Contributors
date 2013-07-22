@@ -320,9 +320,11 @@ $messages['ca'] = array(
 
 /** Chechen (нохчийн)
  * @author Sasan700
+ * @author Умар
  */
 $messages['ce'] = array(
 	'contributors' => 'Къинхьегамхой',
+	'contributors-target' => 'ЦӀе:',
 );
 
 /** Sorani Kurdish (کوردی)

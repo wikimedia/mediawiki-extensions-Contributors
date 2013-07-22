@@ -58,6 +58,11 @@ $specialPageAliases['bs'] = array(
 	'Contributors' => array( 'Urednici' ),
 );
 
+/** Chechen (нохчийн) */
+$specialPageAliases['ce'] = array(
+	'Contributors' => array( 'Ахча_охьадуьхкарш' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'Contributors' => array( 'Autoren' ),
