@@ -58,6 +58,11 @@ $specialPageAliases['bs'] = array(
 	'Contributors' => array( 'Urednici' ),
 );
 
+/** Min Dong Chinese (Mìng-dĕ̤ng-ngṳ̄) */
+$specialPageAliases['cdo'] = array(
+	'Contributors' => array( '貢獻其儂' ),
+);
+
 /** Chechen (нохчийн) */
 $specialPageAliases['ce'] = array(
 	'Contributors' => array( 'Ахча_охьадуьхкарш' ),
