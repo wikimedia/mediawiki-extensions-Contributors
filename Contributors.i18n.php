@@ -1058,7 +1058,7 @@ $messages['kn'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
-	'contributors' => '편집자',
+	'contributors' => '기여자',
 	'contributors-desc' => '문서의 주 기여자를 요약해서 보여주는 기능',
 	'contributors-toolbox' => '주 기여자',
 	'contributors-legend' => '주 기여자 목록',
