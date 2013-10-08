@@ -990,7 +990,7 @@ $messages['kk-cn'] = array(
 	'contributors-nosuchpage' => '$1 دەگەن ماقالا بٸزدە جوق.',
 );
 
-/** Kazakh (Kazakhstan) (‪Қазақша (Қазақстан)‬)
+/** Kazakh (Kazakhstan) (қазақша (Қазақстан)‎)
  * @author AlefZet
  */
 $messages['kk-kz'] = array(
@@ -1000,8 +1000,8 @@ $messages['kk-kz'] = array(
 	'contributors-target' => 'Атауы:',
 	'contributors-submit' => 'Көрсет',
 	'contributors-subtitle' => '$1 бетінің басты үлескерлері',
-	'contributors-others-long' => 'Бұл беттің басқа $1 үлескері бар.',
-	'contributors-others' => 'және $1 басқалар',
+	'contributors-others-long' => 'Бұл беттің басқа $1 үлескері бар.', # Fuzzy
+	'contributors-others' => 'және $1 басқалар', # Fuzzy
 	'contributors-badtitle' => 'Жарамсыз атау.',
 	'contributors-nosuchpage' => '$1 деген мақала бізде жоқ.',
 );
