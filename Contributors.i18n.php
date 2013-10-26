@@ -1260,6 +1260,7 @@ $messages['mn'] = array(
 
 /** Marathi (मराठी)
  * @author Mahitgar
+ * @author V.narsikar
  */
 $messages['mr'] = array(
 	'contributors' => 'योगदानकर्ते',
@@ -1268,7 +1269,7 @@ $messages['mr'] = array(
 	'contributors-legend' => 'पानाच्या मुख्य योगदानकर्त्यांची यादी द्या',
 	'contributors-target' => 'शीर्षक',
 	'contributors-submit' => 'दाखवा',
-	'contributors-subtitle' => '$1चे योगदानकर्ते',
+	'contributors-subtitle' => '$1चे मुख्य योगदानकर्ते',
 	'contributors-others-long' => 'या पानास इतर योगदानकर्ते $1 आहेत.', # Fuzzy
 	'contributors-others' => 'आणि $1  इतर', # Fuzzy
 	'contributors-badtitle' => 'अयोग्य शीर्षक',
