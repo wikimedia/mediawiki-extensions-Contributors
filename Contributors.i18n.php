@@ -334,7 +334,7 @@ $messages['ckb'] = array(
 	'contributors-target' => 'سەردێڕ:',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Danny B.
  * @author Matěj Grabovský
  */
