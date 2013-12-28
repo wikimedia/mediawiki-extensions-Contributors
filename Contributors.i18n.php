@@ -1060,14 +1060,14 @@ $messages['kn'] = array(
  */
 $messages['ko'] = array(
 	'contributors' => '기여자',
-	'contributors-desc' => '문서의 주 기여자를 요약해서 보여주는 기능',
+	'contributors-desc' => '문서의 주 기여자를 요약합니다',
 	'contributors-toolbox' => '주 기여자',
-	'contributors-legend' => '주 기여자 목록',
+	'contributors-legend' => '문서로의 주 기여자 목록',
 	'contributors-target' => '제목:',
 	'contributors-submit' => '보이기',
-	'contributors-subtitle' => '$1 문서에 대한 주 기여자 목록',
-	'contributors-others-long' => '그 외에 $1명이 기여했습니다.',
-	'contributors-others' => '그리고 다른 $1명',
+	'contributors-subtitle' => '$1 문서로의 주 기여자',
+	'contributors-others-long' => '이 문서에 {{PLURAL:$1|다른 기여자 한 명|다른 기여자 $1명}}이 있습니다.',
+	'contributors-others' => '그리고 {{PLURAL:$1|다른 한 명|다른 $1명}}',
 	'contributors-badtitle' => '제목이 잘못되었습니다.',
 	'contributors-nosuchpage' => '$1 문서가 존재하지 않습니다.',
 );
