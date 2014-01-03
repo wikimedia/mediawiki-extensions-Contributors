@@ -197,8 +197,8 @@ $messages['ba'] = array(
 	'contributors-target' => 'Исем:',
 	'contributors-submit' => 'Күрһәтергә',
 	'contributors-subtitle' => '$1 битенә төп өлөш индереүселәр',
-	'contributors-others-long' => 'Был биткә тағы $1 {{PLURAL:$1|өлөш индереүсе}} бар.',
-	'contributors-others' => 'һәм {{PLURAL:тағы}} $1',
+	'contributors-others-long' => 'Был биткә тағы $1 {{PLURAL:$1|өлөш индереүсе}} бар.', # Fuzzy
+	'contributors-others' => 'һәм {{PLURAL:тағы}} $1', # Fuzzy
 	'contributors-badtitle' => 'Исем дөрөҫ түгел.',
 	'contributors-nosuchpage' => '$1 бите юҡ.',
 );
@@ -1645,8 +1645,8 @@ $messages['ru'] = array(
 	'contributors-target' => 'Название:',
 	'contributors-submit' => 'Показать',
 	'contributors-subtitle' => 'Основные авторы $1',
-	'contributors-others-long' => 'Кроме указанных, у данной страницы есть ещё $1 {{PLURAL:$1|автор|автора|авторов}}.',
-	'contributors-others' => 'и ещё $1 {{PLURAL:$1|другой|других|других}}',
+	'contributors-others-long' => 'Кроме указанных, у данной страницы есть ещё $1 {{PLURAL:$1|автор|авторов|автора}}.', # Fuzzy
+	'contributors-others' => 'и ещё $1 {{PLURAL:$1|другой|других|других}}', # Fuzzy
 	'contributors-badtitle' => 'Ошибочное название.',
 	'contributors-nosuchpage' => 'Страница «$1» не существует.',
 );
@@ -1743,7 +1743,7 @@ $messages['sr-ec'] = array(
 	'contributors-target' => 'Наслов:',
 	'contributors-submit' => 'Прикажи',
 	'contributors-subtitle' => 'Главни доприносиоци на $1',
-	'contributors-others-long' => '{{PLURAL:$1|Постоји још један доприносиоц|постоје још $1 доприносиоца}} на овој страници.',
+	'contributors-others-long' => '{{PLURAL:$1|1=Постоји још један доприносиоц|постоје још $1 доприносиоца}} на овој страници.', # Fuzzy
 	'contributors-others' => 'и {{PLURAL:$1|једна друга|$1 друге|$1 других}}',
 	'contributors-badtitle' => 'Наслов је неисправан.',
 	'contributors-nosuchpage' => 'Страница $1 не постоји.',
@@ -1761,7 +1761,7 @@ $messages['sr-el'] = array(
 	'contributors-target' => 'Naslov:',
 	'contributors-submit' => 'Prikaži',
 	'contributors-subtitle' => 'Glavni doprinosioci na $1',
-	'contributors-others-long' => '{{PLURAL:$1|Postoji još jedan doprinosioc|postoje još $1 doprinosioca}} na ovoj stranici.',
+	'contributors-others-long' => '{{PLURAL:$1|1=Postoji još jedan doprinosioc|postoje još $1 doprinosioca}} na ovoj stranici.', # Fuzzy
 	'contributors-others' => 'i {{PLURAL:$1|jedna druga|$1 druge|$1 drugih}}',
 	'contributors-badtitle' => 'Greška u naslovu.',
 	'contributors-nosuchpage' => 'Članak $1 ne postoji.',
