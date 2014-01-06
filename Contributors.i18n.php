@@ -718,6 +718,7 @@ $messages['gv'] = array(
 );
 
 /** Hausa (Hausa)
+ * @author KuboF
  */
 $messages['ha'] = array(
 	'contributors-submit' => 'Nuna',
@@ -1635,6 +1636,7 @@ $messages['rtm'] = array(
 
 /** Russian (русский)
  * @author Ahonc
+ * @author Lockal
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -1645,8 +1647,8 @@ $messages['ru'] = array(
 	'contributors-target' => 'Название:',
 	'contributors-submit' => 'Показать',
 	'contributors-subtitle' => 'Основные авторы $1',
-	'contributors-others-long' => 'Кроме указанных, у данной страницы есть ещё $1 {{PLURAL:$1|автор|авторов|автора}}.', # Fuzzy
-	'contributors-others' => 'и ещё $1 {{PLURAL:$1|другой|других|других}}', # Fuzzy
+	'contributors-others-long' => 'Кроме указанных, у данной страницы есть ещё $1 {{PLURAL:$1|автор|авторов|автора}}.',
+	'contributors-others' => 'и ещё $1 {{PLURAL:$1|другой|других}}',
 	'contributors-badtitle' => 'Ошибочное название.',
 	'contributors-nosuchpage' => 'Страница «$1» не существует.',
 );
