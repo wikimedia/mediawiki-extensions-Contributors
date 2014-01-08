@@ -249,6 +249,7 @@ $messages['bg'] = array(
 );
 
 /** Bengali (বাংলা)
+ * @author Aftab1995
  * @author Bellayet
  */
 $messages['bn'] = array(
@@ -259,9 +260,9 @@ $messages['bn'] = array(
 	'contributors-submit' => 'দেখাও',
 	'contributors-subtitle' => 'মূল অবদানকারী $1',
 	'contributors-others-long' => 'এ পাতায় আরও $1 অবদানকারী রয়েছে।', # Fuzzy
-	'contributors-others' => 'এবং আরও $1', # Fuzzy
+	'contributors-others' => 'এবং {{PLURAL:$1|আরও একটি|আরও $1 টি}}',
 	'contributors-badtitle' => 'অসিদ্ধ শিরোনাম।',
-	'contributors-nosuchpage' => '$1 শিরোনামের কোন নিবন্ধ নাই।', # Fuzzy
+	'contributors-nosuchpage' => '$1 শিরোনামে কোন পাতা নেই।',
 );
 
 /** Breton (brezhoneg)
