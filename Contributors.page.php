@@ -7,7 +7,7 @@
  * @ingroup Extensions
  * @author Rob Church <robchur@gmail.com>
  */
- 
+
 class SpecialContributors extends IncludableSpecialPage {
 
 	protected $target;
@@ -15,13 +15,13 @@ class SpecialContributors extends IncludableSpecialPage {
 	public function __construct() {
 		parent::__construct( 'Contributors' );
 	}
-	
+
 	public function execute( $target ) {
 		wfProfileIn( __METHOD__ );
 		global $wgOut, $wgRequest;
 		$this->setHeaders();
 		$this->determineTarget( $wgRequest, $target );
-		
+
 		# What are we doing? Different execution paths for inclusion,
 		# direct access and raw access
 		if( $this->including() ) {
@@ -33,10 +33,10 @@ class SpecialContributors extends IncludableSpecialPage {
 			if( is_object( $this->target ) )
 				$this->showNormal();
 		}
-		
-		wfProfileOut( __METHOD__ );	
+
+		wfProfileOut( __METHOD__ );
 	}
-	
+
 	private function showInclude() {
 		wfProfileIn( __METHOD__ );
 
@@ -58,9 +58,9 @@ class SpecialContributors extends IncludableSpecialPage {
 		} else {
 			$wgOut->addHTML( '<p>' . htmlspecialchars( wfMsgForContent( 'contributors-badtitle' ) ) . '</p>' );
 		}
-		wfProfileOut( __METHOD__ );	
+		wfProfileOut( __METHOD__ );
 	}
-	
+
 	/**
 	 * Output a machine-readable form of the raw information
 	 */
@@ -78,22 +78,20 @@ class SpecialContributors extends IncludableSpecialPage {
 			header( 'Status: 404 Not Found', true, 404 );
 			echo( 'The requested target page does not exist.' );
 		}
-		wfProfileOut( __METHOD__ );	
+		wfProfileOut( __METHOD__ );
 	}
-	
+
 	private function showNormal() {
 		wfProfileIn( __METHOD__ );
-		global $wgOut, $wgUser, $wgLang;
+		global $wgOut, $wgLang;
 		if( $this->target->exists() ) {
-			$total = 0;
-			$skin =& $wgUser->getSkin();
-			$link = $skin->makeKnownLinkObj( $this->target );
+			$link = Linker::makeKnownLinkObj( $this->target );
 			$wgOut->addHTML( '<h2>' . wfMsgHtml( 'contributors-subtitle', $link ) . '</h2>' );
 			list( $contributors, $others ) = self::getMainContributors($this->target);
 			$wgOut->addHTML( '<ul>' );
 			foreach( $contributors as $username => $info ) {
 				list( $id, $count ) = $info;
-				$line = $skin->userLink( $id, $username ) . $skin->userToolLinks( $id, $username );
+				$line = Linker::userLink( $id, $username ) . Linker::userToolLinks( $id, $username );
 				$line .= ' [' . $wgLang->formatNum( $count ) . ']';
 				$wgOut->addHTML( '<li>' . $line . '</li>' );
 			}
@@ -105,9 +103,9 @@ class SpecialContributors extends IncludableSpecialPage {
 		} else {
 			$wgOut->addHTML( '<p>' . htmlspecialchars( wfMsg( 'contributors-nosuchpage', $this->target->getPrefixedText() ) ) . '</p>' );
 		}
-		wfProfileOut( __METHOD__ );	
+		wfProfileOut( __METHOD__ );
 	}
-	
+
 	/**
 	 * Retrieve all contributors for the target page worth listing, at least
 	 * according to the limit and threshold defined in the configuration
@@ -131,10 +129,10 @@ class SpecialContributors extends IncludableSpecialPage {
 			$total++;
 		}
 		$others = count( $all ) - count( $ret );
-		wfProfileOut( __METHOD__ );	
+		wfProfileOut( __METHOD__ );
 		return array( $ret, $others );
 	}
-	
+
 	/**
 	 * Retrieve the contributors for the target page with their contribution numbers
 	 *
@@ -171,7 +169,7 @@ class SpecialContributors extends IncludableSpecialPage {
 		wfProfileOut( __METHOD__ );
 		return $contributors;
 	}
-	
+
 	/**
 	 * Get conditions for the main query
 	 *
@@ -182,7 +180,7 @@ class SpecialContributors extends IncludableSpecialPage {
 		$conds[] = 'rev_deleted & ' . Revision::DELETED_USER . ' = 0';
 		return $conds;
 	}
-	
+
 	/**
 	 * Given the web request, and a possible override from a subpage, work
 	 * out which we want to use
@@ -195,7 +193,7 @@ class SpecialContributors extends IncludableSpecialPage {
 		$target = $request->getText( 'target', $override );
 		$this->target = Title::newFromURL( $target );
 	}
-	
+
 	/**
 	 * Make a nice little form so the user can enter a title and so forth
 	 * in normal output mode
