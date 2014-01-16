@@ -970,11 +970,12 @@ $messages['ka'] = array(
 
 /** Kabyle (Taqbaylit)
  * @author Agurzil
+ * @author Mmistmurt
  */
 $messages['kab'] = array(
 	'contributors-target' => 'Azwel:',
 	'contributors-submit' => 'Ssken',
-	'contributors-nosuchpage' => 'Amagrad $1 ulac-it.', # Fuzzy
+	'contributors-nosuchpage' => 'Asebtar $1 ulac it.',
 );
 
 /** Kazakh (China) (‫قازاقشا (جۇنگو)‬)
