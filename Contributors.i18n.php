@@ -1735,6 +1735,7 @@ $messages['sl'] = array(
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
+ * @author Milicevic01
  * @author Rancher
  * @author Sasa Stefanovic
  * @author Михајло Анђелковић
@@ -1747,7 +1748,7 @@ $messages['sr-ec'] = array(
 	'contributors-target' => 'Наслов:',
 	'contributors-submit' => 'Прикажи',
 	'contributors-subtitle' => 'Главни доприносиоци на $1',
-	'contributors-others-long' => '{{PLURAL:$1|1=Постоји још један доприносиоц|постоје још $1 доприносиоца}} на овој страници.', # Fuzzy
+	'contributors-others-long' => '{{PLURAL:$1|Постоји још један доприносиоц|постоје још $1 доприносиоца}} на овој страници.',
 	'contributors-others' => 'и {{PLURAL:$1|једна друга|$1 друге|$1 других}}',
 	'contributors-badtitle' => 'Наслов је неисправан.',
 	'contributors-nosuchpage' => 'Страница $1 не постоји.',
@@ -1755,6 +1756,7 @@ $messages['sr-ec'] = array(
 
 /** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
+ * @author Milicevic01
  * @author Sasa Stefanovic
  */
 $messages['sr-el'] = array(
@@ -1765,7 +1767,7 @@ $messages['sr-el'] = array(
 	'contributors-target' => 'Naslov:',
 	'contributors-submit' => 'Prikaži',
 	'contributors-subtitle' => 'Glavni doprinosioci na $1',
-	'contributors-others-long' => '{{PLURAL:$1|1=Postoji još jedan doprinosioc|postoje još $1 doprinosioca}} na ovoj stranici.', # Fuzzy
+	'contributors-others-long' => '{{PLURAL:$1|Postoji još jedan doprinosioc|postoje još $1 doprinosioca}} na ovoj stranici.',
 	'contributors-others' => 'i {{PLURAL:$1|jedna druga|$1 druge|$1 drugih}}',
 	'contributors-badtitle' => 'Greška u naslovu.',
 	'contributors-nosuchpage' => 'Članak $1 ne postoji.',
