@@ -324,7 +324,7 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
-	'contributors' => 'Къинхьегамхой',
+	'contributors' => 'Автораш',
 	'contributors-target' => 'ЦӀе:',
 );
 
