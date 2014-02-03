@@ -660,7 +660,7 @@ $messages['gl'] = array(
 	'contributors-others-long' => '{{PLURAL:$1|Existe outro colaborador|Existen outros $1 colaboradores}} nesta páxina.',
 	'contributors-others' => 'e {{PLURAL:$1|outro|outros $1}}',
 	'contributors-badtitle' => 'Título non válido.',
-	'contributors-nosuchpage' => 'Non existe a páxina "$1".',
+	'contributors-nosuchpage' => 'A páxina "$1" non existe.',
 );
 
 /** Ancient Greek (Ἀρχαία ἑλληνικὴ)
