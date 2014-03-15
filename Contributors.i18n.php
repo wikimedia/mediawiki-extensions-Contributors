@@ -1965,10 +1965,11 @@ $messages['tr'] = array(
 );
 
 /** Tatar (Cyrillic script) (татарча)
+ * @author Ilnur efende
  * @author Ерней
  */
 $messages['tt-cyrl'] = array(
-	'contributors-submit' => 'Күрсәтергә',
+	'contributors-submit' => 'күрсәт',
 );
 
 /** Ukrainian (українська)
