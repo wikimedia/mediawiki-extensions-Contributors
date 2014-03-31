@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "Derbeth",
+            "Masti",
+            "Sp5uhe"
+        ]
+    },
+    "contributors": "Autorzy",
+    "contributors-desc": "Podsumowanie głównych autorów strony",
+    "contributors-toolbox": "Główni autorzy",
+    "contributors-legend": "Lista głównych autorów artykułu",
+    "contributors-target": "Tytuł:",
+    "contributors-submit": "Pokaż",
+    "contributors-subtitle": "Główni autorzy $1",
+    "contributors-others-long": "Jest $1 {{PLURAL:$1|inny autor|innych autorów}} tej strony.",
+    "contributors-others": "i $1 {{PLURAL:$1|inny|innych}}",
+    "contributors-badtitle": "Niepoprawny tytuł.",
+    "contributors-nosuchpage": "Strona $1 nie istnieje."
+}

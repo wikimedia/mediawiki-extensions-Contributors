@@ -1,0 +1,18 @@
+{
+    "@metadata": {
+        "authors": [
+            "S.Örvarr.S"
+        ]
+    },
+    "contributors": "Framleggjendur",
+    "contributors-desc": "Dregur saman aðalframleggjendur síðu",
+    "contributors-toolbox": "Aðalframleggjendur",
+    "contributors-legend": "Lista aðalframleggjendur síðu",
+    "contributors-target": "Titill:",
+    "contributors-submit": "Sýna",
+    "contributors-subtitle": "Aðalframleggjendur $1",
+    "contributors-others-long": "Þessi síða hefur $1 aðra framleggjendur.",
+    "contributors-others": "og $1 aðrir",
+    "contributors-badtitle": "Ógildur titill.",
+    "contributors-nosuchpage": "Síðan $1 er ekki til."
+}

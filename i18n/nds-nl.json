@@ -1,0 +1,18 @@
+{
+    "@metadata": {
+        "authors": [
+            "Servien"
+        ]
+    },
+    "contributors": "Luui die bie-edreugen hebben",
+    "contributors-desc": "Geef n overzichte van de belangriekste schrievers van n zied",
+    "contributors-toolbox": "Belangriekste schrievers",
+    "contributors-legend": "Laot de belangriekste schriever van n zied zien",
+    "contributors-target": "Titel:",
+    "contributors-submit": "Bekieken",
+    "contributors-subtitle": "Belangriekste schriever van $1",
+    "contributors-others-long": "Der {{PLURAL:$1|is één aandere schriever|bin $1 aandere schrievers}} van disse zied.",
+    "contributors-others": "en $1 {{PLURAL:$1|aandere|aanderen}}",
+    "contributors-badtitle": "Ongeldige titel.",
+    "contributors-nosuchpage": "De zied $1 besteet niet."
+}

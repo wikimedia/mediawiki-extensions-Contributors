@@ -1,0 +1,18 @@
+{
+    "@metadata": {
+        "authors": [
+            "Helix84"
+        ]
+    },
+    "contributors": "Prispievatelia",
+    "contributors-desc": "Sumarizuje hlavných prispievateľov stránky",
+    "contributors-toolbox": "Hlavní prispievatelia",
+    "contributors-legend": "Zobraziť zoznam hlavných prispievateľov článku",
+    "contributors-target": "Názov:",
+    "contributors-submit": "Zobraziť",
+    "contributors-subtitle": "Hlavní prispievatelia článku $1",
+    "contributors-others-long": "{{PLURAL:$1|Existuje ďalší $1 prispievateľ|Existujú ďalší $1 prispievatelia|Existuje ďalších $1 prispievateľov}} tohto článku.",
+    "contributors-others": "a {{PLURAL:$1|$1 ďalší|$1 ďalší|$1 ďalších}}",
+    "contributors-badtitle": "Neplatný názov.",
+    "contributors-nosuchpage": "Článok $1 neexistuje."
+}

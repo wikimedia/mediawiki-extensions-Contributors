@@ -1,0 +1,21 @@
+{
+    "@metadata": {
+        "authors": [
+            "Consta",
+            "Dada",
+            "Dead3y3",
+            "Omnipaedista"
+        ]
+    },
+    "contributors": "Συνεισφέροντες",
+    "contributors-desc": "Συνοψίζει τους βασικούς συνεισφέροντες σε μια σελίδα",
+    "contributors-toolbox": "Κύριοι συνεισφέροντες",
+    "contributors-legend": "Κατάλογος με τους βασικούς συνεισφέροντες σε μια σελίδα",
+    "contributors-target": "Τίτλος:",
+    "contributors-submit": "Εμφάνιση",
+    "contributors-subtitle": "Κύριες συνεισφορές στο $1",
+    "contributors-others-long": "{{PLURAL:$1|Υπάρχει ένας άλλος συνεισφέροντας|Υπάρχουν $1 άλλοι συνεισφέροντες}} σε αυτή τη σελίδα.",
+    "contributors-others": "και {{PLURAL:$1|ένας άλλος|$1 άλλοι}}",
+    "contributors-badtitle": "Άκυρος τίτλος.",
+    "contributors-nosuchpage": "Η σελίδα $1 δεν υπάρχει."
+}

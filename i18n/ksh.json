@@ -1,0 +1,18 @@
+{
+    "@metadata": {
+        "authors": [
+            "Purodha"
+        ]
+    },
+    "contributors": "Houpsäschlesche Schriever",
+    "contributors-desc": "Mäht en Leß fun de houpsäschlesche Schriever op de Sigge.",
+    "contributors-toolbox": "Houpsäschlesche Schriever",
+    "contributors-legend": "Zeich de Sigg ier houpsäschlesche Schriever",
+    "contributors-target": "Tittel fun dä Sigg:",
+    "contributors-submit": "Zeije",
+    "contributors-subtitle": "Houpsäschlesche Schriever fun dä Sigg „$1“",
+    "contributors-others-long": "Ußerdämm jitt et {{PLURAL:$1|noch eine|noch $1|söns keine}} Schriever aan dä Sigg.",
+    "contributors-others": "un {{PLURAL:$1|eine|$1}} andere",
+    "contributors-badtitle": "Dä Tittel för di Sigg stemmp nit.",
+    "contributors-nosuchpage": "Di Sigg „$1“ jitt et nit."
+}

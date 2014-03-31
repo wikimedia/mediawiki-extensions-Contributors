@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "Crochet.david",
+            "IAlex",
+            "PieRRoMaN",
+            "Sherbrooke",
+            "Urhixidur"
+        ]
+    },
+    "contributors": "Contributeurs",
+    "contributors-desc": "Résume les principaux contributeurs d’une page",
+    "contributors-toolbox": "Principaux contributeurs",
+    "contributors-legend": "Lister les principaux contributeurs de la page",
+    "contributors-target": "Titre :",
+    "contributors-submit": "Montrer",
+    "contributors-subtitle": "Principaux contributeurs de $1",
+    "contributors-others-long": "Il y a {{PLURAL:$1|$1 autre contributeur|$1 autres contributeurs}} pour cette page.",
+    "contributors-others": "et $1 autre{{PLURAL:$1||s}}",
+    "contributors-badtitle": "Titre incorrect.",
+    "contributors-nosuchpage": "La page $1 n’existe pas."
+}

@@ -1,0 +1,21 @@
+{
+    "@metadata": {
+        "authors": [
+            "Aleator",
+            "Paucabot",
+            "SMP",
+            "Toniher"
+        ]
+    },
+    "contributors": "Editors",
+    "contributors-desc": "Resumeix les principals contribucions en una pàgina",
+    "contributors-toolbox": "Principals editors",
+    "contributors-legend": "Llista dels principals editors d'una pàgina",
+    "contributors-target": "Títol:",
+    "contributors-submit": "Mostra",
+    "contributors-subtitle": "Editors principals de $1",
+    "contributors-others-long": "Hi ha {{PLURAL:$1|un editor|$1 editors}} més en aquesta pàgina.",
+    "contributors-others": "i {{PLURAL:$1|un altre|$1 més}}",
+    "contributors-badtitle": "El títol no és vàlid.",
+    "contributors-nosuchpage": "La pàgina «$1» no existeix."
+}

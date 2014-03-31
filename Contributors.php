@@ -16,13 +16,14 @@ if( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'Contributors',
-	'version' => '1.0.1beta',
+	'version' => '1.1.0',
 	'author' => 'Rob Church',
 	'descriptionmsg' => 'contributors-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Contributors',
 );
 
 $dir = dirname(__FILE__) . '/';
+$wgMessagesDirs['Contributors'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['Contributors'] = $dir . 'Contributors.i18n.php';
 $wgExtensionMessagesFiles['ContributorsAlias'] = $dir . 'Contributors.alias.php';
 $wgAutoloadClasses['SpecialContributors'] = $dir . 'Contributors.page.php';

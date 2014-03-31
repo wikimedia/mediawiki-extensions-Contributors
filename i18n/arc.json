@@ -1,0 +1,16 @@
+{
+    "@metadata": {
+        "authors": [
+            "Basharh",
+            "Michaelovic"
+        ]
+    },
+    "contributors": "ܫܘܬܦܢ̈ܐ",
+    "contributors-toolbox": "ܫܘܬܦܢ̈ܐ ܪ̈ܫܝܐ",
+    "contributors-target": "ܟܘܢܝܐ:",
+    "contributors-submit": "ܚܘܝ",
+    "contributors-subtitle": "ܫܘܬܦܢ̈ܐ ܪ̈ܫܝܐ ܒ $1",
+    "contributors-others": "ܘ {{PLURAL:$1|ܚܕ ܐܚܪܢܐ|$1 ܐܚܪ̈ܢܐ}}",
+    "contributors-badtitle": "ܟܘܢܝܐ ܠܐ ܬܪܝܨܐ.",
+    "contributors-nosuchpage": "ܦܐܬܐ ܗܕܐ ܕ$1 ܠܝܬ."
+}

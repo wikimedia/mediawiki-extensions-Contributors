@@ -1,0 +1,19 @@
+{
+    "@metadata": {
+        "authors": [
+            "ChrisiPK",
+            "Raimond Spekking"
+        ]
+    },
+    "contributors": "Hauptautoren",
+    "contributors-desc": "Zeigt die Hauptautoren einer Seite",
+    "contributors-toolbox": "Hauptautoren",
+    "contributors-legend": "Zeige die Hauptautoren einer Seite",
+    "contributors-target": "Titel:",
+    "contributors-submit": "Zeige",
+    "contributors-subtitle": "Hauptautoren von $1",
+    "contributors-others-long": "Daneben gibt es noch {{PLURAL:$1|1 weiteren Autor|$1 weitere Autoren}} dieser Seite.",
+    "contributors-others": "und {{PLURAL:$1|1 weiteren|$1 weitere}}",
+    "contributors-badtitle": "Ungültige Seite",
+    "contributors-nosuchpage": "Die Seite $1 ist nicht vorhanden."
+}

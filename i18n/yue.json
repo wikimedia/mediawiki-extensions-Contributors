@@ -1,0 +1,17 @@
+{
+    "@metadata": {
+        "authors": [
+            "Shinjiman"
+        ]
+    },
+    "contributors": "貢獻者",
+    "contributors-toolbox": "主要貢獻者",
+    "contributors-legend": "列示呢篇文章嘅主要貢獻者",
+    "contributors-target": "標題:",
+    "contributors-submit": "顯示",
+    "contributors-subtitle": "$1嘅主要貢獻者",
+    "contributors-others-long": "響呢一版度重有$1位更多嘅貢獻者。",
+    "contributors-others": "以及另外$1位",
+    "contributors-badtitle": "唔正確嘅標題。",
+    "contributors-nosuchpage": "文章$1唔存在。"
+}

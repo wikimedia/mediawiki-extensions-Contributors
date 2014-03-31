@@ -1,0 +1,19 @@
+{
+    "@metadata": {
+        "authors": [
+            "Minh Nguyen",
+            "Vinhtantran"
+        ]
+    },
+    "contributors": "Những người đóng góp",
+    "contributors-desc": "Liệt kê những người đóng góp chính của một trang",
+    "contributors-toolbox": "Những người đóng góp chính",
+    "contributors-legend": "Liệt kê những người đóng góp chính của một trang",
+    "contributors-target": "Tên trang:",
+    "contributors-submit": "Xem",
+    "contributors-subtitle": "Những người đóng góp chính của $1",
+    "contributors-others-long": "Cũng có {{PLURAL:$1|một người khác|$1 người khác}} đóng góp vào trang này.",
+    "contributors-others": "và {{PLURAL:$1|một người khác|$1 người khác}}",
+    "contributors-badtitle": "Tên trang không hợp lệ.",
+    "contributors-nosuchpage": "Trang $1 không tồn tại."
+}
