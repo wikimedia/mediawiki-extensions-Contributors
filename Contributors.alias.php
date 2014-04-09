@@ -119,6 +119,11 @@ $specialPageAliases['gsw'] = array(
 	'Contributors' => array( 'Autore' ),
 );
 
+/** Hawaiian (Hawai`i) */
+$specialPageAliases['haw'] = array(
+	'Contributors' => array( 'MeaHaʻawina', 'MeaHaawina' ),
+);
+
 /** Hebrew (עברית) */
 $specialPageAliases['he'] = array(
 	'Contributors' => array( 'תורמים' ),
