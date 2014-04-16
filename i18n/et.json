@@ -1,15 +1,15 @@
 {
-    "@metadata": {
-        "authors": [
-            "Avjoska",
-            "Pikne"
-        ]
-    },
-    "contributors": "Kaastöölised",
-    "contributors-toolbox": "Peamised kaastöölised",
-    "contributors-target": "Pealkiri:",
-    "contributors-submit": "Näita",
-    "contributors-subtitle": "Lehekülje $1 peamised toimetajad",
-    "contributors-badtitle": "Vigane pealkiri.",
-    "contributors-nosuchpage": "Lehekülge $1 ei ole."
+	"@metadata": {
+		"authors": [
+			"Avjoska",
+			"Pikne"
+		]
+	},
+	"contributors": "Kaastöölised",
+	"contributors-toolbox": "Peamised kaastöölised",
+	"contributors-target": "Pealkiri:",
+	"contributors-submit": "Näita",
+	"contributors-subtitle": "Lehekülje $1 peamised toimetajad",
+	"contributors-badtitle": "Vigane pealkiri.",
+	"contributors-nosuchpage": "Lehekülge $1 ei ole."
 }

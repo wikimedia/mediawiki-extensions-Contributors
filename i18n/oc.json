@@ -1,18 +1,18 @@
 {
-    "@metadata": {
-        "authors": [
-            "Cedric31"
-        ]
-    },
-    "contributors": "Contributors",
-    "contributors-desc": "Met en somari los contributors principals d’una pagina",
-    "contributors-toolbox": "Contributors principals",
-    "contributors-legend": "Listar los contributors principals de l’article",
-    "contributors-target": "Títol :",
-    "contributors-submit": "Afichar",
-    "contributors-subtitle": "Contributors principals de $1",
-    "contributors-others-long": "I a {{PLURAL:$1|$1 autre contributor|$1 autres contributors}} per aquesta pagina.",
-    "contributors-others": "e {{PLURAL:$1|$1 autre|$1 autres}}",
-    "contributors-badtitle": "Títol incorrècte.",
-    "contributors-nosuchpage": "L’article $1 existís pas."
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"contributors": "Contributors",
+	"contributors-desc": "Met en somari los contributors principals d’una pagina",
+	"contributors-toolbox": "Contributors principals",
+	"contributors-legend": "Listar los contributors principals de l’article",
+	"contributors-target": "Títol :",
+	"contributors-submit": "Afichar",
+	"contributors-subtitle": "Contributors principals de $1",
+	"contributors-others-long": "I a {{PLURAL:$1|$1 autre contributor|$1 autres contributors}} per aquesta pagina.",
+	"contributors-others": "e {{PLURAL:$1|$1 autre|$1 autres}}",
+	"contributors-badtitle": "Títol incorrècte.",
+	"contributors-nosuchpage": "L’article $1 existís pas."
 }

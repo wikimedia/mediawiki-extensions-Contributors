@@ -1,15 +1,15 @@
 {
-    "@metadata": {
-        "authors": [
-            "Meursault2004"
-        ]
-    },
-    "contributors": "Para kontributor",
-    "contributors-toolbox": "Para kontributor utama",
-    "contributors-legend": "Tuduhna daftar kontributor utama sawijining kaca",
-    "contributors-target": "Irah-irahan (judhul):",
-    "contributors-submit": "Tuduhna",
-    "contributors-subtitle": "Para kontributor utama kanggo $1",
-    "contributors-badtitle": "Irah-irahan ora absah.",
-    "contributors-nosuchpage": "Artikel $1 ora ditemokaké."
+	"@metadata": {
+		"authors": [
+			"Meursault2004"
+		]
+	},
+	"contributors": "Para kontributor",
+	"contributors-toolbox": "Para kontributor utama",
+	"contributors-legend": "Tuduhna daftar kontributor utama sawijining kaca",
+	"contributors-target": "Irah-irahan (judhul):",
+	"contributors-submit": "Tuduhna",
+	"contributors-subtitle": "Para kontributor utama kanggo $1",
+	"contributors-badtitle": "Irah-irahan ora absah.",
+	"contributors-nosuchpage": "Artikel $1 ora ditemokaké."
 }

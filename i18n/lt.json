@@ -1,13 +1,13 @@
 {
-    "@metadata": {
-        "authors": [
-            "Eitvys200"
-        ]
-    },
-    "contributors": "Autoriai",
-    "contributors-toolbox": "Pagrindiniai autoriai",
-    "contributors-legend": "Sąrašas pagrindinius puslapio autorių",
-    "contributors-target": "Pavadinimas:",
-    "contributors-submit": "Rodyti",
-    "contributors-badtitle": "Neleistinas pavadinimas."
+	"@metadata": {
+		"authors": [
+			"Eitvys200"
+		]
+	},
+	"contributors": "Autoriai",
+	"contributors-toolbox": "Pagrindiniai autoriai",
+	"contributors-legend": "Sąrašas pagrindinius puslapio autorių",
+	"contributors-target": "Pavadinimas:",
+	"contributors-submit": "Rodyti",
+	"contributors-badtitle": "Neleistinas pavadinimas."
 }

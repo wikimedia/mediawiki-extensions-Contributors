@@ -1,20 +1,20 @@
 {
-    "@metadata": {
-        "authors": [
-            "Michaello",
-            "Milicevic01",
-            "Sasa Stefanovic"
-        ]
-    },
-    "contributors": "Doprinosioci",
-    "contributors-desc": "Sažima spisak glavnih autora nekog članka",
-    "contributors-toolbox": "Glavni doprinosioci",
-    "contributors-legend": "Spisak glavnih doprinosioca u članku",
-    "contributors-target": "Naslov:",
-    "contributors-submit": "Prikaži",
-    "contributors-subtitle": "Glavni doprinosioci na $1",
-    "contributors-others-long": "{{PLURAL:$1|Postoji još jedan doprinosioc|postoje još $1 doprinosioca}} na ovoj stranici.",
-    "contributors-others": "i {{PLURAL:$1|jedna druga|$1 druge|$1 drugih}}",
-    "contributors-badtitle": "Greška u naslovu.",
-    "contributors-nosuchpage": "Članak $1 ne postoji."
+	"@metadata": {
+		"authors": [
+			"Michaello",
+			"Milicevic01",
+			"Sasa Stefanovic"
+		]
+	},
+	"contributors": "Doprinosioci",
+	"contributors-desc": "Sažima spisak glavnih autora nekog članka",
+	"contributors-toolbox": "Glavni doprinosioci",
+	"contributors-legend": "Spisak glavnih doprinosioca u članku",
+	"contributors-target": "Naslov:",
+	"contributors-submit": "Prikaži",
+	"contributors-subtitle": "Glavni doprinosioci na $1",
+	"contributors-others-long": "{{PLURAL:$1|Postoji još jedan doprinosioc|postoje još $1 doprinosioca}} na ovoj stranici.",
+	"contributors-others": "i {{PLURAL:$1|jedna druga|$1 druge|$1 drugih}}",
+	"contributors-badtitle": "Greška u naslovu.",
+	"contributors-nosuchpage": "Članak $1 ne postoji."
 }

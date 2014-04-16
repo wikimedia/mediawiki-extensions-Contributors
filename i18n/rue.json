@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Gazeb"
-        ]
-    },
-    "contributors-target": "Назва:",
-    "contributors-submit": "Вказати"
+	"@metadata": {
+		"authors": [
+			"Gazeb"
+		]
+	},
+	"contributors-target": "Назва:",
+	"contributors-submit": "Вказати"
 }

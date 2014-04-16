@@ -1,19 +1,19 @@
 {
-    "@metadata": {
-        "authors": [
-            "BrokenArrow",
-            "Darth Kule"
-        ]
-    },
-    "contributors": "Autori",
-    "contributors-desc": "Riepiloga gli autori principali di una pagina",
-    "contributors-toolbox": "Autori principali",
-    "contributors-legend": "Elenca gli autori principali di una pagina",
-    "contributors-target": "Titolo:",
-    "contributors-submit": "Mostra",
-    "contributors-subtitle": "Autori principali di $1",
-    "contributors-others-long": "La pagina è stata modificata anche da {{PLURAL:$1|un altro autore|$1 altri autori}}.",
-    "contributors-others": "e {{PLURAL:$1|un altro|$1 altri}}",
-    "contributors-badtitle": "Titolo non corretto.",
-    "contributors-nosuchpage": "La pagina $1 non esiste."
+	"@metadata": {
+		"authors": [
+			"BrokenArrow",
+			"Darth Kule"
+		]
+	},
+	"contributors": "Autori",
+	"contributors-desc": "Riepiloga gli autori principali di una pagina",
+	"contributors-toolbox": "Autori principali",
+	"contributors-legend": "Elenca gli autori principali di una pagina",
+	"contributors-target": "Titolo:",
+	"contributors-submit": "Mostra",
+	"contributors-subtitle": "Autori principali di $1",
+	"contributors-others-long": "La pagina è stata modificata anche da {{PLURAL:$1|un altro autore|$1 altri autori}}.",
+	"contributors-others": "e {{PLURAL:$1|un altro|$1 altri}}",
+	"contributors-badtitle": "Titolo non corretto.",
+	"contributors-nosuchpage": "La pagina $1 non esiste."
 }

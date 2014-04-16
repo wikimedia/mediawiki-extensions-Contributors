@@ -1,18 +1,18 @@
 {
-    "@metadata": {
-        "authors": [
-            "Bjankuloski06"
-        ]
-    },
-    "contributors": "Уредници",
-    "contributors-desc": "Дава краток преглед на главните уредници на една страница",
-    "contributors-toolbox": "Главни уредници",
-    "contributors-legend": "Прикажувај список на главните уредници на една страница",
-    "contributors-target": "Наслов:",
-    "contributors-submit": "Прикажи",
-    "contributors-subtitle": "Главни уредници на $1",
-    "contributors-others-long": "{{PLURAL:$1|Постои уште еден уредник|постојат уште $1 други уредници}} на оваа страница.",
-    "contributors-others": "и {{PLURAL:$1|уште еден|$1 други}}",
-    "contributors-badtitle": "Погрешен наслов.",
-    "contributors-nosuchpage": "Страницата $1 не постои."
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"contributors": "Уредници",
+	"contributors-desc": "Дава краток преглед на главните уредници на една страница",
+	"contributors-toolbox": "Главни уредници",
+	"contributors-legend": "Прикажувај список на главните уредници на една страница",
+	"contributors-target": "Наслов:",
+	"contributors-submit": "Прикажи",
+	"contributors-subtitle": "Главни уредници на $1",
+	"contributors-others-long": "{{PLURAL:$1|Постои уште еден уредник|постојат уште $1 други уредници}} на оваа страница.",
+	"contributors-others": "и {{PLURAL:$1|уште еден|$1 други}}",
+	"contributors-badtitle": "Погрешен наслов.",
+	"contributors-nosuchpage": "Страницата $1 не постои."
 }

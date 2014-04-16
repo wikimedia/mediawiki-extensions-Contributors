@@ -1,19 +1,19 @@
 {
-    "@metadata": {
-        "authors": [
-            "Kaustubh",
-            "Siddhartha Ghai"
-        ]
-    },
-    "contributors": "योगदानकर्ता",
-    "contributors-desc": "पन्नेके मुख्य योगदानकर्ताओंकी संक्षिप्त सूची",
-    "contributors-toolbox": "मुख्य योगदानकर्ता",
-    "contributors-legend": "पन्ने के मुख्य योगदानकर्ताओंकी सूची बनायें",
-    "contributors-target": "शीर्षक:",
-    "contributors-submit": "दर्शायें",
-    "contributors-subtitle": "$1 के प्रमुख योगदानकर्ता",
-    "contributors-others-long": "इस पन्ने {{PLURAL:$1|का एक अन्य|के $1 अन्य}} योगदानकर्ता {{PLURAL:$1|है|हैं}}।",
-    "contributors-others": "और {{PLURAL:$1|एक अन्य|$1 अन्य}}",
-    "contributors-badtitle": "अवैध शीर्षक।",
-    "contributors-nosuchpage": "$1 पन्ना अस्तित्वमें नहीं हैं"
+	"@metadata": {
+		"authors": [
+			"Kaustubh",
+			"Siddhartha Ghai"
+		]
+	},
+	"contributors": "योगदानकर्ता",
+	"contributors-desc": "पन्नेके मुख्य योगदानकर्ताओंकी संक्षिप्त सूची",
+	"contributors-toolbox": "मुख्य योगदानकर्ता",
+	"contributors-legend": "पन्ने के मुख्य योगदानकर्ताओंकी सूची बनायें",
+	"contributors-target": "शीर्षक:",
+	"contributors-submit": "दर्शायें",
+	"contributors-subtitle": "$1 के प्रमुख योगदानकर्ता",
+	"contributors-others-long": "इस पन्ने {{PLURAL:$1|का एक अन्य|के $1 अन्य}} योगदानकर्ता {{PLURAL:$1|है|हैं}}।",
+	"contributors-others": "और {{PLURAL:$1|एक अन्य|$1 अन्य}}",
+	"contributors-badtitle": "अवैध शीर्षक।",
+	"contributors-nosuchpage": "$1 पन्ना अस्तित्वमें नहीं हैं"
 }

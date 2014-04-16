@@ -1,21 +1,21 @@
 {
-    "@metadata": {
-        "authors": [
-            "Milicevic01",
-            "Rancher",
-            "Sasa Stefanovic",
-            "Михајло Анђелковић"
-        ]
-    },
-    "contributors": "Доприносиоци",
-    "contributors-desc": "Сажима списак главних аутора неког чланка",
-    "contributors-toolbox": "Главни доприносиоци",
-    "contributors-legend": "Списак главних доприносиоца у чланку",
-    "contributors-target": "Наслов:",
-    "contributors-submit": "Прикажи",
-    "contributors-subtitle": "Главни доприносиоци на $1",
-    "contributors-others-long": "{{PLURAL:$1|Постоји још један доприносиоц|постоје још $1 доприносиоца}} на овој страници.",
-    "contributors-others": "и {{PLURAL:$1|једна друга|$1 друге|$1 других}}",
-    "contributors-badtitle": "Наслов је неисправан.",
-    "contributors-nosuchpage": "Страница $1 не постоји."
+	"@metadata": {
+		"authors": [
+			"Milicevic01",
+			"Rancher",
+			"Sasa Stefanovic",
+			"Михајло Анђелковић"
+		]
+	},
+	"contributors": "Доприносиоци",
+	"contributors-desc": "Сажима списак главних аутора неког чланка",
+	"contributors-toolbox": "Главни доприносиоци",
+	"contributors-legend": "Списак главних доприносиоца у чланку",
+	"contributors-target": "Наслов:",
+	"contributors-submit": "Прикажи",
+	"contributors-subtitle": "Главни доприносиоци на $1",
+	"contributors-others-long": "{{PLURAL:$1|Постоји још један доприносиоц|постоје још $1 доприносиоца}} на овој страници.",
+	"contributors-others": "и {{PLURAL:$1|једна друга|$1 друге|$1 других}}",
+	"contributors-badtitle": "Наслов је неисправан.",
+	"contributors-nosuchpage": "Страница $1 не постоји."
 }

@@ -1,19 +1,19 @@
 {
-    "@metadata": {
-        "authors": [
-            "Bangin",
-            "Erdal Ronahi"
-        ]
-    },
-    "contributors": "Kedyar",
-    "contributors-desc": "Kurteya kedyarên serekî yên vê rûpelê",
-    "contributors-toolbox": "Kedyarên serekî",
-    "contributors-legend": "Lîsteya kedyarên serekî yê rûpelê",
-    "contributors-target": "Sernav:",
-    "contributors-submit": "Nîşandan",
-    "contributors-subtitle": "Kedyarên serekî yên $1",
-    "contributors-others-long": "Di vê rûpelê de {{PLURAL:$1|kedyarekê/î din heye|$1 kedyarên din hene}}.",
-    "contributors-others": "û {{PLURAL:$1|kesekekî din|$1 kesên din}}",
-    "contributors-badtitle": "Sernavekî şaş.",
-    "contributors-nosuchpage": "Rûpela $1 tune."
+	"@metadata": {
+		"authors": [
+			"Bangin",
+			"Erdal Ronahi"
+		]
+	},
+	"contributors": "Kedyar",
+	"contributors-desc": "Kurteya kedyarên serekî yên vê rûpelê",
+	"contributors-toolbox": "Kedyarên serekî",
+	"contributors-legend": "Lîsteya kedyarên serekî yê rûpelê",
+	"contributors-target": "Sernav:",
+	"contributors-submit": "Nîşandan",
+	"contributors-subtitle": "Kedyarên serekî yên $1",
+	"contributors-others-long": "Di vê rûpelê de {{PLURAL:$1|kedyarekê/î din heye|$1 kedyarên din hene}}.",
+	"contributors-others": "û {{PLURAL:$1|kesekekî din|$1 kesên din}}",
+	"contributors-badtitle": "Sernavekî şaş.",
+	"contributors-nosuchpage": "Rûpela $1 tune."
 }

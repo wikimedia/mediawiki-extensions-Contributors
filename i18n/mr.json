@@ -1,19 +1,19 @@
 {
-    "@metadata": {
-        "authors": [
-            "Mahitgar",
-            "V.narsikar"
-        ]
-    },
-    "contributors": "योगदानकर्ते",
-    "contributors-desc": "पानाच्या मुख्य योगदानकर्त्यांची संक्षीप्तसूची",
-    "contributors-toolbox": "मुख्य योगदानकर्ते",
-    "contributors-legend": "पानाच्या मुख्य योगदानकर्त्यांची यादी द्या",
-    "contributors-target": "शीर्षक",
-    "contributors-submit": "दाखवा",
-    "contributors-subtitle": "$1चे मुख्य योगदानकर्ते",
-    "contributors-others-long": "या पानास इतर योगदानकर्ते $1 आहेत.",
-    "contributors-others": "आणि $1  इतर",
-    "contributors-badtitle": "अयोग्य शीर्षक",
-    "contributors-nosuchpage": "पान $1 अस्तीत्वात नाही."
+	"@metadata": {
+		"authors": [
+			"Mahitgar",
+			"V.narsikar"
+		]
+	},
+	"contributors": "योगदानकर्ते",
+	"contributors-desc": "पानाच्या मुख्य योगदानकर्त्यांची संक्षीप्तसूची",
+	"contributors-toolbox": "मुख्य योगदानकर्ते",
+	"contributors-legend": "पानाच्या मुख्य योगदानकर्त्यांची यादी द्या",
+	"contributors-target": "शीर्षक",
+	"contributors-submit": "दाखवा",
+	"contributors-subtitle": "$1चे मुख्य योगदानकर्ते",
+	"contributors-others-long": "या पानास इतर योगदानकर्ते $1 आहेत.",
+	"contributors-others": "आणि $1  इतर",
+	"contributors-badtitle": "अयोग्य शीर्षक",
+	"contributors-nosuchpage": "पान $1 अस्तीत्वात नाही."
 }

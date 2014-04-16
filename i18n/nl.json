@@ -1,19 +1,19 @@
 {
-    "@metadata": {
-        "authors": [
-            "SPQRobin",
-            "Siebrand"
-        ]
-    },
-    "contributors": "Bijdragers",
-    "contributors-desc": "Geeft een overzicht van de belangrijkste schrijvers aan een pagina",
-    "contributors-toolbox": "Belangrijkste bijdragers",
-    "contributors-legend": "Belangrijkste bijdragers van een pagina weergeven",
-    "contributors-target": "Titel:",
-    "contributors-submit": "Bekijken",
-    "contributors-subtitle": "Belangrijkste bijdragers aan $1",
-    "contributors-others-long": "Er {{PLURAL:$1|is 1 andere bijdrager|zijn $1 andere bijdragers}} aan deze pagina.",
-    "contributors-others": "en $1 {{PLURAL:$1|andere|anderen}}",
-    "contributors-badtitle": "Ongeldige paginanaam.",
-    "contributors-nosuchpage": "De pagina $1 bestaat niet."
+	"@metadata": {
+		"authors": [
+			"SPQRobin",
+			"Siebrand"
+		]
+	},
+	"contributors": "Bijdragers",
+	"contributors-desc": "Geeft een overzicht van de belangrijkste schrijvers aan een pagina",
+	"contributors-toolbox": "Belangrijkste bijdragers",
+	"contributors-legend": "Belangrijkste bijdragers van een pagina weergeven",
+	"contributors-target": "Titel:",
+	"contributors-submit": "Bekijken",
+	"contributors-subtitle": "Belangrijkste bijdragers aan $1",
+	"contributors-others-long": "Er {{PLURAL:$1|is 1 andere bijdrager|zijn $1 andere bijdragers}} aan deze pagina.",
+	"contributors-others": "en $1 {{PLURAL:$1|andere|anderen}}",
+	"contributors-badtitle": "Ongeldige paginanaam.",
+	"contributors-nosuchpage": "De pagina $1 bestaat niet."
 }

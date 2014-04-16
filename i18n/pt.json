@@ -1,20 +1,20 @@
 {
-    "@metadata": {
-        "authors": [
-            "Hamilton Abreu",
-            "Malafaya",
-            "555"
-        ]
-    },
-    "contributors": "Contribuidores",
-    "contributors-desc": "Sumariza os principais contribuidores de uma página",
-    "contributors-toolbox": "Principais contribuidores",
-    "contributors-legend": "Listagem dos principais contribuidores de um artigo",
-    "contributors-target": "Título:",
-    "contributors-submit": "Mostrar",
-    "contributors-subtitle": "Principais contribuidores de $1",
-    "contributors-others-long": "{{PLURAL:$1|Ainda há outro contribuidor|Existem ainda outros $1 contribuidores}} para esta página.",
-    "contributors-others": "e {{PLURAL:$1|um outro|$1 outros}}",
-    "contributors-badtitle": "Título inválido.",
-    "contributors-nosuchpage": "O artigo $1 não existe."
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Malafaya",
+			"555"
+		]
+	},
+	"contributors": "Contribuidores",
+	"contributors-desc": "Sumariza os principais contribuidores de uma página",
+	"contributors-toolbox": "Principais contribuidores",
+	"contributors-legend": "Listagem dos principais contribuidores de um artigo",
+	"contributors-target": "Título:",
+	"contributors-submit": "Mostrar",
+	"contributors-subtitle": "Principais contribuidores de $1",
+	"contributors-others-long": "{{PLURAL:$1|Ainda há outro contribuidor|Existem ainda outros $1 contribuidores}} para esta página.",
+	"contributors-others": "e {{PLURAL:$1|um outro|$1 outros}}",
+	"contributors-badtitle": "Título inválido.",
+	"contributors-nosuchpage": "O artigo $1 não existe."
 }

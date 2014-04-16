@@ -1,18 +1,18 @@
 {
-    "@metadata": {
-        "authors": [
-            "Kandar"
-        ]
-    },
-    "contributors": "Kontributor",
-    "contributors-desc": "Ngabéréndélkeun kontributor utama hiji kaca",
-    "contributors-toolbox": "Kontributor utama",
-    "contributors-legend": "Ngabéréndélkeun kontributor utama hiji kaca",
-    "contributors-target": "Judul:",
-    "contributors-submit": "Témbongkeun",
-    "contributors-subtitle": "Kontributor utama $1",
-    "contributors-others-long": "Aya {{PLURAL:$1|hiji kontributor séjénna}} pikeun kaca ieu.",
-    "contributors-others": "sarta {{PLURAL:$1|hiji lianna|$1 lianna}}",
-    "contributors-badtitle": "Judulna teu bener.",
-    "contributors-nosuchpage": "Kaca $1 euweuh."
+	"@metadata": {
+		"authors": [
+			"Kandar"
+		]
+	},
+	"contributors": "Kontributor",
+	"contributors-desc": "Ngabéréndélkeun kontributor utama hiji kaca",
+	"contributors-toolbox": "Kontributor utama",
+	"contributors-legend": "Ngabéréndélkeun kontributor utama hiji kaca",
+	"contributors-target": "Judul:",
+	"contributors-submit": "Témbongkeun",
+	"contributors-subtitle": "Kontributor utama $1",
+	"contributors-others-long": "Aya {{PLURAL:$1|hiji kontributor séjénna}} pikeun kaca ieu.",
+	"contributors-others": "sarta {{PLURAL:$1|hiji lianna|$1 lianna}}",
+	"contributors-badtitle": "Judulna teu bener.",
+	"contributors-nosuchpage": "Kaca $1 euweuh."
 }

@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Crazymadlover",
-            "Omnipaedista"
-        ]
-    },
-    "contributors": "Συνεισφέροντες",
-    "contributors-target": "Ἐπιγραφή:",
-    "contributors-submit": "Δεικνύναι",
-    "contributors-badtitle": "Ἄκυρος ἐπιγραφή."
+	"@metadata": {
+		"authors": [
+			"Crazymadlover",
+			"Omnipaedista"
+		]
+	},
+	"contributors": "Συνεισφέροντες",
+	"contributors-target": "Ἐπιγραφή:",
+	"contributors-submit": "Δεικνύναι",
+	"contributors-badtitle": "Ἄκυρος ἐπιγραφή."
 }

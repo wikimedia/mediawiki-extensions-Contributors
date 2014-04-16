@@ -1,20 +1,20 @@
 {
-    "@metadata": {
-        "authors": [
-            "Jon Harald Søby",
-            "Purodha",
-            "Shirayuki"
-        ]
-    },
-    "contributors": "{{doc-special|Contributors}}\n{{Identical|Contributor}}",
-    "contributors-desc": "{{desc|name=Contributors|url=http://www.mediawiki.org/wiki/Extension:Contributors}}",
-    "contributors-toolbox": "Used as link text in the toolbox.\n\nThe link points to [[Special:Contributors]].",
-    "contributors-legend": "Used as fieldset label of the form.\n\nThis message is followed by the input box {{msg-mw|contributors-target}}.",
-    "contributors-target": "Used as label for Target input box.\n{{Identical|Title}}",
-    "contributors-submit": "{{Identical|Show}}",
-    "contributors-subtitle": "Used as <code><nowiki><h2></nowiki></code> heading. Parameters:\n* $1 - a link to the page",
-    "contributors-others-long": "Parameters:\n* $1 - number of other contributors (> 0)\nSee also:\n* {{msg-mw|Contributors-others}}",
-    "contributors-others": "This message follows the list of contributors and the word separator {{msg-mw|word-separator}}.\n\nParameters:\n* $1 - number of other contributors (> 0)\nSee also:\n* {{msg-mw|Contributors-others-long}}",
-    "contributors-badtitle": "{{Identical|Invalid title}}",
-    "contributors-nosuchpage": "Parameters:\n* $1 - page name"
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby",
+			"Purodha",
+			"Shirayuki"
+		]
+	},
+	"contributors": "{{doc-special|Contributors}}\n{{Identical|Contributor}}",
+	"contributors-desc": "{{desc|name=Contributors|url=http://www.mediawiki.org/wiki/Extension:Contributors}}",
+	"contributors-toolbox": "Used as link text in the toolbox.\n\nThe link points to [[Special:Contributors]].",
+	"contributors-legend": "Used as fieldset label of the form.\n\nThis message is followed by the input box {{msg-mw|contributors-target}}.",
+	"contributors-target": "Used as label for Target input box.\n{{Identical|Title}}",
+	"contributors-submit": "{{Identical|Show}}",
+	"contributors-subtitle": "Used as <code><nowiki><h2></nowiki></code> heading. Parameters:\n* $1 - a link to the page",
+	"contributors-others-long": "Parameters:\n* $1 - number of other contributors (> 0)\nSee also:\n* {{msg-mw|Contributors-others}}",
+	"contributors-others": "This message follows the list of contributors and the word separator {{msg-mw|word-separator}}.\n\nParameters:\n* $1 - number of other contributors (> 0)\nSee also:\n* {{msg-mw|Contributors-others-long}}",
+	"contributors-badtitle": "{{Identical|Invalid title}}",
+	"contributors-nosuchpage": "Parameters:\n* $1 - page name"
 }

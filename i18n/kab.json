@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Agurzil",
-            "Mmistmurt"
-        ]
-    },
-    "contributors-target": "Azwel:",
-    "contributors-submit": "Ssken",
-    "contributors-nosuchpage": "Asebtar $1 ulac it."
+	"@metadata": {
+		"authors": [
+			"Agurzil",
+			"Mmistmurt"
+		]
+	},
+	"contributors-target": "Azwel:",
+	"contributors-submit": "Ssken",
+	"contributors-nosuchpage": "Asebtar $1 ulac it."
 }

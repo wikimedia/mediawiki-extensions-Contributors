@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Dark Eagle"
-        ]
-    },
-    "contributors-submit": "Paruodeit",
-    "contributors-nosuchpage": "Puslopa «$1» naekzistē."
+	"@metadata": {
+		"authors": [
+			"Dark Eagle"
+		]
+	},
+	"contributors-submit": "Paruodeit",
+	"contributors-nosuchpage": "Puslopa «$1» naekzistē."
 }
