@@ -76,7 +76,7 @@ $specialPageAliases['de'] = array(
 
 /** Zazaki (Zazaki) */
 $specialPageAliases['diq'] = array(
-	'Contributors' => array( 'Dekerdari' ),
+	'Contributors' => array( 'Dekerdoği' ),
 );
 
 /** Lower Sorbian (dolnoserbski) */
