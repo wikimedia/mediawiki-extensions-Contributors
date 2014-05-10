@@ -164,7 +164,7 @@ class SpecialContributors extends IncludableSpecialPage {
 				while( $row = $dbr->fetchObject( $res ) )
 					$contributors[ $row->rev_user_text ] = array( $row->rev_user, $row->count );
 			}
-			$wgMemc->set( $k, $contributors, 84600 );
+			$wgMemc->set( $k, $contributors, 86400 );
 		}
 		wfProfileOut( __METHOD__ );
 		return $contributors;
