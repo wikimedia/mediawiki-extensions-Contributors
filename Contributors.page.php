@@ -7,7 +7,6 @@
  * @ingroup Extensions
  * @author Rob Church <robchur@gmail.com>
  */
-
 class SpecialContributors extends IncludableSpecialPage {
 
 	protected $target;
@@ -18,20 +17,22 @@ class SpecialContributors extends IncludableSpecialPage {
 
 	public function execute( $target ) {
 		wfProfileIn( __METHOD__ );
-		global $wgOut, $wgRequest;
+		$output = $this->getOutput();
+		$request = $this->getRequest();
 		$this->setHeaders();
-		$this->determineTarget( $wgRequest, $target );
+		$this->determineTarget( $request, $target );
 
 		# What are we doing? Different execution paths for inclusion,
 		# direct access and raw access
-		if( $this->including() ) {
+		if ( $this->including() ) {
 			$this->showInclude();
-		} elseif( $wgRequest->getText( 'action' ) == 'raw' ) {
+		} elseif ( $request->getText( 'action' ) == 'raw' ) {
 			$this->showRaw();
 		} else {
-			$wgOut->addHTML( $this->makeForm() );
-			if( is_object( $this->target ) )
+			$output->addHTML( $this->makeForm() );
+			if ( is_object( $this->target ) ) {
 				$this->showNormal();
+			}
 		}
 
 		wfProfileOut( __METHOD__ );
@@ -39,24 +40,26 @@ class SpecialContributors extends IncludableSpecialPage {
 
 	private function showInclude() {
 		wfProfileIn( __METHOD__ );
+		$output = $this->getOutput();
+		$language = $this->getLanguage();
 
-		global $wgOut, $wgContentLang;
-
-		if( is_object( $this->target ) ) {
-			if( $this->target->exists() ) {
+		if ( is_object( $this->target ) ) {
+			if ( $this->target->exists() ) {
 				$names = array();
-				list( $contributors, $others ) = self::getMainContributors($this->target);
-				foreach( $contributors as $username => $info )
+				list( $contributors, $others ) = self::getMainContributors( $this->target );
+				foreach ( $contributors as $username => $info ) {
 					$names[] = $username;
-				$output = $wgContentLang->listToText( $names );
-				if( $others > 0 )
-					$output .= wgMsgForContent( 'word-separator' ) . wfMsgForContent( 'contributors-others', $wgContentLang->formatNum( $others ) );
-				$wgOut->addHTML( htmlspecialchars( $output ) );
+				}
+				$outputHtml = $language->listToText( $names );
+				if ( $others > 0 ) {
+					$outputHtml .= wgMsgForContent( 'word-separator' ) . $this->msg( 'contributors-others', $language->formatNum( $others ) )->inContentLanguage()->text();
+				}
+				$output->addHTML( htmlspecialchars( $outputHtml ) );
 			} else {
-				$wgOut->addHTML( '<p>' . htmlspecialchars( wfMsgForContent( 'contributors-nosuchpage', $this->target->getPrefixedText() ) ) . '</p>' );
+				$output->addHTML( '<p>' . $this->msg( 'contributors-nosuchpage', $this->target->getPrefixedText() )->inContentLanguage()->escaped() . '</p>' );
 			}
 		} else {
-			$wgOut->addHTML( '<p>' . htmlspecialchars( wfMsgForContent( 'contributors-badtitle' ) ) . '</p>' );
+			$output->addHTML( '<p>' . $this->msg( 'contributors-badtitle' )->inContentLanguage()->escaped() . '</p>' );
 		}
 		wfProfileOut( __METHOD__ );
 	}
@@ -66,10 +69,10 @@ class SpecialContributors extends IncludableSpecialPage {
 	 */
 	private function showRaw() {
 		wfProfileIn( __METHOD__ );
-		global $wgOut;
-		$wgOut->disable();
-		if( is_object( $this->target ) && $this->target->exists() ) {
-			foreach( $this->getContributors() as $username => $info ) {
+		$output = $this->getOutput();
+		$output->disable();
+		if ( is_object( $this->target ) && $this->target->exists() ) {
+			foreach ( $this->getContributors() as $username => $info ) {
 				list( $userid, $count ) = $info;
 				header( 'Content-type: text/plain; charset=utf-8' );
 				echo( htmlspecialchars( "{$username} = {$count}\n" ) );
@@ -83,25 +86,26 @@ class SpecialContributors extends IncludableSpecialPage {
 
 	private function showNormal() {
 		wfProfileIn( __METHOD__ );
-		global $wgOut, $wgLang;
-		if( $this->target->exists() ) {
-			$link = Linker::makeKnownLinkObj( $this->target );
-			$wgOut->addHTML( '<h2>' . wfMsgHtml( 'contributors-subtitle', $link ) . '</h2>' );
-			list( $contributors, $others ) = self::getMainContributors($this->target);
-			$wgOut->addHTML( '<ul>' );
-			foreach( $contributors as $username => $info ) {
+		$language = $this->getLanguage();
+		$output = $this->getOutput();
+		if ( $this->target->exists() ) {
+			$link = Linker::linkKnown( $this->target );
+			$this->getOutput()->addHTML( '<h2>' . $this->msg( 'contributors-subtitle' )->rawParams( $link )->escaped() . '</h2>' );
+			list( $contributors, $others ) = self::getMainContributors( $this->target );
+			$output->addHTML( '<ul>' );
+			foreach ( $contributors as $username => $info ) {
 				list( $id, $count ) = $info;
 				$line = Linker::userLink( $id, $username ) . Linker::userToolLinks( $id, $username );
-				$line .= ' [' . $wgLang->formatNum( $count ) . ']';
-				$wgOut->addHTML( '<li>' . $line . '</li>' );
+				$line .= ' [' . $language->formatNum( $count ) . ']';
+				$output->addHTML( '<li>' . $line . '</li>' );
 			}
-			$wgOut->addHTML( '</ul>' );
-			if( $others > 0 ) {
-				$others = $wgLang->formatNum( $others );
-				$wgOut->addWikiText( wfMsgNoTrans( 'contributors-others-long', $others ) );
+			$output->addHTML( '</ul>' );
+			if ( $others > 0 ) {
+				$others = $language->formatNum( $others );
+				$output->addWikiText( $this->msg( 'contributors-others-long', $others )->plain() );
 			}
 		} else {
-			$wgOut->addHTML( '<p>' . htmlspecialchars( wfMsg( 'contributors-nosuchpage', $this->target->getPrefixedText() ) ) . '</p>' );
+			$output->addHTML( '<p>' . $this->msg( 'contributors-nosuchpage', $this->target->getPrefixedText() )->escaped() . '</p>' );
 		}
 		wfProfileOut( __METHOD__ );
 	}
@@ -115,16 +119,17 @@ class SpecialContributors extends IncludableSpecialPage {
 	 *
 	 * @return array
 	 */
-	public static function getMainContributors($title) {
+	public static function getMainContributors( $title ) {
 		wfProfileIn( __METHOD__ );
 		global $wgContributorsLimit, $wgContributorsThreshold;
 		$total = 0;
 		$ret = array();
-		$all = self::getContributors($title);
-		foreach( $all as $username => $info ) {
+		$all = self::getContributors( $title );
+		foreach ( $all as $username => $info ) {
 			list( $id, $count ) = $info;
-			if( $total >= $wgContributorsLimit && $count < $wgContributorsThreshold )
+			if ( $total >= $wgContributorsLimit && $count < $wgContributorsThreshold ) {
 				break;
+			}
 			$ret[$username] = array( $id, $count );
 			$total++;
 		}
@@ -138,31 +143,28 @@ class SpecialContributors extends IncludableSpecialPage {
 	 *
 	 * @return array
 	 */
-	public static function getContributors($title) {
+	public static function getContributors( $title ) {
 		wfProfileIn( __METHOD__ );
 		global $wgMemc;
 		$k = wfMemcKey( 'contributors', $title->getArticleID() );
 		$contributors = $wgMemc->get( $k );
-		if( !$contributors ) {
+		if ( !$contributors ) {
 			$contributors = array();
 			$dbr = wfGetDB( DB_SLAVE );
 			$res = $dbr->select(
-				'revision',
-				array(
+				'revision', array(
 					'COUNT(*) AS count',
 					'rev_user',
 					'rev_user_text',
-				),
-				self::getConditions($title),
-				__METHOD__,
-				array(
+				), self::getConditions( $title ), __METHOD__, array(
 					'GROUP BY' => 'rev_user_text',
 					'ORDER BY' => 'count DESC',
 				)
 			);
-			if( $res && $dbr->numRows( $res ) > 0 ) {
-				while( $row = $dbr->fetchObject( $res ) )
-					$contributors[ $row->rev_user_text ] = array( $row->rev_user, $row->count );
+			if ( $res && $dbr->numRows( $res ) > 0 ) {
+				while ( $row = $dbr->fetchObject( $res ) ) {
+					$contributors[$row->rev_user_text] = array( $row->rev_user, $row->count );
+				}
 			}
 			$wgMemc->set( $k, $contributors, 84600 );
 		}
@@ -175,7 +177,7 @@ class SpecialContributors extends IncludableSpecialPage {
 	 *
 	 * @return array
 	 */
-	protected static function getConditions($title) {
+	protected static function getConditions( $title ) {
 		$conds['rev_page'] = $title->getArticleID();
 		$conds[] = 'rev_deleted & ' . Revision::DELETED_USER . ' = 0';
 		return $conds;
@@ -204,15 +206,15 @@ class SpecialContributors extends IncludableSpecialPage {
 		global $wgScript;
 		$self = parent::getTitleFor( 'Contributors' );
 		$target = is_object( $this->target ) ? $this->target->getPrefixedText() : '';
-		$form  = '<form method="get" action="' . htmlspecialchars( $wgScript ) . '">';
+		$form = '<form method="get" action="' . htmlspecialchars( $wgScript ) . '">';
 		$form .= Html::Hidden( 'title', $self->getPrefixedText() );
-		$form .= '<fieldset><legend>' . wfMsgHtml( 'contributors-legend' ) . '</legend>';
+		$form .= '<fieldset><legend>' . $this->msg( 'contributors-legend' ) . '</legend>';
 		$form .= '<table><tr>';
-		$form .= '<td><label for="target">' . wfMsgHtml( 'contributors-target' ) . '</label></td>';
+		$form .= '<td><label for="target">' . $this->msg( 'contributors-target' ) . '</label></td>';
 		$form .= '<td>' . Xml::input( 'target', 40, $target, array( 'id' => 'target' ) ) . '</td>';
 		$form .= '</tr><tr>';
 		$form .= '<td>&#160;</td>';
-		$form .= '<td>' . Xml::submitButton( wfMsg( 'contributors-submit' ) ) . '</td>';
+		$form .= '<td>' . Xml::submitButton( $this->msg( 'contributors-submit' )->text() ) . '</td>';
 		$form .= '</tr></table>';
 		$form .= '</fieldset>';
 		$form .= '</form>';
@@ -220,4 +222,3 @@ class SpecialContributors extends IncludableSpecialPage {
 	}
 
 }
-
