@@ -1,7 +1,8 @@
 {
     "@metadata": {
         "authors": [
-            "Rob Church"
+            "Rob Church",
+            "Ike Hecht"
         ]
     },
     "contributors": "Contributors",
@@ -14,5 +15,7 @@
     "contributors-others-long": "There {{PLURAL:$1|is one other contributor|are $1 other contributors}} to this page.",
     "contributors-others": "and {{PLURAL:$1|one other|$1 others}}",
     "contributors-badtitle": "Invalid title.",
-    "contributors-nosuchpage": "The page $1 does not exist."
+    "contributors-nosuchpage": "The page $1 does not exist.",
+    "contributors-asc": "Sort ascending",
+    "contributors-sortuser": "Sort alphabetically"
 }
