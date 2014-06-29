@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"ChrisiPK",
-			"Raimond Spekking"
+			"Raimond Spekking",
+			"Metalhead64"
 		]
 	},
 	"contributors": "Hauptautoren",
@@ -15,5 +16,7 @@
 	"contributors-others-long": "Daneben gibt es noch {{PLURAL:$1|1 weiteren Autor|$1 weitere Autoren}} dieser Seite.",
 	"contributors-others": "und {{PLURAL:$1|1 weiteren|$1 weitere}}",
 	"contributors-badtitle": "Ungültige Seite",
-	"contributors-nosuchpage": "Die Seite $1 ist nicht vorhanden."
+	"contributors-nosuchpage": "Die Seite $1 ist nicht vorhanden.",
+	"contributors-asc": "Aufsteigend sortieren",
+	"contributors-sortuser": "Alphabetisch sortieren"
 }
