@@ -199,9 +199,9 @@ class SpecialContributors extends IncludableSpecialPage {
 
 	/**
 	 * Return an array of contributors, sorted based on options
-	 * 
+	 *
 	 * @param array $contributors
-	 * @return array 
+	 * @return array
 	 */
 	private function sortContributors( $contributors ) {
 		$opts = $this->getOptions();
