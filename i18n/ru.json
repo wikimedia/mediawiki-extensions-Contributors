@@ -3,7 +3,8 @@
 		"authors": [
 			"Ahonc",
 			"Lockal",
-			"Александр Сигачёв"
+			"Александр Сигачёв",
+			"Okras"
 		]
 	},
 	"contributors": "Авторы",
@@ -16,5 +17,7 @@
 	"contributors-others-long": "Кроме указанных, у данной страницы есть ещё $1 {{PLURAL:$1|автор|авторов|автора}}.",
 	"contributors-others": "и ещё $1 {{PLURAL:$1|другой|других}}",
 	"contributors-badtitle": "Ошибочное название.",
-	"contributors-nosuchpage": "Страница «$1» не существует."
+	"contributors-nosuchpage": "Страница «$1» не существует.",
+	"contributors-asc": "Упорядочить по возрастанию",
+	"contributors-sortuser": "Упорядочивать по алфавиту"
 }

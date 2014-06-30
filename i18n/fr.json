@@ -5,7 +5,8 @@
 			"IAlex",
 			"PieRRoMaN",
 			"Sherbrooke",
-			"Urhixidur"
+			"Urhixidur",
+			"Gomoko"
 		]
 	},
 	"contributors": "Contributeurs",
@@ -18,5 +19,7 @@
 	"contributors-others-long": "Il y a {{PLURAL:$1|$1 autre contributeur|$1 autres contributeurs}} pour cette page.",
 	"contributors-others": "et $1 autre{{PLURAL:$1||s}}",
 	"contributors-badtitle": "Titre incorrect.",
-	"contributors-nosuchpage": "La page $1 n’existe pas."
+	"contributors-nosuchpage": "La page $1 n’existe pas.",
+	"contributors-asc": "Tri croissant",
+	"contributors-sortuser": "Tri alphabétique"
 }

@@ -4,7 +4,8 @@
 			"Jon Harald Søby",
 			"Lejonel",
 			"M.M.S.",
-			"Najami"
+			"Najami",
+			"WikiPhoenix"
 		]
 	},
 	"contributors": "Bidragsgivare",
@@ -17,5 +18,7 @@
 	"contributors-others-long": "{{PLURAL:$1|en annan användare|$1 andra användare}} har bidragit till denna sida.",
 	"contributors-others": "och {{PLURAL:$1|en annan|$1 andra}}",
 	"contributors-badtitle": "Ogiltig titel.",
-	"contributors-nosuchpage": "Sidan $1 existerar inte."
+	"contributors-nosuchpage": "Sidan $1 existerar inte.",
+	"contributors-asc": "Sortera stigande",
+	"contributors-sortuser": "Sortera alfabetiskt"
 }

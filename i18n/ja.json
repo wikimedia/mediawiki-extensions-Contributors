@@ -16,5 +16,7 @@
 	"contributors-others-long": "このページには{{PLURAL:$1|他に $1 名の投稿者}}がいます。",
 	"contributors-others": "および他 {{PLURAL:$1|$1 名}}",
 	"contributors-badtitle": "無効なページ名です。",
-	"contributors-nosuchpage": "ページ $1 は存在しません。"
+	"contributors-nosuchpage": "ページ $1 は存在しません。",
+	"contributors-asc": "昇順に並べ替える",
+	"contributors-sortuser": "辞書順に並べ替える"
 }

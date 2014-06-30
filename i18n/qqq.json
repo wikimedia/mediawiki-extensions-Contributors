@@ -18,6 +18,6 @@
 	"contributors-others": "This message follows the list of contributors and the word separator {{msg-mw|word-separator}}.\n\nParameters:\n* $1 - number of other contributors (> 0)\nSee also:\n* {{msg-mw|Contributors-others-long}}",
 	"contributors-badtitle": "{{Identical|Invalid title}}",
 	"contributors-nosuchpage": "Parameters:\n* $1 - page name",
-	"contributors-asc": "Checkbox label in the form",
-	"contributors-sortuser": "Checkbox label in the form"
+	"contributors-asc": "Checkbox label in the form.\n{{Identical|Sort ascending}}",
+	"contributors-sortuser": "Checkbox label in the form.\n{{Identical|Sort alphabetically}}"
 }

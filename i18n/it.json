@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"BrokenArrow",
-			"Darth Kule"
+			"Darth Kule",
+			"Beta16"
 		]
 	},
 	"contributors": "Autori",
@@ -15,5 +16,7 @@
 	"contributors-others-long": "La pagina è stata modificata anche da {{PLURAL:$1|un altro autore|$1 altri autori}}.",
 	"contributors-others": "e {{PLURAL:$1|un altro|$1 altri}}",
 	"contributors-badtitle": "Titolo non corretto.",
-	"contributors-nosuchpage": "La pagina $1 non esiste."
+	"contributors-nosuchpage": "La pagina $1 non esiste.",
+	"contributors-asc": "Ordinamento crescente",
+	"contributors-sortuser": "Ordina alfabeticamente"
 }
