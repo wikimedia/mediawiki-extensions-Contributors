@@ -17,5 +17,7 @@
 	"contributors-others-long": "{{PLURAL:$1|Постоји још један доприносиоц|постоје још $1 доприносиоца}} на овој страници.",
 	"contributors-others": "и {{PLURAL:$1|једна друга|$1 друге|$1 других}}",
 	"contributors-badtitle": "Наслов је неисправан.",
-	"contributors-nosuchpage": "Страница $1 не постоји."
+	"contributors-nosuchpage": "Страница $1 не постоји.",
+	"contributors-asc": "Поређај растуће",
+	"contributors-sortuser": "Поређај по азбучном реду"
 }

@@ -219,6 +219,11 @@ $specialPageAliases['mr'] = array(
 	'Contributors' => array( 'योगदानकर्ते' ),
 );
 
+/** Malay (Bahasa Melayu) */
+$specialPageAliases['ms'] = array(
+	'Contributors' => array( 'Penyumbang' ),
+);
+
 /** Maltese (Malti) */
 $specialPageAliases['mt'] = array(
 	'Contributors' => array( 'Kontributuri' ),
