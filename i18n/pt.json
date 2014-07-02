@@ -3,7 +3,8 @@
 		"authors": [
 			"Hamilton Abreu",
 			"Malafaya",
-			"555"
+			"555",
+			"Vitorvicentevalente"
 		]
 	},
 	"contributors": "Contribuidores",
@@ -16,5 +17,7 @@
 	"contributors-others-long": "{{PLURAL:$1|Ainda há outro contribuidor|Existem ainda outros $1 contribuidores}} para esta página.",
 	"contributors-others": "e {{PLURAL:$1|um outro|$1 outros}}",
 	"contributors-badtitle": "Título inválido.",
-	"contributors-nosuchpage": "O artigo $1 não existe."
+	"contributors-nosuchpage": "O artigo $1 não existe.",
+	"contributors-asc": "Ascendente",
+	"contributors-sortuser": "Ordenar alfabeticamente"
 }
