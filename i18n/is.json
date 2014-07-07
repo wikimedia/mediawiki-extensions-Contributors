@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"S.Örvarr.S"
+			"S.Örvarr.S",
+			"Snævar"
 		]
 	},
 	"contributors": "Framleggjendur",
@@ -12,7 +13,7 @@
 	"contributors-submit": "Sýna",
 	"contributors-subtitle": "Aðalframleggjendur $1",
 	"contributors-others-long": "Þessi síða hefur $1 aðra framleggjendur.",
-	"contributors-others": "og $1 aðrir",
+	"contributors-others": "og $1 {{PLURAL:$1|annar|aðrir}}",
 	"contributors-badtitle": "Ógildur titill.",
 	"contributors-nosuchpage": "Síðan $1 er ekki til."
 }
