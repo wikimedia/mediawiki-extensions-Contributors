@@ -5,7 +5,8 @@
 			"Srhat",
 			"Suelnur",
 			"Vito Genovese",
-			"Rapsar"
+			"Rapsar",
+			"Sayginer"
 		]
 	},
 	"contributors": "Katkıda bulunanlar",
@@ -18,5 +19,6 @@
 	"contributors-others-long": "Bu sayfada {{PLURAL:$1|bir diğer kullanıcı|$ diğer kullanıcı}} daha var.",
 	"contributors-others": "ve {{PLURAL:$1|bir diğer|$1 diğer}}",
 	"contributors-badtitle": "Geçersiz başlık.",
-	"contributors-nosuchpage": "$1 adlı sayfa mevcut değil."
+	"contributors-nosuchpage": "$1 adlı sayfa mevcut değil.",
+	"contributors-sortuser": "Alfabetik olarak sırala"
 }

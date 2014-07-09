@@ -6,5 +6,7 @@
 		]
 	},
 	"contributors": "Автораш",
-	"contributors-target": "ЦӀе:"
+	"contributors-target": "ЦӀе:",
+	"contributors-submit": "Гайта",
+	"contributors-subtitle": "Коьрта автораш $1"
 }
