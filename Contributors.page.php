@@ -110,7 +110,7 @@ class SpecialContributors extends IncludableSpecialPage {
 		}
 
 		$names = array();
-		list( $contributors, $others ) = $this->contributorsClass->getMainContributors();
+		list( $contributors, $others ) = $this->contributorsClass->getContributors( false );
 		foreach ( $contributors as $username => $info ) {
 			$names[] = $username;
 		}
@@ -159,7 +159,7 @@ class SpecialContributors extends IncludableSpecialPage {
 
 		$link = Linker::linkKnown( $this->contributorsClass->getTarget() );
 		$this->getOutput()->addHTML( '<h2>' . $this->msg( 'contributors-subtitle' )->rawParams( $link )->escaped() . '</h2>' );
-		list( $contributors, $others ) = $this->contributorsClass->getMainContributors();
+		list( $contributors, $others ) = $this->contributorsClass->getContributors( false );
 		$output->addHTML( '<ul>' );
 		foreach ( $contributors as $username => $info ) {
 			list( $id, $count ) = $info;

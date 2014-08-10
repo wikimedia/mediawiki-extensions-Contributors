@@ -48,6 +48,23 @@ class Contributors {
 	}
 
 	/**
+	 * Depending on parameter, either retrieve all contributors or the main contributors
+	 *
+	 * @param boolean $all
+	 * @return array
+	 */
+	public function getContributors( $all = true ) {
+		if ( $all ) {
+			$contributors = $this->getAllContributors();
+		} else {
+			$contributors = $this->getMainContributors();
+		}
+
+		$contributors[0] = $this->sortContributors( $contributors[0] );
+		return $contributors;
+	}
+
+	/**
 	 * Retrieve all contributors for the target page worth listing, at least
 	 * according to the limit and threshold defined in the configuration
 	 *
@@ -56,12 +73,12 @@ class Contributors {
 	 *
 	 * @return array
 	 */
-	public function getMainContributors() {
+	private function getMainContributors() {
 		wfProfileIn( __METHOD__ );
 		global $wgContributorsLimit, $wgContributorsThreshold;
 		$total = 0;
 		$ret = array();
-		$all = $this->getContributors();
+		$all = $this->getAllContributors();
 		foreach ( $all as $username => $info ) {
 			list( $id, $count ) = $info;
 			if ( $total >= $wgContributorsLimit && $count < $wgContributorsThreshold ) {
@@ -98,7 +115,7 @@ class Contributors {
 	 *
 	 * @return array
 	 */
-	public function getContributors() {
+	private function getAllContributors() {
 		wfProfileIn( __METHOD__ );
 		global $wgMemc;
 		$k = wfMemcKey( 'contributors', $this->getTarget()->getArticleID() );
@@ -124,7 +141,6 @@ class Contributors {
 			}
 			$wgMemc->set( $k, $contributors, 84600 );
 		}
-		$contributors = $this->sortContributors( $contributors );
 		wfProfileOut( __METHOD__ );
 		return $contributors;
 	}
