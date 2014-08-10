@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Special page class for the Contributors extension
  *
@@ -8,13 +9,14 @@
  * @author Ike Hecht
  */
 class SpecialContributors extends IncludableSpecialPage {
-	protected $target;
-
 	/** @var string */
 	protected $subpageString;
 
 	/** @var FormOptions */
 	protected $formOptions;
+
+	/** @var Contributors */
+	protected $contributorsClass;
 
 	public function __construct() {
 		parent::__construct( 'Contributors' );
@@ -27,7 +29,7 @@ class SpecialContributors extends IncludableSpecialPage {
 		$this->setHeaders();
 
 		$opts = $this->getOptions();
-		$this->target = Title::newFromURL( $opts['target'] );
+		$this->contributorsClass = new Contributors( Title::newFromURL( $opts['target'] ), $opts );
 
 		# What are we doing? Different execution paths for inclusion,
 		# direct access and raw access
@@ -37,9 +39,7 @@ class SpecialContributors extends IncludableSpecialPage {
 			$this->showRaw();
 		} else {
 			$output->addHTML( $this->makeForm() );
-			if ( is_object( $this->target ) ) {
-				$this->showNormal();
-			}
+			$this->showNormal();
 		}
 
 		wfProfileOut( __METHOD__ );
@@ -95,29 +95,32 @@ class SpecialContributors extends IncludableSpecialPage {
 
 	private function showInclude() {
 		wfProfileIn( __METHOD__ );
+
 		$output = $this->getOutput();
 		$language = $this->getLanguage();
 
-		if ( is_object( $this->target ) ) {
-			if ( $this->target->exists() ) {
-				$names = array();
-				list( $contributors, $others ) = $this->getMainContributors();
-				foreach ( $contributors as $username => $info ) {
-					$names[] = $username;
-				}
-				$outputHtml = $language->listToText( $names );
-				if ( $others > 0 ) {
-					$outputHtml .= wgMsgForContent( 'word-separator' ) . $this->msg( 'contributors-others',
-							$language->formatNum( $others ) )->inContentLanguage()->text();
-				}
-				$output->addHTML( htmlspecialchars( $outputHtml ) );
-			} else {
-				$output->addHTML( '<p>' . $this->msg( 'contributors-nosuchpage',
-						$this->target->getPrefixedText() )->inContentLanguage()->escaped() . '</p>' );
-			}
-		} else {
-			$output->addHTML( '<p>' . $this->msg( 'contributors-badtitle' )->inContentLanguage()->escaped() . '</p>' );
+		if ( !$this->contributorsClass->hasTarget() ) {
+			$output->addHTML( $this->msg( 'contributors-badtitle' )->inContentLanguage()->parseAsBlock() );
+			return;
 		}
+		if ( !$this->contributorsClass->targetExists() ) {
+			$output->addHTML( $this->msg( 'contributors-nosuchpage',
+					$this->contributorsClass->getTargetText() )->inContentLanguage()->parseAsBlock() );
+			return;
+		}
+
+		$names = array();
+		list( $contributors, $others ) = $this->contributorsClass->getMainContributors();
+		foreach ( $contributors as $username => $info ) {
+			$names[] = $username;
+		}
+		$outputHtml = $language->listToText( $names );
+		if ( $others > 0 ) {
+			$outputHtml .= $this->msg( 'word-separator' )->plain() . $this->msg( 'contributors-others',
+					$language->formatNum( $others ) )->inContentLanguage()->text();
+		}
+		$output->addHTML( htmlspecialchars( $outputHtml ) );
+
 		wfProfileOut( __METHOD__ );
 	}
 
@@ -128,15 +131,15 @@ class SpecialContributors extends IncludableSpecialPage {
 		wfProfileIn( __METHOD__ );
 		$output = $this->getOutput();
 		$output->disable();
-		if ( is_object( $this->target ) && $this->target->exists() ) {
-			foreach ( $this->getContributors() as $username => $info ) {
+		if ( $this->contributorsClass->targetExists() ) {
+			foreach ( $this->contributorsClass->getContributors() as $username => $info ) {
 				list( $userid, $count ) = $info;
 				header( 'Content-type: text/plain; charset=utf-8' );
 				echo( htmlspecialchars( "{$username} = {$count}\n" ) );
 			}
 		} else {
 			header( 'Status: 404 Not Found', true, 404 );
-			echo( 'The requested target page does not exist.' );
+			echo( $this->msg( 'contributors-nosuchpage', $this->contributorsClass->getTargetText() )->escaped() );
 		}
 		wfProfileOut( __METHOD__ );
 	}
@@ -145,122 +148,32 @@ class SpecialContributors extends IncludableSpecialPage {
 		wfProfileIn( __METHOD__ );
 		$language = $this->getLanguage();
 		$output = $this->getOutput();
-		if ( $this->target->exists() ) {
-			$link = Linker::linkKnown( $this->target );
-			$this->getOutput()->addHTML( '<h2>' . $this->msg( 'contributors-subtitle' )->rawParams( $link )->escaped() . '</h2>' );
-			list( $contributors, $others ) = $this->getMainContributors( $this->target );
-			$output->addHTML( '<ul>' );
-			foreach ( $contributors as $username => $info ) {
-				list( $id, $count ) = $info;
-				$line = Linker::userLink( $id, $username ) . Linker::userToolLinks( $id,
-						$username );
-				$line .= ' [' . $language->formatNum( $count ) . ']';
-				$output->addHTML( '<li>' . $line . '</li>' );
-			}
-			$output->addHTML( '</ul>' );
-			if ( $others > 0 ) {
-				$others = $language->formatNum( $others );
-				$output->addWikiText( $this->msg( 'contributors-others-long', $others )->plain() );
-			}
-		} else {
-			$output->addHTML( '<p>' . $this->msg( 'contributors-nosuchpage',
-					$this->target->getPrefixedText() )->escaped() . '</p>' );
+		if ( !$this->contributorsClass->hasTarget() ) {
+			return;
 		}
-		wfProfileOut( __METHOD__ );
-	}
+		if ( !$this->contributorsClass->targetExists() ) {
+			$output->addHTML( $this->msg( 'contributors-nosuchpage',
+					$this->contributorsClass->getTargetText() )->parseAsBlock() );
+			return;
+		}
 
-	/**
-	 * Retrieve all contributors for the target page worth listing, at least
-	 * according to the limit and threshold defined in the configuration
-	 *
-	 * Also returns the number of contributors who weren't considered
-	 * "important enough"
-	 *
-	 * @return array
-	 */
-	private function getMainContributors() {
-		wfProfileIn( __METHOD__ );
-		global $wgContributorsLimit, $wgContributorsThreshold;
-		$total = 0;
-		$ret = array();
-		$all = $this->getContributors();
-		foreach ( $all as $username => $info ) {
+		$link = Linker::linkKnown( $this->contributorsClass->getTarget() );
+		$this->getOutput()->addHTML( '<h2>' . $this->msg( 'contributors-subtitle' )->rawParams( $link )->escaped() . '</h2>' );
+		list( $contributors, $others ) = $this->contributorsClass->getMainContributors();
+		$output->addHTML( '<ul>' );
+		foreach ( $contributors as $username => $info ) {
 			list( $id, $count ) = $info;
-			if ( $total >= $wgContributorsLimit && $count < $wgContributorsThreshold ) {
-				break;
-			}
-			$ret[$username] = array( $id, $count );
-			$total++;
+			$line = Linker::userLink( $id, $username ) . Linker::userToolLinks( $id, $username );
+			$line .= ' [' . $language->formatNum( $count ) . ']';
+			$output->addHTML( '<li>' . $line . '</li>' );
 		}
-		$others = count( $all ) - count( $ret );
+		$output->addHTML( '</ul>' );
+		if ( $others > 0 ) {
+			$others = $language->formatNum( $others );
+			$output->addWikiText( $this->msg( 'contributors-others-long', $others )->plain() );
+		}
+
 		wfProfileOut( __METHOD__ );
-		return array( $ret, $others );
-	}
-
-	/**
-	 * Return an array of contributors, sorted based on options
-	 *
-	 * @param array $contributors
-	 * @return array
-	 */
-	private function sortContributors( $contributors ) {
-		$opts = $this->getOptions();
-
-		if ( $opts['sortuser'] ) {
-			krsort( $contributors );
-		}
-		if ( $opts['asc'] ) {
-			$contributors = array_reverse( $contributors );
-		}
-		return $contributors;
-	}
-
-	/**
-	 * Retrieve the contributors for the target page with their contribution numbers
-	 *
-	 * @return array
-	 */
-	private function getContributors() {
-		wfProfileIn( __METHOD__ );
-		global $wgMemc;
-		$k = wfMemcKey( 'contributors', $this->target->getArticleID() );
-		$contributors = $wgMemc->get( $k );
-		if ( !$contributors ) {
-			$contributors = array();
-			$dbr = wfGetDB( DB_SLAVE );
-			$res = $dbr->select(
-				'revision',
-				array(
-				'COUNT(*) AS count',
-				'rev_user',
-				'rev_user_text',
-				), $this->getConditions(), __METHOD__,
-				array(
-				'GROUP BY' => 'rev_user_text',
-				'ORDER BY' => 'count DESC',
-				)
-			);
-			if ( $res && $dbr->numRows( $res ) > 0 ) {
-				while ( $row = $dbr->fetchObject( $res ) ) {
-					$contributors[$row->rev_user_text] = array( $row->rev_user, $row->count );
-				}
-			}
-			$wgMemc->set( $k, $contributors, 84600 );
-		}
-		$contributors = $this->sortContributors( $contributors );
-		wfProfileOut( __METHOD__ );
-		return $contributors;
-	}
-
-	/**
-	 * Get conditions for the main query
-	 *
-	 * @return array
-	 */
-	protected function getConditions() {
-		$conds['rev_page'] = $this->target->getArticleID();
-		$conds[] = 'rev_deleted & ' . Revision::DELETED_USER . ' = 0';
-		return $conds;
 	}
 
 	/**
@@ -272,21 +185,19 @@ class SpecialContributors extends IncludableSpecialPage {
 	private function makeForm() {
 		global $wgScript;
 		$opts = $this->getOptions();
-		$self = self::getTitleFor( 'Contributors' );
-		$target = is_object( $this->target ) ? $this->target->getPrefixedText() : '';
 		$form = '<form method="get" action="' . htmlspecialchars( $wgScript ) . '">';
-		$form .= Html::Hidden( 'title', $self->getPrefixedText() );
+		$form .= Html::Hidden( 'title', $this->getPageTitle()->getPrefixedText() );
 		$form .= '<fieldset><legend>' . $this->msg( 'contributors-legend' ) . '</legend>';
 		$form .= '<label for="target">' . $this->msg( 'contributors-target' ) . '</label>';
-		$form .= Xml::input( 'target', 40, $target, array( 'id' => 'target' ) );
+		$form .= Xml::input( 'target', 40, $this->contributorsClass->getTargetText(),
+				array( 'id' => 'target' ) );
 		$form .= '&#160;';
 		$form .= Xml::checkLabel(
 				$this->msg( 'contributors-asc' )->text(), 'asc', 'asc', $opts['asc']
 		);
 		$form .= '&#160;';
 		$form .= Xml::checkLabel(
-				$this->msg( 'contributors-sortuser' )->text(), 'sortuser', 'sortuser',
-				$opts['sortuser']
+				$this->msg( 'contributors-sortuser' )->text(), 'sortuser', 'sortuser', $opts['sortuser']
 		);
 		$form .= Xml::element( 'br' );
 		$form .= Xml::submitButton( $this->msg( 'contributors-submit' )->text() );
@@ -318,5 +229,9 @@ class SpecialContributors extends IncludableSpecialPage {
 				$opts['asc'] = true;
 			}
 		}
+	}
+
+	protected function getGroupName() {
+		return 'pages';
 	}
 }

@@ -7,14 +7,14 @@
  * @author Rob Church <robchur@gmail.com>
  */
 if ( !defined( 'MEDIAWIKI' ) ) {
-	echo( "This file is an extension to the MediaWiki software and cannot be used standalone.\n" );
+	echo ( "This file is an extension to the MediaWiki software and cannot be used standalone.\n" );
 	exit( 1 );
 }
 
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'Contributors',
-	'version' => '1.1.0',
+	'version' => '1.2.0',
 	'author' => 'Rob Church',
 	'descriptionmsg' => 'contributors-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Contributors',
@@ -24,9 +24,9 @@ $dir = dirname( __FILE__ ) . '/';
 $wgMessagesDirs['Contributors'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['Contributors'] = $dir . 'Contributors.i18n.php';
 $wgExtensionMessagesFiles['ContributorsAlias'] = $dir . 'Contributors.alias.php';
+$wgAutoloadClasses['Contributors'] = $dir . 'Contributors.class.php';
 $wgAutoloadClasses['SpecialContributors'] = $dir . 'Contributors.page.php';
 $wgSpecialPages['Contributors'] = 'SpecialContributors';
-$wgSpecialPageGroups['Contributors'] = 'pages';
 
 $wgHooks['ArticleDeleteComplete'][] = 'efContributorsInvalidateCache';
 $wgHooks['ArticleSaveComplete'][] = 'efContributorsInvalidateCache';
@@ -66,7 +66,8 @@ function efContributorsNavigation( &$skintemplate, &$nav_urls, &$oldid, &$revid 
 	if ( $skintemplate->getTitle()->getNamespace() === NS_MAIN && $revid !== 0 ) {
 		$nav_urls['contributors'] = array(
 			'text' => $skintemplate->msg( 'contributors-toolbox' ),
-			'href' => $skintemplate->makeSpecialUrl( 'Contributors', "target=" . wfUrlEncode( "{$skintemplate->thispage}" ) )
+			'href' => $skintemplate->makeSpecialUrl( 'Contributors',
+				"target=" . wfUrlEncode( "{$skintemplate->thispage}" ) )
 		);
 	}
 	return true;
@@ -84,7 +85,7 @@ function efContributorsToolbox( &$monobook ) {
 			?><a href="<?php echo htmlspecialchars( $monobook->data['nav_urls']['contributors']['href'] ) ?>"><?php
 				echo $monobook->msg( 'contributors-toolbox' );
 				?></a><?php
-			?></li><?php
+				?></li><?php
 		}
 	}
 	return true;
