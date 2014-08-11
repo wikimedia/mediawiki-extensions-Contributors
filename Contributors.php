@@ -5,6 +5,7 @@
  * @file
  * @ingroup Extensions
  * @author Rob Church <robchur@gmail.com>
+ * @author Ike Hecht
  */
 if ( !defined( 'MEDIAWIKI' ) ) {
 	echo ( "This file is an extension to the MediaWiki software and cannot be used standalone.\n" );
@@ -14,8 +15,8 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'Contributors',
-	'version' => '1.2.0',
-	'author' => 'Rob Church',
+	'version' => '1.3.0',
+	'author' => array( 'Rob Church', 'Ike Hecht' ),
 	'descriptionmsg' => 'contributors-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Contributors',
 );

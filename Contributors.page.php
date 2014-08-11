@@ -18,6 +18,10 @@ class SpecialContributors extends IncludableSpecialPage {
 	/** @var Contributors */
 	protected $contributorsClass;
 
+	public function setContributorsClass( Contributors $contributorsClass ) {
+		return wfSetVar( $this->contributorsClass, $contributorsClass );
+	}
+
 	public function __construct() {
 		parent::__construct( 'Contributors' );
 	}
@@ -29,7 +33,8 @@ class SpecialContributors extends IncludableSpecialPage {
 		$this->setHeaders();
 
 		$opts = $this->getOptions();
-		$this->contributorsClass = new Contributors( Title::newFromURL( $opts['target'] ), $opts );
+		$this->setContributorsClass(
+			new Contributors( Title::newFromURL( $opts['target'] ), $opts ) );
 
 		# What are we doing? Different execution paths for inclusion,
 		# direct access and raw access
@@ -109,17 +114,13 @@ class SpecialContributors extends IncludableSpecialPage {
 			return;
 		}
 
-		$names = array();
-		list( $contributors, $others ) = $this->contributorsClass->getContributors( false );
-		foreach ( $contributors as $username => $info ) {
-			$names[] = $username;
-		}
-		$outputHtml = $language->listToText( $names );
+		$outputHtml = $this->contributorsClass->getIncludeList( $language );
+		$others = $this->contributorsClass->getNumOthers();
 		if ( $others > 0 ) {
 			$outputHtml .= $this->msg( 'word-separator' )->plain() . $this->msg( 'contributors-others',
 					$language->formatNum( $others ) )->inContentLanguage()->text();
 		}
-		$output->addHTML( htmlspecialchars( $outputHtml ) );
+		$output->addHTML( $outputHtml );
 
 		wfProfileOut( __METHOD__ );
 	}
@@ -131,12 +132,10 @@ class SpecialContributors extends IncludableSpecialPage {
 		wfProfileIn( __METHOD__ );
 		$output = $this->getOutput();
 		$output->disable();
+		$this->contributorsClass->setUseThreshold( false );
 		if ( $this->contributorsClass->targetExists() ) {
-			foreach ( $this->contributorsClass->getContributors() as $username => $info ) {
-				list( $userid, $count ) = $info;
-				header( 'Content-type: text/plain; charset=utf-8' );
-				echo( htmlspecialchars( "{$username} = {$count}\n" ) );
-			}
+			header( 'Content-type: text/plain; charset=utf-8' );
+			echo $this->contributorsClass->getRawList();
 		} else {
 			header( 'Status: 404 Not Found', true, 404 );
 			echo( $this->msg( 'contributors-nosuchpage', $this->contributorsClass->getTargetText() )->escaped() );
@@ -159,15 +158,8 @@ class SpecialContributors extends IncludableSpecialPage {
 
 		$link = Linker::linkKnown( $this->contributorsClass->getTarget() );
 		$this->getOutput()->addHTML( '<h2>' . $this->msg( 'contributors-subtitle' )->rawParams( $link )->escaped() . '</h2>' );
-		list( $contributors, $others ) = $this->contributorsClass->getContributors( false );
-		$output->addHTML( '<ul>' );
-		foreach ( $contributors as $username => $info ) {
-			list( $id, $count ) = $info;
-			$line = Linker::userLink( $id, $username ) . Linker::userToolLinks( $id, $username );
-			$line .= ' [' . $language->formatNum( $count ) . ']';
-			$output->addHTML( '<li>' . $line . '</li>' );
-		}
-		$output->addHTML( '</ul>' );
+		$output->addHTML( $this->contributorsClass->getNormalList( $language ) );
+		$others = $this->contributorsClass->getNumOthers();
 		if ( $others > 0 ) {
 			$others = $language->formatNum( $others );
 			$output->addWikiText( $this->msg( 'contributors-others-long', $others )->plain() );

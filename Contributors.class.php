@@ -9,14 +9,33 @@
  * @author Ike Hecht
  */
 class Contributors {
-	/**
-	 *
-	 * @var Title
-	 */
+	/** @var Title */
 	private $target;
 
 	/** @var FormOptions */
 	private $formOptions;
+
+	/**
+	 * Array of all contributors to this page that should be displayed
+	 * The array is of the form: [username] => array ( userid, numberofcontributions )
+	 *
+	 * @var array
+	 */
+	private $contributors;
+
+	/**
+	 * Should the list be split into main contributors and other contributors?
+	 *
+	 * @var boolean
+	 */
+	private $useThreshold = true;
+
+	/**
+	 * Number of other contributors. If the list is not supposed to be split, this will be 0.
+	 *
+	 * @var int
+	 */
+	private $numOthers;
 
 	public function getTarget() {
 		return $this->target;
@@ -26,12 +45,31 @@ class Contributors {
 		return $this->formOptions;
 	}
 
+	public function getContributors() {
+		return $this->contributors;
+	}
+
+	public function getUseThreshold() {
+		return $this->useThreshold;
+	}
+	public function getNumOthers() {
+		return $this->numOthers;
+	}
+
 	public function setTarget( Title $target ) {
 		return wfSetVar( $this->target, $target );
 	}
-
 	public function setFormOptions( FormOptions $formOptions ) {
 		return wfSetVar( $this->formOptions, $formOptions );
+	}
+	public function setContributors( $contributors ) {
+		return wfSetVar( $this->contributors, $contributors );
+	}
+	public function setUseThreshold( $useThreshold ) {
+		return wfSetVar( $this->useThreshold, $useThreshold );
+	}
+	public function setNumOthers( $numOthers ) {
+		return wfSetVar( $this->numOthers, $numOthers );
 	}
 
 	/**
@@ -41,81 +79,35 @@ class Contributors {
 	 * @param FormOptions $formOptions
 	 */
 	function __construct( Title $target = null, FormOptions $formOptions ) {
+		$this->setFormOptions( $formOptions );
 		if ( $target ) {
 			$this->setTarget( $target );
+			$this->setContributors( $this->generateContributors() );
 		}
-		$this->setFormOptions( $formOptions );
 	}
 
 	/**
-	 * Depending on parameter, either retrieve all contributors or the main contributors
+	 * Depending on $useThreshold, generate a list of contributors that should be displayed.
+	 * Also, set the number of other contributors that are not being listed.
 	 *
-	 * @param boolean $all
-	 * @return array
+	 * @return array Contributors sorted and ready
 	 */
-	public function getContributors( $all = true ) {
-		if ( $all ) {
-			$contributors = $this->getAllContributors();
+	private function generateContributors() {
+		if ( $this->getUseThreshold() ) {
+			$contributors = $this->generateThresholdedContributors();
 		} else {
-			$contributors = $this->getMainContributors();
+			$contributors = $this->generateUnthresholdedContributors();
+			$this->setNumOthers( 0 );
 		}
-
-		$contributors[0] = $this->sortContributors( $contributors[0] );
-		return $contributors;
+		return $this->sortContributors( $contributors );
 	}
-
-	/**
-	 * Retrieve all contributors for the target page worth listing, at least
-	 * according to the limit and threshold defined in the configuration
-	 *
-	 * Also returns the number of contributors who weren't considered
-	 * "important enough"
-	 *
-	 * @return array
-	 */
-	private function getMainContributors() {
-		wfProfileIn( __METHOD__ );
-		global $wgContributorsLimit, $wgContributorsThreshold;
-		$total = 0;
-		$ret = array();
-		$all = $this->getAllContributors();
-		foreach ( $all as $username => $info ) {
-			list( $id, $count ) = $info;
-			if ( $total >= $wgContributorsLimit && $count < $wgContributorsThreshold ) {
-				break;
-			}
-			$ret[$username] = array( $id, $count );
-			$total++;
-		}
-		$others = count( $all ) - count( $ret );
-		wfProfileOut( __METHOD__ );
-		return array( $ret, $others );
-	}
-
-	/**
-	 * Return an array of contributors, sorted based on options
-	 *
-	 * @param array $contributors
-	 * @return array
-	 */
-	private function sortContributors( $contributors ) {
-		$opts = $this->getFormOptions();
-
-		if ( $opts['sortuser'] ) {
-			krsort( $contributors );
-		}
-		if ( $opts['asc'] ) {
-			$contributors = array_reverse( $contributors );
-		}
-		return $contributors;
-	}
-
 	/**
 	 * Retrieve the contributors for the target page with their contribution numbers
+	 * Generate all contributors, ignoring the threshold value.
 	 *
-	 * @return array
+	 * @return array Contributors
 	 */
-	private function getAllContributors() {
+	private function generateUnthresholdedContributors() {
 		wfProfileIn( __METHOD__ );
 		global $wgMemc;
 		$k = wfMemcKey( 'contributors', $this->getTarget()->getArticleID() );
@@ -142,6 +134,53 @@ class Contributors {
 			$wgMemc->set( $k, $contributors, 84600 );
 		}
 		wfProfileOut( __METHOD__ );
+		return $contributors;
+	}
+
+	/**
+	 * Retrieve all contributors for the target page worth listing, at least
+	 * according to the limit and threshold defined in the configuration
+	 *
+	 * Also sets the number of contributors who weren't considered
+	 * "important enough"
+	 *
+	 * @return array Contributors
+	 */
+	private function generateThresholdedContributors() {
+		wfProfileIn( __METHOD__ );
+		global $wgContributorsLimit, $wgContributorsThreshold;
+		$total = 0;
+		$ret = array();
+		$all = $this->generateUnthresholdedContributors();
+		foreach ( $all as $username => $info ) {
+			list( $id, $count ) = $info;
+			if ( $total >= $wgContributorsLimit && $count < $wgContributorsThreshold ) {
+				break;
+			}
+			$ret[$username] = array( $id, $count );
+			$total++;
+		}
+		$others = count( $all ) - count( $ret );
+		$this->setNumOthers( $others );
+		wfProfileOut( __METHOD__ );
+		return $ret;
+	}
+
+	/**
+	 * Return an array of contributors, sorted based on options
+	 *
+	 * @param array $contributors
+	 * @return array Contributors
+	 */
+	private function sortContributors( $contributors ) {
+		$opts = $this->getFormOptions();
+
+		if ( $opts['sortuser'] ) {
+			krsort( $contributors );
+		}
+		if ( $opts['asc'] ) {
+			$contributors = array_reverse( $contributors );
+		}
 		return $contributors;
 	}
 
@@ -187,5 +226,42 @@ class Contributors {
 			return '';
 		}
 		return $this->getTarget()->getPrefixedText();
+	}
+
+	public function getContributorsNames() {
+		return array_keys( $this->getContributors() );
+	}
+
+	public function getIncludeList( Language $language ) {
+		return $language->listToText( $this->getContributorsNames() );
+	}
+
+	public function getRawList() {
+		$output = '';
+		foreach ( $this->getContributors() as $username => $info ) {
+			$count = $info[1];
+			$output .= ( htmlspecialchars( "{$username} = {$count}\n" ) );
+		}
+		return $output;
+	}
+
+	public function getNormalList( Language $language ) {
+		$listHtml = '';
+		$items = $this->getNormalListItems( $language );
+		foreach ( $items as $item ) {
+			$listHtml .= $item . "\n";
+		}
+		return Html::rawElement( 'ul', array(), $listHtml );
+	}
+
+	private function getNormalListItems( Language $language ) {
+		$listItems = array();
+		foreach ( $this->getContributors() as $username => $info ) {
+			list( $id, $count ) = $info;
+			$line = Linker::userLink( $id, $username ) . Linker::userToolLinks( $id, $username );
+			$line .= ' [' . $language->formatNum( $count ) . ']';
+			$listItems[] = Html::rawElement( 'li', array(), $line );
+		}
+		return $listItems;
 	}
 }
