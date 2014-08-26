@@ -3,7 +3,8 @@
 		"authors": [
 			"Derbeth",
 			"Masti",
-			"Sp5uhe"
+			"Sp5uhe",
+			"Chrumps"
 		]
 	},
 	"contributors": "Autorzy",
@@ -16,5 +17,6 @@
 	"contributors-others-long": "Jest $1 {{PLURAL:$1|inny autor|innych autorów}} tej strony.",
 	"contributors-others": "i $1 {{PLURAL:$1|inny|innych}}",
 	"contributors-badtitle": "Niepoprawny tytuł.",
-	"contributors-nosuchpage": "Strona $1 nie istnieje."
+	"contributors-nosuchpage": "Strona $1 nie istnieje.",
+	"contributors-sortuser": "Sortuj alfabetycznie"
 }
