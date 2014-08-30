@@ -361,5 +361,5 @@ $specialPageAliases['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
-	'Contributors' => array( '捐贈者' ),
+	'Contributors' => array( '貢獻者' ),
 );

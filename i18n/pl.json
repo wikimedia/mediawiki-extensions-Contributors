@@ -18,5 +18,6 @@
 	"contributors-others": "i $1 {{PLURAL:$1|inny|innych}}",
 	"contributors-badtitle": "Niepoprawny tytuł.",
 	"contributors-nosuchpage": "Strona $1 nie istnieje.",
+	"contributors-asc": "Sortuj rosnąco",
 	"contributors-sortuser": "Sortuj alfabetycznie"
 }
