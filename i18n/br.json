@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fulup"
+			"Fulup",
+			"Fohanno"
 		]
 	},
 	"contributors": "Aozerien",
@@ -14,5 +15,7 @@
 	"contributors-others-long": "{{PLURAL:$1|Un aozer all en deus|$1 aozer all o deus}} kemeret perzh er pennad-mañ.",
 	"contributors-others": "{{PLURAL:$1|hag unan all|ha $1 all}}",
 	"contributors-badtitle": "Titl fall.",
-	"contributors-nosuchpage": "N'eus ket eus ar pennad $1."
+	"contributors-nosuchpage": "N'eus ket eus ar pennad $1.",
+	"contributors-asc": "Renkañ war-gresk",
+	"contributors-sortuser": "Renkañ en urzh al lizherenneg"
 }
