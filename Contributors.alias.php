@@ -199,6 +199,11 @@ $specialPageAliases['lb'] = array(
 	'Contributors' => array( 'Auteuren' ),
 );
 
+/** Malagasy (Malagasy) */
+$specialPageAliases['mg'] = array(
+	'Contributors' => array( 'Mpandray_anjara' ),
+);
+
 /** Minangkabau (Baso Minangkabau) */
 $specialPageAliases['min'] = array(
 	'Contributors' => array( 'Panyumbang' ),
