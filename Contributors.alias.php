@@ -349,7 +349,7 @@ $specialPageAliases['ur'] = array(
 	'Contributors' => array( 'مشارکین' ),
 );
 
-/** vèneto (vèneto) */
+/** Venetian (vèneto) */
 $specialPageAliases['vec'] = array(
 	'Contributors' => array( 'Contribudori' ),
 );
