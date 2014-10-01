@@ -15,7 +15,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'Contributors',
-	'version' => '1.3.0',
+	'version' => '1.4.0',
 	'author' => array( 'Rob Church', 'Ike Hecht' ),
 	'descriptionmsg' => 'contributors-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Contributors',

@@ -205,21 +205,33 @@ class SpecialContributors extends IncludableSpecialPage {
 	 * @param FormOptions $opts
 	 */
 	public function parseParameters( $par, FormOptions $opts ) {
+		$validParams = array( 'sortuser', 'asc' );
 		$bits = preg_split( '/\s*,\s*/', trim( $par ) );
 
 		//?target=SomePageName overrides value set with Special:Contributors/OtherPageName
 		$target = array_shift( $bits );
-		if ( !$opts['target'] ) {
-			$opts['target'] = $target;
+
+		/** @todo this is a bit sloppy */
+		/**
+		 * @todo if the title has a valid parameter in its name and that is the only text after
+		 * a comma, that part of the title will erroneously be assumed to be a parameter. In other
+		 * words, where a page title is equal to "b,asc", {{Special:Contributors/b,asc}} will produce
+		 * a contributors list for the page whose title is "b", in ascending order.
+		 */
+		$foundValidParam = false;
+		foreach ( $bits as $bit ) {
+			if ( in_array( $bit, $validParams ) ) {
+				$foundValidParam = true;
+				$opts[$bit] = true;
+			} elseif ( !$foundValidParam ) {
+				//If we haven't reached a valid parameter yet and this is not a valid parameter,
+				//it's probably a part of the title - i.e. the title has a comma in it.
+				$target .= ',' . $bit;
+			}
 		}
 
-		foreach ( $bits as $bit ) {
-			if ( 'sortuser' === $bit ) {
-				$opts['sortuser'] = true;
-			}
-			if ( 'asc' === $bit ) {
-				$opts['asc'] = true;
-			}
+		if ( !$opts['target'] ) {
+			$opts['target'] = $target;
 		}
 	}
 
