@@ -33,8 +33,10 @@ class SpecialContributors extends IncludableSpecialPage {
 		$this->setHeaders();
 
 		$opts = $this->getOptions();
+		$target = $opts['target'];
+		unset( $opts['target'] );
 		$this->setContributorsClass(
-			new Contributors( Title::newFromURL( $opts['target'] ), $opts ) );
+			new Contributors( Title::newFromURL( $target ), $opts->getAllValues() ) );
 
 		# What are we doing? Different execution paths for inclusion,
 		# direct access and raw access
@@ -70,13 +72,11 @@ class SpecialContributors extends IncludableSpecialPage {
 	 * @return FormOptions
 	 */
 	protected function setup() {
-		$parameters = $this->subpageString;
-
 		$opts = $this->getDefaultOptions();
 		$opts->fetchValuesFromRequest( $this->getRequest() );
-		// Give precedence to subpage syntax
-		if ( $parameters !== null ) {
-			$this->parseParameters( $parameters, $opts );
+		// Give precedence to target parameter over subpage string
+		if ( !$opts['target'] && $this->subpageString !== null ) {
+			$opts['target'] = $this->subpageString;
 		}
 
 		return $opts;
@@ -114,7 +114,7 @@ class SpecialContributors extends IncludableSpecialPage {
 			return;
 		}
 
-		$outputHtml = $this->contributorsClass->getIncludeList( $language );
+		$outputHtml = $this->contributorsClass->getSimpleList( $language );
 		$others = $this->contributorsClass->getNumOthers();
 		if ( $others > 0 ) {
 			$outputHtml .= $this->msg( 'word-separator' )->plain() . $this->msg( 'contributors-others',
@@ -138,7 +138,8 @@ class SpecialContributors extends IncludableSpecialPage {
 			echo $this->contributorsClass->getRawList();
 		} else {
 			header( 'Status: 404 Not Found', true, 404 );
-			echo( $this->msg( 'contributors-nosuchpage', $this->contributorsClass->getTargetText() )->escaped() );
+			echo ( $this->msg(
+				'contributors-nosuchpage', $this->contributorsClass->getTargetText() )->escaped() );
 		}
 		wfProfileOut( __METHOD__ );
 	}
@@ -157,7 +158,8 @@ class SpecialContributors extends IncludableSpecialPage {
 		}
 
 		$link = Linker::linkKnown( $this->contributorsClass->getTarget() );
-		$this->getOutput()->addHTML( '<h2>' . $this->msg( 'contributors-subtitle' )->rawParams( $link )->escaped() . '</h2>' );
+		$this->getOutput()->addHTML( '<h2>' . $this->msg( 'contributors-subtitle' )
+				->rawParams( $link )->escaped() . '</h2>' );
 		$output->addHTML( $this->contributorsClass->getNormalList( $language ) );
 		$others = $this->contributorsClass->getNumOthers();
 		if ( $others > 0 ) {
@@ -196,43 +198,6 @@ class SpecialContributors extends IncludableSpecialPage {
 		$form .= '</fieldset>';
 		$form .= '</form>';
 		return $form;
-	}
-
-	/**
-	 * Process $par and put options found in $opts. Used when including the page.
-	 *
-	 * @param string $par
-	 * @param FormOptions $opts
-	 */
-	public function parseParameters( $par, FormOptions $opts ) {
-		$validParams = array( 'sortuser', 'asc' );
-		$bits = preg_split( '/\s*,\s*/', trim( $par ) );
-
-		//?target=SomePageName overrides value set with Special:Contributors/OtherPageName
-		$target = array_shift( $bits );
-
-		/** @todo this is a bit sloppy */
-		/**
-		 * @todo if the title has a valid parameter in its name and that is the only text after
-		 * a comma, that part of the title will erroneously be assumed to be a parameter. In other
-		 * words, where a page title is equal to "b,asc", {{Special:Contributors/b,asc}} will produce
-		 * a contributors list for the page whose title is "b", in ascending order.
-		 */
-		$foundValidParam = false;
-		foreach ( $bits as $bit ) {
-			if ( in_array( $bit, $validParams ) ) {
-				$foundValidParam = true;
-				$opts[$bit] = true;
-			} elseif ( !$foundValidParam ) {
-				//If we haven't reached a valid parameter yet and this is not a valid parameter,
-				//it's probably a part of the title - i.e. the title has a comma in it.
-				$target .= ',' . $bit;
-			}
-		}
-
-		if ( !$opts['target'] ) {
-			$opts['target'] = $target;
-		}
 	}
 
 	protected function getGroupName() {

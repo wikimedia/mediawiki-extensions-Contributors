@@ -12,8 +12,8 @@ class Contributors {
 	/** @var Title */
 	private $target;
 
-	/** @var FormOptions */
-	private $formOptions;
+	/** @var array */
+	private $options;
 
 	/**
 	 * Array of all contributors to this page that should be displayed
@@ -41,8 +41,8 @@ class Contributors {
 		return $this->target;
 	}
 
-	public function getFormOptions() {
-		return $this->formOptions;
+	public function getOptions() {
+		return $this->options;
 	}
 
 	public function getContributors() {
@@ -52,6 +52,7 @@ class Contributors {
 	public function getUseThreshold() {
 		return $this->useThreshold;
 	}
+
 	public function getNumOthers() {
 		return $this->numOthers;
 	}
@@ -59,31 +60,45 @@ class Contributors {
 	public function setTarget( Title $target ) {
 		return wfSetVar( $this->target, $target );
 	}
-	public function setFormOptions( FormOptions $formOptions ) {
-		return wfSetVar( $this->formOptions, $formOptions );
+
+	public function setOptions( array $options ) {
+		return wfSetVar( $this->options, $options );
 	}
+
 	public function setContributors( $contributors ) {
 		return wfSetVar( $this->contributors, $contributors );
 	}
+
 	public function setUseThreshold( $useThreshold ) {
 		return wfSetVar( $this->useThreshold, $useThreshold );
 	}
+
 	public function setNumOthers( $numOthers ) {
 		return wfSetVar( $this->numOthers, $numOthers );
 	}
 
 	/**
 	 * Construct a contributors object based on title and options
+	 * @todo $target should be required
 	 *
-	 * @param Title $target
-	 * @param FormOptions $formOptions
+	 * @param Title|null $target
+	 * @param array $options
 	 */
-	function __construct( Title $target = null, FormOptions $formOptions ) {
-		$this->setFormOptions( $formOptions );
+	function __construct( Title $target = null, array $options ) {
+		$this->setOptions( $options );
 		if ( $target ) {
 			$this->setTarget( $target );
 			$this->setContributors( $this->generateContributors() );
 		}
+	}
+
+	/**
+	 * Get an array of valid options
+	 *
+	 * @return array Numeric array of strings
+	 */
+	public static function getValidOptions() {
+		return array( 'sortuser', 'asc' );
 	}
 
 	/**
@@ -101,6 +116,7 @@ class Contributors {
 		}
 		return $this->sortContributors( $contributors );
 	}
+
 	/**
 	 * Retrieve the contributors for the target page with their contribution numbers
 	 * Generate all contributors, ignoring the threshold value.
@@ -173,12 +189,12 @@ class Contributors {
 	 * @return array Contributors
 	 */
 	private function sortContributors( $contributors ) {
-		$opts = $this->getFormOptions();
+		$opts = $this->getOptions();
 
-		if ( $opts['sortuser'] ) {
+		if ( array_key_exists( 'sortuser', $opts ) && $opts['sortuser'] ) {
 			krsort( $contributors );
 		}
-		if ( $opts['asc'] ) {
+		if ( array_key_exists( 'asc', $opts ) && $opts['asc'] ) {
 			$contributors = array_reverse( $contributors );
 		}
 		return $contributors;
@@ -232,7 +248,7 @@ class Contributors {
 		return array_keys( $this->getContributors() );
 	}
 
-	public function getIncludeList( Language $language ) {
+	public function getSimpleList( Language $language ) {
 		return $language->listToText( $this->getContributorsNames() );
 	}
 
