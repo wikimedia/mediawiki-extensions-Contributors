@@ -14,7 +14,7 @@
 	"contributors-target": "Название:",
 	"contributors-submit": "Показать",
 	"contributors-subtitle": "Основные авторы $1",
-	"contributors-others-long": "Кроме указанных, у данной страницы есть ещё $1 {{PLURAL:$1|автор|авторов|автора}}.",
+	"contributors-others-long": "Кроме указанных, у данной страницы есть ещё $1 {{PLURAL:$1|автор|автора|авторов}}.",
 	"contributors-others": "и ещё $1 {{PLURAL:$1|другой|других}}",
 	"contributors-badtitle": "Ошибочное название.",
 	"contributors-nosuchpage": "Страница «$1» не существует.",
