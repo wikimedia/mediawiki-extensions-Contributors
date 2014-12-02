@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"बिप्लब आनन्द"
+		]
+	},
+	"contributors": "योगदानकर्ता",
+	"contributors-desc": "पृष्ठके मुख्य योगदानकर्ता सभके संक्षिप्त सूची",
+	"contributors-toolbox": "मुख्य योगदानकर्ता",
+	"contributors-legend": "पृष्ठ के मुख्य योगदानकर्ता सभ के सूची बनाऊ",
+	"contributors-target": "शीर्षक:",
+	"contributors-submit": "देखाऊ",
+	"contributors-subtitle": "$1 के प्रमुख योगदानकर्ता",
+	"contributors-others-long": "इ पृष्ठ {{PLURAL:$1|के एगो अन्य|के एगो अन्य}} योगदानकर्ता अछि।",
+	"contributors-others": "आर {{PLURAL:$1|एगो अन्य|$1 अन्य}}",
+	"contributors-badtitle": "अवैध शीर्षक।",
+	"contributors-nosuchpage": "$1 पृष्ठ अस्तित्वमें नै अछि।",
+	"contributors-asc": "घटैत क्रममे छाँटू",
+	"contributors-sortuser": "वर्णाक्षरानुसार छाँटू"
+}
