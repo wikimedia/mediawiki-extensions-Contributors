@@ -11,7 +11,7 @@
 	"contributors-target": "शीर्षक:",
 	"contributors-submit": "देखाऊ",
 	"contributors-subtitle": "$1 के प्रमुख योगदानकर्ता",
-	"contributors-others-long": "इ पृष्ठ {{PLURAL:$1|के एगो अन्य|के एगो अन्य}} योगदानकर्ता अछि।",
+	"contributors-others-long": "इ पृष्ठ {{PLURAL:$1|के एगो आन|के एगो अन्य}} योगदानकर्ता अछि।",
 	"contributors-others": "आर {{PLURAL:$1|एगो अन्य|$1 अन्य}}",
 	"contributors-badtitle": "अवैध शीर्षक।",
 	"contributors-nosuchpage": "$1 पृष्ठ अस्तित्वमें नै अछि।",
