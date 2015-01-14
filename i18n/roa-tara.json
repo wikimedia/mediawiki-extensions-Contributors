@@ -14,5 +14,7 @@
 	"contributors-others-long": "{{PLURAL:$1|Stè 'n'otre condrebbutore|Stonne otre $1 condrebbutore}} de sta pàgene.",
 	"contributors-others": "e {{PLURAL:$1|'notre|$1 otre}}",
 	"contributors-badtitle": "Titele invalide.",
-	"contributors-nosuchpage": "'A pàgene $1 non g'esiste."
+	"contributors-nosuchpage": "'A pàgene $1 non g'esiste.",
+	"contributors-asc": "Ordenamende ca 'nghiane",
+	"contributors-sortuser": "Ordene alfabbeticamende"
 }
