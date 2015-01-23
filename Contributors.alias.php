@@ -39,6 +39,11 @@ $specialPageAliases['as'] = array(
 	'Contributors' => array( 'বৰঙনিদাতা' ),
 );
 
+/** Avaric (авар) */
+$specialPageAliases['av'] = array(
+	'Contributors' => array( 'Вкладчики' ),
+);
+
 /** Bashkir (башҡортса) */
 $specialPageAliases['ba'] = array(
 	'Contributors' => array( 'Contributors' ),
