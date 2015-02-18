@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"1AnuraagPandey"
+		]
+	},
+	"contributors": "योगदानकर्ता",
+	"contributors-desc": "पन्ना कय मुख्य योगदानकर्ता कय संक्षिप्त सूची",
+	"contributors-toolbox": "मुख्य योगदानकर्ता",
+	"contributors-legend": "पन्ना कय मुख्य योगदानकर्ता कय सूची बनावा जाय",
+	"contributors-target": "शिर्षक",
+	"contributors-submit": "देखावा जाय",
+	"contributors-subtitle": "$1 कय प्रमुख योगदानकर्ता",
+	"contributors-others-long": "इ पन्ना {{PLURAL:$1|कय एक्ठु दुसर|कय $1 दुसर}} योगदानकर्ता {{PLURAL:$1|है|हैं}}।",
+	"contributors-others": "औ {{PLURAL:$1|एक|$1}} दुसर",
+	"contributors-badtitle": "अवैध शीर्षक।",
+	"contributors-nosuchpage": "स्रोत पन्ना $1 मौजूद नाई है।",
+	"contributors-asc": "बढे कय क्रम में मिलाओ",
+	"contributors-sortuser": "वर्णानुक्रम कय अनुसार देखावा जाय"
+}
