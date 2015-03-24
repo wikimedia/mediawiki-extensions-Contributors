@@ -4,11 +4,12 @@
 			"Jon Harald Søby",
 			"Purodha",
 			"Shirayuki",
-			"Ike Hecht"
+			"Ike Hecht",
+			"Umherirrender"
 		]
 	},
 	"contributors": "{{doc-special|Contributors}}\n{{Identical|Contributor}}",
-	"contributors-desc": "{{desc|name=Contributors|url=http://www.mediawiki.org/wiki/Extension:Contributors}}",
+	"contributors-desc": "{{desc|name=Contributors|url=https://www.mediawiki.org/wiki/Extension:Contributors}}",
 	"contributors-toolbox": "Used as link text in the toolbox.\n\nThe link points to [[Special:Contributors]].",
 	"contributors-legend": "Used as fieldset label of the form.\n\nThis message is followed by the input box {{msg-mw|contributors-target}}.",
 	"contributors-target": "Used as label for Target input box.\n{{Identical|Title}}",
