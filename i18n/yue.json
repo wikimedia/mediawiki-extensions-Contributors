@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shinjiman"
+			"Shinjiman",
+			"Yueman"
 		]
 	},
 	"contributors": "貢獻者",
+	"contributors-desc": "將主要嘅參與者匯埋同一頁",
 	"contributors-toolbox": "主要貢獻者",
 	"contributors-legend": "列示呢篇文章嘅主要貢獻者",
 	"contributors-target": "標題:",
@@ -13,5 +15,7 @@
 	"contributors-others-long": "響呢一版度重有$1位更多嘅貢獻者。",
 	"contributors-others": "以及另外$1位",
 	"contributors-badtitle": "唔正確嘅標題。",
-	"contributors-nosuchpage": "文章$1唔存在。"
+	"contributors-nosuchpage": "文章$1唔存在。",
+	"contributors-asc": "順序排",
+	"contributors-sortuser": "跟字母排"
 }
