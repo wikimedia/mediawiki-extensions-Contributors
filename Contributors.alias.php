@@ -49,6 +49,11 @@ $specialPageAliases['ba'] = array(
 	'Contributors' => array( 'Contributors' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'Contributors' => array( 'شرکت_کنۆک_ئان' ),
+);
+
 /** Banjar (Bahasa Banjar) */
 $specialPageAliases['bjn'] = array(
 	'Contributors' => array( 'Panyumbang' ),
