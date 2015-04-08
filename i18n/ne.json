@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Bhawani Gautam",
-			"Bhawani Gautam Rhk"
+			"Bhawani Gautam Rhk",
+			"बिप्लब आनन्द"
 		]
 	},
 	"contributors": "योगदानकर्ताहरु:",
@@ -15,5 +16,6 @@
 	"contributors-others-long": "यस पृष्ठ {{PLURAL:$1|को अर्को एकजना योगदाता छन्|का अरु $1 योगदाताहरु छन्}}।",
 	"contributors-others": "र {{PLURAL:$1|एउटा अर्को|अरु $1}}",
 	"contributors-badtitle": "अमान्य शीर्षक।",
-	"contributors-nosuchpage": "$1 पृष्ठ अस्तित्वमा छैन ।"
+	"contributors-nosuchpage": "$1 पृष्ठ अस्तित्वमा छैन ।",
+	"contributors-sortuser": "वर्णानुक्रम अनुसार मिलाउने"
 }
