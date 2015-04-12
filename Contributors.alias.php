@@ -79,6 +79,11 @@ $specialPageAliases['ce'] = array(
 	'Contributors' => array( 'Ахча_охьадуьхкарш' ),
 );
 
+/** Czech (čeština) */
+$specialPageAliases['cs'] = array(
+	'Contributors' => array( 'Přispěvatelé', 'Prispevatele' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'Contributors' => array( 'Autoren' ),
