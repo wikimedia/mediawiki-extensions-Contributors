@@ -29,7 +29,7 @@ $specialPageAliases['arc'] = array(
 	'Contributors' => array( 'ܫܘ̈ܬܦܐ' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'Contributors' => array( 'مساهمين' ),
 );
@@ -214,7 +214,7 @@ $specialPageAliases['lb'] = array(
 	'Contributors' => array( 'Auteuren' ),
 );
 
-/** لوری (لوری) */
+/** لوری مینجایی (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
 	'Contributors' => array( 'هومیاریا' ),
 );
