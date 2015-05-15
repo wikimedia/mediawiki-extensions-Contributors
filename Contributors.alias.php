@@ -214,7 +214,7 @@ $specialPageAliases['lb'] = array(
 	'Contributors' => array( 'Auteuren' ),
 );
 
-/** لوری مینجایی (لوری مینجایی) */
+/** Northern Luri (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
 	'Contributors' => array( 'هومیاریا' ),
 );
