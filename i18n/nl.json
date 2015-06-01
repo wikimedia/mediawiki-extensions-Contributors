@@ -3,7 +3,8 @@
 		"authors": [
 			"SPQRobin",
 			"Siebrand",
-			"Sjoerddebruin"
+			"Sjoerddebruin",
+			"Esketti"
 		]
 	},
 	"contributors": "Bijdragers",
@@ -17,5 +18,6 @@
 	"contributors-others": "en $1 {{PLURAL:$1|andere|anderen}}",
 	"contributors-badtitle": "Ongeldige paginanaam.",
 	"contributors-nosuchpage": "De pagina $1 bestaat niet.",
+	"contributors-asc": "Oplopend sorteren",
 	"contributors-sortuser": "Alfabetisch sorteren"
 }
