@@ -214,7 +214,7 @@ $specialPageAliases['lb'] = array(
 	'Contributors' => array( 'Auteuren' ),
 );
 
-/** Northern Luri (لوری مینجایی) */
+/** Northern Luri (لۊری شومالی) */
 $specialPageAliases['lrc'] = array(
 	'Contributors' => array( 'ھومیاریا' ),
 );
