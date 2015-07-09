@@ -249,7 +249,24 @@ class Contributors {
 	}
 
 	public function getSimpleList( Language $language ) {
-		return $language->listToText( $this->getContributorsNames() );
+		global $wgContributorsLinkUsers;
+
+		if ( $wgContributorsLinkUsers ) {
+			$rawNames = $this->getContributorsNames();
+			$names = array();
+			foreach ( $rawNames as $rawName ) {
+				$user = User::newFromName( $rawName );
+				if ( $user ) {
+					$names[] = Linker::userLink( $user->getId(), $user->getName() );
+				} else {
+					$names[] = Linker::userLink( 0, $rawName );
+				}
+			}
+		} else {
+			$names = $this->getContributorsNames();
+		}
+
+		return $language->listToText( $names );
 	}
 
 	public function getRawList() {

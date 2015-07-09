@@ -15,7 +15,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'Contributors',
-	'version' => '1.5.0',
+	'version' => '2.0',
 	'author' => array( 'Rob Church', 'Ike Hecht' ),
 	'descriptionmsg' => 'contributors-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Contributors',
@@ -49,3 +49,8 @@ $wgContributorsLimit = 10;
  * number of edits to a page won't be listed in normal or inclusion lists
  */
 $wgContributorsThreshold = 2;
+
+/**
+ * Link the user names to their User page. Doesn't affect the Special page, which is always linked.
+ */
+$wgContributorsLinkUsers = true;
