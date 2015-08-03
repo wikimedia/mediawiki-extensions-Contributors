@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"CERminator"
+			"CERminator",
+			"Srdjan m"
 		]
 	},
 	"contributors": "Autori",
@@ -9,7 +10,7 @@
 	"contributors-toolbox": "Glavni autori",
 	"contributors-legend": "Prikaži glavne autore stranice",
 	"contributors-target": "Naslov:",
-	"contributors-submit": "Pokaži",
+	"contributors-submit": "Prikaži",
 	"contributors-subtitle": "Glavni autori stranice $1",
 	"contributors-others-long": "Postoji {{PLURAL:$1|još jedan autor|još $1 autora}} ove stranice.",
 	"contributors-others": "i {{PLURAL:$1|još jedan|još $1 ostala|još $1 ostalih}}",
