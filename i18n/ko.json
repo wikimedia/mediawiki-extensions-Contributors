@@ -5,7 +5,8 @@
 			"Kwj2772",
 			"ToePeu",
 			"Yknok29",
-			"아라"
+			"아라",
+			"Hwangjy9"
 		]
 	},
 	"contributors": "기여자",
@@ -18,5 +19,7 @@
 	"contributors-others-long": "이 문서에 {{PLURAL:$1|다른 기여자 한 명|다른 기여자 $1명}}이 있습니다.",
 	"contributors-others": "그리고 {{PLURAL:$1|다른 한 명|다른 $1명}}",
 	"contributors-badtitle": "제목이 잘못되었습니다.",
-	"contributors-nosuchpage": "$1 문서가 존재하지 않습니다."
+	"contributors-nosuchpage": "$1 문서가 존재하지 않습니다.",
+	"contributors-asc": "오름차순 정렬",
+	"contributors-sortuser": "알파벳순으로 정렬"
 }
