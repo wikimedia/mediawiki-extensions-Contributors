@@ -18,6 +18,6 @@
 	"contributors-others-long": "Orri honetan beste {{PLURAL:$1|lankide batek|$1 lankidek}} ere parte hartu {{PLURAL:$1|du|dute}}.",
 	"contributors-others": "eta {{PLURAL:$1|beste bat|beste $1}}",
 	"contributors-badtitle": "Izenburu ezegokia.",
-	"contributors-nosuchpage": "$1 orrialdea ez da existitzen.",
+	"contributors-nosuchpage": "«$1» orria ez da existitzen.",
 	"contributors-sortuser": "Ordenatu alfabetikoki"
 }
