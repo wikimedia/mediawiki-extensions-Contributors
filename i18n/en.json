@@ -1,21 +1,21 @@
 {
-    "@metadata": {
-        "authors": [
-            "Rob Church",
-            "Ike Hecht"
-        ]
-    },
-    "contributors": "Contributors",
-    "contributors-desc": "Summarizes the main contributors to a page",
-    "contributors-toolbox": "Main contributors",
-    "contributors-legend": "List main contributors to a page",
-    "contributors-target": "Title:",
-    "contributors-submit": "Show",
-    "contributors-subtitle": "Main contributors to $1",
-    "contributors-others-long": "There {{PLURAL:$1|is one other contributor|are $1 other contributors}} to this page.",
-    "contributors-others": "and {{PLURAL:$1|one other|$1 others}}",
-    "contributors-badtitle": "Invalid title.",
-    "contributors-nosuchpage": "The page $1 does not exist.",
-    "contributors-asc": "Sort ascending",
-    "contributors-sortuser": "Sort alphabetically"
+	"@metadata": {
+		"authors": [
+			"Rob Church",
+			"Ike Hecht"
+		]
+	},
+	"contributors": "Contributors",
+	"contributors-desc": "Summarizes the main contributors to a page",
+	"contributors-toolbox": "Main contributors",
+	"contributors-legend": "List main contributors to a page",
+	"contributors-target": "Title:",
+	"contributors-submit": "Show",
+	"contributors-subtitle": "Main contributors to $1",
+	"contributors-others-long": "There {{PLURAL:$1|is one other contributor|are $1 other contributors}} to this page.",
+	"contributors-others": "and {{PLURAL:$1|one other|$1 others}}",
+	"contributors-badtitle": "Invalid title.",
+	"contributors-nosuchpage": "The page $1 does not exist.",
+	"contributors-asc": "Sort ascending",
+	"contributors-sortuser": "Sort alphabetically"
 }
