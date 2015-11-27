@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"EugeneZelenko",
-			"Jim-by"
+			"Jim-by",
+			"Red Winged Duck"
 		]
 	},
 	"contributors": "Аўтары",
@@ -15,5 +16,6 @@
 	"contributors-others-long": "Ёсьць $1 {{PLURAL:$1|іншы аўтар|іншых аўтары|іншых аўтараў}} гэтай старонкі.",
 	"contributors-others": "і яшчэ $1 {{PLURAL:$1|іншы|іншых|іншых}}",
 	"contributors-badtitle": "Няслушная назва.",
-	"contributors-nosuchpage": "Старонка $1 не існуе."
+	"contributors-nosuchpage": "Старонка $1 не існуе.",
+	"contributors-asc": "Сартаваць па ўзрастаньні"
 }
