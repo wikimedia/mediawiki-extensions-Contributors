@@ -1,8 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"පසිඳු කාවින්ද"
+			"පසිඳු කාවින්ද",
+			"Obaid Raza"
 		]
 	},
-	"contributors-badtitle": "باطل عنوان."
+	"contributors": "شراکتیں",
+	"contributors-target": "عنوان:",
+	"contributors-submit": "دکھائیں",
+	"contributors-others": "اور {{PLURAL:$1|ایک دوسرا|$1 دیگر}}",
+	"contributors-badtitle": "باطل عنوان.",
+	"contributors-nosuchpage": "صفحہ $1 موجود نہیں"
 }
