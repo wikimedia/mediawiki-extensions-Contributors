@@ -36,7 +36,7 @@ class SpecialContributors extends IncludableSpecialPage {
 		$target = $opts['target'];
 		unset( $opts['target'] );
 		$this->setContributorsClass(
-			new Contributors( Title::newFromURL( $target ), $opts->getAllValues() ) );
+			new Contributors( Title::newFromText( $target ), $opts->getAllValues() ) );
 
 		# What are we doing? Different execution paths for inclusion,
 		# direct access and raw access
