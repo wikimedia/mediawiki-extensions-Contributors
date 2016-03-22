@@ -27,7 +27,6 @@ class SpecialContributors extends IncludableSpecialPage {
 	}
 
 	public function execute( $subpageString ) {
-		wfProfileIn( __METHOD__ );
 		$this->subpageString = $subpageString;
 		$output = $this->getOutput();
 		$this->setHeaders();
@@ -48,8 +47,6 @@ class SpecialContributors extends IncludableSpecialPage {
 			$output->addHTML( $this->makeForm() );
 			$this->showNormal();
 		}
-
-		wfProfileOut( __METHOD__ );
 	}
 
 	/**
@@ -99,8 +96,6 @@ class SpecialContributors extends IncludableSpecialPage {
 	}
 
 	private function showInclude() {
-		wfProfileIn( __METHOD__ );
-
 		$output = $this->getOutput();
 		$language = $this->getLanguage();
 
@@ -121,15 +116,12 @@ class SpecialContributors extends IncludableSpecialPage {
 					$language->formatNum( $others ) )->inContentLanguage()->text();
 		}
 		$output->addHTML( $outputHtml );
-
-		wfProfileOut( __METHOD__ );
 	}
 
 	/**
 	 * Output a machine-readable form of the raw information
 	 */
 	private function showRaw() {
-		wfProfileIn( __METHOD__ );
 		$output = $this->getOutput();
 		$output->disable();
 		$this->contributorsClass->setUseThreshold( false );
@@ -141,11 +133,9 @@ class SpecialContributors extends IncludableSpecialPage {
 			echo ( $this->msg(
 				'contributors-nosuchpage', $this->contributorsClass->getTargetText() )->escaped() );
 		}
-		wfProfileOut( __METHOD__ );
 	}
 
 	private function showNormal() {
-		wfProfileIn( __METHOD__ );
 		$language = $this->getLanguage();
 		$output = $this->getOutput();
 		if ( !$this->contributorsClass->hasTarget() ) {
@@ -166,8 +156,6 @@ class SpecialContributors extends IncludableSpecialPage {
 			$others = $language->formatNum( $others );
 			$output->addWikiText( $this->msg( 'contributors-others-long', $others )->plain() );
 		}
-
-		wfProfileOut( __METHOD__ );
 	}
 
 	/**

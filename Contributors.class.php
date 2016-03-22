@@ -124,7 +124,6 @@ class Contributors {
 	 * @return array Contributors
 	 */
 	private function generateUnthresholdedContributors() {
-		wfProfileIn( __METHOD__ );
 		global $wgMemc;
 		$k = wfMemcKey( 'contributors', $this->getTarget()->getArticleID() );
 		$contributors = $wgMemc->get( $k );
@@ -149,7 +148,6 @@ class Contributors {
 			}
 			$wgMemc->set( $k, $contributors, 84600 );
 		}
-		wfProfileOut( __METHOD__ );
 		return $contributors;
 	}
 
@@ -163,7 +161,6 @@ class Contributors {
 	 * @return array Contributors
 	 */
 	private function generateThresholdedContributors() {
-		wfProfileIn( __METHOD__ );
 		global $wgContributorsLimit, $wgContributorsThreshold;
 		$total = 0;
 		$ret = array();
@@ -178,7 +175,6 @@ class Contributors {
 		}
 		$others = count( $all ) - count( $ret );
 		$this->setNumOthers( $others );
-		wfProfileOut( __METHOD__ );
 		return $ret;
 	}
 
