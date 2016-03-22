@@ -168,7 +168,7 @@ class SpecialContributors extends IncludableSpecialPage {
 		global $wgScript;
 		$opts = $this->getOptions();
 		$form = '<form method="get" action="' . htmlspecialchars( $wgScript ) . '">';
-		$form .= Html::Hidden( 'title', $this->getPageTitle()->getPrefixedText() );
+		$form .= Html::hidden( 'title', $this->getPageTitle()->getPrefixedText() );
 		$form .= '<fieldset><legend>' . $this->msg( 'contributors-legend' ) . '</legend>';
 		$form .= '<label for="target">' . $this->msg( 'contributors-target' ) . '</label>';
 		$form .= Xml::input( 'target', 40, $this->contributorsClass->getTargetText(),
