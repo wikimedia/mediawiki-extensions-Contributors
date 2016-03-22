@@ -21,15 +21,14 @@ $wgExtensionCredits['specialpage'][] = array(
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Contributors',
 );
 
-$dir = dirname( __FILE__ ) . '/';
 $wgMessagesDirs['Contributors'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['Contributors'] = $dir . 'Contributors.i18n.php';
+$wgExtensionMessagesFiles['Contributors'] = __DIR__ . '/Contributors.i18n.php';
 $wgExtensionMessagesFiles['ContributorsMagic'] = __DIR__ . '/Contributors.magic.php';
-$wgExtensionMessagesFiles['ContributorsAlias'] = $dir . 'Contributors.alias.php';
+$wgExtensionMessagesFiles['ContributorsAlias'] = __DIR__ . '/Contributors.alias.php';
 
-$wgAutoloadClasses['Contributors'] = $dir . 'Contributors.class.php';
-$wgAutoloadClasses['SpecialContributors'] = $dir . 'Contributors.page.php';
-$wgAutoloadClasses['ContributorsHooks'] = $dir . 'Contributors.hooks.php';
+$wgAutoloadClasses['Contributors'] = __DIR__ . '/Contributors.class.php';
+$wgAutoloadClasses['SpecialContributors'] = __DIR__ . '/Contributors.page.php';
+$wgAutoloadClasses['ContributorsHooks'] = __DIR__ . '/Contributors.hooks.php';
 $wgSpecialPages['Contributors'] = 'SpecialContributors';
 
 $wgHooks['ArticleDeleteComplete'][] = 'ContributorsHooks::invalidateCache';
