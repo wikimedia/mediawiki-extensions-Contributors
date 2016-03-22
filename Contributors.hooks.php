@@ -74,8 +74,9 @@ class ContributorsHooks {
 		if ( $skintemplate->getTitle()->getNamespace() === NS_MAIN && $revid !== 0 ) {
 			$nav_urls['contributors'] = array(
 				'text' => $skintemplate->msg( 'contributors-toolbox' ),
-				'href' => $skintemplate->makeSpecialUrl( 'Contributors',
-					"target=" . wfUrlEncode( "{$skintemplate->thispage}" ) )
+				'href' => $skintemplate->makeSpecialUrl(
+					'Contributors/' . wfUrlencode( $skintemplate->thispage )
+				),
 			);
 		}
 		return true;
