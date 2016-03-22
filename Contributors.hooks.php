@@ -11,7 +11,8 @@ class ContributorsHooks {
 	 * Set up the #contributors parser function
 	 *
 	 * @param Parser $parser
-	 * @return boolean
+	 *
+	 * @return bool
 	 */
 	public static function setupParserFunction( Parser &$parser ) {
 		$parser->setFunctionHook( 'contributors', __CLASS__ . '::contributorsParserFunction',
@@ -57,6 +58,8 @@ class ContributorsHooks {
 	 * Invalidate the cache we saved for a given title
 	 *
 	 * @param $article Article object that changed
+	 *
+	 * @return bool
 	 */
 	public static function invalidateCache( &$article ) {
 		global $wgMemc;
@@ -69,6 +72,8 @@ class ContributorsHooks {
 	 * Prepare the toolbox link
 	 *
 	 * @var $skintemplate SkinTemplate
+	 *
+	 * @return bool
 	 */
 	public static function navigation( &$skintemplate, &$nav_urls, &$oldid, &$revid ) {
 		if ( $skintemplate->getTitle()->getNamespace() === NS_MAIN && $revid !== 0 ) {
@@ -83,6 +88,8 @@ class ContributorsHooks {
 
 	/**
 	 * Output the toolbox link
+	 *
+	 * @return bool
 	 */
 	public static function toolbox( &$monobook ) {
 		if ( isset( $monobook->data['nav_urls']['contributors'] ) ) {
