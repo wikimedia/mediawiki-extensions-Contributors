@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Calak"
+			"Calak",
+			"Sarchia"
 		]
 	},
-	"contributors-target": "سەردێڕ:"
+	"contributors-target": "سەردێڕ:",
+	"contributors-submit": "نیشاندان"
 }
