@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Meursault2004"
+			"Meursault2004",
+			"NoiX180"
 		]
 	},
 	"contributors": "Para kontributor",
 	"contributors-toolbox": "Para kontributor utama",
-	"contributors-legend": "Tuduhna daftar kontributor utama sawijining kaca",
+	"contributors-legend": "Pratélaning panyumbang pokok sawiji kaca",
 	"contributors-target": "Irah-irahan (judhul):",
 	"contributors-submit": "Tuduhna",
 	"contributors-subtitle": "Para kontributor utama kanggo $1",
