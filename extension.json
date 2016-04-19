@@ -1,0 +1,51 @@
+{
+	"name": "Contributors",
+	"version": "2.0",
+	"author": [
+		"Rob Church",
+		"Ike Hecht"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Contributors",
+	"descriptionmsg": "contributors-desc",
+	"type": "specialpage",
+	"SpecialPages": {
+		"Contributors": "SpecialContributors"
+	},
+	"MessagesDirs": {
+		"Contributors": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"ContributorsMagic": "Contributors.magic.php",
+		"ContributorsAlias": "Contributors.alias.php"
+	},
+	"AutoloadClasses": {
+		"Contributors": "Contributors.class.php",
+		"SpecialContributors": "Contributors.page.php",
+		"ContributorsHooks": "Contributors.hooks.php"
+	},
+	"Hooks": {
+		"ArticleDeleteComplete": [
+			"ContributorsHooks::invalidateCache"
+		],
+		"ArticleSaveComplete": [
+			"ContributorsHooks::invalidateCache"
+		],
+		"SkinTemplateBuildNavUrlsNav_urlsAfterPermalink": [
+			"ContributorsHooks::navigation"
+		],
+		"SkinTemplateToolboxEnd": [
+			"ContributorsHooks::toolbox"
+		],
+		"ParserFirstCallInit": [
+			"ContributorsHooks::setupParserFunction"
+		]
+	},
+	"config": {
+		"ContributorsLimit": 10,
+		"ContributorsThreshold": 2,
+		"ContributorsLinkUsers": true
+	},
+	"manifest_version": 1
+}
