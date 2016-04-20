@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Rotemliss",
-			"YaronSh"
+			"YaronSh",
+			"Guycn2"
 		]
 	},
 	"contributors": "תורמים",
@@ -15,5 +16,6 @@
 	"contributors-others-long": "{{PLURAL:$1|ישנו תורם אחר אחד|ישנם $1 תורמים אחרים}} לדף זה.",
 	"contributors-others": "ו{{PLURAL:$1|אחד אחר|־$1 אחרים}}",
 	"contributors-badtitle": "כותרת בלתי תקינה.",
-	"contributors-nosuchpage": "הדף $1 אינו קיים."
+	"contributors-nosuchpage": "הדף $1 אינו קיים.",
+	"contributors-sortuser": "מיון אלפביתי"
 }
