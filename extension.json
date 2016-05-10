@@ -21,9 +21,9 @@
 		"ContributorsAlias": "Contributors.alias.php"
 	},
 	"AutoloadClasses": {
-		"Contributors": "Contributors.class.php",
-		"SpecialContributors": "Contributors.page.php",
-		"ContributorsHooks": "Contributors.hooks.php"
+		"Contributors": "includes/Contributors.php",
+		"SpecialContributors": "includes/SpecialContributors.php",
+		"ContributorsHooks": "includes/ContributorsHooks.php"
 	},
 	"Hooks": {
 		"ArticleDeleteComplete": [

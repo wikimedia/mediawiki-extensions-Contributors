@@ -135,10 +135,10 @@ class Contributors {
 				'COUNT(*) AS count',
 				'rev_user',
 				'rev_user_text',
-				), $this->getConditions(), __METHOD__,
+			), $this->getConditions(), __METHOD__,
 				array(
-				'GROUP BY' => 'rev_user_text',
-				'ORDER BY' => 'count DESC',
+					'GROUP BY' => 'rev_user_text',
+					'ORDER BY' => 'count DESC',
 				)
 			);
 			if ( $res && $dbr->numRows( $res ) > 0 ) {
