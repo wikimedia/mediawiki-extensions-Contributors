@@ -33,10 +33,10 @@
 			"ContributorsHooks::invalidateCache"
 		],
 		"SkinTemplateBuildNavUrlsNav_urlsAfterPermalink": [
-			"ContributorsHooks::navigation"
+			"ContributorsHooks::onSkinTemplateBuildNavUrlsNav_urlsAfterPermalink"
 		],
 		"SkinTemplateToolboxEnd": [
-			"ContributorsHooks::toolbox"
+			"ContributorsHooks::onSkinTemplateToolboxEnd"
 		],
 		"ParserFirstCallInit": [
 			"ContributorsHooks::setupParserFunction"

@@ -75,7 +75,12 @@ class ContributorsHooks {
 	 *
 	 * @return bool
 	 */
-	public static function navigation( &$skintemplate, &$nav_urls, &$oldid, &$revid ) {
+	public static function onSkinTemplateBuildNavUrlsNav_urlsAfterPermalink(
+		&$skintemplate,
+		&$nav_urls,
+		&$oldid,
+		&$revid
+	) {
 		if ( $skintemplate->getTitle()->getNamespace() === NS_MAIN && $revid !== 0 ) {
 			$nav_urls['contributors'] = array(
 				'text' => $skintemplate->msg( 'contributors-toolbox' ),
@@ -92,7 +97,7 @@ class ContributorsHooks {
 	 *
 	 * @return bool
 	 */
-	public static function toolbox( &$monobook ) {
+	public static function onSkinTemplateToolboxEnd( BaseTemplate &$monobook ) {
 		if ( isset( $monobook->data['nav_urls']['contributors'] ) ) {
 			if ( $monobook->data['nav_urls']['contributors']['href'] == '' ) {
 				?><li id="t-iscontributors"><?php echo $monobook->msg( 'contributors-toolbox' ); ?></li><?php
