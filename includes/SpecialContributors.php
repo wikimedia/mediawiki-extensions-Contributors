@@ -165,27 +165,37 @@ class SpecialContributors extends IncludableSpecialPage {
 	 * @return string
 	 */
 	private function makeForm() {
-		global $wgScript;
 		$opts = $this->getOptions();
-		$form = '<form method="get" action="' . htmlspecialchars( $wgScript ) . '">';
-		$form .= Html::hidden( 'title', $this->getPageTitle()->getPrefixedText() );
-		$form .= '<fieldset><legend>' . $this->msg( 'contributors-legend' ) . '</legend>';
-		$form .= '<label for="target">' . $this->msg( 'contributors-target' ) . '</label>';
-		$form .= Xml::input( 'target', 40, $this->contributorsClass->getTargetText(),
-				array( 'id' => 'target' ) );
-		$form .= '&#160;';
-		$form .= Xml::checkLabel(
-				$this->msg( 'contributors-asc' )->text(), 'asc', 'asc', $opts['asc']
+
+		$formDescriptor = array(
+			'target' => array(
+				'name' => 'target',
+				'label-message' => 'contributors-target',
+				'type' => 'title',
+				'size' => 40,
+				'id'=> 'target',
+				'default' => $this->contributorsClass->getTargetText()
+			),
+			'sortuser' => array(
+				'name' => 'sortuser',
+				'label-message' => 'contributors-sortuser',
+				'type' => 'check',
+				'checked' => $opts['sortuser']
+			),
+			'asc' => array(
+				'name'=>'asc',
+				'label-message' => 'contributors-asc',
+				'type' => 'check',
+				'checked' => $opts['asc']
+			),
+
 		);
-		$form .= '&#160;';
-		$form .= Xml::checkLabel(
-				$this->msg( 'contributors-sortuser' )->text(), 'sortuser', 'sortuser', $opts['sortuser']
-		);
-		$form .= Xml::element( 'br' );
-		$form .= Xml::submitButton( $this->msg( 'contributors-submit' )->text() );
-		$form .= '</fieldset>';
-		$form .= '</form>';
-		return $form;
+		$htmlForm = HTMLForm::factory( 'ooui', $formDescriptor, $this->getContext() );
+		$htmlForm->setWrapperLegendMsg( 'contributors-legend' )
+			->setSubmitTextMsg( 'contributors-submit' )
+			->setMethod( 'get' )
+			->prepareForm()
+			->displayForm( false );
 	}
 
 	protected function getGroupName() {
