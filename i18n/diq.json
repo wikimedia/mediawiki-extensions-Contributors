@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Erdemaslancan",
-			"Mirzali"
+			"Mirzali",
+			"Kumkumuk"
 		]
 	},
 	"contributors": "İştıraqkeri",
@@ -10,7 +11,7 @@
 	"contributors-toolbox": "Ser iştıraqkari",
 	"contributors-legend": "Ju pela re ser iştıraqkara  liste ke",
 	"contributors-target": "Sername:",
-	"contributors-submit": "Bımocne",
+	"contributors-submit": "Bıasene",
 	"contributors-subtitle": "Ser iştıraqkare pela da $1",
 	"contributors-others-long": "Na pela dı {{PLURAL:$1|jew karbero bin|$ zewbi karberi}} dehana este.",
 	"contributors-others": "u {{PLURAL:$1|zeweri|$1 tayna}}",
