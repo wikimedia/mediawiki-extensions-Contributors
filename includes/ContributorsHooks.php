@@ -111,4 +111,17 @@ class ContributorsHooks {
 		}
 		return true;
 	}
+
+	/**
+	 * Add tables to Database
+	 *
+	 * @param DatabaseUpdater $updater
+	 * @return bool
+	 */
+	public static function onLoadExtensionSchemaUpdates( DatabaseUpdater $updater ) {
+		$updater->addExtensionTable( 'contributors', __DIR__ . '/sql/contributors.sql' );
+
+		return true;
+	}
 }
+

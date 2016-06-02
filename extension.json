@@ -26,6 +26,9 @@
 		"ContributorsHooks": "includes/ContributorsHooks.php"
 	},
 	"Hooks": {
+		"LoadExtensionSchemaUpdates": [
+			"ContributorsHooks::onLoadExtensionSchemaUpdates"
+		],
 		"ArticleDeleteComplete": [
 			"ContributorsHooks::invalidateCache"
 		],
