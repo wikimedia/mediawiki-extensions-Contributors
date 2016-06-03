@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"GunChleoc"
+		]
+	},
+	"contributors": "Deasaichean",
+	"contributors-desc": "Cuiridh seo gearr-chunntas air na prìomh-dheasaichean ri duilleag",
+	"contributors-toolbox": "Na prìomh-dheasaichean",
+	"contributors-legend": "Cuir liosta dhe na prìomh-dheasaichean ri duilleag",
+	"contributors-target": "Tiotal:",
+	"contributors-submit": "Seall",
+	"contributors-subtitle": "Na prìomh-dheasaichean air $1",
+	"contributors-others-long": "Rinn {{PLURAL:$1|$1}} eile deasachadh air an duilleag seo.",
+	"contributors-others": "agus {{PLURAL:$1|$1}} eile",
+	"contributors-badtitle": "Tiotal mì-dhligheach.",
+	"contributors-nosuchpage": "Chan eil an duilleag \"$1\" ann.",
+	"contributors-asc": "Seòrsaich a' dìreadh",
+	"contributors-sortuser": "Seòrsaich a rèir na h-aibidil"
+}
