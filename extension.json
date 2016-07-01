@@ -26,6 +26,9 @@
 		"ContributorsHooks": "includes/ContributorsHooks.php"
 	},
 	"Hooks": {
+		"PageContentSaveComplete": [
+			"ContributorsHooks::onPageContentSaveComplete"
+		],
 		"LoadExtensionSchemaUpdates": [
 			"ContributorsHooks::onLoadExtensionSchemaUpdates"
 		],

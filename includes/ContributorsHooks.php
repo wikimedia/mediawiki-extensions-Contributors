@@ -123,5 +123,70 @@ class ContributorsHooks {
 
 		return true;
 	}
-}
 
+/**
+	 * Updates the contributors table with each edit made by a user to a page
+	 * @param $article
+	 * @param $user
+	 * @param $content
+	 * @param $summary
+	 * @param $isMinor
+	 * @param $isWatch
+	 * @param $section
+	 * @param $flags
+	 * @param $revision
+	 * @param $status
+	 * @param $baseRevId
+	 * @throws Exception
+	 */
+	public static function onPageContentSaveComplete( $article, $user, $content, $summary, $isMinor, $isWatch, $section, $flags, $revision, $status, $baseRevId ) {
+		$dbw = wfGetDB( DB_MASTER );
+		$dbr = wfGetDB( DB_SLAVE );
+		$pageId = $article->getId();
+		$userId = $user->getId();
+		$text = $user->getName();
+		$cond = array( 'cn_page_id' => $pageId, 'cn_user_id' => $userId, 'cn_user_text' => $text );
+
+		$res = $dbr->select(
+					'contributors',
+					'cn_revision_count',
+					$cond,
+					__METHOD__
+			);
+		if ( $res->numRows() == 0 )
+		{
+			$dbw->insert( 'contributors',
+				array(
+					'cn_page_id' => $pageId,
+					'cn_user_id' => $userId,
+					'cn_user_text' => $text,
+					'cn_revision_count' => 1
+				),
+				__METHOD__
+			);
+		}
+		else
+		{
+			foreach ( $res as $row ) {
+
+			$dbw->upsert( 'contributors',
+					array(
+						'cn_page_id' => $pageId,
+						'cn_user_id' => $userId,
+						'cn_user_text' => $text,
+						'cn_revision_count' => 1
+					),
+					array(
+						'cn_page_id',
+						'cn_user_id',
+						'cn_user_text'
+					),
+					array(
+						'cn_revision_count' => $row->cn_revision_count + 1
+					),
+					__METHOD__
+				);
+			}
+		}
+	}
+}
