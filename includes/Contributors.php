@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Generate a contributors list for an article
+ * Get the contributors list for a page
  *
  * @file
  * @ingroup Extensions
@@ -88,7 +88,7 @@ class Contributors {
 		$this->setOptions( $options );
 		if ( $target ) {
 			$this->setTarget( $target );
-			$this->setContributors( $this->generateContributors() );
+			$this->setContributors( $this->getContributorsData() );
 		}
 	}
 
@@ -102,80 +102,42 @@ class Contributors {
 	}
 
 	/**
-	 * Depending on $useThreshold, generate a list of contributors that should be displayed.
-	 * Also, set the number of other contributors that are not being listed.
+	 * Depending on $useThreshold, get a list of contributors that should be displayed.
 	 *
 	 * @return array Contributors sorted and ready
 	 */
-	private function generateContributors() {
+	private function getContributorsData() {
 		if ( $this->getUseThreshold() ) {
-			$contributors = $this->generateThresholdedContributors();
-		} else {
-			$contributors = $this->generateUnthresholdedContributors();
-			$this->setNumOthers( 0 );
-		}
-		return $this->sortContributors( $contributors );
-	}
+			$contributors = $this->getThresholdedContributors();
 
+			return $this->sortContributors( $contributors );
+		}
+	}
 	/**
-	 * Retrieve the contributors for the target page with their contribution numbers
-	 * Generate all contributors, ignoring the threshold value.
+	 * Get all contributors for the target page with their contribution numbers.
 	 *
 	 * @return array Contributors
 	 */
-	private function generateUnthresholdedContributors() {
-		global $wgMemc;
-		$k = wfMemcKey( 'contributors', $this->getTarget()->getArticleID() );
-		$contributors = $wgMemc->get( $k );
-		if ( !$contributors ) {
-			$contributors = array();
-			$dbr = wfGetDB( DB_SLAVE );
-			$res = $dbr->select(
-				'revision', array(
-				'COUNT(*) AS count',
-				'rev_user',
-				'rev_user_text',
-			), $this->getConditions(), __METHOD__,
-				array(
-					'GROUP BY' => 'rev_user_text',
-					'ORDER BY' => 'count DESC',
-				)
-			);
-			if ( $res && $dbr->numRows( $res ) > 0 ) {
-				while ( $row = $dbr->fetchObject( $res ) ) {
-					$contributors[$row->rev_user_text] = array( $row->rev_user, $row->count );
-				}
+
+	private function getThresholdedContributors() {
+		$dbr = wfGetDB( DB_SLAVE );
+		$pageId =  $this->getTarget()->getArticleID();
+		$contributors = array();
+		$res = $dbr->select(
+			'contributors',
+			array( 'cn_user_text' , 'cn_revision_count' ),
+			array( 'cn_page_id' => $pageId ),
+			__METHOD__,
+			array(
+				'GROUP BY' => 'cn_user_text',
+				'ORDER BY' => 'cn_revision_count DESC',
+			) );
+		if ( $res && $dbr->numRows( $res ) > 0 ) {
+			while ( $row = $dbr->fetchObject( $res ) ) {
+				$contributors[ $row->cn_user_text ] = array( $row->cn_user_text , $row->cn_revision_count );
 			}
-			$wgMemc->set( $k, $contributors, 84600 );
 		}
 		return $contributors;
-	}
-
-	/**
-	 * Retrieve all contributors for the target page worth listing, at least
-	 * according to the limit and threshold defined in the configuration
-	 *
-	 * Also sets the number of contributors who weren't considered
-	 * "important enough"
-	 *
-	 * @return array Contributors
-	 */
-	private function generateThresholdedContributors() {
-		global $wgContributorsLimit, $wgContributorsThreshold;
-		$total = 0;
-		$ret = array();
-		$all = $this->generateUnthresholdedContributors();
-		foreach ( $all as $username => $info ) {
-			list( $id, $count ) = $info;
-			if ( $total >= $wgContributorsLimit && $count < $wgContributorsThreshold ) {
-				break;
-			}
-			$ret[$username] = array( $id, $count );
-			$total++;
-		}
-		$others = count( $all ) - count( $ret );
-		$this->setNumOthers( $others );
-		return $ret;
 	}
 
 	/**
@@ -194,17 +156,6 @@ class Contributors {
 			$contributors = array_reverse( $contributors );
 		}
 		return $contributors;
-	}
-
-	/**
-	 * Get conditions for the main query
-	 *
-	 * @return array
-	 */
-	protected function getConditions() {
-		$conds['rev_page'] = $this->getTarget()->getArticleID();
-		$conds[] = 'rev_deleted & ' . Revision::DELETED_USER . ' = 0';
-		return $conds;
 	}
 
 	/**
