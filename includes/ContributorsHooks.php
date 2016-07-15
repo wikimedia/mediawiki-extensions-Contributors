@@ -126,8 +126,8 @@ class ContributorsHooks {
 
 /**
 	 * Updates the contributors table with each edit made by a user to a page
-	 * @param $article
-	 * @param $user
+	 * @param WikiPage $article
+	 * @param User $user
 	 * @param $content
 	 * @param $summary
 	 * @param $isMinor
