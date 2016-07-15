@@ -55,20 +55,6 @@ class ContributorsHooks {
 	}
 
 	/**
-	 * Invalidate the cache we saved for a given title
-	 *
-	 * @param $article Article object that changed
-	 *
-	 * @return bool
-	 */
-	public static function invalidateCache( &$article ) {
-		global $wgMemc;
-		$wgMemc->delete( wfMemcKey( 'contributors', $article->getId() ) );
-
-		return true;
-	}
-
-	/**
 	 * Prepare the toolbox link
 	 *
 	 * @var $skintemplate SkinTemplate

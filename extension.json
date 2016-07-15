@@ -32,12 +32,6 @@
 		"LoadExtensionSchemaUpdates": [
 			"ContributorsHooks::onLoadExtensionSchemaUpdates"
 		],
-		"ArticleDeleteComplete": [
-			"ContributorsHooks::invalidateCache"
-		],
-		"ArticleSaveComplete": [
-			"ContributorsHooks::invalidateCache"
-		],
 		"SkinTemplateBuildNavUrlsNav_urlsAfterPermalink": [
 			"ContributorsHooks::onSkinTemplateBuildNavUrlsNav_urlsAfterPermalink"
 		],
