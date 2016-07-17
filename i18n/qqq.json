@@ -20,5 +20,6 @@
 	"contributors-badtitle": "{{Identical|Invalid title}}",
 	"contributors-nosuchpage": "Parameters:\n* $1 - page name",
 	"contributors-asc": "Checkbox label in the form.\n{{Identical|Sort ascending}}",
-	"contributors-sortuser": "Checkbox label in the form.\n{{Identical|Sort alphabetically}}"
+	"contributors-sortuser": "Checkbox label in the form.\n{{Identical|Sort alphabetically}}",
+	"contributors-filterip": "Checkbox label in the form"
 }

@@ -98,7 +98,7 @@ class Contributors {
 	 * @return array Numeric array of strings
 	 */
 	public static function getValidOptions() {
-		return array( 'sortuser', 'asc' );
+		return array( 'sortuser', 'asc' , 'filteranon' );
 	}
 
 	/**
@@ -121,12 +121,19 @@ class Contributors {
 
 	private function getThresholdedContributors() {
 		$dbr = wfGetDB( DB_SLAVE );
+		$opts = $this->getOptions();
 		$pageId =  $this->getTarget()->getArticleID();
 		$contributors = array();
+
+		if ( array_key_exists( 'filteranon', $opts ) && $opts['filteranon']  ) {
+			$cond = array( 'cn_page_id' => $pageId , 'cn_user_id !=0' );
+		} else {
+			$cond = array( 'cn_page_id' => $pageId );
+		}
 		$res = $dbr->select(
 			'contributors',
-			array( 'cn_user_text' , 'cn_revision_count' ),
-			array( 'cn_page_id' => $pageId ),
+			array( 'cn_user_text' , 'cn_user_id' , 'cn_revision_count' ),
+			$cond,
 			__METHOD__,
 			array(
 				'GROUP BY' => 'cn_user_text',
@@ -141,7 +148,7 @@ class Contributors {
 	}
 
 	/**
-	 * Return an array of contributors, sorted based on options
+	 * Return an array of contributors, sorted or filtered based on options
 	 *
 	 * @param array $contributors
 	 * @return array Contributors
