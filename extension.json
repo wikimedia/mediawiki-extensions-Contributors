@@ -29,6 +29,9 @@
 		"PageContentSaveComplete": [
 			"ContributorsHooks::onPageContentSaveComplete"
 		],
+		"ArticleRevisionVisibilitySet": [
+			"ContributorsHooks::onArticleRevisionVisibilitySet"
+		],
 		"LoadExtensionSchemaUpdates": [
 			"ContributorsHooks::onLoadExtensionSchemaUpdates"
 		],

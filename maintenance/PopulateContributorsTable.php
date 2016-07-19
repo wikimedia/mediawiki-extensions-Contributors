@@ -37,7 +37,10 @@ class PopulateContributorsTable extends Maintenance {
 		$blockEnd = $start + $this->mBatchSize - 1;
 		while ( $blockEnd <= $end ) {
 			$this->output( "Getting Contributor's data..\n" );
-			$cond =array( "rev_page BETWEEN $blockStart AND $blockEnd" );
+			$cond = array(
+				"rev_page BETWEEN $blockStart AND $blockEnd",
+				$dbr->bitAnd( 'rev_deleted', Revision::DELETED_USER ) . ' = 0'
+			);
 			$res = $dbr->select(
 				'revision',
 				array( 'COUNT(*) AS cn_revision_count', 'rev_user', 'rev_user_text', 'rev_page' ),

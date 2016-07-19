@@ -175,4 +175,80 @@ class ContributorsHooks {
 			}
 		}
 	}
+
+	public static function onArticleRevisionVisibilitySet(
+		Title $title,
+		array $ids,
+		array $visibilityChangeMap
+	) {
+		foreach ( $ids as $id ) {
+			// TODO defer updates & transactions
+			$revision = Revision::newFromId( $id );
+			$conds = array(
+				'cn_page_id' => $title->getArticleID(),
+				'cn_user_id' => $revision->getUser( Revision::RAW ),
+				'cn_user_text' => $revision->getUserText( Revision::RAW )
+			);
+
+			if (
+				!( $visibilityChangeMap[$id]['oldBits'] & Revision::DELETED_USER ) &&
+				( $visibilityChangeMap[$id]['newBits'] & Revision::DELETED_USER )
+			) {
+				$dbw = wfGetDB( DB_MASTER );
+				$row = $dbw->selectRow(
+					'contributors',
+					'cn_revision_count',
+					$conds,
+					__METHOD__
+				);
+				if ( $row ) {
+					if ( $row->cn_revision_count == 1 ) {
+						$dbw->delete(
+							'contributors',
+							$conds,
+							__METHOD__
+						);
+					} else {
+						$dbw->update(
+							'contributors',
+							array(
+								'cn_revision_count' => $row->cn_revision_count - 1
+							),
+							$conds,
+							__METHOD__
+						);
+					}
+				}
+			} elseif (
+				( $visibilityChangeMap[$id]['oldBits'] & Revision::DELETED_USER ) &&
+				!( $visibilityChangeMap[$id]['newBits'] & Revision::DELETED_USER )
+			) {
+				$dbw = wfGetDB( DB_MASTER );
+				$row = $dbw->selectRow(
+					'contributors',
+					'cn_revision_count',
+					$conds,
+					__METHOD__
+				);
+				$dbw = wfGetDB( DB_MASTER );
+				if ( !$row ) {
+					$dbw->insert(
+						'contributors',
+						array_merge( $conds, array( 'cn_revision_count' => 1 ) ),
+						__METHOD__
+					);
+				} else {
+					$dbw->update(
+						'contributors',
+						array(
+							'cn_revision_count' => $row->cn_revision_count + 1
+						),
+						$conds,
+						__METHOD__
+					);
+				}
+			}
+		}
+	}
+
 }
