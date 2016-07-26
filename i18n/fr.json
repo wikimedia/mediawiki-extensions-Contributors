@@ -6,12 +6,13 @@
 			"PieRRoMaN",
 			"Sherbrooke",
 			"Urhixidur",
-			"Gomoko"
+			"Gomoko",
+			"Wladek92"
 		]
 	},
 	"contributors": "Contributeurs",
 	"contributors-desc": "Résume les principaux contributeurs d’une page",
-	"contributors-toolbox": "Principaux contributeurs",
+	"contributors-toolbox": "Page des contributeurs",
 	"contributors-legend": "Lister les principaux contributeurs de la page",
 	"contributors-target": "Titre :",
 	"contributors-submit": "Montrer",

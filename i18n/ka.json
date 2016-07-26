@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"David1010"
+			"David1010",
+			"MIKHEIL"
 		]
 	},
 	"contributors": "ავტორები",
-	"contributors-toolbox": "ძირითადი ავტორები",
+	"contributors-toolbox": "გვერდის ავტორები",
 	"contributors-target": "სათაური:",
 	"contributors-submit": "ჩვენება",
 	"contributors-subtitle": "ძირითადი ავტორები $1",
