@@ -6,12 +6,13 @@
 			"ToePeu",
 			"Yknok29",
 			"아라",
-			"Hwangjy9"
+			"Hwangjy9",
+			"Ykhwong"
 		]
 	},
 	"contributors": "기여자",
 	"contributors-desc": "문서의 주 기여자를 요약합니다",
-	"contributors-toolbox": "주 기여자",
+	"contributors-toolbox": "문서 기여자",
 	"contributors-legend": "문서로의 주 기여자 목록",
 	"contributors-target": "제목:",
 	"contributors-submit": "보이기",
