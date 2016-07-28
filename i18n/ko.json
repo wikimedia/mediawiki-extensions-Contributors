@@ -22,5 +22,6 @@
 	"contributors-badtitle": "제목이 잘못되었습니다.",
 	"contributors-nosuchpage": "$1 문서가 존재하지 않습니다.",
 	"contributors-asc": "오름차순 정렬",
-	"contributors-sortuser": "알파벳순으로 정렬"
+	"contributors-sortuser": "알파벳순으로 정렬",
+	"contributors-filterip": "IP 주소 숨기기"
 }

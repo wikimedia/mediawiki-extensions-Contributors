@@ -7,7 +7,7 @@
 	},
 	"contributors": "Auteuren",
 	"contributors-desc": "Faast d'Haaptkontributeure vun enger Säit zesummen",
-	"contributors-toolbox": "Haaptauteuren",
+	"contributors-toolbox": "Auteuren vun der Säit",
 	"contributors-legend": "Weist d'Haaptauteure vun enger Säit",
 	"contributors-target": "Titel:",
 	"contributors-submit": "Weisen",
@@ -17,5 +17,6 @@
 	"contributors-badtitle": "Dës Säit gëtt et net.",
 	"contributors-nosuchpage": "D'Säit $1 gëtt et net.",
 	"contributors-asc": "Vu kleng op grouss zortéieren",
-	"contributors-sortuser": "Alphabetesch zortéieren"
+	"contributors-sortuser": "Alphabetesch zortéieren",
+	"contributors-filterip": "IP-Adresse verstoppen"
 }

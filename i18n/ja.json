@@ -3,7 +3,8 @@
 		"authors": [
 			"Aotake",
 			"JtFuruhata",
-			"Shirayuki"
+			"Shirayuki",
+			"Otokoume"
 		]
 	},
 	"contributors": "投稿者",
@@ -18,5 +19,6 @@
 	"contributors-badtitle": "無効なページ名です。",
 	"contributors-nosuchpage": "ページ $1 は存在しません。",
 	"contributors-asc": "昇順に並べ替える",
-	"contributors-sortuser": "辞書順に並べ替える"
+	"contributors-sortuser": "辞書順に並べ替える",
+	"contributors-filterip": "IPアドレスを表示しない"
 }

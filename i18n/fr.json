@@ -22,5 +22,6 @@
 	"contributors-badtitle": "Titre incorrect.",
 	"contributors-nosuchpage": "La page $1 n’existe pas.",
 	"contributors-asc": "Tri croissant",
-	"contributors-sortuser": "Tri alphabétique"
+	"contributors-sortuser": "Tri alphabétique",
+	"contributors-filterip": "Cacher les adresses IP"
 }

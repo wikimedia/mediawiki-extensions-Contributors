@@ -19,5 +19,6 @@
 	"contributors-badtitle": "Título inválido.",
 	"contributors-nosuchpage": "O artigo $1 não existe.",
 	"contributors-asc": "Ascendente",
-	"contributors-sortuser": "Ordenar alfabeticamente"
+	"contributors-sortuser": "Ordenar alfabeticamente",
+	"contributors-filterip": "Ocultar endereços IP"
 }

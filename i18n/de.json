@@ -18,5 +18,6 @@
 	"contributors-badtitle": "Ungültige Seite",
 	"contributors-nosuchpage": "Die Seite $1 ist nicht vorhanden.",
 	"contributors-asc": "Aufsteigend sortieren",
-	"contributors-sortuser": "Alphabetisch sortieren"
+	"contributors-sortuser": "Alphabetisch sortieren",
+	"contributors-filterip": "IP-Adressen ausblenden"
 }
