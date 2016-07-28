@@ -90,6 +90,7 @@ class SpecialContributors extends IncludableSpecialPage {
 		$opts->add( 'target', '', FormOptions::STRING );
 		$opts->add( 'sortuser', false );
 		$opts->add( 'asc', false );
+		$opts->add( 'filteranon', false );
 		$opts->add( 'action', 'view', FormOptions::STRING );
 
 		return $opts;
@@ -187,6 +188,12 @@ class SpecialContributors extends IncludableSpecialPage {
 				'label-message' => 'contributors-asc',
 				'type' => 'check',
 				'checked' => $opts['asc']
+			),
+			'filteranon' => array(
+				'name'=>'filteranon',
+				'label-message' => 'contributors-filterip',
+				'type' => 'check',
+				'checked' => $opts['filteranon']
 			),
 
 		);
