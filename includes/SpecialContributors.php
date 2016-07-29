@@ -88,8 +88,6 @@ class SpecialContributors extends IncludableSpecialPage {
 		$opts = new FormOptions();
 
 		$opts->add( 'target', '', FormOptions::STRING );
-		$opts->add( 'sortuser', false );
-		$opts->add( 'asc', false );
 		$opts->add( 'filteranon', false );
 		$opts->add( 'action', 'view', FormOptions::STRING );
 
@@ -142,16 +140,31 @@ class SpecialContributors extends IncludableSpecialPage {
 		if ( !$this->contributorsClass->hasTarget() ) {
 			return;
 		}
+
 		if ( !$this->contributorsClass->targetExists() ) {
 			$output->addHTML( $this->msg( 'contributors-nosuchpage',
-					$this->contributorsClass->getTargetText() )->parseAsBlock() );
+				$this->contributorsClass->getTargetText() )->parseAsBlock() );
 			return;
 		}
 
+		$articleId = $this->contributorsClass->getTarget()->getArticleID();
+		$opts = $this->contributorsClass->getOptions();
 		$link = Linker::linkKnown( $this->contributorsClass->getTarget() );
 		$this->getOutput()->addHTML( '<h2>' . $this->msg( 'contributors-subtitle' )
 				->rawParams( $link )->escaped() . '</h2>' );
-		$output->addHTML( $this->contributorsClass->getNormalList( $language ) );
+
+		$out = $this->getOutput();
+		$pager = new ContributorsTablePager( $articleId , $opts );
+		$pager->doQuery();
+		$result = $pager->getResult();
+		if ( $result && $result->numRows() !== 0 ) {
+			$out->addHTML( $pager->getNavigationBar() .
+				Xml::tags( 'ul', array( 'class' => 'plainlinks' ), $pager->getBody() ) .
+				$pager->getNavigationBar() );
+		} else {
+			$out->addWikiMsg( 'contributors-nosuchpage' );
+		}
+
 		$others = $this->contributorsClass->getNumOthers();
 		if ( $others > 0 ) {
 			$others = $language->formatNum( $others );
@@ -177,20 +190,8 @@ class SpecialContributors extends IncludableSpecialPage {
 				'id'=> 'target',
 				'default' => $this->contributorsClass->getTargetText()
 			),
-			'sortuser' => array(
-				'name' => 'sortuser',
-				'label-message' => 'contributors-sortuser',
-				'type' => 'check',
-				'checked' => $opts['sortuser']
-			),
-			'asc' => array(
-				'name'=>'asc',
-				'label-message' => 'contributors-asc',
-				'type' => 'check',
-				'checked' => $opts['asc']
-			),
 			'filteranon' => array(
-				'name'=>'filteranon',
+				'name' => 'filteranon',
 				'label-message' => 'contributors-filterip',
 				'type' => 'check',
 				'checked' => $opts['filteranon']

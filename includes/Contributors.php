@@ -88,7 +88,6 @@ class Contributors {
 		$this->setOptions( $options );
 		if ( $target ) {
 			$this->setTarget( $target );
-			$this->setContributors( $this->getContributorsData() );
 		}
 	}
 
@@ -98,7 +97,7 @@ class Contributors {
 	 * @return array Numeric array of strings
 	 */
 	public static function getValidOptions() {
-		return array( 'sortuser', 'asc' , 'filteranon' );
+		return array( 'filteranon' );
 	}
 
 	/**
@@ -110,7 +109,7 @@ class Contributors {
 		if ( $this->getUseThreshold() ) {
 			$contributors = $this->getThresholdedContributors();
 
-			return $this->sortContributors( $contributors );
+			return $contributors;
 		}
 	}
 	/**
@@ -143,24 +142,6 @@ class Contributors {
 			while ( $row = $dbr->fetchObject( $res ) ) {
 				$contributors[ $row->cn_user_text ] = array( $row->cn_user_text , $row->cn_revision_count );
 			}
-		}
-		return $contributors;
-	}
-
-	/**
-	 * Return an array of contributors, sorted or filtered based on options
-	 *
-	 * @param array $contributors
-	 * @return array Contributors
-	 */
-	private function sortContributors( $contributors ) {
-		$opts = $this->getOptions();
-
-		if ( array_key_exists( 'sortuser', $opts ) && $opts['sortuser'] ) {
-			krsort( $contributors );
-		}
-		if ( array_key_exists( 'asc', $opts ) && $opts['asc'] ) {
-			$contributors = array_reverse( $contributors );
 		}
 		return $contributors;
 	}
@@ -232,23 +213,5 @@ class Contributors {
 		return $output;
 	}
 
-	public function getNormalList( Language $language ) {
-		$listHtml = '';
-		$items = $this->getNormalListItems( $language );
-		foreach ( $items as $item ) {
-			$listHtml .= $item . "\n";
-		}
-		return Html::rawElement( 'ul', array(), $listHtml );
-	}
 
-	private function getNormalListItems( Language $language ) {
-		$listItems = array();
-		foreach ( $this->getContributors() as $username => $info ) {
-			list( $id, $count ) = $info;
-			$line = Linker::userLink( $id, $username ) . Linker::userToolLinks( $id, $username );
-			$line .= ' [' . $language->formatNum( $count ) . ']';
-			$listItems[] = Html::rawElement( 'li', array(), $line );
-		}
-		return $listItems;
-	}
 }

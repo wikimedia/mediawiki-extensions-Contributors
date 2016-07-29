@@ -25,7 +25,8 @@
 	"AutoloadClasses": {
 		"Contributors": "includes/Contributors.php",
 		"SpecialContributors": "includes/SpecialContributors.php",
-		"ContributorsHooks": "includes/ContributorsHooks.php"
+		"ContributorsHooks": "includes/ContributorsHooks.php",
+		"ContributorsTablePager":"includes/ContributorsTablePager.php"
 	},
 	"Hooks": {
 		"PageContentSaveComplete": [
