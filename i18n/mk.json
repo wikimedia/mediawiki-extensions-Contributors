@@ -4,17 +4,18 @@
 			"Bjankuloski06"
 		]
 	},
-	"contributors": "Уредници",
-	"contributors-desc": "Дава краток преглед на главните уредници на една страница",
-	"contributors-toolbox": "Главни уредници",
-	"contributors-legend": "Прикажувај список на главните уредници на една страница",
+	"contributors": "Учесници",
+	"contributors-desc": "Дава краток преглед на главните учесници на една страница",
+	"contributors-toolbox": "Учесници на страницата",
+	"contributors-legend": "Прикажувај список на главните учесници на една страница",
 	"contributors-target": "Наслов:",
 	"contributors-submit": "Прикажи",
-	"contributors-subtitle": "Главни уредници на $1",
-	"contributors-others-long": "{{PLURAL:$1|Постои уште еден уредник|постојат уште $1 други уредници}} на оваа страница.",
+	"contributors-subtitle": "Главни учесници на $1",
+	"contributors-others-long": "{{PLURAL:$1|Постои уште еден учесник|постојат уште $1 други учесници}} на оваа страница.",
 	"contributors-others": "и {{PLURAL:$1|уште еден|$1 други}}",
 	"contributors-badtitle": "Погрешен наслов.",
 	"contributors-nosuchpage": "Страницата $1 не постои.",
 	"contributors-asc": "Подреди нагорно",
-	"contributors-sortuser": "Подреди азбучно"
+	"contributors-sortuser": "Подреди азбучно",
+	"contributors-filterip": "Скриј IP-адреси"
 }

@@ -4,12 +4,13 @@
 			"Ahonc",
 			"Lockal",
 			"Александр Сигачёв",
-			"Okras"
+			"Okras",
+			"SergeyButkov"
 		]
 	},
 	"contributors": "Авторы",
 	"contributors-desc": "Определяет основных участников работы над страницей",
-	"contributors-toolbox": "Основные авторы",
+	"contributors-toolbox": "Авторы страницы",
 	"contributors-legend": "Формирует список основных авторов статьи",
 	"contributors-target": "Название:",
 	"contributors-submit": "Показать",
@@ -19,5 +20,6 @@
 	"contributors-badtitle": "Ошибочное название.",
 	"contributors-nosuchpage": "Страница «$1» не существует.",
 	"contributors-asc": "Упорядочить по возрастанию",
-	"contributors-sortuser": "Упорядочивать по алфавиту"
+	"contributors-sortuser": "Упорядочивать по алфавиту",
+	"contributors-filterip": "Не показывать IP-адреса"
 }

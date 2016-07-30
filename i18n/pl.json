@@ -9,7 +9,7 @@
 	},
 	"contributors": "Autorzy",
 	"contributors-desc": "Podsumowanie głównych autorów strony",
-	"contributors-toolbox": "Główni autorzy",
+	"contributors-toolbox": "Autorzy strony",
 	"contributors-legend": "Lista głównych autorów artykułu",
 	"contributors-target": "Tytuł:",
 	"contributors-submit": "Pokaż",
@@ -19,5 +19,6 @@
 	"contributors-badtitle": "Niepoprawny tytuł.",
 	"contributors-nosuchpage": "Strona $1 nie istnieje.",
 	"contributors-asc": "Sortuj rosnąco",
-	"contributors-sortuser": "Sortuj alfabetycznie"
+	"contributors-sortuser": "Sortuj alfabetycznie",
+	"contributors-filterip": "Ukryj adresy IP"
 }

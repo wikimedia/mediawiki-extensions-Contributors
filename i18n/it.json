@@ -18,5 +18,6 @@
 	"contributors-badtitle": "Titolo non corretto.",
 	"contributors-nosuchpage": "La pagina $1 non esiste.",
 	"contributors-asc": "Ordinamento crescente",
-	"contributors-sortuser": "Ordina alfabeticamente"
+	"contributors-sortuser": "Ordina alfabeticamente",
+	"contributors-filterip": "Nascondi indirizzi IP"
 }

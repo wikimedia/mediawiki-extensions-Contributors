@@ -8,7 +8,7 @@
 	},
 	"contributors": "İştıraqkeri",
 	"contributors-desc": "Pela re zaf iştıraq kerdan xulasa keno",
-	"contributors-toolbox": "Ser iştıraqkari",
+	"contributors-toolbox": "İştiraqwanê perer",
 	"contributors-legend": "Ju pela re ser iştıraqkara  liste ke",
 	"contributors-target": "Sername:",
 	"contributors-submit": "Bıasene",
@@ -18,5 +18,6 @@
 	"contributors-badtitle": "Sernameyo xırabın.",
 	"contributors-nosuchpage": "Pela $1 çıniya.",
 	"contributors-asc": "Rêzkerdışo zêdiyaye",
-	"contributors-sortuser": "Goreyê alfabetiki rez ke"
+	"contributors-sortuser": "Goreyê alfabetiki rez ke",
+	"contributors-filterip": "Adresê IPy wedarne"
 }

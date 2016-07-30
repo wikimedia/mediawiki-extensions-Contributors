@@ -18,5 +18,6 @@
 	"contributors-badtitle": "כותרת בלתי תקינה.",
 	"contributors-nosuchpage": "הדף $1 אינו קיים.",
 	"contributors-asc": "מיון בסדר עולה",
-	"contributors-sortuser": "מיון אלפביתי"
+	"contributors-sortuser": "מיון אלפביתי",
+	"contributors-filterip": "הסתרת כתובות IP"
 }

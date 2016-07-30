@@ -13,5 +13,6 @@
 	"contributors-others-long": "გარდა მითითებულისა, ამ გვერდს ჰყავს კიდევ {{PLURAL:$1|ერთი სხვა ავტორი|$1 სხვა ავტორი}}.",
 	"contributors-others": "და {{PLURAL:$1|ერთი სხვა|$1 სხვა}}",
 	"contributors-badtitle": "არასწორი სათაური.",
-	"contributors-nosuchpage": "გვერდი „$1“ არ არსებობს."
+	"contributors-nosuchpage": "გვერდი „$1“ არ არსებობს.",
+	"contributors-filterip": "IP მისამართების დამალვა"
 }

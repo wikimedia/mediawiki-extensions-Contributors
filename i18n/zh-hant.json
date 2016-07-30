@@ -5,7 +5,8 @@
 			"Mark85296341",
 			"Shinjiman",
 			"Cwlin0416",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Waihorace"
 		]
 	},
 	"contributors": "貢獻者",
@@ -20,5 +21,6 @@
 	"contributors-badtitle": "不正確的標題。",
 	"contributors-nosuchpage": "條目$1不存在。",
 	"contributors-asc": "昇冪排序",
-	"contributors-sortuser": "字母排序"
+	"contributors-sortuser": "字母排序",
+	"contributors-filterip": "隱藏IP地址"
 }

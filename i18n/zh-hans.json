@@ -18,5 +18,6 @@
 	"contributors-badtitle": "不正确的标题。",
 	"contributors-nosuchpage": "条目$1不存在。",
 	"contributors-asc": "升序",
-	"contributors-sortuser": "按字母排序"
+	"contributors-sortuser": "按字母排序",
+	"contributors-filterip": "隐藏IP地址"
 }
