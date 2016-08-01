@@ -8,7 +8,7 @@
 	},
 	"contributors": "Автори",
 	"contributors-desc": "Визначає основних дописувачів до сторінки",
-	"contributors-toolbox": "Основні автори",
+	"contributors-toolbox": "Автори сторінки",
 	"contributors-legend": "Формує список основних авторів сторінки",
 	"contributors-target": "Назва:",
 	"contributors-submit": "Показати",
@@ -18,5 +18,6 @@
 	"contributors-badtitle": "Помилкова назва.",
 	"contributors-nosuchpage": "Сторінка «$1» не існує.",
 	"contributors-asc": "Сортувати за зростанням",
-	"contributors-sortuser": "Сортувати за алфавітом"
+	"contributors-sortuser": "Сортувати за алфавітом",
+	"contributors-filterip": "Приховати IP-адреси"
 }
