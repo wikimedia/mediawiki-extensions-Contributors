@@ -18,5 +18,6 @@
 	"contributors-badtitle": "Няслушная назва.",
 	"contributors-nosuchpage": "Старонка $1 не існуе.",
 	"contributors-asc": "Сартаваць па ўзрастаньні",
-	"contributors-sortuser": "Сартаваць паводле альфабэту"
+	"contributors-sortuser": "Сартаваць паводле альфабэту",
+	"contributors-filterip": "Хаваць IP-адрасы"
 }
