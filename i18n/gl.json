@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Toliño",
-			"Xosé"
+			"Xosé",
+			"Elisardojm"
 		]
 	},
 	"contributors": "Colaboradores",
 	"contributors-desc": "Sintetiza as contribucións principais nunha páxina",
-	"contributors-toolbox": "Principais colaboradores",
+	"contributors-toolbox": "Colaboradores da páxina",
 	"contributors-legend": "Lista cos principais colaboradores dunha páxina",
 	"contributors-target": "Título:",
 	"contributors-submit": "Mostrar",
@@ -17,5 +18,6 @@
 	"contributors-badtitle": "Título non válido.",
 	"contributors-nosuchpage": "A páxina \"$1\" non existe.",
 	"contributors-asc": "Orde ascendente",
-	"contributors-sortuser": "Ordenar alfabeticamente"
+	"contributors-sortuser": "Ordenar alfabeticamente",
+	"contributors-filterip": "Ocultar enderezos IP"
 }

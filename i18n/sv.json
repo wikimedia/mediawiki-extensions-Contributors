@@ -10,7 +10,7 @@
 	},
 	"contributors": "Bidragsgivare",
 	"contributors-desc": "Ger en sammanställning över de huvudsakliga bidragarna till en sida",
-	"contributors-toolbox": "Huvudsakliga bidragsgivare",
+	"contributors-toolbox": "Sidans bidragsgivare",
 	"contributors-legend": "Visa de huvudsakliga bidragsgivarna till en sida",
 	"contributors-target": "Titel:",
 	"contributors-submit": "Visa",
@@ -20,5 +20,6 @@
 	"contributors-badtitle": "Ogiltig titel.",
 	"contributors-nosuchpage": "Sidan $1 existerar inte.",
 	"contributors-asc": "Sortera stigande",
-	"contributors-sortuser": "Sortera alfabetiskt"
+	"contributors-sortuser": "Sortera alfabetiskt",
+	"contributors-filterip": "Dölj IP-adresser"
 }
