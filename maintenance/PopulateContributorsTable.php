@@ -43,7 +43,8 @@ class PopulateContributorsTable extends Maintenance {
 			);
 			$res = $dbr->select(
 				'revision',
-				array( 'COUNT(*) AS cn_revision_count', 'rev_user', 'rev_user_text', 'rev_page' ),
+				array('COUNT(*) AS cn_revision_count', 'rev_user', 'rev_user_text', 'rev_page' ,
+					'MIN(rev_timestamp) AS cn_first_edit' , 'MAX(rev_timestamp) AS cn_last_edit' ),
 				$cond,
 				__METHOD__,
 				array( 'GROUP BY' => array( 'rev_page', 'rev_user','rev_user_text' ) )
@@ -58,7 +59,9 @@ class PopulateContributorsTable extends Maintenance {
 						'cn_page_id' => $row->rev_page,
 						'cn_user_id' => $row->rev_user,
 						'cn_user_text' => $row->rev_user_text,
-						'cn_revision_count' => $row->cn_revision_count
+						'cn_revision_count' => $row->cn_revision_count,
+						'cn_first_edit' => $row->cn_first_edit,
+						'cn_last_edit' => $row->cn_last_edit
 					),
 					array(
 						'cn_page_id',
@@ -69,7 +72,9 @@ class PopulateContributorsTable extends Maintenance {
 						'cn_page_id' => $row->rev_page,
 						'cn_user_id' => $row->rev_user,
 						'cn_user_text' => $row->rev_user_text,
-						'cn_revision_count' => $row->cn_revision_count
+						'cn_revision_count' => $row->cn_revision_count,
+						'cn_first_edit' => $row->cn_first_edit,
+						'cn_last_edit' => $row->cn_last_edit
 					),
 					__METHOD__
 				);

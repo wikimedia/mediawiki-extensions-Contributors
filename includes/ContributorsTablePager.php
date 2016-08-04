@@ -23,6 +23,8 @@ class ContributorsTablePager extends TablePager {
 			$this->fieldNames = array(
 				'cn_user_text' => $this->msg( 'contributors-name' )->escaped(),
 				'cn_revision_count' => $this->msg( 'contributors-revisions' )->escaped(),
+				'cn_first_edit' => $this->msg( 'contributors-first-edit' )->escaped(),
+				'cn_last_edit' => $this->msg( 'contributors-last-edit' )->escaped(),
 			);
 
 		}
@@ -44,7 +46,14 @@ class ContributorsTablePager extends TablePager {
 				break;
 			case 'cn_revision_count':
 				$formatted = $lang->formatNum( $row->cn_revision_count );
-
+				return $formatted;
+				break;
+			case 'cn_first_edit':
+				$formatted = $lang->timeanddate( $row->cn_first_edit, true);
+				return $formatted;
+				break;
+			case 'cn_last_edit':
+				$formatted = $lang->timeanddate( $row->cn_last_edit, true );
 				return $formatted;
 				break;
 		}
@@ -62,7 +71,9 @@ class ContributorsTablePager extends TablePager {
 			'fields' => array(
 				'cn_user_id',
 				'cn_user_text',
-				'cn_revision_count'
+				'cn_revision_count',
+				'cn_first_edit',
+				'cn_last_edit'
 			),
 			'conds' => $conds
 		);

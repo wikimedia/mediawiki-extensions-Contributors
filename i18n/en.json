@@ -20,5 +20,7 @@
 	"contributors-sortuser": "Sort alphabetically",
 	"contributors-filterip": "Hide IP addresses",
 	"contributors-name": "Username",
-	"contributors-revisions": "Number of revisions"
+	"contributors-revisions": "Number of revisions",
+	"contributors-first-edit": "Date of first edit",
+	"contributors-last-edit": "Date of last edit"
 }

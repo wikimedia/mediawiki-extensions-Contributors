@@ -22,6 +22,8 @@
 	"contributors-asc": "Checkbox label in the form.\n{{Identical|Sort ascending}}",
 	"contributors-sortuser": "Checkbox label in the form.\n{{Identical|Sort alphabetically}}",
 	"contributors-filterip": "Checkbox label in the form",
+	"contributors-first-edit": "Name of the field for listing the date of contributor's first edit to a page",
+	"contributors-last-edit": "Name of the field for listing the date of contributor's last edit to a page",
 	"contributors-name": "Name of the field for listing the Username of all the contributors",
 	"contributors-revisions": "Name of the field for listing the number of revisions made by a contributor"
 }
