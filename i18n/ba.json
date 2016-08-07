@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Assele"
+			"Assele",
+			"Ләйсән"
 		]
 	},
 	"contributors": "Өлөш индереүселәр",
 	"contributors-desc": "Биткә төп өлөш индереүселәрҙе билдәләй",
-	"contributors-toolbox": "Төп өлөш индереүселәр",
+	"contributors-toolbox": "Бит авторҙары",
 	"contributors-legend": "Биткә төп өлөш индереүселәр исемлеге",
 	"contributors-target": "Исем:",
 	"contributors-submit": "Күрһәтергә",
