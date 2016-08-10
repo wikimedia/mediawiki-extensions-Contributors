@@ -3,7 +3,9 @@
 	"version": "2.0",
 	"author": [
 		"Rob Church",
-		"Ike Hecht"
+		"Ike Hecht",
+		"Adam Shorland",
+		"Devirk Rishnan"
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:Contributors",
 	"descriptionmsg": "contributors-desc",
