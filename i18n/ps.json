@@ -5,10 +5,11 @@
 		]
 	},
 	"contributors": "ونډه وال",
-	"contributors-toolbox": "آرني ونډوالان",
+	"contributors-toolbox": "مخ ونډوال",
 	"contributors-target": "سرليک:",
 	"contributors-submit": "ښکاره کول",
 	"contributors-subtitle": "د $1 آرني ونډوالان",
 	"contributors-badtitle": "ناسم سرليک.",
-	"contributors-nosuchpage": "د $1 په نوم کوم مخ نشته."
+	"contributors-nosuchpage": "د $1 په نوم کوم مخ نشته.",
+	"contributors-filterip": "آی پي پتې پټول"
 }
