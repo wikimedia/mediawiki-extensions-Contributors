@@ -89,6 +89,7 @@ class SpecialContributors extends IncludableSpecialPage {
 
 		$opts->add( 'target', '', FormOptions::STRING );
 		$opts->add( 'filteranon', false );
+		$opts->add( 'pagePrefix' , false );
 		$opts->add( 'action', 'view', FormOptions::STRING );
 
 		return $opts;
@@ -146,7 +147,7 @@ class SpecialContributors extends IncludableSpecialPage {
 				$this->contributorsClass->getTargetText() )->parseAsBlock() );
 			return;
 		}
-
+		$target = $this->contributorsClass->getTarget();
 		$articleId = $this->contributorsClass->getTarget()->getArticleID();
 		$opts = $this->contributorsClass->getOptions();
 		$link = Linker::linkKnown( $this->contributorsClass->getTarget() );
@@ -154,7 +155,7 @@ class SpecialContributors extends IncludableSpecialPage {
 				->rawParams( $link )->escaped() . '</h2>' );
 
 		$out = $this->getOutput();
-		$pager = new ContributorsTablePager( $articleId , $opts );
+		$pager = new ContributorsTablePager( $articleId , $opts , $target );
 		$pager->doQuery();
 		$result = $pager->getResult();
 		if ( $result && $result->numRows() !== 0 ) {
@@ -195,6 +196,12 @@ class SpecialContributors extends IncludableSpecialPage {
 				'label-message' => 'contributors-filterip',
 				'type' => 'check',
 				'checked' => $opts['filteranon']
+			),
+			'pagePrefix' => array(
+				'name'=>'pagePrefix',
+				'label-message' => 'contributors-add-subpages',
+				'type' => 'check',
+				'checked' => $opts['pagePrefix']
 			),
 
 		);

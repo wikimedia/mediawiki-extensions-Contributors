@@ -7,12 +7,13 @@ class ContributorsTablePager extends TablePager {
 	protected $articleId;
 	protected $opts;
 
-	public function __construct( $articleId , $opts , IContextSource $context = null, IDatabase $readDb = null ) {
+	public function __construct( $articleId , $opts , $target , IContextSource $context = null, IDatabase $readDb = null ) {
 		if ( $readDb !== null ) {
 			$this->mDb = $readDb;
 		}
 		$this->articleId = $articleId;
 		$this->opts = $opts;
+		$this->target = $target;
 		$this->mDefaultDirection = true;
 		parent::__construct( $context );
 
@@ -61,23 +62,37 @@ class ContributorsTablePager extends TablePager {
 	}
 
 	public function getQueryInfo() {
-		if ( array_key_exists( 'filteranon', $this->opts ) && $this->opts['filteranon'] ) {
+		$dbr = wfGetDB( DB_SLAVE );
+		$prefixKey = $this->target->getPrefixedDBkey();
+
+		if ( $this->opts['filteranon'] == true ) {
 			$conds = array( 'cn_page_id' => (int)$this->articleId , 'cn_user_id !=0' );
+		}
+		elseif ( $this->opts['pagePrefix'] == true ) {
+			$conds = [ 'page_title' . $dbr->buildLike( $prefixKey, $dbr->anyString() ) ];
 		} else {
 			$conds = array( 'cn_page_id' => (int)$this->articleId );
 		}
+
 		$info = array(
-			'tables' => array( 'contributors' ),
+			'tables' => array( 'contributors' , 'page' ),
 			'fields' => array(
 				'cn_user_id',
 				'cn_user_text',
-				'cn_revision_count',
 				'cn_first_edit',
-				'cn_last_edit'
+				'cn_last_edit',
+				'cn_revision_count',
+				'page_title'
 			),
-			'conds' => $conds
+			'conds' => $conds,
+			'join_conds' =>
+				array( 'page' =>
+					array(
+						'LEFT JOIN' ,
+						'page_id = cn_page_id'
+					)
+				)
 		);
-
 		return $info;
 	}
 
