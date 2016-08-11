@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"DCLXVI"
+			"DCLXVI",
+			"StanProg"
 		]
 	},
 	"contributors-target": "Заглавие:",
 	"contributors-submit": "Показване",
 	"contributors-others": "и {{PLURAL:$1|един друг|$1 други}}",
 	"contributors-badtitle": "Невалидно заглавие.",
-	"contributors-nosuchpage": "Страницата $1 не съществува."
+	"contributors-nosuchpage": "Страницата $1 не съществува.",
+	"contributors-filterip": "Скриване на IP-адресите"
 }
