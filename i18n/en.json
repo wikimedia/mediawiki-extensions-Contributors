@@ -22,5 +22,6 @@
 	"contributors-name": "Username",
 	"contributors-revisions": "Number of revisions",
 	"contributors-first-edit": "Date of first edit",
-	"contributors-last-edit": "Date of last edit"
+	"contributors-last-edit": "Date of last edit",
+	"contributors-add-subpages": "Add subpages"
 }
