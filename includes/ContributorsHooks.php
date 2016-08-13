@@ -106,7 +106,8 @@ class ContributorsHooks {
 	 */
 	public static function onLoadExtensionSchemaUpdates( DatabaseUpdater $updater ) {
 		$updater->addExtensionTable( 'contributors', __DIR__ . '/sql/contributors.sql' );
-
+		$updater->addExtensionField( 'contributors', 'cn_first_edit', __DIR__ . '/sql/contributors-add-timestamps.sql' );
+		$updater->addExtensionField( 'contributors', 'cn_last_edit', __DIR__ . '/sql/contributors-add-timestamps.sql' );
 		return true;
 	}
 
@@ -131,6 +132,8 @@ class ContributorsHooks {
 		$pageId = $article->getId();
 		$userId = $user->getId();
 		$text = $user->getName();
+		$timestamp = $article->getTimestamp();
+
 		$cond = array( 'cn_page_id' => $pageId, 'cn_user_id' => $userId, 'cn_user_text' => $text );
 
 		$res = $dbr->select(
@@ -146,7 +149,8 @@ class ContributorsHooks {
 					'cn_page_id' => $pageId,
 					'cn_user_id' => $userId,
 					'cn_user_text' => $text,
-					'cn_revision_count' => 1
+					'cn_revision_count' => 1,
+					'cn_first_edit' => $timestamp
 				),
 				__METHOD__
 			);
@@ -160,7 +164,8 @@ class ContributorsHooks {
 						'cn_page_id' => $pageId,
 						'cn_user_id' => $userId,
 						'cn_user_text' => $text,
-						'cn_revision_count' => 1
+						'cn_revision_count' => 1,
+						'cn_first_edit' => $timestamp
 					),
 					array(
 						'cn_page_id',
@@ -168,7 +173,8 @@ class ContributorsHooks {
 						'cn_user_text'
 					),
 					array(
-						'cn_revision_count' => $row->cn_revision_count + 1
+						'cn_revision_count' => $row->cn_revision_count + 1,
+						'cn_last_update' => $timestamp
 					),
 					__METHOD__
 				);
