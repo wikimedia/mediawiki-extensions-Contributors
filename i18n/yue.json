@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Shinjiman",
-			"Yueman"
+			"Yueman",
+			"Ktchankt"
 		]
 	},
 	"contributors": "貢獻者",
 	"contributors-desc": "將主要嘅參與者匯埋同一頁",
-	"contributors-toolbox": "主要貢獻者",
+	"contributors-toolbox": "版面貢獻者",
 	"contributors-legend": "列示呢篇文章嘅主要貢獻者",
 	"contributors-target": "標題:",
 	"contributors-submit": "顯示",
@@ -17,5 +18,6 @@
 	"contributors-badtitle": "唔正確嘅標題。",
 	"contributors-nosuchpage": "文章$1唔存在。",
 	"contributors-asc": "順序排",
-	"contributors-sortuser": "跟字母排"
+	"contributors-sortuser": "跟字母排",
+	"contributors-filterip": "收埋IP地址"
 }
