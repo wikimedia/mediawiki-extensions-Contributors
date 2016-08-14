@@ -23,5 +23,10 @@
 	"contributors-nosuchpage": "$1 문서가 존재하지 않습니다.",
 	"contributors-asc": "오름차순 정렬",
 	"contributors-sortuser": "알파벳순으로 정렬",
-	"contributors-filterip": "IP 주소 숨기기"
+	"contributors-filterip": "IP 주소 숨기기",
+	"contributors-name": "사용자 이름",
+	"contributors-revisions": "판 수",
+	"contributors-first-edit": "최초 편집 날짜",
+	"contributors-last-edit": "마지막 편집 날짜",
+	"contributors-add-subpages": "하위 문서 추가"
 }

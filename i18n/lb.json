@@ -18,5 +18,10 @@
 	"contributors-nosuchpage": "D'Säit $1 gëtt et net.",
 	"contributors-asc": "Vu kleng op grouss zortéieren",
 	"contributors-sortuser": "Alphabetesch zortéieren",
-	"contributors-filterip": "IP-Adresse verstoppen"
+	"contributors-filterip": "IP-Adresse verstoppen",
+	"contributors-name": "Benotzernumm",
+	"contributors-revisions": "Zuel vun de Versiounen",
+	"contributors-first-edit": "Datum vun der éischter Ännerung",
+	"contributors-last-edit": "Datum vun der leschter Ännerung",
+	"contributors-add-subpages": "Ënnersäit dobäisetzen"
 }

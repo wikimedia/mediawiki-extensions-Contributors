@@ -17,5 +17,10 @@
 	"contributors-nosuchpage": "Страницата $1 не постои.",
 	"contributors-asc": "Подреди нагорно",
 	"contributors-sortuser": "Подреди азбучно",
-	"contributors-filterip": "Скриј IP-адреси"
+	"contributors-filterip": "Скриј IP-адреси",
+	"contributors-name": "Корисничко име",
+	"contributors-revisions": "Број на преработки",
+	"contributors-first-edit": "Датум на првото уредување",
+	"contributors-last-edit": "Датум на последното уредување",
+	"contributors-add-subpages": "Додај потстраници"
 }

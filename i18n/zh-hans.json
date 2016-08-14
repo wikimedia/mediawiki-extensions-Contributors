@@ -19,5 +19,10 @@
 	"contributors-nosuchpage": "条目$1不存在。",
 	"contributors-asc": "升序",
 	"contributors-sortuser": "按字母排序",
-	"contributors-filterip": "隐藏IP地址"
+	"contributors-filterip": "隐藏IP地址",
+	"contributors-name": "用户名",
+	"contributors-revisions": "修订版本数",
+	"contributors-first-edit": "首次编辑日期",
+	"contributors-last-edit": "最后编辑日期",
+	"contributors-add-subpages": "添加子页面"
 }

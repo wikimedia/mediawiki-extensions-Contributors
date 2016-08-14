@@ -3,7 +3,8 @@
 		"authors": [
 			"AS",
 			"Ahonc",
-			"Ата"
+			"Ата",
+			"Piramidion"
 		]
 	},
 	"contributors": "Автори",
@@ -19,5 +20,10 @@
 	"contributors-nosuchpage": "Сторінка «$1» не існує.",
 	"contributors-asc": "Сортувати за зростанням",
 	"contributors-sortuser": "Сортувати за алфавітом",
-	"contributors-filterip": "Приховати IP-адреси"
+	"contributors-filterip": "Приховати IP-адреси",
+	"contributors-name": "Ім'я користувача",
+	"contributors-revisions": "Кількість версій",
+	"contributors-first-edit": "Дата першого редагування",
+	"contributors-last-edit": "Дата останнього редагування",
+	"contributors-add-subpages": "Додати підсторінки"
 }
