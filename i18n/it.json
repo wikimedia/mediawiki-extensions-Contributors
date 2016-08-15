@@ -19,5 +19,10 @@
 	"contributors-nosuchpage": "La pagina $1 non esiste.",
 	"contributors-asc": "Ordinamento crescente",
 	"contributors-sortuser": "Ordina alfabeticamente",
-	"contributors-filterip": "Nascondi indirizzi IP"
+	"contributors-filterip": "Nascondi indirizzi IP",
+	"contributors-name": "Nome utente",
+	"contributors-revisions": "Numero di versioni",
+	"contributors-first-edit": "Data della prima modifica",
+	"contributors-last-edit": "Data di ultima modifica",
+	"contributors-add-subpages": "Aggiungi sottopagine"
 }

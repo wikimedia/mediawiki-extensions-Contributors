@@ -20,5 +20,10 @@
 	"contributors-nosuchpage": "ページ $1 は存在しません。",
 	"contributors-asc": "昇順に並べ替える",
 	"contributors-sortuser": "辞書順に並べ替える",
-	"contributors-filterip": "IPアドレスを表示しない"
+	"contributors-filterip": "IPアドレスを表示しない",
+	"contributors-name": "利用者名",
+	"contributors-revisions": "版数",
+	"contributors-first-edit": "最終編集日時",
+	"contributors-last-edit": "最終編集日時",
+	"contributors-add-subpages": "下位ページを追加"
 }

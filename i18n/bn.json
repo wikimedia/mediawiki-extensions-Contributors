@@ -18,5 +18,10 @@
 	"contributors-badtitle": "অসিদ্ধ শিরোনাম।",
 	"contributors-nosuchpage": "$1 শিরোনামে কোন পাতা নেই।",
 	"contributors-sortuser": "বর্ণানুক্রমে সাজান",
-	"contributors-filterip": "আইপি ঠিকানা আড়াল করুন"
+	"contributors-filterip": "আইপি ঠিকানা আড়াল করুন",
+	"contributors-name": "ব্যবহারকারী নাম",
+	"contributors-revisions": "সংস্করণের সংখ্যা",
+	"contributors-first-edit": "প্রথম সম্পাদনার তারিখ",
+	"contributors-last-edit": "শেষ সম্পাদনার তারিখ",
+	"contributors-add-subpages": "উপপাতা যোগ করুন"
 }
