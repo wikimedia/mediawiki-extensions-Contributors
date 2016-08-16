@@ -21,5 +21,10 @@
 	"contributors-badtitle": "Título inválido.",
 	"contributors-nosuchpage": "La página $1 no existe.",
 	"contributors-asc": "Orden ascendente",
-	"contributors-sortuser": "Ordenar alfabéticamente"
+	"contributors-sortuser": "Ordenar alfabéticamente",
+	"contributors-name": "Nombre de usuario",
+	"contributors-revisions": "Número de revisiones",
+	"contributors-first-edit": "Fecha de la primera edición",
+	"contributors-last-edit": "Fecha de la última edición",
+	"contributors-add-subpages": "Añadir subpáginas"
 }

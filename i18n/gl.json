@@ -3,7 +3,8 @@
 		"authors": [
 			"Toliño",
 			"Xosé",
-			"Elisardojm"
+			"Elisardojm",
+			"Banjo"
 		]
 	},
 	"contributors": "Colaboradores",
@@ -19,5 +20,10 @@
 	"contributors-nosuchpage": "A páxina \"$1\" non existe.",
 	"contributors-asc": "Orde ascendente",
 	"contributors-sortuser": "Ordenar alfabeticamente",
-	"contributors-filterip": "Ocultar enderezos IP"
+	"contributors-filterip": "Ocultar enderezos IP",
+	"contributors-name": "Nome de usuario",
+	"contributors-revisions": "Número de revisións",
+	"contributors-first-edit": "Data da primeira edición",
+	"contributors-last-edit": "Data da última edición",
+	"contributors-add-subpages": "Engadir subpáxinas"
 }

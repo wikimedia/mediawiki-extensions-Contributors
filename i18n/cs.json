@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Danny B.",
-			"Matěj Grabovský"
+			"Matěj Grabovský",
+			"Marek Pavlica"
 		]
 	},
 	"contributors": "Přispěvatelé",
@@ -15,5 +16,10 @@
 	"contributors-others-long": "{{PLURAL:$1|Existuje další přispěvatel|Existují další $1 přispěvatelé|Existuje dalších $1 přispěvatelů}} tohoto článku.",
 	"contributors-others": "a $1 {{PLURAL:$1|další|další|dalších}}",
 	"contributors-badtitle": "Neplatný název.",
-	"contributors-nosuchpage": "Stránka $1 neexistuje."
+	"contributors-nosuchpage": "Stránka $1 neexistuje.",
+	"contributors-name": "Uživatelské jméno",
+	"contributors-revisions": "Počet revizí",
+	"contributors-first-edit": "Datum první editace",
+	"contributors-last-edit": "Datum poslední editace",
+	"contributors-add-subpages": "Přidat podstránky"
 }

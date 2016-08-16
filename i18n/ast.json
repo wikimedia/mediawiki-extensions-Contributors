@@ -6,7 +6,7 @@
 	},
 	"contributors": "Collaboradores",
 	"contributors-desc": "Resume los principales collaboradores d'una páxina",
-	"contributors-toolbox": "Principales collaboradores",
+	"contributors-toolbox": "Collaboradores de la páxina",
 	"contributors-legend": "Llista de los principales collaboradores d'una páxina",
 	"contributors-target": "Títulu:",
 	"contributors-submit": "Amosar",
@@ -16,5 +16,11 @@
 	"contributors-badtitle": "Títulu inválidu.",
 	"contributors-nosuchpage": "La páxina $1 nun esiste.",
 	"contributors-asc": "Orde ascendente",
-	"contributors-sortuser": "Orde alfabéticu"
+	"contributors-sortuser": "Orde alfabéticu",
+	"contributors-filterip": "Tapecer les direiciones IP",
+	"contributors-name": "Nome d'usuariu",
+	"contributors-revisions": "Númberu de revisiones",
+	"contributors-first-edit": "Data de la primera edición",
+	"contributors-last-edit": "Data de la cabera edición",
+	"contributors-add-subpages": "Amestar subpáxines"
 }
