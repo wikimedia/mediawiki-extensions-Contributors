@@ -23,5 +23,6 @@
 	"contributors-revisions": "Number of revisions",
 	"contributors-first-edit": "Date of first edit",
 	"contributors-last-edit": "Date of last edit",
-	"contributors-add-subpages": "Add subpages"
+	"contributors-add-subpages": "Add subpages",
+	"apihelp-query+contributors-example-1":"Show contributors to Main page"
 }
