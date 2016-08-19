@@ -174,7 +174,7 @@ class ContributorsHooks {
 					),
 					array(
 						'cn_revision_count' => $row->cn_revision_count + 1,
-						'cn_last_update' => $timestamp
+						'cn_last_edit' => $timestamp
 					),
 					__METHOD__
 				);
