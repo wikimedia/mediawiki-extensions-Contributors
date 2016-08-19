@@ -106,12 +106,14 @@ class ContributorsHooks {
 	 */
 	public static function onLoadExtensionSchemaUpdates( DatabaseUpdater $updater ) {
 		$updater->addExtensionTable( 'contributors', __DIR__ . '/sql/contributors.sql' );
-		$updater->addExtensionField( 'contributors', 'cn_first_edit', __DIR__ . '/sql/contributors-add-timestamps.sql' );
-		$updater->addExtensionField( 'contributors', 'cn_last_edit', __DIR__ . '/sql/contributors-add-timestamps.sql' );
+		$updater->addExtensionField( 'contributors', 'cn_first_edit',
+			__DIR__ . '/sql/contributors-add-timestamps.sql' );
+		$updater->addExtensionField( 'contributors', 'cn_last_edit',
+			__DIR__ . '/sql/contributors-add-timestamps.sql' );
 		return true;
 	}
 
-/**
+	/**
 	 * Updates the contributors table with each edit made by a user to a page
 	 * @param WikiPage $article
 	 * @param User $user
@@ -126,7 +128,19 @@ class ContributorsHooks {
 	 * @param $baseRevId
 	 * @throws Exception
 	 */
-	public static function onPageContentSaveComplete( $article, $user, $content, $summary, $isMinor, $isWatch, $section, $flags, $revision, $status, $baseRevId ) {
+	public static function onPageContentSaveComplete(
+		$article,
+		$user,
+		$content,
+		$summary,
+		$isMinor,
+		$isWatch,
+		$section,
+		$flags,
+		$revision,
+		$status,
+		$baseRevId
+	) {
 		$dbw = wfGetDB( DB_MASTER );
 		$dbr = wfGetDB( DB_SLAVE );
 		$pageId = $article->getId();
@@ -137,13 +151,12 @@ class ContributorsHooks {
 		$cond = array( 'cn_page_id' => $pageId, 'cn_user_id' => $userId, 'cn_user_text' => $text );
 
 		$res = $dbr->select(
-					'contributors',
-					'cn_revision_count',
-					$cond,
-					__METHOD__
-			);
-		if ( $res->numRows() == 0 )
-		{
+			'contributors',
+			'cn_revision_count',
+			$cond,
+			__METHOD__
+		);
+		if ( $res->numRows() == 0 ) {
 			$dbw->insert( 'contributors',
 				array(
 					'cn_page_id' => $pageId,
@@ -154,9 +167,7 @@ class ContributorsHooks {
 				),
 				__METHOD__
 			);
-		}
-		else
-		{
+		} else {
 			foreach ( $res as $row ) {
 
 			$dbw->upsert( 'contributors',

@@ -89,7 +89,7 @@ class SpecialContributors extends IncludableSpecialPage {
 
 		$opts->add( 'target', '', FormOptions::STRING );
 		$opts->add( 'filteranon', false );
-		$opts->add( 'pagePrefix' , false );
+		$opts->add( 'pagePrefix', false );
 		$opts->add( 'action', 'view', FormOptions::STRING );
 
 		return $opts;
@@ -155,7 +155,7 @@ class SpecialContributors extends IncludableSpecialPage {
 				->rawParams( $link )->escaped() . '</h2>' );
 
 		$out = $this->getOutput();
-		$pager = new ContributorsTablePager( $articleId , $opts , $target );
+		$pager = new ContributorsTablePager( $articleId, $opts, $target );
 		$pager->doQuery();
 		$result = $pager->getResult();
 		if ( $result && $result->numRows() !== 0 ) {

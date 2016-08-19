@@ -124,7 +124,7 @@ class Contributors {
 		$pageId =  $this->getTarget()->getArticleID();
 		$contributors = array();
 
-		if ( array_key_exists( 'filteranon', $opts ) && $opts['filteranon']  ) {
+		if ( array_key_exists( 'filteranon', $opts ) && $opts['filteranon'] ) {
 			$cond = array( 'cn_page_id' => $pageId , 'cn_user_id !=0' );
 		} else {
 			$cond = array( 'cn_page_id' => $pageId );
@@ -139,8 +139,11 @@ class Contributors {
 				'ORDER BY' => 'cn_revision_count DESC',
 			) );
 		if ( $res && $dbr->numRows( $res ) > 0 ) {
-			while ( $row = $dbr->fetchObject( $res ) ) {
-				$contributors[ $row->cn_user_text ] = array( $row->cn_user_text , $row->cn_revision_count );
+			foreach ( $res as $row ) {
+				$contributors[ $row->cn_user_text ] = array(
+					$row->cn_user_text,
+					$row->cn_revision_count
+				);
 			}
 		}
 		return $contributors;
@@ -212,6 +215,5 @@ class Contributors {
 		}
 		return $output;
 	}
-
 
 }

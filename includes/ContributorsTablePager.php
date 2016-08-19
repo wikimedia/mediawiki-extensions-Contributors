@@ -7,7 +7,13 @@ class ContributorsTablePager extends TablePager {
 	protected $articleId;
 	protected $opts;
 
-	public function __construct( $articleId , $opts , $target , IContextSource $context = null, IDatabase $readDb = null ) {
+	public function __construct(
+		$articleId,
+		$opts,
+		$target,
+		IContextSource $context = null,
+		IDatabase $readDb = null
+	) {
 		if ( $readDb !== null ) {
 			$this->mDb = $readDb;
 		}
@@ -16,7 +22,6 @@ class ContributorsTablePager extends TablePager {
 		$this->target = $target;
 		$this->mDefaultDirection = true;
 		parent::__construct( $context );
-
 	}
 
 	public function getFieldNames() {
@@ -41,8 +46,8 @@ class ContributorsTablePager extends TablePager {
 
 			case 'cn_user_text':
 				$formatted =
-					Linker::userLink( $row->cn_user_text , $row->cn_user_text ) . ' ' .
-					Linker::userToolLinks( $row->cn_user_text ,$row->cn_user_text );
+					Linker::userLink( $row->cn_user_text, $row->cn_user_text ) . ' ' .
+					Linker::userToolLinks( $row->cn_user_text, $row->cn_user_text );
 				return $formatted;
 				break;
 			case 'cn_revision_count':
@@ -50,7 +55,7 @@ class ContributorsTablePager extends TablePager {
 				return $formatted;
 				break;
 			case 'cn_first_edit':
-				$formatted = $lang->timeanddate( $row->cn_first_edit, true);
+				$formatted = $lang->timeanddate( $row->cn_first_edit, true );
 				return $formatted;
 				break;
 			case 'cn_last_edit':
@@ -58,7 +63,6 @@ class ContributorsTablePager extends TablePager {
 				return $formatted;
 				break;
 		}
-
 	}
 
 	public function getQueryInfo() {
@@ -67,8 +71,7 @@ class ContributorsTablePager extends TablePager {
 
 		if ( $this->opts['filteranon'] == true ) {
 			$conds = array( 'cn_page_id' => (int)$this->articleId , 'cn_user_id !=0' );
-		}
-		elseif ( $this->opts['pagePrefix'] == true ) {
+		} elseif ( $this->opts['pagePrefix'] == true ) {
 			$conds = [ 'page_title' . $dbr->buildLike( $prefixKey, $dbr->anyString() ) ];
 		} else {
 			$conds = array( 'cn_page_id' => (int)$this->articleId );

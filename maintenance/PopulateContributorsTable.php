@@ -1,9 +1,9 @@
 <?php
 
-if (getenv('MW_INSTALL_PATH') !== false) {
-	require_once(getenv('MW_INSTALL_PATH') . '/maintenance/Maintenance.php');
+if ( getenv( 'MW_INSTALL_PATH' ) !== false ) {
+	require_once getenv( 'MW_INSTALL_PATH' ) . '/maintenance/Maintenance.php';
 } else {
-	require_once(__DIR__ . '/../../../maintenance/Maintenance.php');
+	require_once __DIR__ . '/../../../maintenance/Maintenance.php';
 }
 
 /**
@@ -44,11 +44,11 @@ class PopulateContributorsTable extends Maintenance {
 			);
 			$res = $dbr->select(
 				'revision',
-				array('COUNT(*) AS cn_revision_count', 'rev_user', 'rev_user_text', 'rev_page' ,
-					'MIN(rev_timestamp) AS cn_first_edit' , 'MAX(rev_timestamp) AS cn_last_edit' ),
+				array( 'COUNT(*) AS cn_revision_count', 'rev_user', 'rev_user_text', 'rev_page',
+					'MIN(rev_timestamp) AS cn_first_edit', 'MAX(rev_timestamp) AS cn_last_edit' ),
 				$cond,
 				__METHOD__,
-				array( 'GROUP BY' => array( 'rev_page', 'rev_user','rev_user_text' ) )
+				array( 'GROUP BY' => array( 'rev_page', 'rev_user', 'rev_user_text' ) )
 			);
 
 			$this->output( "Writing data into Contributors Table.. \n" );

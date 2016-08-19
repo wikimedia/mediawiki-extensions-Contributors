@@ -2,7 +2,7 @@
 
 class ApiQueryCnContributors extends ApiQueryBase {
 
-	public function __construct( ApiQuery $query, $moduleName  ) {
+	public function __construct( ApiQuery $query, $moduleName ) {
 		parent::__construct( $query, $moduleName, 'cn' );
 	}
 
@@ -15,8 +15,8 @@ class ApiQueryCnContributors extends ApiQueryBase {
 		$result = $this->getResult();
 
 		foreach ( $res as $row ) {
-
-			$result->addValue( 'query', $this->getModuleName() , $row->cn_user_text , $row->cn_revision_count );
+			$result->addValue(
+				'query', $this->getModuleName(), $row->cn_user_text, $row->cn_revision_count );
 		}
 	}
 	private function buildDbQuery( array $params ) {
