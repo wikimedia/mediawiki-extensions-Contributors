@@ -3,7 +3,8 @@
 		"authors": [
 			"Shinjiman",
 			"Yueman",
-			"Ktchankt"
+			"Ktchankt",
+			"Obonggi"
 		]
 	},
 	"contributors": "貢獻者",
@@ -19,5 +20,8 @@
 	"contributors-nosuchpage": "文章$1唔存在。",
 	"contributors-asc": "順序排",
 	"contributors-sortuser": "跟字母排",
-	"contributors-filterip": "收埋IP地址"
+	"contributors-filterip": "收埋IP地址",
+	"contributors-first-edit": "第一次編輯嘅日期",
+	"contributors-last-edit": "上次編輯嘅日期",
+	"contributors-add-subpages": "添加子頁面"
 }

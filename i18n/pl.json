@@ -20,5 +20,9 @@
 	"contributors-nosuchpage": "Strona $1 nie istnieje.",
 	"contributors-asc": "Sortuj rosnąco",
 	"contributors-sortuser": "Sortuj alfabetycznie",
-	"contributors-filterip": "Ukryj adresy IP"
+	"contributors-filterip": "Ukryj adresy IP",
+	"contributors-name": "Nazwa użytkownika",
+	"contributors-revisions": "Liczba wersji",
+	"contributors-first-edit": "Data pierwszej edycji",
+	"contributors-last-edit": "Data ostatniej edycji"
 }
