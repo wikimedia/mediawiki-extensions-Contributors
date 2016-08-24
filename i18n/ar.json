@@ -4,7 +4,9 @@
 			"Meno25",
 			"Mido",
 			"Mimouni",
-			"OsamaK"
+			"OsamaK",
+			"Shbib Al-Subaie",
+			"محمد أحمد عبد الفتاح"
 		]
 	},
 	"contributors": "المساهمون",
@@ -17,5 +19,9 @@
 	"contributors-others-long": "هناك {{PLURAL:$1|مساهم واحد آخر| $1 مساهم آخر}} لهذه الصفحة.",
 	"contributors-others": "و {{PLURAL:$1|واحد آخر|$1 آخرون}}",
 	"contributors-badtitle": "عنوان غير صالح.",
-	"contributors-nosuchpage": "الصفحة $1 غير موجودة."
+	"contributors-nosuchpage": "الصفحة $1 غير موجودة.",
+	"contributors-name": "اسم المستخدم",
+	"contributors-first-edit": "تاريخ أول تعديل",
+	"contributors-last-edit": "تاريخ آخر تعديل",
+	"contributors-add-subpages": "أضف الصفحات الفرعية"
 }
