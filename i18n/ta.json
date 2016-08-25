@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"TRYPPN",
-			"மதனாஹரன்"
+			"மதனாஹரன்",
+			"ElangoRamanujam"
 		]
 	},
 	"contributors": "பங்களிப்பாளர்கள்",
@@ -10,5 +11,10 @@
 	"contributors-target": "தலைப்பு:",
 	"contributors-submit": "காட்டு",
 	"contributors-badtitle": "தவறான தலைப்பு.",
-	"contributors-nosuchpage": "பக்கம் $1 காணப்படவில்லை."
+	"contributors-nosuchpage": "பக்கம் $1 காணப்படவில்லை.",
+	"contributors-name": "பயனர் பெயர்",
+	"contributors-revisions": "திருத்தங்களின் எண்ணிக்கை",
+	"contributors-first-edit": "முதல் தொகுப்பின் தேதி",
+	"contributors-last-edit": "இறுதித் தொகுப்பின் தேதி",
+	"contributors-add-subpages": "துணைப் பக்கங்களைச் சேர்க்கவும்"
 }
