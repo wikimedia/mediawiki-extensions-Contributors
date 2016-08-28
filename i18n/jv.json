@@ -8,9 +8,9 @@
 	"contributors": "Para kontributor",
 	"contributors-toolbox": "Para kontributor utama",
 	"contributors-legend": "Pratélaning panyumbang pokok sawiji kaca",
-	"contributors-target": "Irah-irahan (judhul):",
+	"contributors-target": "Sesirah:",
 	"contributors-submit": "Tuduhna",
 	"contributors-subtitle": "Para kontributor utama kanggo $1",
-	"contributors-badtitle": "Irah-irahan ora absah.",
-	"contributors-nosuchpage": "Artikel $1 ora ditemokaké."
+	"contributors-badtitle": "Sesirah ora sah.",
+	"contributors-nosuchpage": "Kaca $1 ora ana."
 }
