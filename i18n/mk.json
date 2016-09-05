@@ -22,5 +22,6 @@
 	"contributors-revisions": "Број на преработки",
 	"contributors-first-edit": "Датум на првото уредување",
 	"contributors-last-edit": "Датум на последното уредување",
-	"contributors-add-subpages": "Додај потстраници"
+	"contributors-add-subpages": "Додај потстраници",
+	"apihelp-query+contributors-example-1": "Прикажи учесници на Главната страница"
 }

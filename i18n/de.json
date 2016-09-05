@@ -24,5 +24,6 @@
 	"contributors-revisions": "Anzahl der Versionen",
 	"contributors-first-edit": "Datum der ersten Bearbeitung",
 	"contributors-last-edit": "Datum der letzten Bearbeitung",
-	"contributors-add-subpages": "Unterseiten hinzufügen"
+	"contributors-add-subpages": "Unterseiten hinzufügen",
+	"apihelp-query+contributors-example-1": "Zeigt Autoren der Hauptseite"
 }
