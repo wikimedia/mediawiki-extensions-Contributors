@@ -13,6 +13,9 @@
 	"SpecialPages": {
 		"Contributors": "SpecialContributors"
 	},
+	"APIPropModules": {
+		"contributors": "ApiQueryContributors"
+	},
 	"MessagesDirs": {
 		"Contributors": [
 			"i18n"
@@ -26,7 +29,8 @@
 		"Contributors": "includes/Contributors.php",
 		"SpecialContributors": "includes/SpecialContributors.php",
 		"ContributorsHooks": "includes/ContributorsHooks.php",
-		"ContributorsTablePager":"includes/ContributorsTablePager.php"
+		"ContributorsTablePager":"includes/ContributorsTablePager.php",
+		"ApiQueryContributors":"api/ApiQueryCnContributors.php"
 	},
 	"Hooks": {
 		"PageContentSaveComplete": [
