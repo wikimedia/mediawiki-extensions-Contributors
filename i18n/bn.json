@@ -23,5 +23,6 @@
 	"contributors-revisions": "সংস্করণের সংখ্যা",
 	"contributors-first-edit": "প্রথম সম্পাদনার তারিখ",
 	"contributors-last-edit": "শেষ সম্পাদনার তারিখ",
-	"contributors-add-subpages": "উপপাতা যোগ করুন"
+	"contributors-add-subpages": "উপপাতা যোগ করুন",
+	"apihelp-query+contributors-example-1": "প্রধান পাতায় অবদানকারীগণকে দেখায়"
 }

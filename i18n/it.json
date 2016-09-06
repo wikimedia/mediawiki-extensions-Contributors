@@ -24,5 +24,6 @@
 	"contributors-revisions": "Numero di versioni",
 	"contributors-first-edit": "Data della prima modifica",
 	"contributors-last-edit": "Data di ultima modifica",
-	"contributors-add-subpages": "Aggiungi sottopagine"
+	"contributors-add-subpages": "Aggiungi sottopagine",
+	"apihelp-query+contributors-example-1": "Mostra contributori alla pagina principale"
 }
