@@ -22,5 +22,6 @@
 	"contributors-revisions": "Númberu de revisiones",
 	"contributors-first-edit": "Data de la primera edición",
 	"contributors-last-edit": "Data de la cabera edición",
-	"contributors-add-subpages": "Amestar subpáxines"
+	"contributors-add-subpages": "Amestar subpáxines",
+	"apihelp-query+contributors-example-1": "Amosar los collaboradores de la Portada"
 }

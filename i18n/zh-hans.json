@@ -24,5 +24,6 @@
 	"contributors-revisions": "修订版本数",
 	"contributors-first-edit": "首次编辑日期",
 	"contributors-last-edit": "最后编辑日期",
-	"contributors-add-subpages": "添加子页面"
+	"contributors-add-subpages": "添加子页面",
+	"apihelp-query+contributors-example-1": "显示对首页的贡献"
 }
