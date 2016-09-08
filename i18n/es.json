@@ -26,5 +26,6 @@
 	"contributors-revisions": "Número de revisiones",
 	"contributors-first-edit": "Fecha de la primera edición",
 	"contributors-last-edit": "Fecha de la última edición",
-	"contributors-add-subpages": "Añadir subpáginas"
+	"contributors-add-subpages": "Añadir subpáginas",
+	"apihelp-query+contributors-example-1": "Mostrar contribuyentes a la página principal"
 }
