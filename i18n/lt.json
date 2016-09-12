@@ -9,5 +9,6 @@
 	"contributors-legend": "Sąrašas pagrindinius puslapio autorių",
 	"contributors-target": "Pavadinimas:",
 	"contributors-submit": "Rodyti",
-	"contributors-badtitle": "Neleistinas pavadinimas."
+	"contributors-badtitle": "Neleistinas pavadinimas.",
+	"apihelp-query+contributors-example-1": "Rodyti įnašus į Pagrindinė puslapį"
 }
