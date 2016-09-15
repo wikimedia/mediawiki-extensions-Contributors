@@ -25,5 +25,6 @@
 	"contributors-revisions": "Número de revisións",
 	"contributors-first-edit": "Data da primeira edición",
 	"contributors-last-edit": "Data da última edición",
-	"contributors-add-subpages": "Engadir subpáxinas"
+	"contributors-add-subpages": "Engadir subpáxinas",
+	"apihelp-query+contributors-example-1": "Amosar os contribuidores da Páxina Principal"
 }
