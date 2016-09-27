@@ -23,5 +23,6 @@
 	"contributors-revisions": "आवृत्त्यांची संख्या",
 	"contributors-first-edit": "प्रथम संपादनाचा दिनांक",
 	"contributors-last-edit": "शेवटच्या संपादनाचा दिनांक",
-	"contributors-add-subpages": "उपपाने जोडा"
+	"contributors-add-subpages": "उपपाने जोडा",
+	"apihelp-query+contributors-example-1": "मुखपृष्ठावरील योगदाने दाखवा"
 }
