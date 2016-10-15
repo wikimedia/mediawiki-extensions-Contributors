@@ -1,8 +1,28 @@
 {
 	"@metadata": {
 		"authors": [
-			"Indusian1236"
+			"Indusian1236",
+			"Mehtab ahmed"
 		]
 	},
-	"contributors-toolbox": "صفحي جا ڀاڱيدار"
+	"contributors": "ڀاڱيدارَ",
+	"contributors-desc": "ڪنھن صفحي جي مک ڀاڱيدارن جو تت جوڙي ٿو",
+	"contributors-toolbox": "صفحي جا ڀاڱيدار",
+	"contributors-legend": "ڪنھن صفحي جي مک ڀاڱيدارن جي فھرست جوڙيو",
+	"contributors-target": "عنوان:",
+	"contributors-submit": "ڏيکاريو",
+	"contributors-subtitle": "$1 جا مک ڀاڱيدار",
+	"contributors-others-long": "ھن صفحي {{PLURAL:$1|جو ھڪ ٻيو ڀاڱيدار آھي|جا $1 ٻيا ڀاڱيدارَ آھن}}.",
+	"contributors-others": "۽ {{PLURAL:$1|ھڪ ٻيو|$1 ٻيا}}",
+	"contributors-badtitle": "ناقابلِڪار عنوان.",
+	"contributors-nosuchpage": "$1 صفحو وجود نٿو رکي.",
+	"contributors-asc": "چڙهندڙ ترتيب ڏيو",
+	"contributors-sortuser": "الف بي وار ترتيب ڏيو",
+	"contributors-filterip": "آءِپي پتا لڪايو",
+	"contributors-name": "يُوزرنانءُ",
+	"contributors-revisions": "دورن جو تعداد",
+	"contributors-first-edit": "پھرين ترميم جي تاريخ",
+	"contributors-last-edit": "آخري ترميم جي تاريخ",
+	"contributors-add-subpages": "ذيلي صفحا شامل ڪريو",
+	"apihelp-query+contributors-example-1": "مک صفحي جا ڀاڱيدار ڏيکاريو"
 }
