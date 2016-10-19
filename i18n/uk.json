@@ -25,5 +25,6 @@
 	"contributors-revisions": "Кількість версій",
 	"contributors-first-edit": "Дата першого редагування",
 	"contributors-last-edit": "Дата останнього редагування",
-	"contributors-add-subpages": "Додати підсторінки"
+	"contributors-add-subpages": "Додати підсторінки",
+	"apihelp-query+contributors-example-1": "Показати дописувачів Головної сторінки"
 }
