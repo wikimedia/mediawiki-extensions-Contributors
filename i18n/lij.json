@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Giromin Cangiaxo"
+		]
+	},
+	"contributors": "Contributoî",
+	"contributors-desc": "Sommarizza i contributoî prinçipæ de 'na paggina",
+	"contributors-toolbox": "Contributoî da paggina",
+	"contributors-legend": "Elenca i contributoî prinçipæ de 'na paggina",
+	"contributors-target": "Tittolo:",
+	"contributors-submit": "Mostra",
+	"contributors-subtitle": "Contributoî prinçipæ de $1",
+	"contributors-others-long": "A paggina a l'è stæta modificâ anche da {{PLURAL:$1|un atro contributô|$1 atri contributoî}}.",
+	"contributors-others": "e {{PLURAL:$1|un atro|$1 atri}}",
+	"contributors-badtitle": "Tittolo non vallido.",
+	"contributors-nosuchpage": "A paggina $1 a no l'existe.",
+	"contributors-asc": "Amerça in orde crescente",
+	"contributors-sortuser": "Ordina arfabeticamente",
+	"contributors-filterip": "Ascondi i adressi IP",
+	"contributors-name": "Nomme utente",
+	"contributors-revisions": "Nummero de revixoin",
+	"contributors-first-edit": "Dæta da primma modiffica",
+	"contributors-last-edit": "Dæta de l'urtima modiffica",
+	"contributors-add-subpages": "Azonzi sottopaggine",
+	"apihelp-query+contributors-example-1": "Mostra i contributoî a-a paggina prinçipâ"
+}
