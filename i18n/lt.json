@@ -5,10 +5,20 @@
 		]
 	},
 	"contributors": "Autoriai",
-	"contributors-toolbox": "Pagrindiniai autoriai",
+	"contributors-toolbox": "Puslapio autoriai",
 	"contributors-legend": "Sąrašas pagrindinius puslapio autorių",
 	"contributors-target": "Pavadinimas:",
 	"contributors-submit": "Rodyti",
+	"contributors-subtitle": "Pagrindiniai $1 autoriai",
+	"contributors-others-long": "Yra {{PLURAL:$1|vienas šio puslapio autorius|$1 šio puslapio autoriai}}.",
+	"contributors-others": "ir {{PLURAL:$1|vienas kitas|$1 kitų}}",
 	"contributors-badtitle": "Neleistinas pavadinimas.",
+	"contributors-nosuchpage": "Puslapis $1 neegzistuoja.",
+	"contributors-asc": "Rikiuoti didėjimo tvarka",
+	"contributors-sortuser": "Rūšiuoti abėcėlės tvarka",
+	"contributors-filterip": "Slėpti IP adresus",
+	"contributors-name": "Vartotojo vardas",
+	"contributors-first-edit": "Pirmojo keitimo data",
+	"contributors-last-edit": "Paskutinio keitimo data",
 	"apihelp-query+contributors-example-1": "Rodyti įnašus į Pagrindinė puslapį"
 }
