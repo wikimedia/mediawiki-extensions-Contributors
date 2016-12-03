@@ -16,6 +16,7 @@ class PopulateContributorsTable extends Maintenance {
 	public function __construct() {
 		parent::__construct();
 		$this->addDescription( "Populates the contributor's table with contributor's data" );
+		$this->requireExtension( 'Contributors' );
 		$this->setBatchSize( 100 );
 	}
 
