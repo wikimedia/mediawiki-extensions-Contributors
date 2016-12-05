@@ -59,6 +59,11 @@ $specialPageAliases['bjn'] = array(
 	'Contributors' => array( 'Panyumbang' ),
 );
 
+/** Bengali (বাংলা) */
+$specialPageAliases['bn'] = array(
+	'Contributors' => array( 'অবদানকারীগণ' ),
+);
+
 /** Breton (brezhoneg) */
 $specialPageAliases['br'] = array(
 	'Contributors' => array( 'Kenlabourerien' ),
