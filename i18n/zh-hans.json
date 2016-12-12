@@ -15,7 +15,7 @@
 	"contributors-subtitle": "$1的主要贡献者",
 	"contributors-others-long": "在这一页中还有$1位更多的贡献者。",
 	"contributors-others": "以及另外$1位",
-	"contributors-badtitle": "不正确的标题。",
+	"contributors-badtitle": "无效标题。",
 	"contributors-nosuchpage": "条目$1不存在。",
 	"contributors-asc": "升序",
 	"contributors-sortuser": "按字母排序",
