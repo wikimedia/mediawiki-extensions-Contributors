@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nghtwlkr"
+			"Nghtwlkr",
+			"Jon Harald Søby"
 		]
 	},
 	"contributors": "Bidragsytere",
 	"contributors-desc": "Gir sammendrag av hovedbidragsyterne på en side",
-	"contributors-toolbox": "Hovedbidragsytere",
+	"contributors-toolbox": "Bidragsytere til siden",
 	"contributors-legend": "Liste over hovedbidragsytere til en side",
 	"contributors-target": "Tittel:",
 	"contributors-submit": "Vis",
@@ -14,5 +15,14 @@
 	"contributors-others-long": "Det er {{PLURAL:$1|én annen bidragsyter|$1 andre bidragsytere}} på denne siden.",
 	"contributors-others": "og {{PLURAL:$1|én annen|$1 andre}}",
 	"contributors-badtitle": "Ugyldig tittel.",
-	"contributors-nosuchpage": "Siden $1 eksisterer ikke."
+	"contributors-nosuchpage": "Siden $1 eksisterer ikke.",
+	"contributors-asc": "Sorter stigende",
+	"contributors-sortuser": "Sorter alfabetisk",
+	"contributors-filterip": "Skjul IP-adresser",
+	"contributors-name": "Brukernavn",
+	"contributors-revisions": "Antall revisjoner",
+	"contributors-first-edit": "Dato for første redigering",
+	"contributors-last-edit": "Dato for siste redigering",
+	"contributors-add-subpages": "Legg til undersider",
+	"apihelp-query+contributors-example-1": "Vis bidragsytere til hovedsiden"
 }
