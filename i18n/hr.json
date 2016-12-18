@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dalibor Bosits"
+			"Dalibor Bosits",
+			"MaGa"
 		]
 	},
 	"contributors": "Doprinositelji",
 	"contributors-desc": "Radi sažetak glavnih doprinositelja na stranici",
-	"contributors-toolbox": "Glavni doprinositelji",
+	"contributors-toolbox": "Doprinositelji",
 	"contributors-legend": "Popis glavnih doprinositelja stranice",
 	"contributors-target": "Naslov:",
 	"contributors-submit": "Pokaži",
@@ -14,5 +15,14 @@
 	"contributors-others-long": "{{PLURAL:$1|Jedan preostali doprinositelj|$1 drugih doprinositelja}} za ovu stranicu.",
 	"contributors-others": "i {{PLURAL:$1|jedan preostao|$1 drugih}}",
 	"contributors-badtitle": "Neispravan naslov.",
-	"contributors-nosuchpage": "Stranica $1 ne postoji."
+	"contributors-nosuchpage": "Stranica $1 ne postoji.",
+	"contributors-asc": "Sortiraj uzlazno",
+	"contributors-sortuser": "Sortiraj abecedno",
+	"contributors-filterip": "Sakrij IP adrese",
+	"contributors-name": "Suradničko ime",
+	"contributors-revisions": "Broj izmjena",
+	"contributors-first-edit": "Datum prvog uređivanja",
+	"contributors-last-edit": "Datum posljednjeg uređivanja",
+	"contributors-add-subpages": "Dodaj podstranice",
+	"apihelp-query+contributors-example-1": "Prikaži doprinositelje glavne stranice"
 }
