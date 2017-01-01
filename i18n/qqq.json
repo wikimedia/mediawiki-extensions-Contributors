@@ -28,5 +28,5 @@
 	"contributors-first-edit": "Name of the field for listing the date of contributor's first edit to a page",
 	"contributors-last-edit": "Name of the field for listing the date of contributor's last edit to a page",
 	"contributors-add-subpages": "Checkbox label in the form",
-	"apihelp-query+contributors-example-1": "Show the details of the contributors to a page"
+	"apihelp-query+contributors-example-1": "Show the details of the contributors to a page\n{{doc-apihelp-example|query+contributors}}"
 }
