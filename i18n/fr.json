@@ -7,12 +7,13 @@
 			"Sherbrooke",
 			"Urhixidur",
 			"Gomoko",
-			"Wladek92"
+			"Wladek92",
+			"McDutchie"
 		]
 	},
 	"contributors": "Contributeurs",
 	"contributors-desc": "Résume les principaux contributeurs d’une page",
-	"contributors-toolbox": "Page des contributeurs",
+	"contributors-toolbox": "Contributeurs à la page",
 	"contributors-legend": "Lister les principaux contributeurs de la page",
 	"contributors-target": "Titre :",
 	"contributors-submit": "Montrer",
