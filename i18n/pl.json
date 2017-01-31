@@ -24,5 +24,6 @@
 	"contributors-name": "Nazwa użytkownika",
 	"contributors-revisions": "Liczba wersji",
 	"contributors-first-edit": "Data pierwszej edycji",
-	"contributors-last-edit": "Data ostatniej edycji"
+	"contributors-last-edit": "Data ostatniej edycji",
+	"contributors-add-subpages": "Dodaj podstrony"
 }
