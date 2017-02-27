@@ -4,7 +4,8 @@
 			"SPQRobin",
 			"Siebrand",
 			"Sjoerddebruin",
-			"Esketti"
+			"Esketti",
+			"Mainframe98"
 		]
 	},
 	"contributors": "Bijdragers",
@@ -19,5 +20,9 @@
 	"contributors-badtitle": "Ongeldige paginanaam.",
 	"contributors-nosuchpage": "De pagina $1 bestaat niet.",
 	"contributors-asc": "Oplopend sorteren",
-	"contributors-sortuser": "Alfabetisch sorteren"
+	"contributors-sortuser": "Alfabetisch sorteren",
+	"contributors-filterip": "Ip adressen verbergen",
+	"contributors-name": "Gebruikersnaam",
+	"contributors-first-edit": "Datum van eerste bewerking",
+	"contributors-last-edit": "Datum van laatste bewerking"
 }

@@ -21,7 +21,10 @@
 	"contributors-asc": "順序排",
 	"contributors-sortuser": "跟字母排",
 	"contributors-filterip": "收埋IP地址",
+	"contributors-name": "用戶名",
+	"contributors-revisions": "修訂版本數",
 	"contributors-first-edit": "第一次編輯嘅日期",
 	"contributors-last-edit": "上次編輯嘅日期",
-	"contributors-add-subpages": "添加子頁面"
+	"contributors-add-subpages": "添加子頁面",
+	"apihelp-query+contributors-example-1": "顯示頭版貢獻人"
 }
