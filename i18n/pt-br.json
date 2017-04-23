@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Eduardo.mps"
+			"Eduardo.mps",
+			"Felipe L. Ewald"
 		]
 	},
 	"contributors": "Contribuidores",
@@ -14,5 +15,6 @@
 	"contributors-others-long": "Ainda há {{PLURAL:$1|outro contribuidor|outros $1 contribuidores}} para esta página.",
 	"contributors-others": "e {{PLURAL:$1|um outro|$1 outros}}",
 	"contributors-badtitle": "Título inválido.",
-	"contributors-nosuchpage": "O artigo $1 não existe."
+	"contributors-nosuchpage": "O artigo $1 não existe.",
+	"contributors-name": "Nome de usuário"
 }
