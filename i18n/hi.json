@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Kaustubh",
-			"Siddhartha Ghai"
+			"Siddhartha Ghai",
+			"Sfic"
 		]
 	},
 	"contributors": "योगदानकर्ता",
 	"contributors-desc": "पन्नेके मुख्य योगदानकर्ताओंकी संक्षिप्त सूची",
-	"contributors-toolbox": "मुख्य योगदानकर्ता",
+	"contributors-toolbox": "पृष्ठ योगदानकर्ता",
 	"contributors-legend": "पन्ने के मुख्य योगदानकर्ताओंकी सूची बनायें",
 	"contributors-target": "शीर्षक:",
 	"contributors-submit": "दर्शायें",
