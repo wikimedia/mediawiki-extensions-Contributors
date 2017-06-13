@@ -19,7 +19,7 @@
 	"contributors-subtitle": "Principales contribuyentes a $1",
 	"contributors-others-long": "Hay {{PLURAL:$1|algún otro contribuyente|$1 otros contribuyentes}} a esta página.",
 	"contributors-others": "y {{PLURAL:$1|algún otro|$1 otros}}",
-	"contributors-badtitle": "Título inválido.",
+	"contributors-badtitle": "El título no es válido.",
 	"contributors-nosuchpage": "La página $1 no existe.",
 	"contributors-asc": "Orden ascendente",
 	"contributors-sortuser": "Ordenar alfabéticamente",
