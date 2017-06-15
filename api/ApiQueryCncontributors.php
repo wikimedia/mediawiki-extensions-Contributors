@@ -20,35 +20,35 @@ class ApiQueryCnContributors extends ApiQueryBase {
 		}
 	}
 	private function buildDbQuery( array $params ) {
-		$this->addTables( array( 'contributors' , 'page' ) );
+		$this->addTables( [ 'contributors' , 'page' ] );
 		$this->addFields(
-			array(
+			[
 				'Username' => 'cn_user_text',
 				'Number of revisions' => 'cn_revision_count',
 				'Date of first edit' => 'cn_first_edit',
 				'Date of last edit' => 'cn_last_edit'
-			)
+			]
 		);
-		$this->addJoinConds( array(
-			'page' => array(
+		$this->addJoinConds( [
+			'page' => [
 				'LEFT JOIN',
-				array( 'cn_page_id = page_id' )
-			)
-		) );
+				[ 'cn_page_id = page_id' ]
+			]
+		] );
 		$this->addWhereFld( 'page_title', $params['titles'] );
 	}
 	public function getAllowedParams() {
-		return array(
-			'titles' => array(
+		return [
+			'titles' => [
 				ApiBase::PARAM_TYPE => 'string',
 				ApiBase::PARAM_REQUIRED => true,
-			)
-		);
+			]
+		];
 	}
 	public function getExamplesMessages() {
-		return array(
+		return [
 			'action=query&prop=contributors&titles=Main+Page'
 			=> 'apihelp-query+contributors-example-1',
-		);
+		];
 	}
 }

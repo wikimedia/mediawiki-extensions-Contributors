@@ -160,7 +160,7 @@ class SpecialContributors extends IncludableSpecialPage {
 		$result = $pager->getResult();
 		if ( $result && $result->numRows() !== 0 ) {
 			$out->addHTML( $pager->getNavigationBar() .
-				Xml::tags( 'ul', array( 'class' => 'plainlinks' ), $pager->getBody() ) .
+				Xml::tags( 'ul', [ 'class' => 'plainlinks' ], $pager->getBody() ) .
 				$pager->getNavigationBar() );
 		} else {
 			$out->addWikiMsg( 'contributors-nosuchpage' );
@@ -182,29 +182,29 @@ class SpecialContributors extends IncludableSpecialPage {
 	private function makeForm() {
 		$opts = $this->getOptions();
 
-		$formDescriptor = array(
-			'target' => array(
+		$formDescriptor = [
+			'target' => [
 				'name' => 'target',
 				'label-message' => 'contributors-target',
 				'type' => 'title',
 				'size' => 40,
 				'id'=> 'target',
 				'default' => $this->contributorsClass->getTargetText()
-			),
-			'filteranon' => array(
+			],
+			'filteranon' => [
 				'name' => 'filteranon',
 				'label-message' => 'contributors-filterip',
 				'type' => 'check',
 				'checked' => $opts['filteranon']
-			),
-			'pagePrefix' => array(
+			],
+			'pagePrefix' => [
 				'name'=>'pagePrefix',
 				'label-message' => 'contributors-add-subpages',
 				'type' => 'check',
 				'checked' => $opts['pagePrefix']
-			),
+			],
 
-		);
+		];
 		$htmlForm = HTMLForm::factory( 'ooui', $formDescriptor, $this->getContext() );
 		$htmlForm->setWrapperLegendMsg( 'contributors-legend' )
 			->setSubmitTextMsg( 'contributors-submit' )

@@ -38,17 +38,17 @@ class PopulateContributorsTable extends Maintenance {
 		$blockEnd = $start + $this->mBatchSize - 1;
 		while ( $blockEnd <= $end ) {
 			$this->output( "Getting Contributor's data..\n" );
-			$cond = array(
+			$cond = [
 				"rev_page BETWEEN $blockStart AND $blockEnd",
 				$dbr->bitAnd( 'rev_deleted', Revision::DELETED_USER ) . ' = 0'
-			);
+			];
 			$res = $dbr->select(
 				'revision',
-				array( 'COUNT(*) AS cn_revision_count', 'rev_user', 'rev_user_text', 'rev_page',
-					'MIN(rev_timestamp) AS cn_first_edit', 'MAX(rev_timestamp) AS cn_last_edit' ),
+				[ 'COUNT(*) AS cn_revision_count', 'rev_user', 'rev_user_text', 'rev_page',
+					'MIN(rev_timestamp) AS cn_first_edit', 'MAX(rev_timestamp) AS cn_last_edit' ],
 				$cond,
 				__METHOD__,
-				array( 'GROUP BY' => array( 'rev_page', 'rev_user', 'rev_user_text' ) )
+				[ 'GROUP BY' => [ 'rev_page', 'rev_user', 'rev_user_text' ] ]
 			);
 
 			$this->output( "Writing data into Contributors Table.. \n" );
@@ -56,27 +56,27 @@ class PopulateContributorsTable extends Maintenance {
 			foreach ( $res as $row ) {
 				$dbw->upsert(
 					'contributors',
-					array(
+					[
 						'cn_page_id' => $row->rev_page,
 						'cn_user_id' => $row->rev_user,
 						'cn_user_text' => $row->rev_user_text,
 						'cn_revision_count' => $row->cn_revision_count,
 						'cn_first_edit' => $row->cn_first_edit,
 						'cn_last_edit' => $row->cn_last_edit
-					),
-					array(
+					],
+					[
 						'cn_page_id',
 						'cn_user_id',
 						'cn_user_text'
-					),
-					array(
+					],
+					[
 						'cn_page_id' => $row->rev_page,
 						'cn_user_id' => $row->rev_user,
 						'cn_user_text' => $row->rev_user_text,
 						'cn_revision_count' => $row->cn_revision_count,
 						'cn_first_edit' => $row->cn_first_edit,
 						'cn_last_edit' => $row->cn_last_edit
-					),
+					],
 					__METHOD__
 				);
 			}

@@ -41,7 +41,7 @@ class ContributorsHooks {
 					inContentLanguage()->parseAsBlock();
 		}
 
-		$options = array();
+		$options = [];
 		foreach ( $args as $arg ) {
 			$argString = trim( $frame->expand( $arg ) );
 			if ( in_array( $argString, Contributors::getValidOptions() ) ) {
@@ -51,7 +51,7 @@ class ContributorsHooks {
 
 		$contributors = new Contributors( $title, $options );
 		$list = $contributors->getSimpleList( $parser->getFunctionLang() );
-		return array( $list, 'noparse' => true, 'isHTML' => true );
+		return [ $list, 'noparse' => true, 'isHTML' => true ];
 	}
 
 	/**
@@ -68,12 +68,12 @@ class ContributorsHooks {
 		&$revid
 	) {
 		if ( $skintemplate->getTitle()->getNamespace() === NS_MAIN && $revid !== 0 ) {
-			$nav_urls['contributors'] = array(
+			$nav_urls['contributors'] = [
 				'text' => $skintemplate->msg( 'contributors-toolbox' ),
 				'href' => $skintemplate->makeSpecialUrl(
 					'Contributors/' . wfUrlencode( $skintemplate->thispage )
 				),
-			);
+			];
 		}
 		return true;
 	}
@@ -148,7 +148,7 @@ class ContributorsHooks {
 		$text = $user->getName();
 		$timestamp = $article->getTimestamp();
 
-		$cond = array( 'cn_page_id' => $pageId, 'cn_user_id' => $userId, 'cn_user_text' => $text );
+		$cond = [ 'cn_page_id' => $pageId, 'cn_user_id' => $userId, 'cn_user_text' => $text ];
 
 		$res = $dbr->select(
 			'contributors',
@@ -158,35 +158,35 @@ class ContributorsHooks {
 		);
 		if ( $res->numRows() == 0 ) {
 			$dbw->insert( 'contributors',
-				array(
+				[
 					'cn_page_id' => $pageId,
 					'cn_user_id' => $userId,
 					'cn_user_text' => $text,
 					'cn_revision_count' => 1,
 					'cn_first_edit' => $timestamp
-				),
+				],
 				__METHOD__
 			);
 		} else {
 			foreach ( $res as $row ) {
 
 			$dbw->upsert( 'contributors',
-					array(
+					[
 						'cn_page_id' => $pageId,
 						'cn_user_id' => $userId,
 						'cn_user_text' => $text,
 						'cn_revision_count' => 1,
 						'cn_first_edit' => $timestamp
-					),
-					array(
+					],
+					[
 						'cn_page_id',
 						'cn_user_id',
 						'cn_user_text'
-					),
-					array(
+					],
+					[
 						'cn_revision_count' => $row->cn_revision_count + 1,
 						'cn_last_edit' => $timestamp
-					),
+					],
 					__METHOD__
 				);
 			}
@@ -201,11 +201,11 @@ class ContributorsHooks {
 		foreach ( $ids as $id ) {
 			// TODO defer updates & transactions
 			$revision = Revision::newFromId( $id );
-			$conds = array(
+			$conds = [
 				'cn_page_id' => $title->getArticleID(),
 				'cn_user_id' => $revision->getUser( Revision::RAW ),
 				'cn_user_text' => $revision->getUserText( Revision::RAW )
-			);
+			];
 
 			if (
 				!( $visibilityChangeMap[$id]['oldBits'] & Revision::DELETED_USER ) &&
@@ -228,9 +228,9 @@ class ContributorsHooks {
 					} else {
 						$dbw->update(
 							'contributors',
-							array(
+							[
 								'cn_revision_count' => $row->cn_revision_count - 1
-							),
+							],
 							$conds,
 							__METHOD__
 						);
@@ -251,15 +251,15 @@ class ContributorsHooks {
 				if ( !$row ) {
 					$dbw->insert(
 						'contributors',
-						array_merge( $conds, array( 'cn_revision_count' => 1 ) ),
+						array_merge( $conds, [ 'cn_revision_count' => 1 ] ),
 						__METHOD__
 					);
 				} else {
 					$dbw->update(
 						'contributors',
-						array(
+						[
 							'cn_revision_count' => $row->cn_revision_count + 1
-						),
+						],
 						$conds,
 						__METHOD__
 					);

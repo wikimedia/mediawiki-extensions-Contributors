@@ -26,12 +26,12 @@ class ContributorsTablePager extends TablePager {
 
 	public function getFieldNames() {
 		if ( $this->fieldNames === null ) {
-			$this->fieldNames = array(
+			$this->fieldNames = [
 				'cn_user_text' => $this->msg( 'contributors-name' )->escaped(),
 				'cn_revision_count' => $this->msg( 'contributors-revisions' )->escaped(),
 				'cn_first_edit' => $this->msg( 'contributors-first-edit' )->escaped(),
 				'cn_last_edit' => $this->msg( 'contributors-last-edit' )->escaped(),
-			);
+			];
 
 		}
 		return $this->fieldNames;
@@ -70,32 +70,32 @@ class ContributorsTablePager extends TablePager {
 		$prefixKey = $this->target->getPrefixedDBkey();
 
 		if ( $this->opts['filteranon'] == true ) {
-			$conds = array( 'cn_page_id' => (int)$this->articleId , 'cn_user_id !=0' );
+			$conds = [ 'cn_page_id' => (int)$this->articleId , 'cn_user_id !=0' ];
 		} elseif ( $this->opts['pagePrefix'] == true ) {
 			$conds = [ 'page_title' . $dbr->buildLike( $prefixKey, $dbr->anyString() ) ];
 		} else {
-			$conds = array( 'cn_page_id' => (int)$this->articleId );
+			$conds = [ 'cn_page_id' => (int)$this->articleId ];
 		}
 
-		$info = array(
-			'tables' => array( 'contributors' , 'page' ),
-			'fields' => array(
+		$info = [
+			'tables' => [ 'contributors' , 'page' ],
+			'fields' => [
 				'cn_user_id',
 				'cn_user_text',
 				'cn_first_edit',
 				'cn_last_edit',
 				'cn_revision_count',
 				'page_title'
-			),
+			],
 			'conds' => $conds,
 			'join_conds' =>
-				array( 'page' =>
-					array(
+				[ 'page' =>
+					[
 						'LEFT JOIN' ,
 						'page_id = cn_page_id'
-					)
-				)
-		);
+					]
+				]
+		];
 		return $info;
 	}
 
@@ -104,7 +104,7 @@ class ContributorsTablePager extends TablePager {
 	}
 
 	public function isFieldSortable( $name ) {
-		$sortable_fields = array( 'cn_user_text', 'cn_revision_count' );
+		$sortable_fields = [ 'cn_user_text', 'cn_revision_count' ];
 		return in_array( $name, $sortable_fields );
 	}
 

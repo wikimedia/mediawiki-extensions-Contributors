@@ -97,7 +97,7 @@ class Contributors {
 	 * @return array Numeric array of strings
 	 */
 	public static function getValidOptions() {
-		return array( 'filteranon' );
+		return [ 'filteranon' ];
 	}
 
 	/**
@@ -122,28 +122,28 @@ class Contributors {
 		$dbr = wfGetDB( DB_SLAVE );
 		$opts = $this->getOptions();
 		$pageId =  $this->getTarget()->getArticleID();
-		$contributors = array();
+		$contributors = [];
 
 		if ( array_key_exists( 'filteranon', $opts ) && $opts['filteranon'] ) {
-			$cond = array( 'cn_page_id' => $pageId , 'cn_user_id !=0' );
+			$cond = [ 'cn_page_id' => $pageId , 'cn_user_id !=0' ];
 		} else {
-			$cond = array( 'cn_page_id' => $pageId );
+			$cond = [ 'cn_page_id' => $pageId ];
 		}
 		$res = $dbr->select(
 			'contributors',
-			array( 'cn_user_text' , 'cn_user_id' , 'cn_revision_count' ),
+			[ 'cn_user_text' , 'cn_user_id' , 'cn_revision_count' ],
 			$cond,
 			__METHOD__,
-			array(
+			[
 				'GROUP BY' => 'cn_user_text',
 				'ORDER BY' => 'cn_revision_count DESC',
-			) );
+			] );
 		if ( $res && $dbr->numRows( $res ) > 0 ) {
 			foreach ( $res as $row ) {
-				$contributors[ $row->cn_user_text ] = array(
+				$contributors[ $row->cn_user_text ] = [
 					$row->cn_user_text,
 					$row->cn_revision_count
-				);
+				];
 			}
 		}
 		return $contributors;
@@ -191,7 +191,7 @@ class Contributors {
 
 		if ( $wgContributorsLinkUsers ) {
 			$rawNames = $this->getContributorsNames();
-			$names = array();
+			$names = [];
 			foreach ( $rawNames as $rawName ) {
 				$user = User::newFromName( $rawName );
 				if ( $user ) {

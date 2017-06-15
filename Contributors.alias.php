@@ -6,389 +6,389 @@
  * @ingroup Extensions
  */
 
-$specialPageAliases = array();
+$specialPageAliases = [];
 
 /** English (English) */
-$specialPageAliases['en'] = array(
-	'Contributors' => array( 'Contributors' ),
-);
+$specialPageAliases['en'] = [
+	'Contributors' => [ 'Contributors' ],
+];
 
 /** Afrikaans (Afrikaans) */
-$specialPageAliases['af'] = array(
-	'Contributors' => array( 'Bydraers' ),
-);
+$specialPageAliases['af'] = [
+	'Contributors' => [ 'Bydraers' ],
+];
 
 /** Arabic (العربية) */
-$specialPageAliases['ar'] = array(
-	'Contributors' => array( 'مساهمون' ),
-);
+$specialPageAliases['ar'] = [
+	'Contributors' => [ 'مساهمون' ],
+];
 
 /** Aramaic (ܐܪܡܝܐ) */
-$specialPageAliases['arc'] = array(
-	'Contributors' => array( 'ܫܘ̈ܬܦܐ' ),
-);
+$specialPageAliases['arc'] = [
+	'Contributors' => [ 'ܫܘ̈ܬܦܐ' ],
+];
 
 /** Egyptian Arabic (مصرى) */
-$specialPageAliases['arz'] = array(
-	'Contributors' => array( 'مساهمين' ),
-);
+$specialPageAliases['arz'] = [
+	'Contributors' => [ 'مساهمين' ],
+];
 
 /** Assamese (অসমীয়া) */
-$specialPageAliases['as'] = array(
-	'Contributors' => array( 'বৰঙনিদাতা' ),
-);
+$specialPageAliases['as'] = [
+	'Contributors' => [ 'বৰঙনিদাতা' ],
+];
 
 /** Avaric (авар) */
-$specialPageAliases['av'] = array(
-	'Contributors' => array( 'Вкладчики' ),
-);
+$specialPageAliases['av'] = [
+	'Contributors' => [ 'Вкладчики' ],
+];
 
 /** Bashkir (башҡортса) */
-$specialPageAliases['ba'] = array(
-	'Contributors' => array( 'Contributors' ),
-);
+$specialPageAliases['ba'] = [
+	'Contributors' => [ 'Contributors' ],
+];
 
 /** Western Balochi (بلوچی رخشانی) */
-$specialPageAliases['bgn'] = array(
-	'Contributors' => array( 'شرکت_کنۆک_ئان' ),
-);
+$specialPageAliases['bgn'] = [
+	'Contributors' => [ 'شرکت_کنۆک_ئان' ],
+];
 
 /** Banjar (Bahasa Banjar) */
-$specialPageAliases['bjn'] = array(
-	'Contributors' => array( 'Panyumbang' ),
-);
+$specialPageAliases['bjn'] = [
+	'Contributors' => [ 'Panyumbang' ],
+];
 
 /** Bengali (বাংলা) */
-$specialPageAliases['bn'] = array(
-	'Contributors' => array( 'অবদানকারীগণ' ),
-);
+$specialPageAliases['bn'] = [
+	'Contributors' => [ 'অবদানকারীগণ' ],
+];
 
 /** Breton (brezhoneg) */
-$specialPageAliases['br'] = array(
-	'Contributors' => array( 'Kenlabourerien' ),
-);
+$specialPageAliases['br'] = [
+	'Contributors' => [ 'Kenlabourerien' ],
+];
 
 /** Bosnian (bosanski) */
-$specialPageAliases['bs'] = array(
-	'Contributors' => array( 'Urednici' ),
-);
+$specialPageAliases['bs'] = [
+	'Contributors' => [ 'Urednici' ],
+];
 
 /** Min Dong Chinese (Mìng-dĕ̤ng-ngṳ̄) */
-$specialPageAliases['cdo'] = array(
-	'Contributors' => array( '貢獻其儂' ),
-);
+$specialPageAliases['cdo'] = [
+	'Contributors' => [ '貢獻其儂' ],
+];
 
 /** Chechen (нохчийн) */
-$specialPageAliases['ce'] = array(
-	'Contributors' => array( 'Ахча_охьадуьхкарш' ),
-);
+$specialPageAliases['ce'] = [
+	'Contributors' => [ 'Ахча_охьадуьхкарш' ],
+];
 
 /** Czech (čeština) */
-$specialPageAliases['cs'] = array(
-	'Contributors' => array( 'Přispěvatelé', 'Prispevatele' ),
-);
+$specialPageAliases['cs'] = [
+	'Contributors' => [ 'Přispěvatelé', 'Prispevatele' ],
+];
 
 /** German (Deutsch) */
-$specialPageAliases['de'] = array(
-	'Contributors' => array( 'Autoren' ),
-);
+$specialPageAliases['de'] = [
+	'Contributors' => [ 'Autoren' ],
+];
 
 /** Zazaki (Zazaki) */
-$specialPageAliases['diq'] = array(
-	'Contributors' => array( 'İştırakkeri' ),
-);
+$specialPageAliases['diq'] = [
+	'Contributors' => [ 'İştırakkeri' ],
+];
 
 /** Lower Sorbian (dolnoserbski) */
-$specialPageAliases['dsb'] = array(
-	'Contributors' => array( 'Awtory' ),
-);
+$specialPageAliases['dsb'] = [
+	'Contributors' => [ 'Awtory' ],
+];
 
 /** Greek (Ελληνικά) */
-$specialPageAliases['el'] = array(
-	'Contributors' => array( 'Συνεισφέροντες' ),
-);
+$specialPageAliases['el'] = [
+	'Contributors' => [ 'Συνεισφέροντες' ],
+];
 
 /** Esperanto (Esperanto) */
-$specialPageAliases['eo'] = array(
-	'Contributors' => array( 'Kontribuantoj' ),
-);
+$specialPageAliases['eo'] = [
+	'Contributors' => [ 'Kontribuantoj' ],
+];
 
 /** Persian (فارسی) */
-$specialPageAliases['fa'] = array(
-	'Contributors' => array( 'مشارکت‌کنندگان' ),
-);
+$specialPageAliases['fa'] = [
+	'Contributors' => [ 'مشارکت‌کنندگان' ],
+];
 
 /** Finnish (suomi) */
-$specialPageAliases['fi'] = array(
-	'Contributors' => array( 'Muokkaajat' ),
-);
+$specialPageAliases['fi'] = [
+	'Contributors' => [ 'Muokkaajat' ],
+];
 
 /** French (français) */
-$specialPageAliases['fr'] = array(
-	'Contributors' => array( 'Contributeurs' ),
-);
+$specialPageAliases['fr'] = [
+	'Contributors' => [ 'Contributeurs' ],
+];
 
 /** Galician (galego) */
-$specialPageAliases['gl'] = array(
-	'Contributors' => array( 'Colaboradores' ),
-);
+$specialPageAliases['gl'] = [
+	'Contributors' => [ 'Colaboradores' ],
+];
 
 /** Swiss German (Alemannisch) */
-$specialPageAliases['gsw'] = array(
-	'Contributors' => array( 'Autore' ),
-);
+$specialPageAliases['gsw'] = [
+	'Contributors' => [ 'Autore' ],
+];
 
 /** Hawaiian (Hawai`i) */
-$specialPageAliases['haw'] = array(
-	'Contributors' => array( 'MeaHaʻawina', 'MeaHaawina' ),
-);
+$specialPageAliases['haw'] = [
+	'Contributors' => [ 'MeaHaʻawina', 'MeaHaawina' ],
+];
 
 /** Hebrew (עברית) */
-$specialPageAliases['he'] = array(
-	'Contributors' => array( 'תורמים' ),
-);
+$specialPageAliases['he'] = [
+	'Contributors' => [ 'תורמים' ],
+];
 
 /** Croatian (hrvatski) */
-$specialPageAliases['hr'] = array(
-	'Contributors' => array( 'Doprinositelji' ),
-);
+$specialPageAliases['hr'] = [
+	'Contributors' => [ 'Doprinositelji' ],
+];
 
 /** Upper Sorbian (hornjoserbsce) */
-$specialPageAliases['hsb'] = array(
-	'Contributors' => array( 'Awtorojo' ),
-);
+$specialPageAliases['hsb'] = [
+	'Contributors' => [ 'Awtorojo' ],
+];
 
 /** Haitian (Kreyòl ayisyen) */
-$specialPageAliases['ht'] = array(
-	'Contributors' => array( 'Kontribitè' ),
-);
+$specialPageAliases['ht'] = [
+	'Contributors' => [ 'Kontribitè' ],
+];
 
 /** Interlingua (interlingua) */
-$specialPageAliases['ia'] = array(
-	'Contributors' => array( 'Contributores' ),
-);
+$specialPageAliases['ia'] = [
+	'Contributors' => [ 'Contributores' ],
+];
 
 /** Indonesian (Bahasa Indonesia) */
-$specialPageAliases['id'] = array(
-	'Contributors' => array( 'Kontributor' ),
-);
+$specialPageAliases['id'] = [
+	'Contributors' => [ 'Kontributor' ],
+];
 
 /** Ido (Ido) */
-$specialPageAliases['io'] = array(
-	'Contributors' => array( 'Kontributanti' ),
-);
+$specialPageAliases['io'] = [
+	'Contributors' => [ 'Kontributanti' ],
+];
 
 /** Italian (italiano) */
-$specialPageAliases['it'] = array(
-	'Contributors' => array( 'Contributori' ),
-);
+$specialPageAliases['it'] = [
+	'Contributors' => [ 'Contributori' ],
+];
 
 /** Japanese (日本語) */
-$specialPageAliases['ja'] = array(
-	'Contributors' => array( '投稿者' ),
-);
+$specialPageAliases['ja'] = [
+	'Contributors' => [ '投稿者' ],
+];
 
 /** Khmer (ភាសាខ្មែរ) */
-$specialPageAliases['km'] = array(
-	'Contributors' => array( 'អ្នករួមចំណែក' ),
-);
+$specialPageAliases['km'] = [
+	'Contributors' => [ 'អ្នករួមចំណែក' ],
+];
 
 /** Korean (한국어) */
-$specialPageAliases['ko'] = array(
-	'Contributors' => array( '기여자목록' ),
-);
+$specialPageAliases['ko'] = [
+	'Contributors' => [ '기여자목록' ],
+];
 
 /** Colognian (Ripoarisch) */
-$specialPageAliases['ksh'] = array(
-	'Contributors' => array( 'Schriiver' ),
-);
+$specialPageAliases['ksh'] = [
+	'Contributors' => [ 'Schriiver' ],
+];
 
 /** Cornish (kernowek) */
-$specialPageAliases['kw'] = array(
-	'Contributors' => array( 'Kevroryon' ),
-);
+$specialPageAliases['kw'] = [
+	'Contributors' => [ 'Kevroryon' ],
+];
 
 /** Ladino (Ladino) */
-$specialPageAliases['lad'] = array(
-	'Contributors' => array( 'Ajustadores' ),
-);
+$specialPageAliases['lad'] = [
+	'Contributors' => [ 'Ajustadores' ],
+];
 
 /** Luxembourgish (Lëtzebuergesch) */
-$specialPageAliases['lb'] = array(
-	'Contributors' => array( 'Auteuren' ),
-);
+$specialPageAliases['lb'] = [
+	'Contributors' => [ 'Auteuren' ],
+];
 
 /** Northern Luri (لۊری شومالی) */
-$specialPageAliases['lrc'] = array(
-	'Contributors' => array( 'ھومیاریا' ),
-);
+$specialPageAliases['lrc'] = [
+	'Contributors' => [ 'ھومیاریا' ],
+];
 
 /** Malagasy (Malagasy) */
-$specialPageAliases['mg'] = array(
-	'Contributors' => array( 'Mpandray_anjara' ),
-);
+$specialPageAliases['mg'] = [
+	'Contributors' => [ 'Mpandray_anjara' ],
+];
 
 /** Minangkabau (Baso Minangkabau) */
-$specialPageAliases['min'] = array(
-	'Contributors' => array( 'Panyumbang' ),
-);
+$specialPageAliases['min'] = [
+	'Contributors' => [ 'Panyumbang' ],
+];
 
 /** Macedonian (македонски) */
-$specialPageAliases['mk'] = array(
-	'Contributors' => array( 'Придонесувачи' ),
-);
+$specialPageAliases['mk'] = [
+	'Contributors' => [ 'Придонесувачи' ],
+];
 
 /** Malayalam (മലയാളം) */
-$specialPageAliases['ml'] = array(
-	'Contributors' => array( 'സംഭാവകർ' ),
-);
+$specialPageAliases['ml'] = [
+	'Contributors' => [ 'സംഭാവകർ' ],
+];
 
 /** Marathi (मराठी) */
-$specialPageAliases['mr'] = array(
-	'Contributors' => array( 'योगदानकर्ते' ),
-);
+$specialPageAliases['mr'] = [
+	'Contributors' => [ 'योगदानकर्ते' ],
+];
 
 /** Malay (Bahasa Melayu) */
-$specialPageAliases['ms'] = array(
-	'Contributors' => array( 'Penyumbang' ),
-);
+$specialPageAliases['ms'] = [
+	'Contributors' => [ 'Penyumbang' ],
+];
 
 /** Maltese (Malti) */
-$specialPageAliases['mt'] = array(
-	'Contributors' => array( 'Kontributuri' ),
-);
+$specialPageAliases['mt'] = [
+	'Contributors' => [ 'Kontributuri' ],
+];
 
 /** Norwegian Bokmål (norsk bokmål) */
-$specialPageAliases['nb'] = array(
-	'Contributors' => array( 'Bidragsytere' ),
-);
+$specialPageAliases['nb'] = [
+	'Contributors' => [ 'Bidragsytere' ],
+];
 
 /** Low Saxon (Netherlands) (Nedersaksies) */
-$specialPageAliases['nds-nl'] = array(
-	'Contributors' => array( 'Biedragers' ),
-);
+$specialPageAliases['nds-nl'] = [
+	'Contributors' => [ 'Biedragers' ],
+];
 
 /** Dutch (Nederlands) */
-$specialPageAliases['nl'] = array(
-	'Contributors' => array( 'Auteurs', 'Bijdragers' ),
-);
+$specialPageAliases['nl'] = [
+	'Contributors' => [ 'Auteurs', 'Bijdragers' ],
+];
 
 /** Norwegian Nynorsk (norsk nynorsk) */
-$specialPageAliases['nn'] = array(
-	'Contributors' => array( 'Bidragsytarar' ),
-);
+$specialPageAliases['nn'] = [
+	'Contributors' => [ 'Bidragsytarar' ],
+];
 
 /** Punjabi (ਪੰਜਾਬੀ) */
-$specialPageAliases['pa'] = array(
-	'Contributors' => array( 'ਯੋਗਦਾਨੀ' ),
-);
+$specialPageAliases['pa'] = [
+	'Contributors' => [ 'ਯੋਗਦਾਨੀ' ],
+];
 
 /** Polish (polski) */
-$specialPageAliases['pl'] = array(
-	'Contributors' => array( 'Autorzy' ),
-);
+$specialPageAliases['pl'] = [
+	'Contributors' => [ 'Autorzy' ],
+];
 
 /** Pashto (پښتو) */
-$specialPageAliases['ps'] = array(
-	'Contributors' => array( 'ونډه_وال' ),
-);
+$specialPageAliases['ps'] = [
+	'Contributors' => [ 'ونډه_وال' ],
+];
 
 /** Portuguese (português) */
-$specialPageAliases['pt'] = array(
-	'Contributors' => array( 'Contribuidores' ),
-);
+$specialPageAliases['pt'] = [
+	'Contributors' => [ 'Contribuidores' ],
+];
 
 /** Brazilian Portuguese (português do Brasil) */
-$specialPageAliases['pt-br'] = array(
-	'Contributors' => array( 'Colaboradores', 'Contribuidores' ),
-);
+$specialPageAliases['pt-br'] = [
+	'Contributors' => [ 'Colaboradores', 'Contribuidores' ],
+];
 
 /** Romanian (română) */
-$specialPageAliases['ro'] = array(
-	'Contributors' => array( 'Contribuitori' ),
-);
+$specialPageAliases['ro'] = [
+	'Contributors' => [ 'Contribuitori' ],
+];
 
 /** Russian (русский) */
-$specialPageAliases['ru'] = array(
-	'Contributors' => array( 'Вкладчики' ),
-);
+$specialPageAliases['ru'] = [
+	'Contributors' => [ 'Вкладчики' ],
+];
 
 /** Sanskrit (संस्कृतम्) */
-$specialPageAliases['sa'] = array(
-	'Contributors' => array( 'योगदाता' ),
-);
+$specialPageAliases['sa'] = [
+	'Contributors' => [ 'योगदाता' ],
+];
 
 /** Sinhala (සිංහල) */
-$specialPageAliases['si'] = array(
-	'Contributors' => array( 'දායකයන්' ),
-);
+$specialPageAliases['si'] = [
+	'Contributors' => [ 'දායකයන්' ],
+];
 
 /** Slovak (slovenčina) */
-$specialPageAliases['sk'] = array(
-	'Contributors' => array( 'Prispievatelia' ),
-);
+$specialPageAliases['sk'] = [
+	'Contributors' => [ 'Prispievatelia' ],
+];
 
 /** Albanian (shqip) */
-$specialPageAliases['sq'] = array(
-	'Contributors' => array( 'Kontribues' ),
-);
+$specialPageAliases['sq'] = [
+	'Contributors' => [ 'Kontribues' ],
+];
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎) */
-$specialPageAliases['sr-ec'] = array(
-	'Contributors' => array( 'Доприносиоци' ),
-);
+$specialPageAliases['sr-ec'] = [
+	'Contributors' => [ 'Доприносиоци' ],
+];
 
 /** Swedish (svenska) */
-$specialPageAliases['sv'] = array(
-	'Contributors' => array( 'Bidragsgivare' ),
-);
+$specialPageAliases['sv'] = [
+	'Contributors' => [ 'Bidragsgivare' ],
+];
 
 /** Swahili (Kiswahili) */
-$specialPageAliases['sw'] = array(
-	'Contributors' => array( 'Wachangiaji' ),
-);
+$specialPageAliases['sw'] = [
+	'Contributors' => [ 'Wachangiaji' ],
+];
 
 /** Thai (ไทย) */
-$specialPageAliases['th'] = array(
-	'Contributors' => array( 'ผู้เขียน' ),
-);
+$specialPageAliases['th'] = [
+	'Contributors' => [ 'ผู้เขียน' ],
+];
 
 /** Tagalog (Tagalog) */
-$specialPageAliases['tl'] = array(
-	'Contributors' => array( 'Mga_tagapag-ambag' ),
-);
+$specialPageAliases['tl'] = [
+	'Contributors' => [ 'Mga_tagapag-ambag' ],
+];
 
 /** Turkish (Türkçe) */
-$specialPageAliases['tr'] = array(
-	'Contributors' => array( 'KatkıdaBulunanlar' ),
-);
+$specialPageAliases['tr'] = [
+	'Contributors' => [ 'KatkıdaBulunanlar' ],
+];
 
 /** Ukrainian (українська) */
-$specialPageAliases['uk'] = array(
-	'Contributors' => array( 'Дописувачі' ),
-);
+$specialPageAliases['uk'] = [
+	'Contributors' => [ 'Дописувачі' ],
+];
 
 /** Urdu (اردو) */
-$specialPageAliases['ur'] = array(
-	'Contributors' => array( 'مشارکین' ),
-);
+$specialPageAliases['ur'] = [
+	'Contributors' => [ 'مشارکین' ],
+];
 
 /** Venetian (vèneto) */
-$specialPageAliases['vec'] = array(
-	'Contributors' => array( 'Contribudori' ),
-);
+$specialPageAliases['vec'] = [
+	'Contributors' => [ 'Contribudori' ],
+];
 
 /** Vietnamese (Tiếng Việt) */
-$specialPageAliases['vi'] = array(
-	'Contributors' => array( 'Người_đóng_góp' ),
-);
+$specialPageAliases['vi'] = [
+	'Contributors' => [ 'Người_đóng_góp' ],
+];
 
 /** Simplified Chinese (中文（简体）‎) */
-$specialPageAliases['zh-hans'] = array(
-	'Contributors' => array( '贡献者' ),
-);
+$specialPageAliases['zh-hans'] = [
+	'Contributors' => [ '贡献者' ],
+];
 
 /** Traditional Chinese (中文（繁體）‎) */
-$specialPageAliases['zh-hant'] = array(
-	'Contributors' => array( '貢獻者' ),
-);
+$specialPageAliases['zh-hant'] = [
+	'Contributors' => [ '貢獻者' ],
+];

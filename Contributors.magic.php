@@ -4,11 +4,11 @@
  *
  * @author Ike Hecht
  */
-$magicWords = array();
+$magicWords = [];
 
 /** English
  * @author Ike Hecht
  */
-$magicWords['en'] = array(
-	'contributors' => array( 0, 'contributors' ),
-);
+$magicWords['en'] = [
+	'contributors' => [ 0, 'contributors' ],
+];
