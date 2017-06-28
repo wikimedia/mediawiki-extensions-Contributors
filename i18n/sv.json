@@ -28,5 +28,6 @@
 	"contributors-revisions": "Antal ändringar",
 	"contributors-first-edit": "Datum för första redigering",
 	"contributors-last-edit": "Datum för senaste redigering",
-	"contributors-add-subpages": "Lägg till undersidor"
+	"contributors-add-subpages": "Lägg till undersidor",
+	"apihelp-query+contributors-example-1": "Visa bidragsgivare till huvudsidan"
 }

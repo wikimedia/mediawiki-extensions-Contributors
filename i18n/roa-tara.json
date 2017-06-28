@@ -6,7 +6,7 @@
 	},
 	"contributors": "Condrebbutore",
 	"contributors-desc": "Riepileghe le maggiore condrebbutore d'a pàgene",
-	"contributors-toolbox": "Condrebbuture prengepàle",
+	"contributors-toolbox": "Condrebbuture d'a pàgene",
 	"contributors-legend": "Elenghe de le condrebbutore prengepàle a 'na pàgene",
 	"contributors-target": "Titele:",
 	"contributors-submit": "Fà vedè",
@@ -16,5 +16,12 @@
 	"contributors-badtitle": "Titele invalide.",
 	"contributors-nosuchpage": "'A pàgene $1 non g'esiste.",
 	"contributors-asc": "Ordenamende ca 'nghiane",
-	"contributors-sortuser": "Ordene alfabbeticamende"
+	"contributors-sortuser": "Ordene alfabbeticamende",
+	"contributors-filterip": "Scunne l'indirizze IP",
+	"contributors-name": "Nome utende",
+	"contributors-revisions": "Numere de le revisiune",
+	"contributors-first-edit": "Date d'u prime cangiamende",
+	"contributors-last-edit": "Date de l'urteme cangiamende",
+	"contributors-add-subpages": "Aggiunge sottepàggene",
+	"apihelp-query+contributors-example-1": "Fà 'ndrucà le condrebbuture d'a Pàgene Prengepàle"
 }
