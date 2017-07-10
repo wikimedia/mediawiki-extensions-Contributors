@@ -5,7 +5,8 @@
 			"Lockal",
 			"Александр Сигачёв",
 			"Okras",
-			"SergeyButkov"
+			"SergeyButkov",
+			"Facenapalm"
 		]
 	},
 	"contributors": "Авторы",
@@ -21,5 +22,11 @@
 	"contributors-nosuchpage": "Страница «$1» не существует.",
 	"contributors-asc": "Упорядочить по возрастанию",
 	"contributors-sortuser": "Упорядочивать по алфавиту",
-	"contributors-filterip": "Не показывать IP-адреса"
+	"contributors-filterip": "Не показывать IP-адреса",
+	"contributors-name": "Имя участника",
+	"contributors-revisions": "Количество правок",
+	"contributors-first-edit": "Дата первой правки",
+	"contributors-last-edit": "Дата последней правки",
+	"contributors-add-subpages": "Добавить подстраницы",
+	"apihelp-query+contributors-example-1": "Показать авторов страницы Main page"
 }
