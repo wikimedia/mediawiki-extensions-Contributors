@@ -4,12 +4,13 @@
 			"Milicevic01",
 			"Rancher",
 			"Sasa Stefanovic",
-			"Михајло Анђелковић"
+			"Михајло Анђелковић",
+			"Сербијана"
 		]
 	},
 	"contributors": "Доприносиоци",
 	"contributors-desc": "Сажима списак главних аутора неког чланка",
-	"contributors-toolbox": "Главни доприносиоци",
+	"contributors-toolbox": "Страница доприносиоца",
 	"contributors-legend": "Списак главних доприносиоца у чланку",
 	"contributors-target": "Наслов:",
 	"contributors-submit": "Прикажи",
