@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ibrahim"
+			"Ibrahim",
+			"ToJack"
 		]
 	},
 	"contributors": "Ҳиссагузорон",
@@ -12,5 +13,6 @@
 	"contributors-others-long": "$1 нафар дигар ҳиссагузорон ба ин саҳифа ҳастанд.",
 	"contributors-others": "ва $1 дигарон",
 	"contributors-badtitle": "Унвони номӯътабар",
-	"contributors-nosuchpage": "Саҳифаи $1 вуҷуд надорад."
+	"contributors-nosuchpage": "Саҳифаи $1 вуҷуд надорад.",
+	"contributors-name": "Номи корбарӣ"
 }
