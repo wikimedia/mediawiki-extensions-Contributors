@@ -23,6 +23,8 @@
 	"contributors-sortuser": "Alfabetisch sorteren",
 	"contributors-filterip": "Ip adressen verbergen",
 	"contributors-name": "Gebruikersnaam",
+	"contributors-revisions": "Aantal versies",
 	"contributors-first-edit": "Datum van eerste bewerking",
-	"contributors-last-edit": "Datum van laatste bewerking"
+	"contributors-last-edit": "Datum van laatste bewerking",
+	"contributors-add-subpages": "Deelpagina's toevoegen"
 }
