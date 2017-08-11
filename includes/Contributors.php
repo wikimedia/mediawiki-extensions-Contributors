@@ -121,7 +121,7 @@ class Contributors {
 	private function getThresholdedContributors() {
 		$dbr = wfGetDB( DB_SLAVE );
 		$opts = $this->getOptions();
-		$pageId =  $this->getTarget()->getArticleID();
+		$pageId = $this->getTarget()->getArticleID();
 		$contributors = [];
 
 		if ( array_key_exists( 'filteranon', $opts ) && $opts['filteranon'] ) {
@@ -152,7 +152,7 @@ class Contributors {
 	/**
 	 * Checks if the target is set
 	 *
-	 * @return boolean
+	 * @return bool
 	 */
 	public function hasTarget() {
 		return is_object( $this->getTarget() );
@@ -161,7 +161,7 @@ class Contributors {
 	/**
 	 * Check if the target exists. Returns false if it wasn't set or does not exist.
 	 *
-	 * @return boolean
+	 * @return bool
 	 */
 	public function targetExists() {
 		if ( !$this->hasTarget() ) {

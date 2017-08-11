@@ -188,7 +188,7 @@ class SpecialContributors extends IncludableSpecialPage {
 				'label-message' => 'contributors-target',
 				'type' => 'title',
 				'size' => 40,
-				'id'=> 'target',
+				'id' => 'target',
 				'default' => $this->contributorsClass->getTargetText()
 			],
 			'filteranon' => [
@@ -198,7 +198,7 @@ class SpecialContributors extends IncludableSpecialPage {
 				'checked' => $opts['filteranon']
 			],
 			'pagePrefix' => [
-				'name'=>'pagePrefix',
+				'name' => 'pagePrefix',
 				'label-message' => 'contributors-add-subpages',
 				'type' => 'check',
 				'checked' => $opts['pagePrefix']

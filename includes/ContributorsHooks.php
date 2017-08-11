@@ -169,7 +169,6 @@ class ContributorsHooks {
 			);
 		} else {
 			foreach ( $res as $row ) {
-
 			$dbw->upsert( 'contributors',
 					[
 						'cn_page_id' => $pageId,

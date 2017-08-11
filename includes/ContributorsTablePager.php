@@ -43,7 +43,6 @@ class ContributorsTablePager extends TablePager {
 		$row = $this->mCurrentRow;
 
 		switch ( $field ) {
-
 			case 'cn_user_text':
 				$formatted =
 					Linker::userLink( $row->cn_user_text, $row->cn_user_text ) . ' ' .
