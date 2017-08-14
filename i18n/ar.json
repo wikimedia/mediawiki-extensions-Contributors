@@ -6,12 +6,13 @@
 			"Mimouni",
 			"OsamaK",
 			"Shbib Al-Subaie",
-			"محمد أحمد عبد الفتاح"
+			"محمد أحمد عبد الفتاح",
+			"ديفيد"
 		]
 	},
 	"contributors": "المساهمون",
 	"contributors-desc": "يلخص المساهمين الأساسيين لصفحة",
-	"contributors-toolbox": "المساهمون الأساسيون",
+	"contributors-toolbox": "المساهمون في الصفحة",
 	"contributors-legend": "اعرض المساهمين الأساسيين لصفحة",
 	"contributors-target": "العنوان:",
 	"contributors-submit": "اعرض",
