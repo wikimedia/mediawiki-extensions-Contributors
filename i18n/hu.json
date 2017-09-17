@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Dani",
-			"ViDam"
+			"ViDam",
+			"Rodrigo"
 		]
 	},
 	"contributors": "Szerkesztők",
 	"contributors-desc": "Megjeleníti egy lap főszerkesztőit",
-	"contributors-toolbox": "Főszerkesztők",
+	"contributors-toolbox": "A lap szerkesztői",
 	"contributors-legend": "A lap főszerkesztőinek listája",
 	"contributors-target": "Cím:",
 	"contributors-submit": "Mutat",
