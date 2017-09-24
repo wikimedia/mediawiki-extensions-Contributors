@@ -119,7 +119,7 @@ class Contributors {
 	 */
 
 	private function getThresholdedContributors() {
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = wfGetDB( DB_REPLICA );
 		$opts = $this->getOptions();
 		$pageId = $this->getTarget()->getArticleID();
 		$contributors = [];

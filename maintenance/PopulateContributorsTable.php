@@ -23,7 +23,7 @@ class PopulateContributorsTable extends Maintenance {
 	public function execute() {
 		$this->output( "Started processing..\n" );
 		$dbw = $this->getDB( DB_MASTER );
-		$dbr = $this->getDB( DB_SLAVE );
+		$dbr = $this->getDB( DB_REPLICA );
 
 		$start = $dbr->selectField( 'revision', 'MIN(rev_page)', false, __METHOD__ );
 		if ( !$start ) {

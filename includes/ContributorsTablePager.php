@@ -65,7 +65,7 @@ class ContributorsTablePager extends TablePager {
 	}
 
 	public function getQueryInfo() {
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = wfGetDB( DB_REPLICA );
 		$prefixKey = $this->target->getPrefixedDBkey();
 
 		if ( $this->opts['filteranon'] == true ) {

@@ -142,7 +142,7 @@ class ContributorsHooks {
 		$baseRevId
 	) {
 		$dbw = wfGetDB( DB_MASTER );
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = wfGetDB( DB_REPLICA );
 		$pageId = $article->getId();
 		$userId = $user->getId();
 		$text = $user->getName();
