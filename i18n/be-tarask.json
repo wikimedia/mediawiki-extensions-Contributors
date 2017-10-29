@@ -22,5 +22,6 @@
 	"contributors-filterip": "Хаваць IP-адрасы",
 	"contributors-name": "Імя ўдзельніка",
 	"contributors-revisions": "Колькасьць вэрсіяў",
-	"contributors-first-edit": "Дата першай праўкі"
+	"contributors-first-edit": "Дата першай праўкі",
+	"contributors-last-edit": "Дата апошняй праўкі"
 }
