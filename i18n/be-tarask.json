@@ -24,5 +24,6 @@
 	"contributors-revisions": "Колькасьць вэрсіяў",
 	"contributors-first-edit": "Дата першай праўкі",
 	"contributors-last-edit": "Дата апошняй праўкі",
-	"contributors-add-subpages": "Дадаць падстаронкі"
+	"contributors-add-subpages": "Дадаць падстаронкі",
+	"apihelp-query+contributors-example-1": "Паказаць аўтараў галоўнай старонкі"
 }
