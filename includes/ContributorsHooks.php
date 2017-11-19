@@ -70,8 +70,8 @@ class ContributorsHooks {
 		if ( $skintemplate->getTitle()->getNamespace() === NS_MAIN && $revid !== 0 ) {
 			$nav_urls['contributors'] = [
 				'text' => $skintemplate->msg( 'contributors-toolbox' ),
-				'href' => $skintemplate->makeSpecialUrl(
-					'Contributors/' . wfUrlencode( $skintemplate->thispage )
+				'href' => $skintemplate->makeSpecialUrlSubpage(
+					'Contributors', $skintemplate->thispage
 				),
 			];
 		}
