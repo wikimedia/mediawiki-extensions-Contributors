@@ -163,7 +163,9 @@ class SpecialContributors extends IncludableSpecialPage {
 				Xml::tags( 'ul', [ 'class' => 'plainlinks' ], $pager->getBody() ) .
 				$pager->getNavigationBar() );
 		} else {
-			$out->addWikiMsg( 'contributors-nosuchpage' );
+			$out->addWikiMsg( 'contributors-nosuchpage',
+				$this->contributorsClass->getTargetText()
+			);
 		}
 
 		$others = $this->contributorsClass->getNumOthers();
