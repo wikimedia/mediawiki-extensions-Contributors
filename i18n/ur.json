@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"පසිඳු කාවින්ද",
-			"Obaid Raza"
+			"Obaid Raza",
+			"BukhariSaeed"
 		]
 	},
-	"contributors": "شراکتیں",
+	"contributors": "ترمیم کنندگان",
 	"contributors-target": "عنوان:",
 	"contributors-submit": "دکھائیں",
 	"contributors-others": "اور {{PLURAL:$1|ایک دوسرا|$1 دیگر}}",
