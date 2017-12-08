@@ -115,7 +115,8 @@ class ContributorsHooks {
 
 	/**
 	 * Updates the contributors table with each edit made by a user to a page
-	 * @param WikiPage $article
+	 *
+	 * @param WikiPage $wikiPage
 	 * @param User $user
 	 * @param $content
 	 * @param $summary
@@ -126,10 +127,11 @@ class ContributorsHooks {
 	 * @param $revision
 	 * @param $status
 	 * @param $baseRevId
+	 *
 	 * @throws Exception
 	 */
 	public static function onPageContentSaveComplete(
-		$article,
+		WikiPage $wikiPage,
 		$user,
 		$content,
 		$summary,
@@ -143,10 +145,10 @@ class ContributorsHooks {
 	) {
 		$dbw = wfGetDB( DB_MASTER );
 		$dbr = wfGetDB( DB_REPLICA );
-		$pageId = $article->getId();
+		$pageId = $wikiPage->getId();
 		$userId = $user->getId();
 		$text = $user->getName();
-		$timestamp = $article->getTimestamp();
+		$timestamp = $wikiPage->getTimestamp();
 
 		$cond = [ 'cn_page_id' => $pageId, 'cn_user_id' => $userId, 'cn_user_text' => $text ];
 
