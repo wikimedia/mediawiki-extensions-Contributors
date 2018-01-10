@@ -32,10 +32,9 @@ class SpecialContributors extends IncludableSpecialPage {
 		$this->setHeaders();
 
 		$opts = $this->getOptions();
-		$target = $opts['target'];
-		unset( $opts['target'] );
 		$this->setContributorsClass(
-			new Contributors( Title::newFromText( $target ), $opts->getAllValues() ) );
+			new Contributors( Title::newFromText( $opts['target'] ), $opts->getAllValues() )
+		);
 
 		# What are we doing? Different execution paths for inclusion,
 		# direct access and raw access
