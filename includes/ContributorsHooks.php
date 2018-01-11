@@ -10,7 +10,7 @@ class ContributorsHooks {
 	/**
 	 * Set up the #contributors parser function
 	 *
-	 * @param Parser $parser
+	 * @param Parser &$parser
 	 *
 	 * @return bool
 	 */
@@ -57,8 +57,10 @@ class ContributorsHooks {
 	/**
 	 * Prepare the toolbox link
 	 *
-	 * @var $skintemplate SkinTemplate
-	 *
+	 * @param SkinTemplate &$skintemplate
+	 * @param array &$nav_urls
+	 * @param int &$oldid
+	 * @param int &$revid
 	 * @return bool
 	 */
 	public static function onSkinTemplateBuildNavUrlsNav_urlsAfterPermalink(
@@ -81,6 +83,7 @@ class ContributorsHooks {
 	/**
 	 * Output the toolbox link
 	 *
+	 * @param BaseTemplate &$monobook
 	 * @return bool
 	 */
 	public static function onSkinTemplateToolboxEnd( BaseTemplate &$monobook ) {
@@ -118,15 +121,15 @@ class ContributorsHooks {
 	 *
 	 * @param WikiPage $wikiPage
 	 * @param User $user
-	 * @param $content
-	 * @param $summary
-	 * @param $isMinor
-	 * @param $isWatch
-	 * @param $section
-	 * @param $flags
-	 * @param $revision
-	 * @param $status
-	 * @param $baseRevId
+	 * @param Content $content
+	 * @param string $summary
+	 * @param bool $isMinor
+	 * @param bool $isWatch
+	 * @param string $section
+	 * @param int $flags
+	 * @param Revision $revision
+	 * @param Status $status
+	 * @param int $baseRevId
 	 *
 	 * @throws Exception
 	 */
