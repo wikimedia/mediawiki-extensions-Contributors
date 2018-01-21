@@ -4,12 +4,13 @@
 			"Consta",
 			"Dada",
 			"Dead3y3",
-			"Omnipaedista"
+			"Omnipaedista",
+			"Nikosgranturismogt"
 		]
 	},
 	"contributors": "Συνεισφέροντες",
 	"contributors-desc": "Συνοψίζει τους βασικούς συνεισφέροντες σε μια σελίδα",
-	"contributors-toolbox": "Κύριοι συνεισφέροντες",
+	"contributors-toolbox": "Συνεισφέροντες της σελίδας",
 	"contributors-legend": "Κατάλογος με τους βασικούς συνεισφέροντες σε μια σελίδα",
 	"contributors-target": "Τίτλος:",
 	"contributors-submit": "Εμφάνιση",
@@ -17,5 +18,14 @@
 	"contributors-others-long": "{{PLURAL:$1|Υπάρχει ένας άλλος συνεισφέροντας|Υπάρχουν $1 άλλοι συνεισφέροντες}} σε αυτή τη σελίδα.",
 	"contributors-others": "και {{PLURAL:$1|ένας άλλος|$1 άλλοι}}",
 	"contributors-badtitle": "Άκυρος τίτλος.",
-	"contributors-nosuchpage": "Η σελίδα $1 δεν υπάρχει."
+	"contributors-nosuchpage": "Η σελίδα $1 δεν υπάρχει.",
+	"contributors-asc": "Αύξουσα ταξινόμηση",
+	"contributors-sortuser": "Ταξινόμηση αλφαβητικά",
+	"contributors-filterip": "Απόκρυψη διευθύνσεων IP",
+	"contributors-name": "Όνομα χρήστη",
+	"contributors-revisions": "Αριθμός αναθεωρήσεων",
+	"contributors-first-edit": "Ημερομηνία πρώτης επεξεργασίας",
+	"contributors-last-edit": "Ημερομηνία τελευταίας επεξεργασίας",
+	"contributors-add-subpages": "Προσθήκη υποσελίδων",
+	"apihelp-query+contributors-example-1": "Εμφάνιση συνεισφερόντων στην κύρια σελίδα"
 }
