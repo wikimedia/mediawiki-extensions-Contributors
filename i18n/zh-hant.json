@@ -6,7 +6,8 @@
 			"Shinjiman",
 			"Cwlin0416",
 			"Liuxinyu970226",
-			"Waihorace"
+			"Waihorace",
+			"Kly"
 		]
 	},
 	"contributors": "貢獻者",
@@ -22,5 +23,11 @@
 	"contributors-nosuchpage": "條目$1不存在。",
 	"contributors-asc": "昇冪排序",
 	"contributors-sortuser": "字母排序",
-	"contributors-filterip": "隱藏IP地址"
+	"contributors-filterip": "隱藏IP地址",
+	"contributors-name": "使用者名稱",
+	"contributors-revisions": "修訂的數目",
+	"contributors-first-edit": "首次編輯日期",
+	"contributors-last-edit": "最後編輯日期",
+	"contributors-add-subpages": "增加子頁面",
+	"apihelp-query+contributors-example-1": "顯示對於首頁的貢獻"
 }
