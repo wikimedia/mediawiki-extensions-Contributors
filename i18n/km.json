@@ -9,7 +9,7 @@
 	},
 	"contributors": "អ្នករួមចំណែក",
 	"contributors-desc": "ដកស្រង់​តែ​ឈ្មោះអ្នករួមចំណែក​ចម្បង​ៗទៅកាន់ទំព័រ​មួយ",
-	"contributors-toolbox": "អ្នករួមចំណែក​ចម្បងៗ",
+	"contributors-toolbox": "អ្នករួមចំណែក​ក្នុងទំព័រ",
 	"contributors-legend": "បង្កើត​បញ្ជី​ឈ្មោះ​អ្នករួមចំណែក​ចម្បងៗទៅកាន់ទំព័រមួយ",
 	"contributors-target": "ចំណងជើង៖",
 	"contributors-submit": "បង្ហាញ",
@@ -17,5 +17,13 @@
 	"contributors-others-long": "មាន {{PLURAL:$1|១ អ្នករួមចំណែក​ដទៃទៀត|$1 អ្នករួមចំណែក​ដទៃទៀត}} ​ចំពោះ​ទំព័រនេះ​។",
 	"contributors-others": "និង {{PLURAL:$1|១ នាក់ផ្សេងទៀត|$1 នាក់ផ្សេងទៀត}}",
 	"contributors-badtitle": "ចំណងជើង​គ្មានសុពលភាព",
-	"contributors-nosuchpage": "មិនមានទំព័រ$1ទេ។"
+	"contributors-nosuchpage": "មិនមានទំព័រ$1ទេ។",
+	"contributors-asc": "តម្រៀបតាមលំដាប់ឡើង",
+	"contributors-sortuser": "តម្រៀប​ទំព័រ​​តាម​អក្ខរក្រម",
+	"contributors-filterip": "លាក់អាសយដ្ឋាន IP",
+	"contributors-name": "អត្តនាម",
+	"contributors-first-edit": "កាលបរិច្ឆេទនៃការកែប្រែដំបូងគេ",
+	"contributors-last-edit": "កាលបរិច្ឆេទនៃការកែប្រែចុងក្រោយគេ",
+	"contributors-add-subpages": "បន្ថែមទំព័ររង",
+	"apihelp-query+contributors-example-1": "បង្ហាញអ្នករួមចំណែកក្នុងទំព័រដើម"
 }
