@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Malafaya"
+			"Malafaya",
+			"Joao Xavier"
 		]
 	},
+	"contributors-toolbox": "kontributeri di la pagino",
 	"contributors-target": "Titulo:"
 }
