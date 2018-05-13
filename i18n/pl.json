@@ -4,7 +4,8 @@
 			"Derbeth",
 			"Masti",
 			"Sp5uhe",
-			"Chrumps"
+			"Chrumps",
+			"Railfail536"
 		]
 	},
 	"contributors": "Autorzy",
@@ -25,5 +26,6 @@
 	"contributors-revisions": "Liczba wersji",
 	"contributors-first-edit": "Data pierwszej edycji",
 	"contributors-last-edit": "Data ostatniej edycji",
-	"contributors-add-subpages": "Dodaj podstrony"
+	"contributors-add-subpages": "Dodaj podstrony",
+	"apihelp-query+contributors-example-1": "Pokaż współtwórców strony głównej"
 }
