@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"S.Örvarr.S",
-			"Snævar"
+			"Snævar",
+			"Sveinn í Felli"
 		]
 	},
 	"contributors": "Framleggjendur",
@@ -15,5 +16,14 @@
 	"contributors-others-long": "Þessi síða hefur $1 {{PLURAL:$1|annan framleggjanda|aðra framleggjendur}}.",
 	"contributors-others": "og $1 {{PLURAL:$1|annar|aðrir}}",
 	"contributors-badtitle": "Ógildur titill.",
-	"contributors-nosuchpage": "Síðan $1 er ekki til."
+	"contributors-nosuchpage": "Síðan $1 er ekki til.",
+	"contributors-asc": "Raða í hækkandi röð",
+	"contributors-sortuser": "Raða í stafrófsröð",
+	"contributors-filterip": "Fela IP-vistföng",
+	"contributors-name": "Notandanafn",
+	"contributors-revisions": "Fjöldi breytinga",
+	"contributors-first-edit": "Dagsetning fyrstu breytingar",
+	"contributors-last-edit": "Dagsetning síðustu breytingar",
+	"contributors-add-subpages": "Bæta við undirsíðum",
+	"apihelp-query+contributors-example-1": "Sýna þá sem hafa komið með framlög á aðalsíðu"
 }
