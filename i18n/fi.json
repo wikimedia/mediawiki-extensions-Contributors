@@ -7,12 +7,13 @@
 			"Silvonen",
 			"Vililikku",
 			"Stryn",
-			"Pyscowicz"
+			"Pyscowicz",
+			"01miki10"
 		]
 	},
 	"contributors": "Muokkaajat",
 	"contributors-desc": "Yhteenveto sivua eniten muokanneista käyttäjistä",
-	"contributors-toolbox": "Pääasialliset muokkaajat",
+	"contributors-toolbox": "Sivun muokkaajat",
 	"contributors-legend": "Luettele sivun pääasialliset muokkaajat",
 	"contributors-target": "Sivun otsikko",
 	"contributors-submit": "Näytä",
@@ -23,5 +24,8 @@
 	"contributors-nosuchpage": "Sivua $1 ei ole olemassa.",
 	"contributors-asc": "Lajittele nousevassa järjestyksessä",
 	"contributors-sortuser": "Lajittele aakkosjärjestyksessä",
-	"contributors-name": "Käyttäjänimi"
+	"contributors-filterip": "Piilota IP-osoitteet",
+	"contributors-name": "Käyttäjänimi",
+	"contributors-add-subpages": "Lisää alasivut",
+	"apihelp-query+contributors-example-1": "Näytä etusivun muokkaajat"
 }
