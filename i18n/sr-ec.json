@@ -20,6 +20,6 @@
 	"contributors-others": "и {{PLURAL:$1|једна друга|$1 друге|$1 других}}",
 	"contributors-badtitle": "Неважећи наслов.",
 	"contributors-nosuchpage": "Страница $1 не постоји.",
-	"contributors-asc": "Поређај растуће",
+	"contributors-asc": "Сортирај растуће",
 	"contributors-sortuser": "Поређај по азбучном реду"
 }

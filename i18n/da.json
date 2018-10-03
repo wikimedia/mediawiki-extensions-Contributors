@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Jon Harald Søby",
-			"Peter Alberti"
+			"Peter Alberti",
+			"Saederup92"
 		]
 	},
 	"contributors": "Bidragydere",
 	"contributors-desc": "Giver en sammenfatning af hovedbidragyderne til en side",
-	"contributors-toolbox": "Hovedbidragydere",
+	"contributors-toolbox": "Sidebidragydere",
 	"contributors-legend": "Vis hovedbidragyderne til en side",
 	"contributors-target": "Titel:",
 	"contributors-submit": "Vis",
@@ -15,5 +16,8 @@
 	"contributors-others-long": "Der er {{PLURAL:$1|en anden bidragyder|$1 andre bidragydere}} til denne side.",
 	"contributors-others": "og {{PLURAL:$1|en anden|$1 andre}}",
 	"contributors-badtitle": "Ugyldig titel.",
-	"contributors-nosuchpage": "Siden $1 findes ikke."
+	"contributors-nosuchpage": "Siden $1 findes ikke.",
+	"contributors-filterip": "Skjul IP-adresser",
+	"contributors-name": "Brugernavn",
+	"contributors-add-subpages": "Tilføj undersider"
 }
