@@ -15,7 +15,7 @@
 	"contributors-subtitle": "Autori principali di $1",
 	"contributors-others-long": "La pagina è stata modificata anche da {{PLURAL:$1|un altro autore|$1 altri autori}}.",
 	"contributors-others": "e {{PLURAL:$1|un altro|$1 altri}}",
-	"contributors-badtitle": "Titolo non corretto.",
+	"contributors-badtitle": "Titolo non valido.",
 	"contributors-nosuchpage": "La pagina $1 non esiste.",
 	"contributors-asc": "Ordinamento crescente",
 	"contributors-sortuser": "Ordina alfabeticamente",
