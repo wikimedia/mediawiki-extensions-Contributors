@@ -26,6 +26,9 @@
 	"contributors-sortuser": "Lajittele aakkosjärjestyksessä",
 	"contributors-filterip": "Piilota IP-osoitteet",
 	"contributors-name": "Käyttäjänimi",
+	"contributors-revisions": "Muokkausten määrä",
+	"contributors-first-edit": "Ensimmäinen muokkauspäivämäärä",
+	"contributors-last-edit": "Viimeisin muokkauspäivämäärä",
 	"contributors-add-subpages": "Lisää alasivut",
 	"apihelp-query+contributors-example-1": "Näytä etusivun muokkaajat"
 }
