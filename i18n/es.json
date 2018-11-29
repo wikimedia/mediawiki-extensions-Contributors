@@ -7,18 +7,19 @@
 			"Kobazulo",
 			"Sanbec",
 			"Macofe",
-			"Fitoschido"
+			"Fitoschido",
+			"Tiberius1701"
 		]
 	},
 	"contributors": "Colaboradores",
-	"contributors-desc": "Resume los principales contribuyentes a una página",
+	"contributors-desc": "Resume los principales colaboradores en una página",
 	"contributors-toolbox": "Colaboradores de la página",
-	"contributors-legend": "Listar principales contribuyentes a esta página",
+	"contributors-legend": "Lista de los principales colaboradores en esta página",
 	"contributors-target": "Título:",
 	"contributors-submit": "Mostrar",
-	"contributors-subtitle": "Principales contribuyentes a $1",
-	"contributors-others-long": "Hay {{PLURAL:$1|algún otro contribuyente|$1 otros contribuyentes}} a esta página.",
-	"contributors-others": "y {{PLURAL:$1|algún otro|$1 otros}}",
+	"contributors-subtitle": "Principales colaboradores en $1",
+	"contributors-others-long": "Hay {{PLURAL:$1|otro colaborador|otros $1 colaboradores}} en esta página.",
+	"contributors-others": "y {{PLURAL:$1|otro|otros $1}}",
 	"contributors-badtitle": "El título no es válido.",
 	"contributors-nosuchpage": "La página $1 no existe.",
 	"contributors-asc": "Orden ascendente",
@@ -29,5 +30,5 @@
 	"contributors-first-edit": "Fecha de la primera edición",
 	"contributors-last-edit": "Fecha de la última edición",
 	"contributors-add-subpages": "Añadir subpáginas",
-	"apihelp-query+contributors-example-1": "Mostrar contribuyentes a la página principal"
+	"apihelp-query+contributors-example-1": "Mostrar colaboradores de la página principal"
 }
