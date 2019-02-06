@@ -91,11 +91,11 @@ class ContributorsHooks {
 			if ( $monobook->data['nav_urls']['contributors']['href'] == '' ) {
 				?><li id="t-iscontributors"><?php echo $monobook->msg( 'contributors-toolbox' ); ?></li><?php
 			} else {
-					?><li id="t-contributors"><?php ?><a href="<?php echo htmlspecialchars(
+					?><li id="t-contributors"><a href="<?php echo htmlspecialchars(
 					$monobook->data['nav_urls']['contributors']['href'] )
 						?>"><?php
 				echo $monobook->msg( 'contributors-toolbox' );
-						?></a><?php ?></li><?php
+						?></a></li><?php
 			}
 		}
 		return true;
