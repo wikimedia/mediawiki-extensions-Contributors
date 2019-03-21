@@ -10,6 +10,7 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:Contributors",
 	"descriptionmsg": "contributors-desc",
 	"type": "specialpage",
+	"license-name": "GPL-2.0-or-later",
 	"requires": {
 		"MediaWiki": ">= 1.32.0"
 	},
