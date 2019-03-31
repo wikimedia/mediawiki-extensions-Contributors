@@ -6,11 +6,11 @@
 		]
 	},
 	"contributors": "Para kontributor",
-	"contributors-toolbox": "Para kontributor utama",
+	"contributors-toolbox": "Kontributor kaca",
 	"contributors-legend": "Pratélaning panyumbang pokok sawiji kaca",
 	"contributors-target": "Sesirah:",
 	"contributors-submit": "Tuduhna",
-	"contributors-subtitle": "Para kontributor utama kanggo $1",
+	"contributors-subtitle": "Kontributor pokok tumrap $1",
 	"contributors-badtitle": "Sesirah ora sah.",
 	"contributors-nosuchpage": "Kaca $1 ora ana."
 }
