@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Firilacroco",
-			"KlaudiuMihaila"
+			"KlaudiuMihaila",
+			"Andrei Stroe"
 		]
 	},
 	"contributors": "Contribuitori",
 	"contributors-desc": "Rezumă principalii contribuitori la o pagină",
-	"contributors-toolbox": "Contribuitori principali",
+	"contributors-toolbox": "Contribuitori la pagină",
 	"contributors-legend": "Afișează contribuitorii principali la o pagină",
 	"contributors-target": "Titlu:",
 	"contributors-submit": "Arată",
