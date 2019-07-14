@@ -19,6 +19,7 @@ class ApiQueryCnContributors extends ApiQueryBase {
 				'query', $this->getModuleName(), $row->cn_user_text, $row->cn_revision_count );
 		}
 	}
+
 	private function buildDbQuery( array $params ) {
 		$this->addTables( [ 'contributors' , 'page' ] );
 		$this->addFields(
@@ -37,6 +38,7 @@ class ApiQueryCnContributors extends ApiQueryBase {
 		] );
 		$this->addWhereFld( 'page_title', $params['titles'] );
 	}
+
 	public function getAllowedParams() {
 		return [
 			'titles' => [
@@ -45,6 +47,7 @@ class ApiQueryCnContributors extends ApiQueryBase {
 			]
 		];
 	}
+
 	public function getExamplesMessages() {
 		return [
 			'action=query&prop=contributors&titles=Main+Page'

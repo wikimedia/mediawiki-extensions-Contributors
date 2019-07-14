@@ -112,6 +112,7 @@ class Contributors {
 			return $contributors;
 		}
 	}
+
 	/**
 	 * Get all contributors for the target page with their contribution numbers.
 	 *
