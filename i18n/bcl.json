@@ -1,17 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Filipinayzd"
+			"Filipinayzd",
+			"Brazal.dang"
 		]
 	},
 	"contributors": "Mga kontributor",
-	"contributors-toolbox": "Pangenot na mga kontributor",
-	"contributors-legend": "Ilista an mga pangenot na kontributor sa artikulo",
+	"contributors-toolbox": "Kontributor kan pahina",
+	"contributors-legend": "Ilista an mga pangenot na kontributor sa pahina",
 	"contributors-target": "Titulo:",
 	"contributors-submit": "Hilingón",
 	"contributors-subtitle": "Mga pangenot na kontributor sa $1",
-	"contributors-others-long": "Igwang $1 pang mga kontributor sa páhinang ini.",
-	"contributors-others": "asin $1 iba pa",
+	"contributors-others-long": "Igwang {{PLURAL:$1|pang mga kontributor|iba $1 pang kontributor}} sa páhinang ini.",
+	"contributors-others": "asin {{PLURAL:$1|an iba|$1 iba pa}}",
 	"contributors-badtitle": "Salang titulo.",
-	"contributors-nosuchpage": "An artikulong $1 mayò man."
+	"contributors-nosuchpage": "An pahina $1 bakong eksistido."
 }
