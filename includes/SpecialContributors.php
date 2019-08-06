@@ -170,7 +170,7 @@ class SpecialContributors extends IncludableSpecialPage {
 		$others = $this->contributorsClass->getNumOthers();
 		if ( $others > 0 ) {
 			$others = $language->formatNum( $others );
-			$output->addWikiText( $this->msg( 'contributors-others-long', $others )->plain() );
+			$output->addWikiTextAsInterface( $this->msg( 'contributors-others-long', $others )->plain() );
 		}
 	}
 
