@@ -14,7 +14,7 @@
 	"contributors-submit": "చూపించు",
 	"contributors-subtitle": "$1 ముఖ్య రచయితలు",
 	"contributors-others-long": "ఈ పేజీకి ఇంకా {{PLURAL:$1|ఒక ఇతర రచయిత|$1 గురు ఇతర రచయితలు}} ఉన్నారు.",
-	"contributors-others": "మరియు {{PLURAL:$1|ఒక ఇతర|$1 గురు ఇతరులు}}",
+	"contributors-others": " {{PLURAL:$1|మరొకరు|మరో $1 మంది}}",
 	"contributors-badtitle": "తప్పుడు శీర్షిక.",
 	"contributors-nosuchpage": "$1 అనే పేజీ లేనే లేదు."
 }
