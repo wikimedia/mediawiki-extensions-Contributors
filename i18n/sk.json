@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Helix84"
+			"Helix84",
+			"Luky001"
 		]
 	},
 	"contributors": "Prispievatelia",
 	"contributors-desc": "Sumarizuje hlavných prispievateľov stránky",
-	"contributors-toolbox": "Hlavní prispievatelia",
+	"contributors-toolbox": "Prispievatelia stránky",
 	"contributors-legend": "Zobraziť zoznam hlavných prispievateľov článku",
 	"contributors-target": "Názov:",
 	"contributors-submit": "Zobraziť",
