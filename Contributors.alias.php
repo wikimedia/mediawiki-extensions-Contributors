@@ -338,6 +338,11 @@ $specialPageAliases['sr-ec'] = [
 	'Contributors' => [ 'Доприносиоци' ],
 ];
 
+/** Serbian (Latin script) (srpski (latinica)‎) */
+$specialPageAliases['sr-el'] = [
+	'Contributors' => [ 'Doprinosioci' ],
+];
+
 /** Swedish (svenska) */
 $specialPageAliases['sv'] = [
 	'Contributors' => [ 'Bidragsgivare' ],
