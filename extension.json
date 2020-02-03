@@ -37,24 +37,12 @@
 		"ApiQueryContributors":"api/ApiQueryCnContributors.php"
 	},
 	"Hooks": {
-		"PageContentSaveComplete": [
-			"ContributorsHooks::onPageContentSaveComplete"
-		],
-		"ArticleRevisionVisibilitySet": [
-			"ContributorsHooks::onArticleRevisionVisibilitySet"
-		],
-		"LoadExtensionSchemaUpdates": [
-			"ContributorsHooks::onLoadExtensionSchemaUpdates"
-		],
-		"SkinTemplateBuildNavUrlsNav_urlsAfterPermalink": [
-			"ContributorsHooks::onSkinTemplateBuildNavUrlsNav_urlsAfterPermalink"
-		],
-		"SkinTemplateToolboxEnd": [
-			"ContributorsHooks::onSkinTemplateToolboxEnd"
-		],
-		"ParserFirstCallInit": [
-			"ContributorsHooks::setupParserFunction"
-		]
+		"PageContentSaveComplete": "ContributorsHooks::onPageContentSaveComplete",
+		"ArticleRevisionVisibilitySet": "ContributorsHooks::onArticleRevisionVisibilitySet",
+		"LoadExtensionSchemaUpdates": "ContributorsHooks::onLoadExtensionSchemaUpdates",
+		"SkinTemplateBuildNavUrlsNav_urlsAfterPermalink": "ContributorsHooks::onSkinTemplateBuildNavUrlsNav_urlsAfterPermalink",
+		"SkinTemplateToolboxEnd": "ContributorsHooks::onSkinTemplateToolboxEnd",
+		"ParserFirstCallInit": "ContributorsHooks::setupParserFunction"
 	},
 	"config": {
 		"ContributorsLimit": 10,
