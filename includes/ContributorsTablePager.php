@@ -1,16 +1,20 @@
 <?php
 
-
 class ContributorsTablePager extends TablePager {
 
 	private $fieldNames;
 	protected $articleId;
 	protected $opts;
 
+	/**
+	 * @var Title
+	 */
+	private $target;
+
 	public function __construct(
 		$articleId,
-		$opts,
-		$target,
+		array $opts,
+		Title $target,
 		IContextSource $context = null,
 		IDatabase $readDb = null
 	) {

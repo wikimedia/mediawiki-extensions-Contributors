@@ -12,10 +12,10 @@ class SpecialContributors extends IncludableSpecialPage {
 	/** @var string */
 	protected $subpageString;
 
-	/** @var FormOptions */
+	/** @var FormOptions|null */
 	protected $formOptions;
 
-	/** @var Contributors */
+	/** @var Contributors|null */
 	protected $contributorsClass;
 
 	public function setContributorsClass( Contributors $contributorsClass ) {

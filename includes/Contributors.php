@@ -9,7 +9,7 @@
  * @author Ike Hecht
  */
 class Contributors {
-	/** @var Title */
+	/** @var Title|null */
 	private $target;
 
 	/** @var array */

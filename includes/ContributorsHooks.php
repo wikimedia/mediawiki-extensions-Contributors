@@ -10,11 +10,11 @@ class ContributorsHooks {
 	/**
 	 * Set up the #contributors parser function
 	 *
-	 * @param Parser &$parser
+	 * @param Parser $parser
 	 *
 	 * @return bool
 	 */
-	public static function setupParserFunction( Parser &$parser ) {
+	public static function setupParserFunction( Parser $parser ) {
 		$parser->setFunctionHook( 'contributors', __CLASS__ . '::contributorsParserFunction',
 			Parser::SFH_OBJECT_ARGS );
 
@@ -28,7 +28,7 @@ class ContributorsHooks {
 	 * @param PPFrame $frame
 	 * @param array $args The first element is the title. The remaining arguments are optional and
 	 * 	correspond to sort options.
-	 * @return string
+	 * @return string|array
 	 */
 	public static function contributorsParserFunction( Parser $parser, PPFrame $frame, array $args ) {
 		$title = Title::newFromText( $frame->expand( array_shift( $args ) ) );
