@@ -65,9 +65,7 @@ class PopulateContributorsTable extends Maintenance {
 						'cn_last_edit' => $row->cn_last_edit
 					],
 					[
-						'cn_page_id',
-						'cn_user_id',
-						'cn_user_text'
+						[ 'cn_page_id', 'cn_user_id', 'cn_user_text' ]
 					],
 					[
 						'cn_page_id' => $row->rev_page,

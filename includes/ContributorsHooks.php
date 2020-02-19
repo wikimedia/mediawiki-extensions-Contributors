@@ -183,9 +183,7 @@ class ContributorsHooks {
 						'cn_first_edit' => $timestamp
 					],
 					[
-						'cn_page_id',
-						'cn_user_id',
-						'cn_user_text'
+						[ 'cn_page_id', 'cn_user_id', 'cn_user_text' ]
 					],
 					[
 						'cn_revision_count' => $row->cn_revision_count + 1,
