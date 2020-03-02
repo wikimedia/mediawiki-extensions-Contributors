@@ -2,10 +2,19 @@
 	"@metadata": {
 		"authors": [
 			"Octahedron80",
-			"Passawuth"
+			"Passawuth",
+			"Aefgh39622"
 		]
 	},
 	"contributors": "ผู้ร่วมเขียน",
-	"contributors-toolbox": "ผู้เขียนหลัก",
-	"contributors-submit": "แสดง"
+	"contributors-desc": "สรุปผู้มีส่วนร่วมหลักเป็นหน้า",
+	"contributors-toolbox": "ผู้มีส่วนร่วมหน้า",
+	"contributors-legend": "แสดงรายการผู้มีส่วนร่วมเป็นหน้า",
+	"contributors-target": "ชื่อเรื่อง:",
+	"contributors-submit": "แสดง",
+	"contributors-subtitle": "ผู้มีส่วนร่วมหลักสำหรับ $1",
+	"contributors-others-long": "มี{{PLURAL:$1|ผู้มีส่วนร่วมอื่นหนึ่งคน|ผู้มีส่วนร่วมอื่น $1 คน}}สำหรับหน้านี้",
+	"contributors-others": "และ{{PLURAL:$1|อีกหนึ่งคน|อีก $1 คน}}",
+	"contributors-badtitle": "ชื่อเรื่องไม่ถูกต้อง",
+	"contributors-nosuchpage": "ไม่มีหน้า $1 อยู่"
 }
