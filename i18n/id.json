@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Bennylin",
+			"Diki Ananta",
 			"Ivan Lanin",
 			"Rex",
 			"William Surya Permana"
@@ -9,7 +10,7 @@
 	},
 	"contributors": "Kontributor",
 	"contributors-desc": "Memberikan ringkasan kontributor utama untuk suatu halaman",
-	"contributors-toolbox": "Kontributor utama",
+	"contributors-toolbox": "Kontributor halaman",
 	"contributors-legend": "Daftar kontributor utama untuk suatu halaman",
 	"contributors-target": "Judul:",
 	"contributors-submit": "Tampilkan",
