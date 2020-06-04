@@ -19,7 +19,7 @@ class Contributors {
 	 * Array of all contributors to this page that should be displayed
 	 * The array is of the form: [username] => array ( userid, numberofcontributions )
 	 *
-	 * @var array
+	 * @var array[]
 	 */
 	private $contributors;
 
@@ -183,10 +183,18 @@ class Contributors {
 		return $this->getTarget()->getPrefixedText();
 	}
 
+	/**
+	 * @return string[]
+	 */
 	public function getContributorsNames() {
 		return array_keys( $this->getContributors() );
 	}
 
+	/**
+	 * @param Language $language
+	 *
+	 * @return string HTML
+	 */
 	public function getSimpleList( Language $language ) {
 		global $wgContributorsLinkUsers;
 
@@ -208,6 +216,9 @@ class Contributors {
 		return $language->listToText( $names );
 	}
 
+	/**
+	 * @return string HTML
+	 */
 	public function getRawList() {
 		$output = '';
 		foreach ( $this->getContributors() as $username => $info ) {
