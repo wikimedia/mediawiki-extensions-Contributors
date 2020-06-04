@@ -15,7 +15,7 @@ class ContributorsHooks {
 	 * @return bool
 	 */
 	public static function setupParserFunction( Parser $parser ) {
-		$parser->setFunctionHook( 'contributors', __CLASS__ . '::contributorsParserFunction',
+		$parser->setFunctionHook( 'contributors', [ __CLASS__, 'contributorsParserFunction' ],
 			Parser::SFH_OBJECT_ARGS );
 
 		return true;
