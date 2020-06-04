@@ -11,14 +11,10 @@ class ContributorsHooks {
 	 * Set up the #contributors parser function
 	 *
 	 * @param Parser $parser
-	 *
-	 * @return bool
 	 */
 	public static function setupParserFunction( Parser $parser ) {
 		$parser->setFunctionHook( 'contributors', __CLASS__ . '::contributorsParserFunction',
 			Parser::SFH_OBJECT_ARGS );
-
-		return true;
 	}
 
 	/**
@@ -61,7 +57,6 @@ class ContributorsHooks {
 	 * @param array &$nav_urls
 	 * @param int &$oldid
 	 * @param int &$revid
-	 * @return bool
 	 */
 	public static function onSkinTemplateBuildNavUrlsNav_urlsAfterPermalink(
 		&$skintemplate,
@@ -77,14 +72,12 @@ class ContributorsHooks {
 				),
 			];
 		}
-		return true;
 	}
 
 	/**
 	 * Output the toolbox link
 	 *
 	 * @param BaseTemplate &$monobook
-	 * @return bool
 	 */
 	public static function onSkinTemplateToolboxEnd( BaseTemplate &$monobook ) {
 		if ( isset( $monobook->data['nav_urls']['contributors'] ) ) {
@@ -98,14 +91,12 @@ class ContributorsHooks {
 						?></a></li><?php
 			}
 		}
-		return true;
 	}
 
 	/**
 	 * Add tables to Database
 	 *
 	 * @param DatabaseUpdater $updater
-	 * @return bool
 	 */
 	public static function onLoadExtensionSchemaUpdates( DatabaseUpdater $updater ) {
 		$updater->addExtensionTable( 'contributors', __DIR__ . '/sql/contributors.sql' );
@@ -113,7 +104,6 @@ class ContributorsHooks {
 			__DIR__ . '/sql/contributors-add-timestamps.sql' );
 		$updater->addExtensionField( 'contributors', 'cn_last_edit',
 			__DIR__ . '/sql/contributors-add-timestamps.sql' );
-		return true;
 	}
 
 	/**
