@@ -45,8 +45,6 @@
 		"ParserFirstCallInit": "ContributorsHooks::setupParserFunction"
 	},
 	"config": {
-		"ContributorsLimit": 10,
-		"ContributorsThreshold": 2,
 		"ContributorsLinkUsers": true
 	},
 	"manifest_version": 1

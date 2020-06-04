@@ -24,20 +24,6 @@ class Contributors {
 	private $contributors;
 
 	/**
-	 * Should the list be split into main contributors and other contributors?
-	 *
-	 * @var bool
-	 */
-	private $useThreshold = true;
-
-	/**
-	 * Number of other contributors. If the list is not supposed to be split, this will be 0.
-	 *
-	 * @var int|null
-	 */
-	private $numOthers;
-
-	/**
 	 * @return Title|null
 	 */
 	public function getTarget() {
@@ -59,20 +45,6 @@ class Contributors {
 	}
 
 	/**
-	 * @return bool
-	 */
-	public function getUseThreshold() {
-		return $this->useThreshold;
-	}
-
-	/**
-	 * @return int|null
-	 */
-	public function getNumOthers() {
-		return $this->numOthers;
-	}
-
-	/**
 	 * @param Title $target
 	 *
 	 * @return Title|null Old value
@@ -91,33 +63,6 @@ class Contributors {
 	}
 
 	/**
-	 * @param array[] $contributors
-	 *
-	 * @return array[]
-	 */
-	public function setContributors( $contributors ) {
-		return wfSetVar( $this->contributors, $contributors );
-	}
-
-	/**
-	 * @param bool $useThreshold
-	 *
-	 * @return bool Old value
-	 */
-	public function setUseThreshold( $useThreshold ) {
-		return wfSetVar( $this->useThreshold, $useThreshold );
-	}
-
-	/**
-	 * @param int $numOthers
-	 *
-	 * @return int|null Old value
-	 */
-	public function setNumOthers( $numOthers ) {
-		return wfSetVar( $this->numOthers, $numOthers );
-	}
-
-	/**
 	 * Construct a contributors object based on title and options
 	 * @todo $target should be required
 	 *
@@ -128,7 +73,7 @@ class Contributors {
 		$this->setOptions( $options );
 		if ( $target ) {
 			$this->setTarget( $target );
-			$this->setContributors( $this->getContributorsData() );
+			$this->contributors = $this->getThresholdedContributors();
 		}
 	}
 
@@ -139,19 +84,6 @@ class Contributors {
 	 */
 	public static function getValidOptions() {
 		return [ 'filteranon' ];
-	}
-
-	/**
-	 * Depending on $useThreshold, get a list of contributors that should be displayed.
-	 *
-	 * @return array[]|void Contributors sorted and ready
-	 */
-	private function getContributorsData() {
-		if ( $this->getUseThreshold() ) {
-			$contributors = $this->getThresholdedContributors();
-
-			return $contributors;
-		}
 	}
 
 	/**

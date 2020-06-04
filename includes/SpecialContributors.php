@@ -117,11 +117,6 @@ class SpecialContributors extends IncludableSpecialPage {
 		}
 
 		$outputHtml = $this->contributorsClass->getSimpleList( $language );
-		$others = $this->contributorsClass->getNumOthers();
-		if ( $others > 0 ) {
-			$outputHtml .= $this->msg( 'word-separator' )->plain() . $this->msg( 'contributors-others',
-					$language->formatNum( $others ) )->inContentLanguage()->text();
-		}
 		$output->addHTML( $outputHtml );
 	}
 
@@ -131,7 +126,6 @@ class SpecialContributors extends IncludableSpecialPage {
 	private function showRaw() {
 		$output = $this->getOutput();
 		$output->disable();
-		$this->contributorsClass->setUseThreshold( false );
 		if ( $this->contributorsClass->targetExists() ) {
 			header( 'Content-type: text/plain; charset=utf-8' );
 			echo $this->contributorsClass->getRawList();
@@ -143,7 +137,6 @@ class SpecialContributors extends IncludableSpecialPage {
 	}
 
 	private function showNormal() {
-		$language = $this->getLanguage();
 		$output = $this->getOutput();
 		if ( !$this->contributorsClass->hasTarget() ) {
 			return;
@@ -174,12 +167,6 @@ class SpecialContributors extends IncludableSpecialPage {
 			$out->addWikiMsg( 'contributors-nosuchpage',
 				$this->contributorsClass->getTargetText()
 			);
-		}
-
-		$others = $this->contributorsClass->getNumOthers();
-		if ( $others > 0 ) {
-			$others = $language->formatNum( $others );
-			$output->addWikiTextAsInterface( $this->msg( 'contributors-others-long', $others )->plain() );
 		}
 	}
 
