@@ -16,8 +16,6 @@
 	"contributors-others": "and {{PLURAL:$1|one other|$1 others}}",
 	"contributors-badtitle": "Invalid title.",
 	"contributors-nosuchpage": "The page $1 does not exist.",
-	"contributors-asc": "Sort ascending",
-	"contributors-sortuser": "Sort alphabetically",
 	"contributors-filterip": "Hide IP addresses",
 	"contributors-name": "Username",
 	"contributors-revisions": "Number of revisions",
