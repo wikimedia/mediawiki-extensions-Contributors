@@ -21,7 +21,7 @@ class Contributors {
 	 *
 	 * @var array
 	 */
-	private $contributors;
+	private $contributors = [];
 
 	/**
 	 * Should the list be split into main contributors and other contributors?
