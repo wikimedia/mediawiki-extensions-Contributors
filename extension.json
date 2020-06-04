@@ -18,7 +18,7 @@
 		"Contributors": "SpecialContributors"
 	},
 	"APIPropModules": {
-		"contributors": "ApiQueryContributors"
+		"contributors": "ApiQueryCnContributors"
 	},
 	"MessagesDirs": {
 		"Contributors": [
@@ -34,7 +34,7 @@
 		"SpecialContributors": "includes/SpecialContributors.php",
 		"ContributorsHooks": "includes/ContributorsHooks.php",
 		"ContributorsTablePager": "includes/ContributorsTablePager.php",
-		"ApiQueryContributors": "api/ApiQueryCnContributors.php"
+		"ApiQueryCnContributors": "api/ApiQueryCnContributors.php"
 	},
 	"Hooks": {
 		"PageSaveComplete": "ContributorsHooks::onPageSaveComplete",
