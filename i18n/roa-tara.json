@@ -15,8 +15,6 @@
 	"contributors-others": "e {{PLURAL:$1|'notre|$1 otre}}",
 	"contributors-badtitle": "Titele invalide.",
 	"contributors-nosuchpage": "'A pàgene $1 non g'esiste.",
-	"contributors-asc": "Ordenamende ca 'nghiane",
-	"contributors-sortuser": "Ordene alfabbeticamende",
 	"contributors-filterip": "Scunne l'indirizze IP",
 	"contributors-name": "Nome utende",
 	"contributors-revisions": "Numere de le revisiune",

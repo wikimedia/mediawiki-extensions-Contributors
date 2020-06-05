@@ -20,8 +20,6 @@
 	"contributors-others": "и ещё $1 {{PLURAL:$1|другой|других}}",
 	"contributors-badtitle": "Ошибочное название.",
 	"contributors-nosuchpage": "Страница «$1» не существует.",
-	"contributors-asc": "Упорядочить по возрастанию",
-	"contributors-sortuser": "Упорядочивать по алфавиту",
 	"contributors-filterip": "Не показывать IP-адреса",
 	"contributors-name": "Имя участника",
 	"contributors-revisions": "Количество правок",

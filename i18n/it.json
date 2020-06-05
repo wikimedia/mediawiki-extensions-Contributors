@@ -17,8 +17,6 @@
 	"contributors-others": "e {{PLURAL:$1|un altro|$1 altri}}",
 	"contributors-badtitle": "Titolo non valido.",
 	"contributors-nosuchpage": "La pagina $1 non esiste.",
-	"contributors-asc": "Ordinamento crescente",
-	"contributors-sortuser": "Ordina alfabeticamente",
 	"contributors-filterip": "Nascondi indirizzi IP",
 	"contributors-name": "Nome utente",
 	"contributors-revisions": "Numero di versioni",

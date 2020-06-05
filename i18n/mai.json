@@ -14,7 +14,5 @@
 	"contributors-others-long": "ई पृष्ठ {{PLURAL:$1|क एगो आन|क $1 अन्य}} योगदानकर्ता अछि।",
 	"contributors-others": "आर {{PLURAL:$1|एगो अन्य|$1 अन्य}}",
 	"contributors-badtitle": "अवैध शीर्षक।",
-	"contributors-nosuchpage": "$1 पृष्ठ अस्तित्वमे नै अछि।",
-	"contributors-asc": "घटैत क्रममे छाँटी",
-	"contributors-sortuser": "वर्णाक्षरानुसार छाँटी"
+	"contributors-nosuchpage": "$1 पृष्ठ अस्तित्वमे नै अछि।"
 }

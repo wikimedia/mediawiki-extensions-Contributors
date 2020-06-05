@@ -17,8 +17,6 @@
 	"contributors-others": "e {{PLURAL:$1|um outro|$1 outros}}",
 	"contributors-badtitle": "Título inválido.",
 	"contributors-nosuchpage": "O artigo $1 não existe.",
-	"contributors-asc": "Ordernar ascendente",
-	"contributors-sortuser": "Ordenar alfabeticamente",
 	"contributors-filterip": "Ocultar endereços IP",
 	"contributors-name": "Nome de usuário",
 	"contributors-revisions": "Número de revisões",

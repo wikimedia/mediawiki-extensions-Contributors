@@ -16,8 +16,6 @@
 	"contributors-others": "i {{PLURAL:$1|jedan preostao|$1 drugih}}",
 	"contributors-badtitle": "Neispravan naslov.",
 	"contributors-nosuchpage": "Stranica $1 ne postoji.",
-	"contributors-asc": "Sortiraj uzlazno",
-	"contributors-sortuser": "Sortiraj abecedno",
 	"contributors-filterip": "Sakrij IP adrese",
 	"contributors-name": "Suradničko ime",
 	"contributors-revisions": "Broj izmjena",

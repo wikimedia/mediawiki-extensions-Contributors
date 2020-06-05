@@ -16,8 +16,6 @@
 	"contributors-others": "og {{PLURAL:$1|én annen|$1 andre}}",
 	"contributors-badtitle": "Ugyldig tittel.",
 	"contributors-nosuchpage": "Siden $1 eksisterer ikke.",
-	"contributors-asc": "Sorter stigende",
-	"contributors-sortuser": "Sorter alfabetisk",
 	"contributors-filterip": "Skjul IP-adresser",
 	"contributors-name": "Brukernavn",
 	"contributors-revisions": "Antall revisjoner",

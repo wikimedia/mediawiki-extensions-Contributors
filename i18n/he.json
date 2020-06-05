@@ -17,8 +17,6 @@
 	"contributors-others": "ו{{PLURAL:$1|אחד אחר|־$1 אחרים}}",
 	"contributors-badtitle": "כותרת בלתי תקינה.",
 	"contributors-nosuchpage": "הדף $1 אינו קיים.",
-	"contributors-asc": "מיון בסדר עולה",
-	"contributors-sortuser": "מיון אלפביתי",
 	"contributors-filterip": "הסתרת כתובות IP",
 	"contributors-name": "שם משתמש",
 	"contributors-revisions": "מספר הגרסאות",

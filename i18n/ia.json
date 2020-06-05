@@ -14,7 +14,5 @@
 	"contributors-others-long": "Iste pagina ha {{PLURAL:$1|un altere contributor|$1 altere contributores}}.",
 	"contributors-others": "e {{PLURAL:$1|un altere|$1 alteres}}",
 	"contributors-badtitle": "Titulo invalide.",
-	"contributors-nosuchpage": "Le pagina $1 non existe.",
-	"contributors-asc": "Ordine ascendente",
-	"contributors-sortuser": "Ordine alphabetic"
+	"contributors-nosuchpage": "Le pagina $1 non existe."
 }

@@ -18,8 +18,6 @@
 	"contributors-others": "e {{PLURAL:$1|outro|outros $1}}",
 	"contributors-badtitle": "Título non válido.",
 	"contributors-nosuchpage": "A páxina \"$1\" non existe.",
-	"contributors-asc": "Orde ascendente",
-	"contributors-sortuser": "Ordenar alfabeticamente",
 	"contributors-filterip": "Ocultar enderezos IP",
 	"contributors-name": "Nome de usuario",
 	"contributors-revisions": "Número de revisións",

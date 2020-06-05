@@ -22,8 +22,6 @@
 	"contributors-others": "ja {{PLURAL:$1|yksi muu|$1 muuta}}",
 	"contributors-badtitle": "Epäkelpo otsikko.",
 	"contributors-nosuchpage": "Sivua $1 ei ole olemassa.",
-	"contributors-asc": "Lajittele nousevassa järjestyksessä",
-	"contributors-sortuser": "Lajittele aakkosjärjestyksessä",
 	"contributors-filterip": "Piilota IP-osoitteet",
 	"contributors-name": "Käyttäjänimi",
 	"contributors-revisions": "Muokkausten määrä",

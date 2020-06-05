@@ -15,8 +15,6 @@
 	"contributors-others": "e {{PLURAL:$1|un atro|$1 atri}}",
 	"contributors-badtitle": "Tittolo non vallido.",
 	"contributors-nosuchpage": "A paggina $1 a no l'existe.",
-	"contributors-asc": "Amerça in orde crescente",
-	"contributors-sortuser": "Ordina arfabeticamente",
 	"contributors-filterip": "Ascondi i adressi IP",
 	"contributors-name": "Nomme utente",
 	"contributors-revisions": "Nummero de revixoin",

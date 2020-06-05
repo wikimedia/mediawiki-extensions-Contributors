@@ -16,8 +16,6 @@
 	"contributors-others": "ir {{PLURAL:$1|vienas kitas|$1 kiti|$1 kitų}}",
 	"contributors-badtitle": "Neleistinas pavadinimas.",
 	"contributors-nosuchpage": "Puslapis $1 neegzistuoja.",
-	"contributors-asc": "Rikiuoti didėjimo tvarka",
-	"contributors-sortuser": "Rūšiuoti abėcėlės tvarka",
 	"contributors-filterip": "Slėpti IP adresus",
 	"contributors-name": "Vartotojo vardas",
 	"contributors-revisions": "Versijų skaičius",

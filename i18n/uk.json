@@ -18,8 +18,6 @@
 	"contributors-others": "і ще $1 {{PLURAL:$1|інший|інших|інших}}",
 	"contributors-badtitle": "Помилкова назва.",
 	"contributors-nosuchpage": "Сторінка «$1» не існує.",
-	"contributors-asc": "Сортувати за зростанням",
-	"contributors-sortuser": "Сортувати за алфавітом",
 	"contributors-filterip": "Приховати IP-адреси",
 	"contributors-name": "Ім'я користувача",
 	"contributors-revisions": "Кількість версій",

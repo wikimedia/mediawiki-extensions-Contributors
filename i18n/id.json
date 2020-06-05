@@ -18,7 +18,5 @@
 	"contributors-others-long": "Terdapat {{PLURAL:$1|satu|$1}} kontributor lain untuk halaman ini.",
 	"contributors-others": "dan {{PLURAL:$1|satu|$1}} lainnya",
 	"contributors-badtitle": "Judul tidak sah.",
-	"contributors-nosuchpage": "Halaman $1 tidak ditemukan.",
-	"contributors-asc": "Urutkan menaik",
-	"contributors-sortuser": "Urutkan berdasarkan abjad"
+	"contributors-nosuchpage": "Halaman $1 tidak ditemukan."
 }

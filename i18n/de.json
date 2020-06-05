@@ -17,8 +17,6 @@
 	"contributors-others": "und {{PLURAL:$1|1 weiteren|$1 weitere}}",
 	"contributors-badtitle": "Ungültige Seite",
 	"contributors-nosuchpage": "Die Seite $1 ist nicht vorhanden.",
-	"contributors-asc": "Aufsteigend sortieren",
-	"contributors-sortuser": "Alphabetisch sortieren",
 	"contributors-filterip": "IP-Adressen ausblenden",
 	"contributors-name": "Benutzername",
 	"contributors-revisions": "Anzahl der Versionen",

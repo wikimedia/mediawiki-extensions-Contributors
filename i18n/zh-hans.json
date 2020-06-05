@@ -17,8 +17,6 @@
 	"contributors-others": "以及另外$1位",
 	"contributors-badtitle": "无效标题。",
 	"contributors-nosuchpage": "条目$1不存在。",
-	"contributors-asc": "升序",
-	"contributors-sortuser": "按字母排序",
 	"contributors-filterip": "隐藏IP地址",
 	"contributors-name": "用户名",
 	"contributors-revisions": "修订版本数",

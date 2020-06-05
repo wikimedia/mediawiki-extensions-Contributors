@@ -16,8 +16,6 @@
 	"contributors-others": "आणि {{PLURAL:$1|एक दुसरा|$1 दुसरे}}",
 	"contributors-badtitle": "अयोग्य शीर्षक",
 	"contributors-nosuchpage": "पान $1 अस्तीत्वात नाही.",
-	"contributors-asc": "चढत्या क्रमाने पृथक करा",
-	"contributors-sortuser": "अकारविल्हे पृथक करा",
 	"contributors-filterip": "अंकपत्ते लपवा",
 	"contributors-name": "सदस्यनाम",
 	"contributors-revisions": "आवृत्त्यांची संख्या",

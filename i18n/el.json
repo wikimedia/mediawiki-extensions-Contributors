@@ -19,8 +19,6 @@
 	"contributors-others": "και {{PLURAL:$1|ένας άλλος|$1 άλλοι}}",
 	"contributors-badtitle": "Άκυρος τίτλος.",
 	"contributors-nosuchpage": "Η σελίδα $1 δεν υπάρχει.",
-	"contributors-asc": "Αύξουσα ταξινόμηση",
-	"contributors-sortuser": "Ταξινόμηση αλφαβητικά",
 	"contributors-filterip": "Απόκρυψη διευθύνσεων IP",
 	"contributors-name": "Όνομα χρήστη",
 	"contributors-revisions": "Αριθμός αναθεωρήσεων",

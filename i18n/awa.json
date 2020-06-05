@@ -14,7 +14,5 @@
 	"contributors-others-long": "इ पन्ना {{PLURAL:$1|कय एक्ठु दुसर|कय $1 दुसर}} योगदानकर्ता {{PLURAL:$1|है|हैं}}।",
 	"contributors-others": "औ {{PLURAL:$1|एक|$1}} दुसर",
 	"contributors-badtitle": "अवैध शीर्षक।",
-	"contributors-nosuchpage": "स्रोत पन्ना $1 मौजूद नाई है।",
-	"contributors-asc": "बढे कय क्रम में मिलाओ",
-	"contributors-sortuser": "वर्णानुक्रम कय अनुसार देखावा जाय"
+	"contributors-nosuchpage": "स्रोत पन्ना $1 मौजूद नाई है।"
 }

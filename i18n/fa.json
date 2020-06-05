@@ -18,7 +18,5 @@
 	"contributors-others-long": "{{PLURAL:$1|یک مشارکت‌کنندهٔ دیگر|$1 مشارکت‌کنندهٔ دیگر}} برای این صفحه وجود دارد.",
 	"contributors-others": "و {{PLURAL:$1|یکی|$1تای}} دیگر",
 	"contributors-badtitle": "عنوان نامعتبر.",
-	"contributors-nosuchpage": "صفحهٔ $1 وجود ندارد.",
-	"contributors-asc": "مرتب‌سازی صعودی",
-	"contributors-sortuser": "مرتب‌سازی الفبایی"
+	"contributors-nosuchpage": "صفحهٔ $1 وجود ندارد."
 }

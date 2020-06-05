@@ -22,8 +22,6 @@
 	"contributors-others": "ve {{PLURAL:$1|bir diğer|$1 diğer}}",
 	"contributors-badtitle": "Geçersiz başlık.",
 	"contributors-nosuchpage": "$1 adlı sayfa mevcut değil.",
-	"contributors-asc": "Artan sıralama",
-	"contributors-sortuser": "Alfabetik olarak sırala",
 	"contributors-filterip": "IP adreslerini gizle",
 	"contributors-name": "Kullanıcı adı",
 	"contributors-revisions": "Sürüm sayısı",

@@ -22,8 +22,6 @@
 	"contributors-others": "y {{PLURAL:$1|otro|otros $1}}",
 	"contributors-badtitle": "El título no es válido.",
 	"contributors-nosuchpage": "La página $1 no existe.",
-	"contributors-asc": "Orden ascendente",
-	"contributors-sortuser": "Ordenar alfabéticamente",
 	"contributors-filterip": "Ocultar las direcciones IP",
 	"contributors-name": "Nombre de usuario",
 	"contributors-revisions": "Número de revisiones",

@@ -21,8 +21,6 @@
 	"contributors-others": "و {{PLURAL:$1|واحد آخر|$1 آخرون}}",
 	"contributors-badtitle": "عنوان غير صالح.",
 	"contributors-nosuchpage": "الصفحة $1 غير موجودة.",
-	"contributors-asc": "رتب تصاعديا",
-	"contributors-sortuser": "رتب أبجديا",
 	"contributors-filterip": "إخفاء عناوين الآيبي",
 	"contributors-name": "اسم المستخدم",
 	"contributors-revisions": "عدد المراجعات",

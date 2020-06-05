@@ -14,7 +14,5 @@
 	"contributors-others-long": "Rinn {{PLURAL:$1|$1}} eile deasachadh air an duilleag seo.",
 	"contributors-others": "agus {{PLURAL:$1|$1}} eile",
 	"contributors-badtitle": "Tiotal mì-dhligheach.",
-	"contributors-nosuchpage": "Chan eil an duilleag \"$1\" ann.",
-	"contributors-asc": "Seòrsaich a' dìreadh",
-	"contributors-sortuser": "Seòrsaich a rèir na h-aibidil"
+	"contributors-nosuchpage": "Chan eil an duilleag \"$1\" ann."
 }

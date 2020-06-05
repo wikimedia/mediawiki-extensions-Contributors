@@ -17,8 +17,6 @@
 	"contributors-others": "og $1 {{PLURAL:$1|annar|aðrir}}",
 	"contributors-badtitle": "Ógildur titill.",
 	"contributors-nosuchpage": "Síðan $1 er ekki til.",
-	"contributors-asc": "Raða í hækkandi röð",
-	"contributors-sortuser": "Raða í stafrófsröð",
 	"contributors-filterip": "Fela IP-vistföng",
 	"contributors-name": "Notandanafn",
 	"contributors-revisions": "Fjöldi breytinga",

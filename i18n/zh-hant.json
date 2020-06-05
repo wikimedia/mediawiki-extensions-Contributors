@@ -21,8 +21,6 @@
 	"contributors-others": "以及另外$1位",
 	"contributors-badtitle": "不正確的標題。",
 	"contributors-nosuchpage": "條目$1不存在。",
-	"contributors-asc": "昇冪排序",
-	"contributors-sortuser": "字母排序",
 	"contributors-filterip": "隱藏IP地址",
 	"contributors-name": "使用者名稱",
 	"contributors-revisions": "修訂的數目",
