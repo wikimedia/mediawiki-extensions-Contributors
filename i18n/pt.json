@@ -3,26 +3,27 @@
 		"authors": [
 			"Hamilton Abreu",
 			"Malafaya",
+			"Mansil alfalb",
 			"Vitorvicentevalente",
 			555
 		]
 	},
-	"contributors": "Contribuidores",
-	"contributors-desc": "Sumariza os principais contribuidores de uma página",
-	"contributors-toolbox": "Contribuidores",
-	"contributors-legend": "Listagem dos principais contribuidores de uma página",
+	"contributors": "Colaboradores",
+	"contributors-desc": "Sumariza os colaboradores principais de uma página",
+	"contributors-toolbox": "Colaboradores da página",
+	"contributors-legend": "Lista dos colaboradores principais de uma página",
 	"contributors-target": "Título:",
 	"contributors-submit": "Mostrar",
-	"contributors-subtitle": "Principais contribuidores de $1",
-	"contributors-others-long": "{{PLURAL:$1|Ainda há outro contribuidor|Existem ainda outros $1 contribuidores}} para esta página.",
+	"contributors-subtitle": "Colaboradores principais de $1",
+	"contributors-others-long": "{{PLURAL:$1|é um outro colaborador|são outros $1 colaboradores}} para esta página.",
 	"contributors-others": "e {{PLURAL:$1|um outro|$1 outros}}",
 	"contributors-badtitle": "Título inválido.",
 	"contributors-nosuchpage": "A página $1 não existe.",
-	"contributors-filterip": "Ocultar endereços IP",
+	"contributors-filterip": "Ocultar endereços de IP",
 	"contributors-name": "Nome de utilizador",
 	"contributors-revisions": "Número de revisões",
 	"contributors-first-edit": "Data da primeira edição",
 	"contributors-last-edit": "Data da última edição",
 	"contributors-add-subpages": "Adicionar subpáginas",
-	"apihelp-query+contributors-example-1": "Mostrar contribuidores da Página principal"
+	"apihelp-query+contributors-example-1": "Mostrar colaboradores da página «Principal»"
 }
