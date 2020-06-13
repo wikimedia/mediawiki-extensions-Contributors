@@ -207,11 +207,11 @@ class SpecialContributors extends IncludableSpecialPage {
 
 		];
 		$htmlForm = HTMLForm::factory( 'ooui', $formDescriptor, $this->getContext() );
-		$htmlForm->setWrapperLegendMsg( 'contributors-legend' )
+		return $htmlForm->setWrapperLegendMsg( 'contributors-legend' )
 			->setSubmitTextMsg( 'contributors-submit' )
 			->setMethod( 'get' )
 			->prepareForm()
-			->displayForm( false );
+			->getHTML( false );
 	}
 
 	protected function getGroupName() {
