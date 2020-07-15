@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\User\UserIdentity;
+
 /**
  * Hooks for Contributors
  *
@@ -110,32 +112,11 @@ class ContributorsHooks {
 	 * Updates the contributors table with each edit made by a user to a page
 	 *
 	 * @param WikiPage $wikiPage
-	 * @param User $user
-	 * @param Content $content
-	 * @param string $summary
-	 * @param bool $isMinor
-	 * @param bool $isWatch
-	 * @param string $section
-	 * @param int $flags
-	 * @param Revision $revision
-	 * @param Status $status
-	 * @param int $baseRevId
+	 * @param UserIdentity $user
 	 *
 	 * @throws Exception
 	 */
-	public static function onPageContentSaveComplete(
-		WikiPage $wikiPage,
-		$user,
-		$content,
-		$summary,
-		$isMinor,
-		$isWatch,
-		$section,
-		$flags,
-		$revision,
-		$status,
-		$baseRevId
-	) {
+	public static function onPageSaveComplete( WikiPage $wikiPage, UserIdentity $user ) {
 		$dbw = wfGetDB( DB_MASTER );
 		$dbr = wfGetDB( DB_REPLICA );
 		$pageId = $wikiPage->getId();
