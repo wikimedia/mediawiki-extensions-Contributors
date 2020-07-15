@@ -12,7 +12,7 @@
 	"type": "specialpage",
 	"license-name": "GPL-2.0-or-later",
 	"requires": {
-		"MediaWiki": ">= 1.32.0"
+		"MediaWiki": ">= 1.35.0"
 	},
 	"SpecialPages": {
 		"Contributors": "SpecialContributors"
@@ -37,7 +37,7 @@
 		"ApiQueryContributors":"api/ApiQueryCnContributors.php"
 	},
 	"Hooks": {
-		"PageContentSaveComplete": "ContributorsHooks::onPageContentSaveComplete",
+		"PageSaveComplete": "ContributorsHooks::onPageSaveComplete",
 		"ArticleRevisionVisibilitySet": "ContributorsHooks::onArticleRevisionVisibilitySet",
 		"LoadExtensionSchemaUpdates": "ContributorsHooks::onLoadExtensionSchemaUpdates",
 		"SkinTemplateBuildNavUrlsNav_urlsAfterPermalink": "ContributorsHooks::onSkinTemplateBuildNavUrlsNav_urlsAfterPermalink",
