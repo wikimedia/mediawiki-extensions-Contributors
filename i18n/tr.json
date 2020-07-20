@@ -27,6 +27,6 @@
 	"contributors-revisions": "Sürüm sayısı",
 	"contributors-first-edit": "İlk değişiklik tarihi",
 	"contributors-last-edit": "Son değişiklik tarihi",
-	"contributors-add-subpages": "Altsayfa ekle",
+	"contributors-add-subpages": "Alt sayfa ekle",
 	"apihelp-query+contributors-example-1": "Anasayfa'ya katkıda bulunanları göster"
 }
