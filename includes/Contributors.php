@@ -26,7 +26,7 @@ class Contributors {
 	/**
 	 * Should the list be split into main contributors and other contributors?
 	 *
-	 * @var boolean
+	 * @var bool
 	 */
 	private $useThreshold = true;
 
