@@ -53,26 +53,25 @@ class ContributorsHooks {
 	}
 
 	/**
-	 * Prepare the toolbox link
-	 *
-	 * @param SkinTemplate $skintemplate
-	 * @param array &$nav_urls
-	 * @param int $oldid
-	 * @param int $revid
+	 * @param Skin $skin
+	 * @param array &$sidebar
 	 */
-	public static function onSkinTemplateBuildNavUrlsNav_urlsAfterPermalink(
-		$skintemplate,
-		&$nav_urls,
-		$oldid,
-		$revid
-	) {
-		if ( $skintemplate->getTitle()->getNamespace() === NS_MAIN && $revid !== 0 ) {
-			$nav_urls['contributors'] = [
-				'text' => $skintemplate->msg( 'contributors-toolbox' ),
-				'href' => $skintemplate->makeSpecialUrlSubpage(
-					'Contributors', $skintemplate->thispage
-				),
-			];
+	public static function onSidebarBeforeOutput( Skin $skin, array &$sidebar ) {
+		if ( !$skin->getTitle()->inNamespace( NS_MAIN ) || !$skin->getOutput()->getRevisionId() ) {
+			return;
+		}
+
+		$toolbox = &$sidebar['TOOLBOX'];
+		$insert = [
+			'contributors' => [
+				'text' => $skin->msg( 'contributors-toolbox' )->text(),
+				'href' => $skin->makeSpecialUrlSubpage( 'Contributors', $skin->thispage ),
+			]
+		];
+		if ( isset( $toolbox['permalink'] ) ) {
+			$toolbox = wfArrayInsertAfter( $toolbox, $insert, 'permalink' );
+		} else {
+			$toolbox += $insert;
 		}
 	}
 
