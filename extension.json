@@ -40,7 +40,7 @@
 		"PageSaveComplete": "ContributorsHooks::onPageSaveComplete",
 		"ArticleRevisionVisibilitySet": "ContributorsHooks::onArticleRevisionVisibilitySet",
 		"LoadExtensionSchemaUpdates": "ContributorsHooks::onLoadExtensionSchemaUpdates",
-		"SkinTemplateBuildNavUrlsNav_urlsAfterPermalink": "ContributorsHooks::onSkinTemplateBuildNavUrlsNav_urlsAfterPermalink",
+		"SidebarBeforeOutput": "ContributorsHooks::onSidebarBeforeOutput",
 		"SkinTemplateToolboxEnd": "ContributorsHooks::onSkinTemplateToolboxEnd",
 		"ParserFirstCallInit": "ContributorsHooks::setupParserFunction"
 	},
