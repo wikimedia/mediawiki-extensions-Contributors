@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Bennylin",
+			"Daud I.F. Argana",
 			"Diki Ananta",
 			"Ivan Lanin",
 			"Rex",
@@ -19,5 +20,12 @@
 	"contributors-others-long": "Terdapat {{PLURAL:$1|satu|$1}} kontributor lain untuk halaman ini.",
 	"contributors-others": "dan {{PLURAL:$1|satu|$1}} lainnya",
 	"contributors-badtitle": "Judul tidak sah.",
-	"contributors-nosuchpage": "Halaman $1 tidak ditemukan."
+	"contributors-nosuchpage": "Halaman $1 tidak ditemukan.",
+	"contributors-filterip": "Sembunyikan alamat IP",
+	"contributors-name": "Nama pengguna",
+	"contributors-revisions": "Banyak revisi",
+	"contributors-first-edit": "Tanggal suntingan pertama",
+	"contributors-last-edit": "Tanggal suntingan terakhir",
+	"contributors-add-subpages": "Tambahkan subhalaman",
+	"apihelp-query+contributors-example-1": "Menampilkan kontributor di Halaman utama"
 }
