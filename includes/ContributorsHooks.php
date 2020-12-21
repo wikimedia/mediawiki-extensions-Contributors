@@ -165,6 +165,11 @@ class ContributorsHooks {
 		}
 	}
 
+	/**
+	 * @param Title $title
+	 * @param int[] $ids
+	 * @param int[][] $visibilityChangeMap
+	 */
 	public static function onArticleRevisionVisibilitySet(
 		Title $title,
 		array $ids,

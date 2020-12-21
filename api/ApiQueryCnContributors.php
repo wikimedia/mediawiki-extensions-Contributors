@@ -2,10 +2,16 @@
 
 class ApiQueryCnContributors extends ApiQueryBase {
 
+	/**
+	 * @inheritDoc
+	 */
 	public function __construct( ApiQuery $query, $moduleName ) {
 		parent::__construct( $query, $moduleName, 'cn' );
 	}
 
+	/**
+	 * @inheritDoc
+	 */
 	public function execute() {
 		$params = $this->extractRequestParams();
 		$this->buildDbQuery( $params );
@@ -20,6 +26,9 @@ class ApiQueryCnContributors extends ApiQueryBase {
 		}
 	}
 
+	/**
+	 * @param array $params
+	 */
 	private function buildDbQuery( array $params ) {
 		$this->addTables( [ 'contributors' , 'page' ] );
 		$this->addFields(
@@ -39,6 +48,9 @@ class ApiQueryCnContributors extends ApiQueryBase {
 		$this->addWhereFld( 'page_title', $params['titles'] );
 	}
 
+	/**
+	 * @inheritDoc
+	 */
 	public function getAllowedParams() {
 		return [
 			'titles' => [
@@ -48,6 +60,9 @@ class ApiQueryCnContributors extends ApiQueryBase {
 		];
 	}
 
+	/**
+	 * @inheritDoc
+	 */
 	public function getExamplesMessages() {
 		return [
 			'action=query&prop=contributors&titles=Main+Page'

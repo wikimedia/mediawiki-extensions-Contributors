@@ -12,7 +12,7 @@ class Contributors {
 	/** @var Title|null */
 	private $target;
 
-	/** @var array */
+	/** @var array|null */
 	private $options;
 
 	/**
@@ -33,46 +33,86 @@ class Contributors {
 	/**
 	 * Number of other contributors. If the list is not supposed to be split, this will be 0.
 	 *
-	 * @var int
+	 * @var int|null
 	 */
 	private $numOthers;
 
+	/**
+	 * @return Title|null
+	 */
 	public function getTarget() {
 		return $this->target;
 	}
 
+	/**
+	 * @return array|null
+	 */
 	public function getOptions() {
 		return $this->options;
 	}
 
+	/**
+	 * @return array[]
+	 */
 	public function getContributors() {
 		return $this->contributors;
 	}
 
+	/**
+	 * @return bool
+	 */
 	public function getUseThreshold() {
 		return $this->useThreshold;
 	}
 
+	/**
+	 * @return int|null
+	 */
 	public function getNumOthers() {
 		return $this->numOthers;
 	}
 
+	/**
+	 * @param Title $target
+	 *
+	 * @return Title|null Old value
+	 */
 	public function setTarget( Title $target ) {
 		return wfSetVar( $this->target, $target );
 	}
 
+	/**
+	 * @param array $options
+	 *
+	 * @return array|null Old value
+	 */
 	public function setOptions( array $options ) {
 		return wfSetVar( $this->options, $options );
 	}
 
+	/**
+	 * @param array[] $contributors
+	 *
+	 * @return array[]
+	 */
 	public function setContributors( $contributors ) {
 		return wfSetVar( $this->contributors, $contributors );
 	}
 
+	/**
+	 * @param bool $useThreshold
+	 *
+	 * @return bool Old value
+	 */
 	public function setUseThreshold( $useThreshold ) {
 		return wfSetVar( $this->useThreshold, $useThreshold );
 	}
 
+	/**
+	 * @param int $numOthers
+	 *
+	 * @return int|null Old value
+	 */
 	public function setNumOthers( $numOthers ) {
 		return wfSetVar( $this->numOthers, $numOthers );
 	}
@@ -103,7 +143,7 @@ class Contributors {
 	/**
 	 * Depending on $useThreshold, get a list of contributors that should be displayed.
 	 *
-	 * @return array Contributors sorted and ready
+	 * @return array[]|void Contributors sorted and ready
 	 */
 	private function getContributorsData() {
 		if ( $this->getUseThreshold() ) {
@@ -116,7 +156,7 @@ class Contributors {
 	/**
 	 * Get all contributors for the target page with their contribution numbers.
 	 *
-	 * @return array Contributors
+	 * @return array[] Contributors
 	 */
 	private function getThresholdedContributors() {
 		$dbr = wfGetDB( DB_REPLICA );

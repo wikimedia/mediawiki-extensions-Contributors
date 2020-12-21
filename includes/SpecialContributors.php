@@ -18,6 +18,11 @@ class SpecialContributors extends IncludableSpecialPage {
 	/** @var Contributors|null */
 	protected $contributorsClass;
 
+	/**
+	 * @param Contributors $contributorsClass
+	 *
+	 * @return Contributors|null Old value
+	 */
 	public function setContributorsClass( Contributors $contributorsClass ) {
 		return wfSetVar( $this->contributorsClass, $contributorsClass );
 	}
@@ -26,6 +31,9 @@ class SpecialContributors extends IncludableSpecialPage {
 		parent::__construct( 'Contributors' );
 	}
 
+	/**
+	 * @param string|null $subpageString
+	 */
 	public function execute( $subpageString ) {
 		$this->subpageString = $subpageString;
 		$output = $this->getOutput();
@@ -214,6 +222,9 @@ class SpecialContributors extends IncludableSpecialPage {
 			->getHTML( false );
 	}
 
+	/**
+	 * @inheritDoc
+	 */
 	protected function getGroupName() {
 		return 'pages';
 	}

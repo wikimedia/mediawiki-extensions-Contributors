@@ -1,16 +1,28 @@
 <?php
 
+use Wikimedia\Rdbms\IDatabase;
+
 class ContributorsTablePager extends TablePager {
 
+	/** @var string[]|null */
 	private $fieldNames;
-	protected $articleId;
-	protected $opts;
 
-	/**
-	 * @var Title
-	 */
+	/** @var int */
+	private $articleId;
+
+	/** @var array */
+	private $opts;
+
+	/** @var Title */
 	private $target;
 
+	/**
+	 * @param int $articleId
+	 * @param array $opts
+	 * @param Title $target
+	 * @param IContextSource|null $context
+	 * @param IDatabase|null $readDb
+	 */
 	public function __construct(
 		$articleId,
 		array $opts,
@@ -28,6 +40,9 @@ class ContributorsTablePager extends TablePager {
 		parent::__construct( $context );
 	}
 
+	/**
+	 * @inheritDoc
+	 */
 	public function getFieldNames() {
 		if ( $this->fieldNames === null ) {
 			$this->fieldNames = [
@@ -41,6 +56,9 @@ class ContributorsTablePager extends TablePager {
 		return $this->fieldNames;
 	}
 
+	/**
+	 * @inheritDoc
+	 */
 	public function formatValue( $field, $value ) {
 		$lang = $this->getLanguage();
 
@@ -64,6 +82,9 @@ class ContributorsTablePager extends TablePager {
 		}
 	}
 
+	/**
+	 * @inheritDoc
+	 */
 	public function getQueryInfo() {
 		$dbr = wfGetDB( DB_REPLICA );
 		$prefixKey = $this->target->getPrefixedDBkey();
@@ -98,10 +119,16 @@ class ContributorsTablePager extends TablePager {
 		return $info;
 	}
 
+	/**
+	 * @return string
+	 */
 	public function getDefaultSort() {
 		return 'cn_revision_count';
 	}
 
+	/**
+	 * @inheritDoc
+	 */
 	public function isFieldSortable( $name ) {
 		$sortable_fields = [ 'cn_user_text', 'cn_revision_count' ];
 		return in_array( $name, $sortable_fields );
