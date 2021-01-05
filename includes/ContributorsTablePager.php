@@ -52,19 +52,15 @@ class ContributorsTablePager extends TablePager {
 					Linker::userLink( $row->cn_user_text, $row->cn_user_text ) . ' ' .
 					Linker::userToolLinks( $row->cn_user_text, $row->cn_user_text );
 				return $formatted;
-				break;
 			case 'cn_revision_count':
 				$formatted = $lang->formatNum( $row->cn_revision_count );
 				return $formatted;
-				break;
 			case 'cn_first_edit':
 				$formatted = $lang->timeanddate( $row->cn_first_edit, true );
 				return $formatted;
-				break;
 			case 'cn_last_edit':
 				$formatted = $lang->timeanddate( $row->cn_last_edit, true );
 				return $formatted;
-				break;
 		}
 	}
 
