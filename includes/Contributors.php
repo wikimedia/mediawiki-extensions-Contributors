@@ -84,7 +84,7 @@ class Contributors {
 	 * @param Title|null $target
 	 * @param array $options
 	 */
-	function __construct( Title $target = null, array $options ) {
+	public function __construct( ?Title $target, array $options ) {
 		$this->setOptions( $options );
 		if ( $target ) {
 			$this->setTarget( $target );
@@ -118,7 +118,6 @@ class Contributors {
 	 *
 	 * @return array Contributors
 	 */
-
 	private function getThresholdedContributors() {
 		$dbr = wfGetDB( DB_REPLICA );
 		$opts = $this->getOptions();
