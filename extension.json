@@ -33,8 +33,8 @@
 		"Contributors": "includes/Contributors.php",
 		"SpecialContributors": "includes/SpecialContributors.php",
 		"ContributorsHooks": "includes/ContributorsHooks.php",
-		"ContributorsTablePager":"includes/ContributorsTablePager.php",
-		"ApiQueryContributors":"api/ApiQueryCnContributors.php"
+		"ContributorsTablePager": "includes/ContributorsTablePager.php",
+		"ApiQueryContributors": "api/ApiQueryCnContributors.php"
 	},
 	"Hooks": {
 		"PageSaveComplete": "ContributorsHooks::onPageSaveComplete",
