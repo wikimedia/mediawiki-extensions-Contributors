@@ -36,6 +36,7 @@ class PopulateContributorsTable extends Maintenance {
 		$end += $this->mBatchSize - 1;
 		$blockStart = $start;
 		$blockEnd = $start + $this->mBatchSize - 1;
+		$actorMigration = ActorMigration::newMigration()->getJoin( 'rev_user' );
 		while ( $blockEnd <= $end ) {
 			$this->output( "Getting Contributor's data..\n" );
 			$cond = [
@@ -43,17 +44,22 @@ class PopulateContributorsTable extends Maintenance {
 				$dbr->bitAnd( 'rev_deleted', Revision::DELETED_USER ) . ' = 0'
 			];
 			$res = $dbr->select(
-				'revision',
-				[ 'COUNT(*) AS cn_revision_count', 'rev_user', 'rev_user_text', 'rev_page',
-					'MIN(rev_timestamp) AS cn_first_edit', 'MAX(rev_timestamp) AS cn_last_edit' ],
+				[ 'revision' ] + $actorMigration['tables'],
+				$actorMigration['fields'] + [ 'COUNT(*) AS cn_revision_count',
+					'rev_page', 'MIN(rev_timestamp) AS cn_first_edit',
+					'MAX(rev_timestamp) AS cn_last_edit' ],
 				$cond,
 				__METHOD__,
-				[ 'GROUP BY' => [ 'rev_page', 'rev_user', 'rev_user_text' ] ]
+				[ 'GROUP BY' => [ 'rev_page', 'rev_user', 'rev_user_text' ] ],
+				$actorMigration['joins']
 			);
 
 			$this->output( "Writing data into Contributors Table.. \n" );
 
 			foreach ( $res as $row ) {
+				if ( !isset( $row->rev_user ) ) {
+					$row->rev_user = 0;
+				}
 				$dbw->upsert(
 					'contributors',
 					[
