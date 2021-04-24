@@ -157,7 +157,8 @@ class SpecialContributors extends IncludableSpecialPage {
 		$target = $this->contributorsClass->getTarget();
 		$articleId = $this->contributorsClass->getTarget()->getArticleID();
 		$opts = $this->contributorsClass->getOptions();
-		$link = Linker::linkKnown( $this->contributorsClass->getTarget() );
+		$linkRenderer = $this->getLinkRenderer();
+		$link = $linkRenderer->makeKnownLink( $this->contributorsClass->getTarget() );
 		$this->getOutput()->addHTML( '<h2>' . $this->msg( 'contributors-subtitle' )
 				->rawParams( $link )->escaped() . '</h2>' );
 
