@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"David1010",
-			"MIKHEIL"
+			"MIKHEIL",
+			"Გიო ოქრო"
 		]
 	},
 	"contributors": "ავტორები",
@@ -14,5 +15,6 @@
 	"contributors-others": "და {{PLURAL:$1|ერთი სხვა|$1 სხვა}}",
 	"contributors-badtitle": "არასწორი სათაური.",
 	"contributors-nosuchpage": "გვერდი „$1“ არ არსებობს.",
-	"contributors-filterip": "IP მისამართების დამალვა"
+	"contributors-filterip": "IP მისამართების დამალვა",
+	"contributors-name": "მომხმარებლის სახელი"
 }
