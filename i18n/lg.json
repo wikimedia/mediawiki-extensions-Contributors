@@ -11,8 +11,6 @@
 	"contributors-target": "Mutwe:",
 	"contributors-submit": "Laga",
 	"contributors-subtitle": "Abasinz'okukola ku $1",
-	"contributors-others-long": "Waliwo {{PLURAL:$1|omulala omu akola|abalala $1 abakola}} ku lupapula luno.",
-	"contributors-others": "ko {{PLURAL:$1|n'omulala omu|n'abalala ba $1}}",
 	"contributors-badtitle": "Omutwe ogwo tegukkirizibwa.",
 	"contributors-nosuchpage": "Tewali lupapula $1."
 }

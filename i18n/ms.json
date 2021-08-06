@@ -11,8 +11,6 @@
 	"contributors-target": "Tajuk:",
 	"contributors-submit": "Tunjukkan",
 	"contributors-subtitle": "Penyumbang utama kepada $1",
-	"contributors-others-long": "Terdapat {{PLURAL:$1|seorang lagi penyumbang|$1 orang lagi penyumbang}} kepada laman ini.",
-	"contributors-others": "dan {{PLURAL:$1|seorang lain|$1 orang lain}}",
 	"contributors-badtitle": "Tajuk tidak sah.",
 	"contributors-nosuchpage": "Laman $1 tidak wujud."
 }

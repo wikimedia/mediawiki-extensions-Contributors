@@ -12,8 +12,6 @@
 	"contributors-target": "Naslov:",
 	"contributors-submit": "Prikaži",
 	"contributors-subtitle": "Glavni doprinositelji za $1",
-	"contributors-others-long": "{{PLURAL:$1|Postoji još jedan doprinositelj|Postoje još $1 drugih doprinositelja}} ove stranice.",
-	"contributors-others": "i {{PLURAL:$1|još jedan|$1 ostala|$1 ostalih}}",
 	"contributors-badtitle": "Pogrešan naslov.",
 	"contributors-nosuchpage": "Stranica $1 ne postoji.",
 	"contributors-filterip": "Sakrij IP adrese",

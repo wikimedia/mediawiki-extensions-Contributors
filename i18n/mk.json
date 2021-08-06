@@ -11,8 +11,6 @@
 	"contributors-target": "Наслов:",
 	"contributors-submit": "Прикажи",
 	"contributors-subtitle": "Главни учесници на $1",
-	"contributors-others-long": "{{PLURAL:$1|Постои уште еден учесник|постојат уште $1 други учесници}} на оваа страница.",
-	"contributors-others": "и {{PLURAL:$1|уште еден|$1 други}}",
 	"contributors-badtitle": "Погрешен наслов.",
 	"contributors-nosuchpage": "Страницата $1 не постои.",
 	"contributors-filterip": "Скриј IP-адреси",

@@ -11,8 +11,6 @@
 	"contributors-target": "Titul:",
 	"contributors-submit": "Monstrar",
 	"contributors-subtitle": "Principal contributores por $1",
-	"contributors-others-long": "{{PLURAL:$1|Vi un altri contributor|Hay $1 altri contributores}} por ti págine.",
-	"contributors-others": "e {{PLURAL:$1|un altri|altri $1}}",
 	"contributors-badtitle": "Titul ínvalid.",
 	"contributors-nosuchpage": "Li págine $1 ne existe.",
 	"contributors-filterip": "Ocultar adresses de IP",

@@ -11,8 +11,6 @@
 	"contributors-target": "Tittolo:",
 	"contributors-submit": "Mostra",
 	"contributors-subtitle": "Contributoî prinçipæ de $1",
-	"contributors-others-long": "A paggina a l'è stæta modificâ anche da {{PLURAL:$1|un atro contributô|$1 atri contributoî}}.",
-	"contributors-others": "e {{PLURAL:$1|un atro|$1 atri}}",
 	"contributors-badtitle": "Tittolo non vallido.",
 	"contributors-nosuchpage": "A paggina $1 a no l'existe.",
 	"contributors-filterip": "Ascondi i adressi IP",

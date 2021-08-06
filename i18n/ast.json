@@ -11,8 +11,6 @@
 	"contributors-target": "Títulu:",
 	"contributors-submit": "Amosar",
 	"contributors-subtitle": "Principales collaboradores de $1",
-	"contributors-others-long": "Hai {{PLURAL:$1|otru collaborador|otros $1 collaboradores}} d'esta páxina.",
-	"contributors-others": "y {{PLURAL:$1|otru|otros $1}}",
 	"contributors-badtitle": "Títulu inválidu.",
 	"contributors-nosuchpage": "La páxina $1 nun esiste.",
 	"contributors-filterip": "Tapecer les direiciones IP",

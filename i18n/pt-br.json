@@ -14,8 +14,6 @@
 	"contributors-target": "Título:",
 	"contributors-submit": "Exibir",
 	"contributors-subtitle": "Principais contribuidores de $1",
-	"contributors-others-long": "Ainda há {{PLURAL:$1|outro contribuidor|outros $1 contribuidores}} para esta página.",
-	"contributors-others": "e {{PLURAL:$1|um outro|$1 outros}}",
 	"contributors-badtitle": "Título inválido.",
 	"contributors-nosuchpage": "O artigo $1 não existe.",
 	"contributors-filterip": "Ocultar endereços IP",

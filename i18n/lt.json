@@ -12,8 +12,6 @@
 	"contributors-target": "Pavadinimas:",
 	"contributors-submit": "Rodyti",
 	"contributors-subtitle": "Pagrindiniai $1 autoriai",
-	"contributors-others-long": "Yra {{PLURAL:$1|vienas šio puslapio autorius|$1 šio puslapio autoriai|$1 šio puslapio autorių}}.",
-	"contributors-others": "ir {{PLURAL:$1|vienas kitas|$1 kiti|$1 kitų}}",
 	"contributors-badtitle": "Neleistinas pavadinimas.",
 	"contributors-nosuchpage": "Puslapis $1 neegzistuoja.",
 	"contributors-filterip": "Slėpti IP adresus",

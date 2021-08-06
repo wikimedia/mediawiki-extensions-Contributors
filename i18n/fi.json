@@ -18,8 +18,6 @@
 	"contributors-target": "Sivun otsikko",
 	"contributors-submit": "Näytä",
 	"contributors-subtitle": "Sivun $1 pääasialliset muokkaajat",
-	"contributors-others-long": "Tätä sivua on muokannut {{PLURAL:$1|yksi muu käyttäjä|$1 muuta käyttäjää}}.",
-	"contributors-others": "ja {{PLURAL:$1|yksi muu|$1 muuta}}",
 	"contributors-badtitle": "Epäkelpo otsikko.",
 	"contributors-nosuchpage": "Sivua $1 ei ole olemassa.",
 	"contributors-filterip": "Piilota IP-osoitteet",

@@ -11,8 +11,6 @@
 	"contributors-target": "Titulo:",
 	"contributors-submit": "Hilingón",
 	"contributors-subtitle": "Mga pangenot na kontributor sa $1",
-	"contributors-others-long": "Igwang {{PLURAL:$1|pang mga kontributor|iba $1 pang kontributor}} sa páhinang ini.",
-	"contributors-others": "asin {{PLURAL:$1|an iba|$1 iba pa}}",
 	"contributors-badtitle": "Salang titulo.",
 	"contributors-nosuchpage": "An pahina $1 bakong eksistido."
 }

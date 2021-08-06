@@ -10,8 +10,6 @@
 	"contributors-target": "Titro :",
 	"contributors-submit": "Montrar",
 	"contributors-subtitle": "Contributors principâls de $1",
-	"contributors-others-long": "Y at {{PLURAL:$1|$1 ôtro contributor|$1 ôtros contributors}} por ceta pâge.",
-	"contributors-others": "et $1 ôtro{{PLURAL:$1||s}}",
 	"contributors-badtitle": "Titro envalido.",
 	"contributors-nosuchpage": "La pâge $1 ègziste pas."
 }

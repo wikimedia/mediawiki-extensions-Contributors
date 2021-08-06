@@ -16,8 +16,6 @@
 	"contributors-target": "Наслов:",
 	"contributors-submit": "Прикажи",
 	"contributors-subtitle": "Главни доприносиоци странице $1",
-	"contributors-others-long": "{{PLURAL:$1|Постоји још један доприносиоц|постоје још $1 доприносиоца}} на овој страници.",
-	"contributors-others": "и {{PLURAL:$1|једна друга|$1 друге|$1 других}}",
 	"contributors-badtitle": "Неважећи наслов.",
 	"contributors-nosuchpage": "Страница $1 не постоји."
 }

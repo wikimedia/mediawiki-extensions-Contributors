@@ -11,8 +11,6 @@
 	"contributors-target": "Judul:",
 	"contributors-submit": "Témbongkeun",
 	"contributors-subtitle": "Kontributor utama $1",
-	"contributors-others-long": "Aya {{PLURAL:$1|hiji kontributor séjénna}} pikeun kaca ieu.",
-	"contributors-others": "sarta {{PLURAL:$1|hiji lianna|$1 lianna}}",
 	"contributors-badtitle": "Judulna teu bener.",
 	"contributors-nosuchpage": "Kaca $1 euweuh."
 }

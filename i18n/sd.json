@@ -13,8 +13,6 @@
 	"contributors-target": "عنوان:",
 	"contributors-submit": "ڏيکاريو",
 	"contributors-subtitle": "$1 جا مک ڀاڱيدار",
-	"contributors-others-long": "ھن صفحي {{PLURAL:$1|جو ھڪ ٻيو ڀاڱيدار آھي|جا $1 ٻيا ڀاڱيدارَ آھن}}.",
-	"contributors-others": "۽ {{PLURAL:$1|ھڪ ٻيو|$1 ٻيا}}",
 	"contributors-badtitle": "ناقابلِڪار عنوان.",
 	"contributors-nosuchpage": "$1 صفحو وجود نٿو رکي.",
 	"contributors-filterip": "آءِپي پتا لڪايو",

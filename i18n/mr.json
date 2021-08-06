@@ -12,8 +12,6 @@
 	"contributors-target": "शीर्षक",
 	"contributors-submit": "दाखवा",
 	"contributors-subtitle": "$1चे मुख्य योगदानकर्ते",
-	"contributors-others-long": "या पानास {{PLURAL:$1|एक दुसरा योगदानकर्ता आहे|$1 दुसरे योगदानकर्ते आहेत}}.",
-	"contributors-others": "आणि {{PLURAL:$1|एक दुसरा|$1 दुसरे}}",
 	"contributors-badtitle": "अयोग्य शीर्षक",
 	"contributors-nosuchpage": "पान $1 अस्तीत्वात नाही.",
 	"contributors-filterip": "अंकपत्ते लपवा",

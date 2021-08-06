@@ -17,8 +17,6 @@
 	"contributors-target": "標題：",
 	"contributors-submit": "顯示",
 	"contributors-subtitle": "$1的主要貢獻者",
-	"contributors-others-long": "在這一頁中還有$1位更多的貢獻者。",
-	"contributors-others": "以及另外$1位",
 	"contributors-badtitle": "不正確的標題。",
 	"contributors-nosuchpage": "條目$1不存在。",
 	"contributors-filterip": "隱藏IP地址",

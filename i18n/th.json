@@ -13,8 +13,6 @@
 	"contributors-target": "ชื่อเรื่อง:",
 	"contributors-submit": "แสดง",
 	"contributors-subtitle": "ผู้มีส่วนร่วมหลักสำหรับ $1",
-	"contributors-others-long": "มี{{PLURAL:$1|ผู้มีส่วนร่วมอื่นหนึ่งคน|ผู้มีส่วนร่วมอื่น $1 คน}}สำหรับหน้านี้",
-	"contributors-others": "และ{{PLURAL:$1|อีกหนึ่งคน|อีก $1 คน}}",
 	"contributors-badtitle": "ชื่อเรื่องไม่ถูกต้อง",
 	"contributors-nosuchpage": "ไม่มีหน้า $1 อยู่"
 }

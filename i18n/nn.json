@@ -13,8 +13,6 @@
 	"contributors-target": "Tittel:",
 	"contributors-submit": "Vis",
 	"contributors-subtitle": "Hovudbidragsytarar til $1",
-	"contributors-others-long": "Det finst {{PLURAL:$1|éin annan bidragsytar|$1 andre bidragsytarar til}} denne sida.",
-	"contributors-others": "og {{PLURAL:$1|éin annan|$1 andre}}",
 	"contributors-badtitle": "Ugyldig tittel.",
 	"contributors-nosuchpage": "Sida $1 finst ikkje."
 }
