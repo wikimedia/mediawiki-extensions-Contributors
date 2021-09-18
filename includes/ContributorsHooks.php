@@ -116,7 +116,7 @@ class ContributorsHooks {
 	 * @throws Exception
 	 */
 	public static function onPageSaveComplete( WikiPage $wikiPage, UserIdentity $user ) {
-		$dbw = wfGetDB( DB_MASTER );
+		$dbw = wfGetDB( DB_PRIMARY );
 		$dbr = wfGetDB( DB_REPLICA );
 		$pageId = $wikiPage->getId();
 		$userId = $user->getId();
@@ -188,7 +188,7 @@ class ContributorsHooks {
 				!( $visibilityChangeMap[$id]['oldBits'] & Revision::DELETED_USER ) &&
 				( $visibilityChangeMap[$id]['newBits'] & Revision::DELETED_USER )
 			) {
-				$dbw = wfGetDB( DB_MASTER );
+				$dbw = wfGetDB( DB_PRIMARY );
 				$row = $dbw->selectRow(
 					'contributors',
 					'cn_revision_count',
@@ -217,14 +217,14 @@ class ContributorsHooks {
 				( $visibilityChangeMap[$id]['oldBits'] & Revision::DELETED_USER ) &&
 				!( $visibilityChangeMap[$id]['newBits'] & Revision::DELETED_USER )
 			) {
-				$dbw = wfGetDB( DB_MASTER );
+				$dbw = wfGetDB( DB_PRIMARY );
 				$row = $dbw->selectRow(
 					'contributors',
 					'cn_revision_count',
 					$conds,
 					__METHOD__
 				);
-				$dbw = wfGetDB( DB_MASTER );
+				$dbw = wfGetDB( DB_PRIMARY );
 				if ( !$row ) {
 					$dbw->insert(
 						'contributors',
