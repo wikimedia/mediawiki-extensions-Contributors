@@ -3,6 +3,7 @@
 		"authors": [
 			"Ebraminio",
 			"FarsiNevis",
+			"Jeeputer",
 			"Mjbmr",
 			"Reza1615",
 			"ZxxZxxZ"
@@ -16,5 +17,12 @@
 	"contributors-submit": "نمایش",
 	"contributors-subtitle": "مشارکت‌کنندگان اصلی $1",
 	"contributors-badtitle": "عنوان نامعتبر.",
-	"contributors-nosuchpage": "صفحهٔ $1 وجود ندارد."
+	"contributors-nosuchpage": "صفحهٔ $1 وجود ندارد.",
+	"contributors-filterip": "نهفتن نشانی‌های آی‌پی",
+	"contributors-name": "نام کاربری",
+	"contributors-revisions": "شمار نسخه‌ها",
+	"contributors-first-edit": "تاریخ نخستین ویرایش",
+	"contributors-last-edit": "تاریخ آخرین ویرایش",
+	"contributors-add-subpages": "افزودن زیرصفحه",
+	"apihelp-query+contributors-example-1": "نمایش مشارکت‌کنندگان صفحهٔ اصلی"
 }
