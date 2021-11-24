@@ -15,11 +15,11 @@
 	"contributors-subtitle": "$1 جا مک ڀاڱيدار",
 	"contributors-badtitle": "ناقابلِڪار عنوان.",
 	"contributors-nosuchpage": "$1 صفحو وجود نٿو رکي.",
-	"contributors-filterip": "آءِپي پتا لڪايو",
+	"contributors-filterip": "آئپي پتا لڪايو",
 	"contributors-name": "واپرائيندڙ-نانءُ",
 	"contributors-revisions": "دورن جو تعداد",
 	"contributors-first-edit": "پھرين سنوار جي تاريخ",
 	"contributors-last-edit": "آخري سنوار جي تاريخ",
-	"contributors-add-subpages": "ماتحت صفحا وجھو",
+	"contributors-add-subpages": "ماتحت-صفحا شامل ڪريو",
 	"apihelp-query+contributors-example-1": "مک صفحي جا ڀاڱيدار ڏيکاريو"
 }
