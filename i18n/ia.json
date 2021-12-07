@@ -14,5 +14,12 @@
 	"contributors-others-long": "Iste pagina ha {{PLURAL:$1|un altere contributor|$1 altere contributores}}.",
 	"contributors-others": "e {{PLURAL:$1|un altere|$1 alteres}}",
 	"contributors-badtitle": "Titulo invalide.",
-	"contributors-nosuchpage": "Le pagina $1 non existe."
+	"contributors-nosuchpage": "Le pagina $1 non existe.",
+	"contributors-filterip": "Celar adresses IP",
+	"contributors-name": "Nomine de usator",
+	"contributors-revisions": "Numero de versiones",
+	"contributors-first-edit": "Data del prime modification",
+	"contributors-last-edit": "Data del ultime modification",
+	"contributors-add-subpages": "Adder subpaginas",
+	"apihelp-query+contributors-example-1": "Monstrar le contributores del pagina principal"
 }

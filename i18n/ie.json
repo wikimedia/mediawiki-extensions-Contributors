@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Renan"
+		]
+	},
+	"contributors": "Contributores",
+	"contributors-desc": "Ordina li principal contributores por un págine",
+	"contributors-toolbox": "Contributores del págine",
+	"contributors-legend": "Liste de principal contributores por un págine",
+	"contributors-target": "Titul:",
+	"contributors-submit": "Monstrar",
+	"contributors-subtitle": "Principal contributores por $1",
+	"contributors-badtitle": "Titul ínvalid.",
+	"contributors-nosuchpage": "Li págine $1 ne existe.",
+	"contributors-filterip": "Ocultar adresses de IP",
+	"contributors-name": "Nómine de usator",
+	"contributors-revisions": "Númere de revisiones",
+	"contributors-first-edit": "Date de prim redaction",
+	"contributors-last-edit": "Date de ultim redaction",
+	"contributors-add-subpages": "Addir subpágines",
+	"apihelp-query+contributors-example-1": "Monstrar contributores por Principal págine"
+}
