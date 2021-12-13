@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf"
+		]
+	},
+	"contributors": "Cuntribbutura",
+	"contributors-toolbox": "Cuntribbutura â pàggina",
+	"contributors-target": "Tìtulu:",
+	"contributors-submit": "Ammustra",
+	"contributors-subtitle": "Cuntribbutura principali di $1",
+	"contributors-badtitle": "Tìtulu nun vàliddu.",
+	"contributors-nosuchpage": "La pàggina $1 nun esisti.",
+	"contributors-filterip": "Ammuccia li nnirizzi IP",
+	"contributors-name": "Nomu utenti",
+	"contributors-last-edit": "Data di l'ùrtimu canciamentu",
+	"contributors-add-subpages": "Agghiunci suttapàggini",
+	"apihelp-query+contributors-example-1": "Ammustra li cuntribbutura â pàggina principali"
+}

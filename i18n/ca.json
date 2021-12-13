@@ -4,12 +4,13 @@
 			"Aleator",
 			"Paucabot",
 			"SMP",
-			"Toniher"
+			"Toniher",
+			"Mguix"
 		]
 	},
 	"contributors": "Editors",
 	"contributors-desc": "Resumeix les principals contribucions en una pàgina",
-	"contributors-toolbox": "Principals editors",
+	"contributors-toolbox": "Col·laboradors de la pàgina",
 	"contributors-legend": "Llista dels principals editors d'una pàgina",
 	"contributors-target": "Títol:",
 	"contributors-submit": "Mostra",

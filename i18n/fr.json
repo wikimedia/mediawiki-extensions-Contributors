@@ -8,7 +8,8 @@
 			"PieRRoMaN",
 			"Sherbrooke",
 			"Urhixidur",
-			"Wladek92"
+			"Wladek92",
+			"Verdy p"
 		]
 	},
 	"contributors": "Contributeurs",
@@ -16,7 +17,7 @@
 	"contributors-toolbox": "Contributeurs à la page",
 	"contributors-legend": "Lister les principaux contributeurs de la page",
 	"contributors-target": "Titre :",
-	"contributors-submit": "Montrer",
+	"contributors-submit": "Afficher",
 	"contributors-subtitle": "Principaux contributeurs de $1",
 	"contributors-others-long": "Il y a {{PLURAL:$1|$1 autre contributeur|$1 autres contributeurs}} pour cette page.",
 	"contributors-others": "et $1 autre{{PLURAL:$1||s}}",

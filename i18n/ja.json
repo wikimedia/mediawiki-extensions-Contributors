@@ -5,7 +5,8 @@
 			"JtFuruhata",
 			"Omotecho",
 			"Otokoume",
-			"Shirayuki"
+			"Shirayuki",
+			"What here area team"
 		]
 	},
 	"contributors": "投稿者",
@@ -22,7 +23,7 @@
 	"contributors-filterip": "IPアドレスを表示しない",
 	"contributors-name": "利用者名",
 	"contributors-revisions": "版数",
-	"contributors-first-edit": "初回の編集日時",
+	"contributors-first-edit": "初回編集日時",
 	"contributors-last-edit": "最終編集日時",
 	"contributors-add-subpages": "下位ページを追加",
 	"apihelp-query+contributors-example-1": "投稿者名をメインページに表示"

@@ -8,7 +8,8 @@
 			"Sayginer",
 			"Srhat",
 			"Suelnur",
-			"Vito Genovese"
+			"Vito Genovese",
+			"MuratTheTurkish"
 		]
 	},
 	"contributors": "Katkıda bulunanlar",
@@ -21,12 +22,12 @@
 	"contributors-others-long": "Bu sayfada {{PLURAL:$1|bir diğer kullanıcı|$ diğer kullanıcı}} daha var.",
 	"contributors-others": "ve {{PLURAL:$1|bir diğer|$1 diğer}}",
 	"contributors-badtitle": "Geçersiz başlık.",
-	"contributors-nosuchpage": "$1 adlı sayfa mevcut değil.",
+	"contributors-nosuchpage": "$1 sayfası mevcut değil.",
 	"contributors-filterip": "IP adreslerini gizle",
 	"contributors-name": "Kullanıcı adı",
 	"contributors-revisions": "Sürüm sayısı",
 	"contributors-first-edit": "İlk değişiklik tarihi",
 	"contributors-last-edit": "Son değişiklik tarihi",
-	"contributors-add-subpages": "Altsayfa ekle",
-	"apihelp-query+contributors-example-1": "Anasayfa'ya katkıda bulunanları göster"
+	"contributors-add-subpages": "Alt sayfa ekle",
+	"apihelp-query+contributors-example-1": "Anasayfaya katkıda bulunanları göster"
 }
