@@ -111,7 +111,7 @@ class Contributors {
 				'GROUP BY' => 'cn_user_text',
 				'ORDER BY' => 'cn_revision_count DESC',
 			] );
-		if ( $res && $dbr->numRows( $res ) > 0 ) {
+		if ( $res->numRows() > 0 ) {
 			foreach ( $res as $row ) {
 				$contributors[ $row->cn_user_text ] = [
 					$row->cn_user_text,
