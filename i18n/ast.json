@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Xuacu"
+			"Xuacu",
+			"Fitoschido"
 		]
 	},
 	"contributors": "Collaboradores",
@@ -15,7 +16,7 @@
 	"contributors-others": "y {{PLURAL:$1|otru|otros $1}}",
 	"contributors-badtitle": "Títulu inválidu.",
 	"contributors-nosuchpage": "La páxina $1 nun esiste.",
-	"contributors-filterip": "Tapecer les direiciones IP",
+	"contributors-filterip": "Anubrir les señes IP",
 	"contributors-name": "Nome d'usuariu",
 	"contributors-revisions": "Númberu de revisiones",
 	"contributors-first-edit": "Data de la primera edición",
