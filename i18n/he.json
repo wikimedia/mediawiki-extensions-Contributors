@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Guycn2",
 			"Rotemliss",
 			"YaronSh"
@@ -13,7 +14,7 @@
 	"contributors-target": "כותרת:",
 	"contributors-submit": "הצגה",
 	"contributors-subtitle": "תורמים ראשיים לדף $1",
-	"contributors-badtitle": "כותרת בלתי תקינה.",
+	"contributors-badtitle": "כותרת בלתי־תקינה.",
 	"contributors-nosuchpage": "הדף $1 אינו קיים.",
 	"contributors-filterip": "הסתרת כתובות IP",
 	"contributors-name": "שם משתמש",
