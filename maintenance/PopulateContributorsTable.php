@@ -91,5 +91,5 @@ class PopulateContributorsTable extends Maintenance {
 	}
 }
 
-$maintClass = "PopulateContributorsTable";
+$maintClass = PopulateContributorsTable::class;
 require_once RUN_MAINTENANCE_IF_MAIN;
