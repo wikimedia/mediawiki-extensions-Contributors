@@ -6,7 +6,8 @@
 			"Liuxinyu970226",
 			"Purodha",
 			"Shirayuki",
-			"Umherirrender"
+			"Umherirrender",
+			"Verdy p"
 		]
 	},
 	"contributors": "{{doc-special|Contributors}}\n{{Identical|Contributor}}",
@@ -24,7 +25,7 @@
 	"contributors-name": "Name of the field for listing the Username of all the contributors\n{{Identical|Username}}",
 	"contributors-revisions": "Name of the field for listing the number of revisions made by a contributor",
 	"contributors-first-edit": "Name of the field for listing the date of contributor's first edit to a page",
-	"contributors-last-edit": "Name of the field for listing the date of contributor's last edit to a page",
+	"contributors-last-edit": "Name of the field for listing the date of contributor's last edit to a page.\n{{Identical/Last edit}}",
 	"contributors-add-subpages": "Checkbox label in the form",
 	"apihelp-query+contributors-example-1": "Show the details of the contributors to a page\n{{doc-apihelp-example|query+contributors}}"
 }
