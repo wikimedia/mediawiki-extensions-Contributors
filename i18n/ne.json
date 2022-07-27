@@ -3,7 +3,8 @@
 		"authors": [
 			"Bhawani Gautam",
 			"Bhawani Gautam Rhk",
-			"बिप्लब आनन्द"
+			"बिप्लब आनन्द",
+			"Bada Kaji"
 		]
 	},
 	"contributors": "योगदानकर्ताहरु:",
@@ -11,7 +12,7 @@
 	"contributors-toolbox": "मुख्य योगदाताहरु",
 	"contributors-legend": "पृष्ठका मुख्य योगदाताहरुको सूची",
 	"contributors-target": "शीर्षक:",
-	"contributors-submit": "हेर्ने",
+	"contributors-submit": "देखाउनुहोस्",
 	"contributors-subtitle": "$1 मा मुख्य रुपमा योगदान दिनेहरु",
 	"contributors-badtitle": "अमान्य शीर्षक।",
 	"contributors-nosuchpage": "$1 पृष्ठ अस्तित्वमा छैन ।"
