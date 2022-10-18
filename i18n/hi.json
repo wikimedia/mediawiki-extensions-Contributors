@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Kaustubh",
+			"Saurmandal",
 			"Sfic",
 			"Siddhartha Ghai"
 		]
 	},
-	"contributors": "योगदानकर्ता",
+	"contributors": "योगदानकर्ताएँ",
 	"contributors-desc": "पन्नेके मुख्य योगदानकर्ताओंकी संक्षिप्त सूची",
 	"contributors-toolbox": "पृष्ठ योगदानकर्ता",
 	"contributors-legend": "पन्ने के मुख्य योगदानकर्ताओंकी सूची बनायें",
