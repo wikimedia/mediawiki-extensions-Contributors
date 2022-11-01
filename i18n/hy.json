@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kareyac"
+			"Kareyac",
+			"Սերգեյ Սաֆարյան"
 		]
 	},
-	"contributors-submit": "Ցուցադրել"
+	"contributors-submit": "Ցուցադրել",
+	"contributors-name": "Օգտանուն"
 }
