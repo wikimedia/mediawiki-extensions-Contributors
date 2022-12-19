@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Anakmalaysia"
+			"Anakmalaysia",
+			"Tofeiku"
 		]
 	},
 	"contributors": "Penyumbang",
 	"contributors-desc": "Membuat intisari penyumbang utama sesuatu laman",
-	"contributors-toolbox": "Penyumbang utama",
+	"contributors-toolbox": "Penyumbang laman",
 	"contributors-legend": "Senaraikan penyumbang utama kepada laman",
 	"contributors-target": "Tajuk:",
 	"contributors-submit": "Tunjukkan",
