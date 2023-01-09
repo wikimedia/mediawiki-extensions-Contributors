@@ -6,9 +6,9 @@
 		]
 	},
 	"contributors": "Sodelavci",
-	"contributors-desc": "Povzame glavne sodelavce na strani",
+	"contributors-desc": "Povzame glavne sodelavce strani",
 	"contributors-toolbox": "Sodelavci strani",
-	"contributors-legend": "Navedi glavne sodelavce na strani",
+	"contributors-legend": "Navedi glavne sodelavce strani",
 	"contributors-target": "Naslov:",
 	"contributors-submit": "Prikaži",
 	"contributors-subtitle": "Glavni sodelavci $1",
@@ -16,5 +16,11 @@
 	"contributors-others": "in $1 {{PLURAL:$1|drug|druga|drugi|drugih}}",
 	"contributors-badtitle": "Neveljaven naslov.",
 	"contributors-nosuchpage": "Stran $1 ne obstaja.",
-	"contributors-name": "Uporabniško ime"
+	"contributors-filterip": "Skrij IP-naslove",
+	"contributors-name": "Uporabniško ime",
+	"contributors-revisions": "Število redakcij",
+	"contributors-first-edit": "Datum prvega urejanja",
+	"contributors-last-edit": "Datum zadnjega urejanja",
+	"contributors-add-subpages": "Dodaj podstrani",
+	"apihelp-query+contributors-example-1": "Prikaži sodelavce Glavne strani"
 }
