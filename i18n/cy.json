@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pwyll"
+			"Pwyll",
+			"Afalau"
 		]
 	},
 	"contributors": "Cyfranwyr",
 	"contributors-desc": "Yn crynhoi y prif gyfranwyr at dudalen",
-	"contributors-toolbox": "Prif gyfranwyr",
+	"contributors-toolbox": "Cyfranwyr y dudalen",
 	"contributors-legend": "Rhestr o'r prif gyfranwyr at dudalen",
 	"contributors-target": "Teitl:",
 	"contributors-submit": "Dangos",
