@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Pwyll",
-			"Afalau"
+			"Afalau",
+			"JonesT143"
 		]
 	},
 	"contributors": "Cyfranwyr",
@@ -14,6 +15,11 @@
 	"contributors-subtitle": "Prif gyfranwyr at $1",
 	"contributors-others-long": "Mae yna {{PLURAL:$1|un cyfrannwr arall|$1 cyfranwyr eraill}} at y dudalen hon.",
 	"contributors-others": "ac {{PLURAL:$1|un arall|$1 eraill}}",
-	"contributors-badtitle": "Teitl annilys",
-	"contributors-nosuchpage": "Nid yw'r dudalen $1 yn bod."
+	"contributors-badtitle": "Teitl annilys.",
+	"contributors-nosuchpage": "Nid yw'r dudalen $1 yn bodoli.",
+	"contributors-filterip": "Cuddio'r cyfeiriadau IP",
+	"contributors-name": "Enw defnyddiwr",
+	"contributors-first-edit": "Dyddiad y golygiad cyntaf",
+	"contributors-last-edit": "Dyddiad y golygiad diwethaf",
+	"contributors-add-subpages": "Ychwanegu is-dudalennau"
 }
