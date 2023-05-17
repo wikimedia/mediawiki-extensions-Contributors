@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\Revision\RevisionRecord;
+
 if ( getenv( 'MW_INSTALL_PATH' ) !== false ) {
 	require_once getenv( 'MW_INSTALL_PATH' ) . '/maintenance/Maintenance.php';
 } else {
@@ -41,7 +43,7 @@ class PopulateContributorsTable extends Maintenance {
 			$this->output( "Getting Contributor's data..\n" );
 			$cond = [
 				"rev_page BETWEEN $blockStart AND $blockEnd",
-				$dbr->bitAnd( 'rev_deleted', Revision::DELETED_USER ) . ' = 0'
+				$dbr->bitAnd( 'rev_deleted', RevisionRecord::DELETED_USER ) . ' = 0'
 			];
 			$res = $dbr->select(
 				[ 'revision' ] + $actorMigration['tables'],
