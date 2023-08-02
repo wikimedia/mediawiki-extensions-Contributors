@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"contributors": "Doprinositelji",
+	"contributors-desc": "Daje kratki pregled glavnih doprinositelja na jednoj stranici",
+	"contributors-toolbox": "Doprinositelji",
+	"contributors-legend": "Prikazuj spisak glavnih doprinositelja na jednoj stranici",
+	"contributors-target": "Naslov:",
+	"contributors-submit": "Prikaži",
+	"contributors-subtitle": "Glavni doprinositelji za $1",
+	"contributors-badtitle": "Pogrešan naslov.",
+	"contributors-nosuchpage": "Stranica $1 ne postoji.",
+	"contributors-filterip": "Sakrij IP adrese",
+	"contributors-name": "Korisničko ime",
+	"contributors-revisions": "Broj izmjena",
+	"contributors-first-edit": "Datum prve izmjene",
+	"contributors-last-edit": "Datum posljednje izmjene",
+	"contributors-add-subpages": "Dodaj podstranice",
+	"apihelp-query+contributors-example-1": "Prikaži doprinositelje Glavne stranice"
+}
