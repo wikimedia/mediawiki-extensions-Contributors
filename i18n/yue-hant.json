@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"contributors": "貢獻者",
+	"contributors-desc": "將主要嘅參與者匯埋同一頁",
+	"contributors-toolbox": "版面貢獻者",
+	"contributors-legend": "列示呢篇文章嘅主要貢獻者",
+	"contributors-target": "標題:",
+	"contributors-submit": "顯示",
+	"contributors-subtitle": "$1嘅主要貢獻者",
+	"contributors-badtitle": "唔正確嘅標題。",
+	"contributors-nosuchpage": "文章$1唔存在。",
+	"contributors-filterip": "收埋IP地址",
+	"contributors-name": "用戶名",
+	"contributors-revisions": "修訂版本數",
+	"contributors-first-edit": "第一次編輯嘅日期",
+	"contributors-last-edit": "上次編輯嘅日期",
+	"contributors-add-subpages": "添加子頁面",
+	"apihelp-query+contributors-example-1": "顯示頭版貢獻人"
+}
