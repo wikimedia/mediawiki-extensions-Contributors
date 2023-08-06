@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+use MediaWiki\Revision\RevisionRecord;
 use MediaWiki\User\UserIdentity;
 
 /**
@@ -175,18 +177,20 @@ class ContributorsHooks {
 		array $ids,
 		array $visibilityChangeMap
 	) {
+		$revisionLookup = MediaWikiServices::getInstance()->getRevisionLookup();
 		foreach ( $ids as $id ) {
 			// TODO defer updates & transactions
-			$revision = Revision::newFromId( $id );
+			$revision = $revisionLookup->getRevisionById( $id );
+			$user = $revision->getUser( RevisionRecord::RAW );
 			$conds = [
 				'cn_page_id' => $title->getArticleID(),
-				'cn_user_id' => $revision->getUser( Revision::RAW ),
-				'cn_user_text' => $revision->getUserText( Revision::RAW )
+				'cn_user_id' => $user->getId(),
+				'cn_user_text' => $user->getName()
 			];
 
 			if (
-				!( $visibilityChangeMap[$id]['oldBits'] & Revision::DELETED_USER ) &&
-				( $visibilityChangeMap[$id]['newBits'] & Revision::DELETED_USER )
+				!( $visibilityChangeMap[$id]['oldBits'] & RevisionRecord::DELETED_USER ) &&
+				( $visibilityChangeMap[$id]['newBits'] & RevisionRecord::DELETED_USER )
 			) {
 				$dbw = wfGetDB( DB_PRIMARY );
 				$row = $dbw->selectRow(
@@ -214,8 +218,8 @@ class ContributorsHooks {
 					}
 				}
 			} elseif (
-				( $visibilityChangeMap[$id]['oldBits'] & Revision::DELETED_USER ) &&
-				!( $visibilityChangeMap[$id]['newBits'] & Revision::DELETED_USER )
+				( $visibilityChangeMap[$id]['oldBits'] & RevisionRecord::DELETED_USER ) &&
+				!( $visibilityChangeMap[$id]['newBits'] & RevisionRecord::DELETED_USER )
 			) {
 				$dbw = wfGetDB( DB_PRIMARY );
 				$row = $dbw->selectRow(
