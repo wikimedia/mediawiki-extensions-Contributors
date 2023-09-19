@@ -2,16 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"Assele",
-			"Ләйсән"
+			"Ләйсән",
+			"З. ӘЙЛЕ"
 		]
 	},
-	"contributors": "Өлөш индереүселәр",
-	"contributors-desc": "Биткә төп өлөш индереүселәрҙе билдәләй",
+	"contributors": "Авторҙар",
+	"contributors-desc": "Биткә төп авторҙарын билдәләй",
 	"contributors-toolbox": "Бит авторҙары",
-	"contributors-legend": "Биткә төп өлөш индереүселәр исемлеге",
-	"contributors-target": "Исем:",
+	"contributors-legend": "Биттең төп авторҙары исемлеген төҙөй",
+	"contributors-target": "Атама:",
 	"contributors-submit": "Күрһәтергә",
-	"contributors-subtitle": "$1 битенә төп өлөш индереүселәр",
-	"contributors-badtitle": "Исем дөрөҫ түгел.",
+	"contributors-subtitle": "$1 битенең төп авторҙары",
+	"contributors-badtitle": "Рөхсәт ителмәгән атама.",
 	"contributors-nosuchpage": "$1 бите юҡ."
 }
