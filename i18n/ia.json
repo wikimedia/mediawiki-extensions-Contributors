@@ -19,5 +19,6 @@
 	"contributors-first-edit": "Data del prime modification",
 	"contributors-last-edit": "Data del ultime modification",
 	"contributors-add-subpages": "Adder subpaginas",
-	"apihelp-query+contributors-example-1": "Monstrar le contributores del pagina principal"
+	"apihelp-query+contributors-example-1": "Monstrar le contributores del pagina principal",
+	"apihelp-query+contributors-param-titles": "Titulo del pagina pro le qual obtener le lista de contributores"
 }

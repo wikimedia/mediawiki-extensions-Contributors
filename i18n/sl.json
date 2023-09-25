@@ -20,5 +20,6 @@
 	"contributors-first-edit": "Datum prvega urejanja",
 	"contributors-last-edit": "Datum zadnjega urejanja",
 	"contributors-add-subpages": "Dodaj podstrani",
-	"apihelp-query+contributors-example-1": "Prikaži sodelavce Glavne strani"
+	"apihelp-query+contributors-example-1": "Prikaži sodelavce Glavne strani",
+	"apihelp-query+contributors-param-titles": "Naslov strani, za katero želite pridobiti seznam sodelavcev"
 }

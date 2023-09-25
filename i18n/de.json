@@ -21,5 +21,6 @@
 	"contributors-first-edit": "Datum der ersten Bearbeitung",
 	"contributors-last-edit": "Datum der letzten Bearbeitung",
 	"contributors-add-subpages": "Unterseiten hinzufügen",
-	"apihelp-query+contributors-example-1": "Zeigt Autoren der Hauptseite"
+	"apihelp-query+contributors-example-1": "Zeigt Autoren der Hauptseite",
+	"apihelp-query+contributors-param-titles": "Seitentitel, für den die Liste der Mitwirkenden abgerufen werden soll"
 }

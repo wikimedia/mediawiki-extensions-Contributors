@@ -22,5 +22,6 @@
 	"contributors-first-edit": "תאריך העריכה הראשונה",
 	"contributors-last-edit": "תאריך העריכה האחרונה",
 	"contributors-add-subpages": "הוספת דפי משנה",
-	"apihelp-query+contributors-example-1": "הצגת התורמים לעמוד הראשי"
+	"apihelp-query+contributors-example-1": "הצגת התורמים לעמוד הראשי",
+	"apihelp-query+contributors-param-titles": "כותרת הדף שצריך לקבל בעבורה את רשימת התורמים"
 }

@@ -19,5 +19,6 @@
 	"contributors-first-edit": "Датум на првото уредување",
 	"contributors-last-edit": "Датум на последното уредување",
 	"contributors-add-subpages": "Додај потстраници",
-	"apihelp-query+contributors-example-1": "Прикажи учесници на Главната страница"
+	"apihelp-query+contributors-example-1": "Прикажи учесници на Главната страница",
+	"apihelp-query+contributors-param-titles": "Наслов на страницата за која сакате да добиете список на учесници"
 }
