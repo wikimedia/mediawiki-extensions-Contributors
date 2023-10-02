@@ -27,5 +27,6 @@
 	"contributors-first-edit": "Date de la première modification",
 	"contributors-last-edit": "Date de la dernière modification",
 	"contributors-add-subpages": "Ajouter des sous-pages",
-	"apihelp-query+contributors-example-1": "Afficher les contributeurs de la page principale"
+	"apihelp-query+contributors-example-1": "Afficher les contributeurs de la page principale",
+	"apihelp-query+contributors-param-titles": "Titre de page pour lequel obtenir la liste des contributeurs"
 }
