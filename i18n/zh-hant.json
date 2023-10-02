@@ -7,7 +7,8 @@
 			"Liuxinyu970226",
 			"Mark85296341",
 			"Shinjiman",
-			"Waihorace"
+			"Waihorace",
+			"Winston Sung"
 		]
 	},
 	"contributors": "貢獻者",
@@ -26,6 +27,6 @@
 	"contributors-revisions": "修訂的數目",
 	"contributors-first-edit": "首次編輯日期",
 	"contributors-last-edit": "最後編輯日期",
-	"contributors-add-subpages": "增加子頁面",
+	"contributors-add-subpages": "新增子頁面",
 	"apihelp-query+contributors-example-1": "顯示對於首頁的貢獻"
 }
