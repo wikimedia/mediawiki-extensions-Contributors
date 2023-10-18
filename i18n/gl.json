@@ -8,9 +8,9 @@
 		]
 	},
 	"contributors": "Colaboradores",
-	"contributors-desc": "Sintetiza as contribucións principais nunha páxina",
+	"contributors-desc": "Sintetiza os colaboradores principais nunha páxina",
 	"contributors-toolbox": "Colaboradores da páxina",
-	"contributors-legend": "Lista cos principais colaboradores dunha páxina",
+	"contributors-legend": "Lista os principais colaboradores dunha páxina",
 	"contributors-target": "Título:",
 	"contributors-submit": "Amosar",
 	"contributors-subtitle": "Principais colaboradores de \"$1\"",
@@ -22,5 +22,6 @@
 	"contributors-first-edit": "Data da primeira edición",
 	"contributors-last-edit": "Data da última edición",
 	"contributors-add-subpages": "Engadir subpáxinas",
-	"apihelp-query+contributors-example-1": "Amosar os contribuidores da Páxina Principal"
+	"apihelp-query+contributors-example-1": "Amosar os colaboradores da páxina principal",
+	"apihelp-query+contributors-param-titles": "Título da páxina para a que obter a lista de colaboradores"
 }
