@@ -5,7 +5,8 @@
 			"Mainframe98",
 			"SPQRobin",
 			"Siebrand",
-			"Sjoerddebruin"
+			"Sjoerddebruin",
+			"McDutchie"
 		]
 	},
 	"contributors": "Bijdragers",
@@ -24,5 +25,6 @@
 	"contributors-revisions": "Aantal versies",
 	"contributors-first-edit": "Datum van eerste bewerking",
 	"contributors-last-edit": "Datum van laatste bewerking",
-	"contributors-add-subpages": "Deelpagina's toevoegen"
+	"contributors-add-subpages": "Deelpagina's toevoegen",
+	"apihelp-query+contributors-example-1": "Bijdragers aan de hoofdpagina tonen"
 }
