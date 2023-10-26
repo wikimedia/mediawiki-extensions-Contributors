@@ -9,7 +9,7 @@ if ( getenv( 'MW_INSTALL_PATH' ) !== false ) {
 }
 
 /**
- * Maintenance script that populates the Contributors table with Contributor's data
+ * Maintenance script that populates the contributors table with contributors' data
  *
  * @ingroup Maintenance
  */
@@ -17,7 +17,7 @@ class PopulateContributorsTable extends Maintenance {
 
 	public function __construct() {
 		parent::__construct();
-		$this->addDescription( "Populates the contributor's table with contributor's data" );
+		$this->addDescription( "Populates the contributors table with contributors' data" );
 		$this->requireExtension( 'Contributors' );
 		$this->setBatchSize( 100 );
 	}
@@ -30,7 +30,6 @@ class PopulateContributorsTable extends Maintenance {
 		$start = $dbr->selectField( 'revision', 'MIN(rev_page)', false, __METHOD__ );
 		if ( !$start ) {
 			$this->output( "Nothing to do.\n" );
-
 			return true;
 		}
 		$end = $dbr->selectField( 'revision', 'MAX(rev_page)', false, __METHOD__ );
@@ -38,7 +37,6 @@ class PopulateContributorsTable extends Maintenance {
 		$end += $this->mBatchSize - 1;
 		$blockStart = $start;
 		$blockEnd = $start + $this->mBatchSize - 1;
-		$actorMigration = ActorMigration::newMigration()->getJoin( 'rev_user' );
 		while ( $blockEnd <= $end ) {
 			$this->output( "Getting Contributor's data..\n" );
 			$cond = [
@@ -46,28 +44,33 @@ class PopulateContributorsTable extends Maintenance {
 				$dbr->bitAnd( 'rev_deleted', RevisionRecord::DELETED_USER ) . ' = 0'
 			];
 			$res = $dbr->select(
-				[ 'revision' ] + $actorMigration['tables'],
-				$actorMigration['fields'] + [ 'COUNT(*) AS cn_revision_count',
-					'rev_page', 'MIN(rev_timestamp) AS cn_first_edit',
-					'MAX(rev_timestamp) AS cn_last_edit' ],
+				[ 'revision', 'actor' ],
+				[
+					'COUNT(*) AS cn_revision_count',
+					'rev_page',
+					'MIN(rev_timestamp) AS cn_first_edit',
+					'MAX(rev_timestamp) AS cn_last_edit',
+					'actor_user',
+					'actor_name'
+				],
 				$cond,
 				__METHOD__,
-				[ 'GROUP BY' => [ 'rev_page', 'rev_user', 'rev_user_text' ] ],
-				$actorMigration['joins']
+				[ 'GROUP BY' => [ 'rev_page', 'rev_actor', 'actor_name' ] ],
+				[ 'actor' => [ 'JOIN', 'rev_actor = actor_id' ] ]
 			);
 
 			$this->output( "Writing data into Contributors Table.. \n" );
 
 			foreach ( $res as $row ) {
-				if ( !isset( $row->rev_user ) ) {
-					$row->rev_user = 0;
+				if ( !isset( $row->actor_user ) ) {
+					$row->actor_user = 0;
 				}
 				$dbw->upsert(
 					'contributors',
 					[
 						'cn_page_id' => $row->rev_page,
-						'cn_user_id' => $row->rev_user,
-						'cn_user_text' => $row->rev_user_text,
+						'cn_user_id' => $row->actor_user,
+						'cn_user_text' => $row->actor_name,
 						'cn_revision_count' => $row->cn_revision_count,
 						'cn_first_edit' => $row->cn_first_edit,
 						'cn_last_edit' => $row->cn_last_edit
@@ -77,8 +80,8 @@ class PopulateContributorsTable extends Maintenance {
 					],
 					[
 						'cn_page_id' => $row->rev_page,
-						'cn_user_id' => $row->rev_user,
-						'cn_user_text' => $row->rev_user_text,
+						'cn_user_id' => $row->actor_user,
+						'cn_user_text' => $row->actor_name,
 						'cn_revision_count' => $row->cn_revision_count,
 						'cn_first_edit' => $row->cn_first_edit,
 						'cn_last_edit' => $row->cn_last_edit
