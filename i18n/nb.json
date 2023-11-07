@@ -20,5 +20,6 @@
 	"contributors-first-edit": "Dato for første redigering",
 	"contributors-last-edit": "Dato for siste redigering",
 	"contributors-add-subpages": "Legg til undersider",
-	"apihelp-query+contributors-example-1": "Vis bidragsytere til hovedsiden"
+	"apihelp-query+contributors-example-1": "Vis bidragsytere til hovedsiden",
+	"apihelp-query+contributors-param-titles": "Sidetittel en liste over bidragsytere skal hentes for"
 }
