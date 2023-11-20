@@ -6,7 +6,8 @@
 			"Rancher",
 			"Sasa Stefanovic",
 			"Михајло Анђелковић",
-			"Сербијана"
+			"Сербијана",
+			"Kizule"
 		]
 	},
 	"contributors": "Сарадници",
@@ -19,5 +20,12 @@
 	"contributors-others-long": "{{PLURAL:$1|Постоји још један доприносиоц|постоје још $1 доприносиоца}} на овој страници.",
 	"contributors-others": "и {{PLURAL:$1|једна друга|$1 друге|$1 других}}",
 	"contributors-badtitle": "Неважећи наслов.",
-	"contributors-nosuchpage": "Страница $1 не постоји."
+	"contributors-nosuchpage": "Страница $1 не постоји.",
+	"contributors-filterip": "Сакриј IP адресе",
+	"contributors-name": "Корисничко име",
+	"contributors-revisions": "Број измена",
+	"contributors-first-edit": "Датум прве измене",
+	"contributors-last-edit": "Датум последње измене",
+	"contributors-add-subpages": "Додај подстранице",
+	"apihelp-query+contributors-example-1": "Прикажи уреднике главне странице"
 }
