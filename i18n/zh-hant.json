@@ -7,6 +7,7 @@
 			"Liuxinyu970226",
 			"Mark85296341",
 			"Shinjiman",
+			"SunAfterRain",
 			"Waihorace",
 			"Winston Sung"
 		]
@@ -26,5 +27,6 @@
 	"contributors-first-edit": "首次編輯日期",
 	"contributors-last-edit": "最後編輯日期",
 	"contributors-add-subpages": "新增子頁面",
-	"apihelp-query+contributors-example-1": "顯示對於首頁的貢獻"
+	"apihelp-query+contributors-example-1": "顯示對於首頁的貢獻",
+	"apihelp-query+contributors-param-titles": "要取得貢獻者列表的頁面標題"
 }
