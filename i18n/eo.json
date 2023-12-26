@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Gamliel Fishkin",
 			"Lucas",
 			"Michawiki",
 			"Petrus Adamus",
@@ -16,5 +17,6 @@
 	"contributors-subtitle": "Ĉefaj kontribuantoj al $1",
 	"contributors-badtitle": "Nevalida titolo.",
 	"contributors-nosuchpage": "La paĝo $1 ne ekzistas.",
-	"contributors-filterip": "Kaŝi IP‑adresojn"
+	"contributors-filterip": "Kaŝi IP‑adresojn",
+	"contributors-add-subpages": "Aldoni subpaĝojn"
 }
