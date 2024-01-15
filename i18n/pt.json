@@ -23,5 +23,6 @@
 	"contributors-first-edit": "Data da primeira edição",
 	"contributors-last-edit": "Data da última edição",
 	"contributors-add-subpages": "Adicionar subpáginas",
-	"apihelp-query+contributors-example-1": "Mostrar colaboradores da \"Página principal\""
+	"apihelp-query+contributors-example-1": "Mostrar colaboradores da \"Página principal\"",
+	"apihelp-query+contributors-param-titles": "Título da página para a qual obter a lista de colaboradores"
 }
