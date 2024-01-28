@@ -19,5 +19,6 @@
 	"contributors-first-edit": "Date d'u prime cangiamende",
 	"contributors-last-edit": "Date de l'urteme cangiamende",
 	"contributors-add-subpages": "Aggiunge sottepàggene",
-	"apihelp-query+contributors-example-1": "Fà 'ndrucà le condrebbuture d'a Pàgene Prengepàle"
+	"apihelp-query+contributors-example-1": "Fà 'ndrucà le condrebbuture d'a Pàgene Prengepàle",
+	"apihelp-query+contributors-param-titles": "Titole d'a pàgene pa quale vuè ccu pigghie l'elenghe de le condrebbuture"
 }
