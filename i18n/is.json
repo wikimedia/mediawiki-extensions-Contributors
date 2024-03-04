@@ -3,7 +3,8 @@
 		"authors": [
 			"S.Örvarr.S",
 			"Snævar",
-			"Sveinn í Felli"
+			"Sveinn í Felli",
+			"Stefán Örvar Sigmundsson"
 		]
 	},
 	"contributors": "Framleggjendur",
@@ -15,7 +16,7 @@
 	"contributors-subtitle": "Aðalframleggjendur $1",
 	"contributors-badtitle": "Ógildur titill.",
 	"contributors-nosuchpage": "Síðan $1 er ekki til.",
-	"contributors-filterip": "Fela IP-vistföng",
+	"contributors-filterip": "Fela IP-staðföng",
 	"contributors-name": "Notandanafn",
 	"contributors-revisions": "Fjöldi breytinga",
 	"contributors-first-edit": "Dagsetning fyrstu breytingar",
