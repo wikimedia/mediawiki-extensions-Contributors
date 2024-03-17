@@ -30,7 +30,7 @@ class ApiQueryCnContributors extends ApiQueryBase {
 	 * @param array $params
 	 */
 	private function buildDbQuery( array $params ) {
-		$this->addTables( [ 'contributors' , 'page' ] );
+		$this->addTables( [ 'contributors', 'page' ] );
 		$this->addFields(
 			[
 				'Username' => 'cn_user_text',

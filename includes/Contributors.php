@@ -98,13 +98,13 @@ class Contributors {
 		$contributors = [];
 
 		if ( array_key_exists( 'filteranon', $opts ) && $opts['filteranon'] ) {
-			$cond = [ 'cn_page_id' => $pageId , 'cn_user_id !=0' ];
+			$cond = [ 'cn_page_id' => $pageId, 'cn_user_id !=0' ];
 		} else {
 			$cond = [ 'cn_page_id' => $pageId ];
 		}
 		$res = $dbr->select(
 			'contributors',
-			[ 'cn_user_text' , 'cn_user_id' , 'cn_revision_count' ],
+			[ 'cn_user_text', 'cn_user_id', 'cn_revision_count' ],
 			$cond,
 			__METHOD__,
 			[

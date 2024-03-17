@@ -90,7 +90,7 @@ class ContributorsTablePager extends TablePager {
 		$prefixKey = $this->target->getPrefixedDBkey();
 
 		if ( $this->opts['filteranon'] == true ) {
-			$conds = [ 'cn_page_id' => (int)$this->articleId , 'cn_user_id !=0' ];
+			$conds = [ 'cn_page_id' => (int)$this->articleId, 'cn_user_id !=0' ];
 		} elseif ( $this->opts['pagePrefix'] == true ) {
 			$conds = [ 'page_title' . $dbr->buildLike( $prefixKey, $dbr->anyString() ) ];
 		} else {
@@ -98,7 +98,7 @@ class ContributorsTablePager extends TablePager {
 		}
 
 		$info = [
-			'tables' => [ 'contributors' , 'page' ],
+			'tables' => [ 'contributors', 'page' ],
 			'fields' => [
 				'cn_user_id',
 				'cn_user_text',
@@ -111,7 +111,7 @@ class ContributorsTablePager extends TablePager {
 			'join_conds' =>
 				[ 'page' =>
 					[
-						'LEFT JOIN' ,
+						'LEFT JOIN',
 						'page_id = cn_page_id'
 					]
 				]
