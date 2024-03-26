@@ -5,7 +5,8 @@
 			"Mguix",
 			"Paucabot",
 			"SMP",
-			"Toniher"
+			"Toniher",
+			"V27t"
 		]
 	},
 	"contributors": "Editors",
@@ -16,5 +17,8 @@
 	"contributors-submit": "Mostra",
 	"contributors-subtitle": "Editors principals de $1",
 	"contributors-badtitle": "El títol no és vàlid.",
-	"contributors-nosuchpage": "La pàgina «$1» no existeix."
+	"contributors-nosuchpage": "La pàgina «$1» no existeix.",
+	"contributors-name": "Nom d'usuari",
+	"contributors-first-edit": "Data de la primera modificació",
+	"contributors-last-edit": "Data de l'última modificació"
 }
