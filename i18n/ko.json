@@ -4,6 +4,7 @@
 			"Hwangjy9",
 			"Klutzy",
 			"Kwj2772",
+			"Suleiman the Magnificent Television",
 			"ToePeu",
 			"Ykhwong",
 			"Yknok29",
@@ -25,5 +26,6 @@
 	"contributors-first-edit": "최초 편집 날짜",
 	"contributors-last-edit": "마지막 편집 날짜",
 	"contributors-add-subpages": "하위 문서 추가",
-	"apihelp-query+contributors-example-1": "일반 문서의 기여자 표시"
+	"apihelp-query+contributors-example-1": "일반 문서의 기여자 표시",
+	"apihelp-query+contributors-param-titles": "기여자 목록을 얻을 수 있는 페이지 제목"
 }
