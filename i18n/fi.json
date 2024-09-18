@@ -8,7 +8,8 @@
 			"Pyscowicz",
 			"Silvonen",
 			"Stryn",
-			"Vililikku"
+			"Vililikku",
+			"Samoasambia"
 		]
 	},
 	"contributors": "Muokkaajat",
@@ -26,5 +27,6 @@
 	"contributors-first-edit": "Ensimmäinen muokkauspäivämäärä",
 	"contributors-last-edit": "Viimeisin muokkauspäivämäärä",
 	"contributors-add-subpages": "Lisää alasivut",
-	"apihelp-query+contributors-example-1": "Näytä etusivun muokkaajat"
+	"apihelp-query+contributors-example-1": "Näytä etusivun muokkaajat",
+	"apihelp-query+contributors-param-titles": "Sivun nimi, jolle muokkaajien lista haetaan"
 }
