@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 /**
  * Get the contributors list for a page
  *
@@ -92,7 +94,7 @@ class Contributors {
 	 * @return array[] Contributors
 	 */
 	private function getThresholdedContributors() {
-		$dbr = wfGetDB( DB_REPLICA );
+		$dbr = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_REPLICA );
 		$opts = $this->getOptions();
 		$pageId = $this->getTarget()->getArticleID();
 		$contributors = [];
