@@ -118,8 +118,9 @@ class ContributorsHooks {
 	 * @throws Exception
 	 */
 	public static function onPageSaveComplete( WikiPage $wikiPage, UserIdentity $user ) {
-		$dbw = wfGetDB( DB_PRIMARY );
-		$dbr = wfGetDB( DB_REPLICA );
+		$lb = MediaWikiServices::getInstance()->getDBLoadBalancer();
+		$dbw = $lb->getConnection( DB_PRIMARY );
+		$dbr = $lb->getConnection( DB_REPLICA );
 		$pageId = $wikiPage->getId();
 		$userId = $user->getId();
 		$text = $user->getName();
@@ -192,7 +193,7 @@ class ContributorsHooks {
 				!( $visibilityChangeMap[$id]['oldBits'] & RevisionRecord::DELETED_USER ) &&
 				( $visibilityChangeMap[$id]['newBits'] & RevisionRecord::DELETED_USER )
 			) {
-				$dbw = wfGetDB( DB_PRIMARY );
+				$dbw = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_PRIMARY );
 				$row = $dbw->selectRow(
 					'contributors',
 					'cn_revision_count',
@@ -221,14 +222,13 @@ class ContributorsHooks {
 				( $visibilityChangeMap[$id]['oldBits'] & RevisionRecord::DELETED_USER ) &&
 				!( $visibilityChangeMap[$id]['newBits'] & RevisionRecord::DELETED_USER )
 			) {
-				$dbw = wfGetDB( DB_PRIMARY );
+				$dbw = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_PRIMARY );
 				$row = $dbw->selectRow(
 					'contributors',
 					'cn_revision_count',
 					$conds,
 					__METHOD__
 				);
-				$dbw = wfGetDB( DB_PRIMARY );
 				if ( !$row ) {
 					$dbw->insert(
 						'contributors',

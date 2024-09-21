@@ -1,5 +1,6 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
 use Wikimedia\Rdbms\IDatabase;
 
 class ContributorsTablePager extends TablePager {
@@ -86,7 +87,7 @@ class ContributorsTablePager extends TablePager {
 	 * @inheritDoc
 	 */
 	public function getQueryInfo() {
-		$dbr = wfGetDB( DB_REPLICA );
+		$dbr = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_REPLICA );
 		$prefixKey = $this->target->getPrefixedDBkey();
 
 		if ( $this->opts['filteranon'] == true ) {
