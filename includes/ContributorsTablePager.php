@@ -28,8 +28,8 @@ class ContributorsTablePager extends TablePager {
 		$articleId,
 		array $opts,
 		Title $target,
-		IContextSource $context = null,
-		IDatabase $readDb = null
+		?IContextSource $context = null,
+		?IDatabase $readDb = null
 	) {
 		if ( $readDb !== null ) {
 			$this->mDb = $readDb;
