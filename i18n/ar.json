@@ -26,5 +26,6 @@
 	"contributors-first-edit": "تاريخ أول تعديل",
 	"contributors-last-edit": "تاريخ آخر تعديل",
 	"contributors-add-subpages": "أضف الصفحات الفرعية",
-	"apihelp-query+contributors-example-1": "إظهار المساهمين في الصفحة الرئيسية"
+	"apihelp-query+contributors-example-1": "إظهار المساهمين في الصفحة الرئيسية",
+	"apihelp-query+contributors-param-titles": "عنوان الصفحة التي سيتم الحصول على قائمة المساهمين فيها"
 }
