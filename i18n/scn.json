@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ajeje Brazorf"
+			"Ajeje Brazorf",
+			"GianAntonucci"
 		]
 	},
 	"contributors": "Cuntribbutura",
@@ -15,5 +16,5 @@
 	"contributors-name": "Nomu utenti",
 	"contributors-last-edit": "Data di l'ùrtimu canciamentu",
 	"contributors-add-subpages": "Agghiunci suttapàggini",
-	"apihelp-query+contributors-example-1": "Ammustra li cuntribbutura â pàggina principali"
+	"apihelp-query+contributors-example-1": "Fa’ vìdiri i cuntribbutura dâ pàggina mastra"
 }
