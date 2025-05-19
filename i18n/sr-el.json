@@ -14,5 +14,13 @@
 	"contributors-submit": "Prikaži",
 	"contributors-subtitle": "Glavni doprinosioci stranice $1",
 	"contributors-badtitle": "Nevažeći naslov.",
-	"contributors-nosuchpage": "Stranica $1 ne postoji."
+	"contributors-nosuchpage": "Stranica $1 ne postoji.",
+	"contributors-filterip": "Sakrij IP adrese",
+	"contributors-name": "Korisničko ime",
+	"contributors-revisions": "Broj izmena",
+	"contributors-first-edit": "Datum prve izmene",
+	"contributors-last-edit": "Datum poslednje izmene",
+	"contributors-add-subpages": "Dodaj podstranice",
+	"apihelp-query+contributors-example-1": "Prikaži urednike glavne stranice",
+	"apihelp-query+contributors-param-titles": "Naslov stranice za dobavljanje spiska doprinosilaca"
 }
