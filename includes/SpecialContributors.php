@@ -1,5 +1,8 @@
 <?php
 
+use MediaWiki\Html\FormOptions;
+use MediaWiki\Title\Title;
+
 /**
  * Special page class for the Contributors extension
  *
