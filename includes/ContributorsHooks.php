@@ -2,6 +2,8 @@
 
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\RevisionRecord;
+use MediaWiki\Skin\SkinComponentUtils;
+use MediaWiki\Title\Title;
 use MediaWiki\User\UserIdentity;
 
 /**
@@ -67,7 +69,7 @@ class ContributorsHooks {
 		$insert = [
 			'contributors' => [
 				'text' => $skin->msg( 'contributors-toolbox' )->text(),
-				'href' => $skin->makeSpecialUrlSubpage( 'Contributors', $skin->thispage ),
+				'href' => SkinComponentUtils::makeSpecialUrlSubpage( 'Contributors', $skin->thispage ),
 			]
 		];
 		if ( isset( $toolbox['permalink'] ) ) {

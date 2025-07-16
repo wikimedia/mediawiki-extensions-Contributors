@@ -1,6 +1,8 @@
 <?php
 
+use MediaWiki\Linker\Linker;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\Title;
 use Wikimedia\Rdbms\IDatabase;
 
 class ContributorsTablePager extends TablePager {
