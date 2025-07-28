@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Winston Sung"
+			"Winston Sung",
+			"Yueman"
 		]
 	},
 	"contributors": "貢獻者",
@@ -19,5 +20,6 @@
 	"contributors-first-edit": "第一次編輯嘅日期",
 	"contributors-last-edit": "上次編輯嘅日期",
 	"contributors-add-subpages": "添加子頁面",
-	"apihelp-query+contributors-example-1": "顯示頭版貢獻人"
+	"apihelp-query+contributors-example-1": "顯示頭版貢獻人",
+	"apihelp-query+contributors-param-titles": "想攞貢獻者清單嘅版面標題"
 }
