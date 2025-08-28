@@ -8,12 +8,20 @@
 		]
 	},
 	"contributors": "योगदानकर्ताएँ",
-	"contributors-desc": "पन्नेके मुख्य योगदानकर्ताओंकी संक्षिप्त सूची",
-	"contributors-toolbox": "पृष्ठ योगदानकर्ता",
-	"contributors-legend": "पन्ने के मुख्य योगदानकर्ताओंकी सूची बनायें",
+	"contributors-desc": "पृष्ठ के मुख्य योगदानकर्ताओं की संक्षिप्त सूची दिखाता है",
+	"contributors-toolbox": "पृष्ठ के योगदानकर्ताएँ",
+	"contributors-legend": "पृष्ठ के मुख्य योगदानकर्ताओं को सूचीबद्ध करें",
 	"contributors-target": "शीर्षक:",
-	"contributors-submit": "दर्शायें",
-	"contributors-subtitle": "$1 के प्रमुख योगदानकर्ता",
-	"contributors-badtitle": "अवैध शीर्षक।",
-	"contributors-nosuchpage": "$1 पन्ना अस्तित्वमें नहीं हैं"
+	"contributors-submit": "दिखाएँ",
+	"contributors-subtitle": "$1 के मुख्य योगदानकर्ताएँ",
+	"contributors-badtitle": "अमान्य शीर्षक।",
+	"contributors-nosuchpage": "$1 पृष्ठ मौजूद नहीं है।",
+	"contributors-filterip": "IP पते छिपाएँ",
+	"contributors-name": "सदस्यनाम",
+	"contributors-revisions": "अवतरणों की संख्या",
+	"contributors-first-edit": "पहले सम्पादन की तिथि",
+	"contributors-last-edit": "अंतिम सम्पादन की तिथि",
+	"contributors-add-subpages": "उपपृष्ठ जोड़ें",
+	"apihelp-query+contributors-example-1": "मुखपृष्ठ के योगदानकर्ताएँ दिखाएँ",
+	"apihelp-query+contributors-param-titles": "पृष्ठ का शीर्षक जिसके लिए योगदानकर्ताओं की सूची प्राप्त करनी है"
 }
