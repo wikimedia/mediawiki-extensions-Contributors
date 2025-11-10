@@ -18,7 +18,9 @@
 	"contributors-nosuchpage": "Nid yw'r dudalen $1 yn bodoli.",
 	"contributors-filterip": "Cuddio'r cyfeiriadau IP",
 	"contributors-name": "Enw defnyddiwr",
+	"contributors-revisions": "Nifer y golygiadau",
 	"contributors-first-edit": "Dyddiad y golygiad cyntaf",
 	"contributors-last-edit": "Dyddiad y golygiad diwethaf",
-	"contributors-add-subpages": "Ychwanegu is-dudalennau"
+	"contributors-add-subpages": "Ychwanegu is-dudalennau",
+	"apihelp-query+contributors-example-1": "Dangos cyfranwyr i'r Hafan"
 }
