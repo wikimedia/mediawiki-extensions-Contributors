@@ -17,5 +17,12 @@
 	"contributors-submit": "देखाउनुहोस्",
 	"contributors-subtitle": "$1 मा मुख्य रुपमा योगदान दिनेहरु",
 	"contributors-badtitle": "अमान्य शीर्षक।",
-	"contributors-nosuchpage": "$1 पृष्ठ अस्तित्वमा छैन ।"
+	"contributors-nosuchpage": "$1 पृष्ठ अस्तित्वमा छैन ।",
+	"contributors-filterip": "आईपी ठेगानाहरू लुकाउनुहोस्",
+	"contributors-name": "प्रयोगकर्ता नाम",
+	"contributors-revisions": "संशोधनहरूको सङ्ख्या",
+	"contributors-first-edit": "पहिलो सम्पादनको मिति",
+	"contributors-last-edit": "अन्तिम सम्पादनको मिति",
+	"contributors-add-subpages": "उपपृष्ठहरू थप्नुहोस्",
+	"apihelp-query+contributors-example-1": "मुख्य पृष्ठमा योगदानकर्ताहरू देखाउनुहोस्"
 }
