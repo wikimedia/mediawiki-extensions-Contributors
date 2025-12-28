@@ -1,6 +1,7 @@
 <?php
 
 use MediaWiki\Html\FormOptions;
+use MediaWiki\Html\Html;
 use MediaWiki\Title\Title;
 
 /**
@@ -164,7 +165,7 @@ class SpecialContributors extends IncludableSpecialPage {
 		$result = $pager->getResult();
 		if ( $result && $result->numRows() !== 0 ) {
 			$out->addHTML( $pager->getNavigationBar() .
-				Xml::tags( 'ul', [ 'class' => 'plainlinks' ], $pager->getBody() ) .
+				Html::rawElement( 'ul', [ 'class' => 'plainlinks' ], $pager->getBody() ) .
 				$pager->getNavigationBar() );
 		} else {
 			$out->addWikiMsg( 'contributors-nosuchpage',
