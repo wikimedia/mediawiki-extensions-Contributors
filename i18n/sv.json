@@ -7,7 +7,8 @@
 			"M.M.S.",
 			"Najami",
 			"Rockyfelle",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Stefan2255"
 		]
 	},
 	"contributors": "Bidragsgivare",
@@ -25,5 +26,6 @@
 	"contributors-first-edit": "Datum för första redigering",
 	"contributors-last-edit": "Datum för senaste redigering",
 	"contributors-add-subpages": "Lägg till undersidor",
-	"apihelp-query+contributors-example-1": "Visa bidragsgivare till huvudsidan"
+	"apihelp-query+contributors-example-1": "Visa bidragsgivare till huvudsidan",
+	"apihelp-query+contributors-param-titles": "Sidtitel för vilken listan över bidragsgivare ska hämtas"
 }
