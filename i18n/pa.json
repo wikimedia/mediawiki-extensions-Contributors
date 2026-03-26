@@ -4,5 +4,16 @@
 			"Cabal"
 		]
 	},
-	"contributors-toolbox": "ਵਰਕੇ ਦੇ ਯੋਗਦਾਨੀ"
+	"contributors": "ਯੋਗਦਾਨੀ",
+	"contributors-toolbox": "ਵਰਕੇ ਦੇ ਯੋਗਦਾਨੀ",
+	"contributors-target": "ਸਿਰਲੇਖ:",
+	"contributors-submit": "ਵਿਖਾਓ",
+	"contributors-subtitle": "$1 ਦੇ ਮੁੱਢਲੇ ਯੋਗਦਾਨੀ",
+	"contributors-badtitle": "ਗਲਤ ਸਿਰਲੇਖ।",
+	"contributors-nosuchpage": "ਇਹ ਵਰਕਾ $1 ਹੋਂਦ ਵਿੱਚ ਨਹੀਂ ਏ।",
+	"contributors-filterip": "IP ਪਤੇ ਲੁਕਾਓ",
+	"contributors-name": "ਵਰਤੋਂਕਾਰ ਨਾਂ",
+	"contributors-revisions": "ਸੋਧ-ਸੁਧਾਈ ਦੀ ਗਿਣਤੀ",
+	"contributors-first-edit": "ਪਹਿਲੇ ਸੋਧ ਦੀ ਮਿਤੀ",
+	"contributors-last-edit": "ਆਖਰੀ ਸੋਧ ਦੀ ਮਿਤੀ"
 }
