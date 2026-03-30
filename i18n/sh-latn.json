@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aca",
 			"Winston Sung"
 		]
 	},
 	"contributors": "Doprinositelji",
 	"contributors-desc": "Daje kratki pregled glavnih doprinositelja na jednoj stranici",
 	"contributors-toolbox": "Doprinositelji",
-	"contributors-legend": "Prikazuj spisak glavnih doprinositelja na jednoj stranici",
+	"contributors-legend": "Prikazuj listu glavnih saradnika na jednoj stranici",
 	"contributors-target": "Naslov:",
 	"contributors-submit": "Prikaži",
 	"contributors-subtitle": "Glavni doprinositelji za $1",
