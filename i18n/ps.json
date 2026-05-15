@@ -6,12 +6,20 @@
 		]
 	},
 	"contributors": "ونډه وال",
+	"contributors-desc": "د يوه مخ ار ونډه‌وال لنډيزوي",
 	"contributors-toolbox": "مخ ونډوال",
+	"contributors-legend": "د يوه مخ ار ونډه‌وال لنډيزول",
 	"contributors-target": "سرليک:",
 	"contributors-submit": "ښکاره کول",
 	"contributors-subtitle": "د $1 آرني ونډوالان",
 	"contributors-badtitle": "ناسم سرليک.",
 	"contributors-nosuchpage": "د $1 په نوم کوم مخ نشته.",
 	"contributors-filterip": "آی پي پتې پټول",
-	"contributors-name": "کارن‌نوم"
+	"contributors-name": "کارن‌نوم",
+	"contributors-revisions": "د بياليدنو شمېر",
+	"contributors-first-edit": "د لومړي سمون نېټه",
+	"contributors-last-edit": "د وروستي سمون نېټه",
+	"contributors-add-subpages": "څېرمه‌مخونه ورگډول",
+	"apihelp-query+contributors-example-1": "د ار مخ ونډه‌وال ښودل",
+	"apihelp-query+contributors-param-titles": "د هغه مخ سرليک چې ونډه‌والو لړليک يې ترلاسه کوو"
 }
