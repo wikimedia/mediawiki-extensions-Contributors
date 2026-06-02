@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"HakanIST",
 			"Hedda",
 			"Karduelis",
 			"MuratTheTurkish",
@@ -27,5 +28,6 @@
 	"contributors-first-edit": "İlk değişiklik tarihi",
 	"contributors-last-edit": "Son değişiklik tarihi",
 	"contributors-add-subpages": "Alt sayfa ekle",
-	"apihelp-query+contributors-example-1": "Anasayfaya katkıda bulunanları göster"
+	"apihelp-query+contributors-example-1": "Anasayfaya katkıda bulunanları göster",
+	"apihelp-query+contributors-param-titles": "Katkıda bulunanların listesini almak istediğiniz sayfanın başlığı"
 }
