@@ -16,7 +16,7 @@
 	"contributors-target": "Titel:",
 	"contributors-submit": "Bekijken",
 	"contributors-subtitle": "Belangrijkste bijdragers aan $1",
-	"contributors-badtitle": "Ongeldige paginanaam.",
+	"contributors-badtitle": "Incorrecte titel.",
 	"contributors-nosuchpage": "De pagina $1 bestaat niet.",
 	"contributors-filterip": "Ip adressen verbergen",
 	"contributors-name": "Gebruikersnaam",
