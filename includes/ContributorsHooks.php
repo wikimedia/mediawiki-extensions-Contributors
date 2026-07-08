@@ -5,6 +5,7 @@ use MediaWiki\Revision\RevisionRecord;
 use MediaWiki\Skin\SkinComponentUtils;
 use MediaWiki\Title\Title;
 use MediaWiki\User\UserIdentity;
+use Wikimedia\ArrayUtils\ArrayUtils;
 
 /**
  * Hooks for Contributors
@@ -73,7 +74,12 @@ class ContributorsHooks {
 			]
 		];
 		if ( isset( $toolbox['permalink'] ) ) {
-			$toolbox = wfArrayInsertAfter( $toolbox, $insert, 'permalink' );
+			if ( method_exists( ArrayUtils::class, 'insertAfter' ) ) {
+				// MW 1.46+
+				$toolbox = ArrayUtils::insertAfter( $toolbox, $insert, 'permalink' );
+			} else {
+				$toolbox = wfArrayInsertAfter( $toolbox, $insert, 'permalink' );
+			}
 		} else {
 			$toolbox += $insert;
 		}
