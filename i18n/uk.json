@@ -4,7 +4,8 @@
 			"AS",
 			"Ahonc",
 			"Piramidion",
-			"Ата"
+			"Ата",
+			"Movses"
 		]
 	},
 	"contributors": "Автори",
@@ -22,5 +23,6 @@
 	"contributors-first-edit": "Дата першого редагування",
 	"contributors-last-edit": "Дата останнього редагування",
 	"contributors-add-subpages": "Додати підсторінки",
-	"apihelp-query+contributors-example-1": "Показати дописувачів Головної сторінки"
+	"apihelp-query+contributors-example-1": "Показати дописувачів Головної сторінки",
+	"apihelp-query+contributors-param-titles": "Назва сторінки, для якої потрібно отримати список учасників"
 }
