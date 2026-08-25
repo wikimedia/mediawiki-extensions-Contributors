@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Helix84",
-			"Luky001"
+			"Luky001",
+			"Wizzard"
 		]
 	},
 	"contributors": "Prispievatelia",
@@ -13,5 +14,13 @@
 	"contributors-submit": "Zobraziť",
 	"contributors-subtitle": "Hlavní prispievatelia článku $1",
 	"contributors-badtitle": "Neplatný názov.",
-	"contributors-nosuchpage": "Článok $1 neexistuje."
+	"contributors-nosuchpage": "Článok $1 neexistuje.",
+	"contributors-filterip": "Skryť IP adresy",
+	"contributors-name": "Používateľské meno",
+	"contributors-revisions": "Počet revízií",
+	"contributors-first-edit": "Dátum prvej úpravy",
+	"contributors-last-edit": "Dátum poslednej úpravy",
+	"contributors-add-subpages": "Pridať podstránky",
+	"apihelp-query+contributors-example-1": "Zobraziť prispievateľov hlavnej stránky",
+	"apihelp-query+contributors-param-titles": "Názov stránky, pre ktorú sa má získať zoznam prispievateľov"
 }
