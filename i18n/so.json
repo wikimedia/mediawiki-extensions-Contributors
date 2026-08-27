@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"contributors": "Ka qaybqaatayaasha",
+	"contributors-desc": "Waxay soo koobaysaa tifaftirayaasha ugu muhiimsan ee bogga",
+	"contributors-toolbox": "Tifaftirayaasha bogga",
+	"contributors-legend": "Liiska tifaftirayaasha ugu muhiimsan ee bogga",
+	"contributors-target": "Cinwaanka:",
+	"contributors-submit": "Muuji",
+	"contributors-subtitle": "Tifaftirayaasha ugu muhiimsan ee $1",
+	"contributors-badtitle": "Cinwaan aan sax ahayn.",
+	"contributors-nosuchpage": "Bogga $1 ma jiro.",
+	"contributors-filterip": "Qari cinwaanada IP-ga",
+	"contributors-name": "Magaca isticmaalaha",
+	"contributors-revisions": "Tirada dib u eegisyada",
+	"contributors-first-edit": "Taariikhda wax ka beddelkii ugu horreeyay",
+	"contributors-last-edit": "Taariikhda wax ka beddelkii ugu dambeeyay",
+	"contributors-add-subpages": "Ku dar bogagga hoose",
+	"apihelp-query+contributors-example-1": "Muuji wax ku darsadayaasha bogga hore",
+	"apihelp-query+contributors-param-titles": "Cinwaanka bogga aad rabto inaad ka hesho liiska wax ku darsadayaasha"
+}
